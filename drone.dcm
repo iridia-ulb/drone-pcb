@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP USB2512B
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
+$ENDCMP
+#
 #End Doc Library

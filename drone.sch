@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -129,8 +129,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 4800 4850 4800
 Wire Wire Line
-	5400 4500 4850 4500
-Wire Wire Line
 	5400 4200 4850 4200
 NoConn ~ 2350 2000
 NoConn ~ 2350 2100
@@ -174,8 +172,6 @@ NoConn ~ 4850 5100
 NoConn ~ 4850 4900
 NoConn ~ 4850 4400
 NoConn ~ 4850 4300
-NoConn ~ 4850 4100
-NoConn ~ 4850 4000
 NoConn ~ 4850 3800
 NoConn ~ 4850 3700
 NoConn ~ 4850 3600
@@ -190,26 +186,58 @@ NoConn ~ 4850 2800
 NoConn ~ 4850 2700
 NoConn ~ 4850 2600
 NoConn ~ 4850 2500
-$Comp
-L Drone:USB3503 U?
-U 1 1 5E209934
-P 8200 1350
-F 0 "U?" H 8200 1515 50  0000 C CNN
-F 1 "USB3503" H 8200 1424 50  0000 C CNN
-F 2 "" H 8200 1350 50  0001 C CNN
-F 3 "" H 8200 1350 50  0001 C CNN
-	1    8200 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:USB2512B U?
-U 1 1 5E20FBC8
-P 8350 3950
-F 0 "U?" H 8350 4115 50  0000 C CNN
-F 1 "USB2512B" H 8350 4024 50  0000 C CNN
-F 2 "" H 8500 3950 50  0001 C CNN
-F 3 "" H 8500 3950 50  0001 C CNN
-	1    8350 3950
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 7200 1950 650  850 
+U 5E2B9068
+F0 "USB" 50
+F1 "usb.sch" 50
+F2 "HSIC_DATA" B L 7200 2200 50 
+F3 "HSIC_STROBE" B L 7200 2300 50 
+F4 "USB_DP" B L 7200 2450 50 
+F5 "USB_DM" B L 7200 2550 50 
+F6 "3V3" U L 7200 2050 50 
+F7 "GND" U L 7200 2700 50 
+$EndSheet
+Text Label 6500 2200 0    50   ~ 0
+HSIC_DATA
+Text Label 6500 2300 0    50   ~ 0
+HSIC_STROBE
+Text Label 6500 2450 0    50   ~ 0
+USB_DP
+Text Label 6500 2550 0    50   ~ 0
+USB_DM
+Text Label 5400 4000 2    50   ~ 0
+HSIC_DATA
+Text Label 5400 4100 2    50   ~ 0
+HSIC_STROBE
+Wire Wire Line
+	5400 4000 4850 4000
+Wire Wire Line
+	4850 4100 5400 4100
+Wire Wire Line
+	5400 4500 4850 4500
+Text Label 5400 4600 2    50   ~ 0
+USB_DP
+Text Label 5400 4700 2    50   ~ 0
+USB_DM
+Wire Wire Line
+	5400 4600 4850 4600
+Wire Wire Line
+	5400 4700 4850 4700
+Wire Wire Line
+	6500 2550 7200 2550
+Wire Wire Line
+	6500 2450 7200 2450
+Wire Wire Line
+	6500 2300 7200 2300
+Wire Wire Line
+	6500 2200 7200 2200
+Text Label 6500 2700 0    50   ~ 0
+GND
+Wire Wire Line
+	6500 2700 7200 2700
+Text Label 6500 2050 0    50   ~ 0
+3V3
+Wire Wire Line
+	6500 2050 7200 2050
 $EndSCHEMATC
