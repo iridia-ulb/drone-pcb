@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Drone)(type Legacy)(uri ${KIPRJMOD}/drone.lib)(options "")(descr ""))
+  (lib (name drone)(type Legacy)(uri ${KIPRJMOD}/drone.lib)(options "")(descr ""))
 )
