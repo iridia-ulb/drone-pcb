@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP D36V28F3
+F https://www.pololu.com/product/3781
+$ENDCMP
+#
+$CMP D36V50F5
+F https://www.pololu.com/product/4091
+$ENDCMP
+#
 $CMP USB2512B
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
 $ENDCMP
