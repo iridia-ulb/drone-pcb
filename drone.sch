@@ -212,6 +212,14 @@ Wire Wire Line
 	6550 2950 7250 2950
 Wire Wire Line
 	6550 2850 7250 2850
+Text Label 6550 2650 0    50   ~ 0
+3V3
+Wire Wire Line
+	6550 2650 7250 2650
+Text Label 6550 3350 0    50   ~ 0
+GND
+Wire Wire Line
+	6550 3350 7250 3350
 $Sheet
 S 7250 2550 650  900 
 U 5E2EDC4D
@@ -222,12 +230,4 @@ F3 "HSIC_DATA" B L 7250 2850 50
 F4 "3V3" I L 7250 2650 50 
 F5 "GND" I L 7250 3350 50 
 $EndSheet
-Text Label 6550 2650 0    50   ~ 0
-3V3
-Wire Wire Line
-	6550 2650 7250 2650
-Text Label 6550 3350 0    50   ~ 0
-GND
-Wire Wire Line
-	6550 3350 7250 3350
 $EndSCHEMATC

@@ -115,4 +115,154 @@ Text Label 2250 4150 1    50   ~ 0
 GND
 Wire Wire Line
 	2250 3950 2250 4150
+Text HLabel 1400 950  0    50   Input ~ 0
+5V
+Text Label 1750 950  2    50   ~ 0
+5V
+Wire Wire Line
+	1400 950  1750 950 
+Wire Wire Line
+	6800 2650 6500 2650
+Text Label 6800 2650 2    50   ~ 0
+5V
+Wire Wire Line
+	5950 3450 5950 3700
+$Comp
+L Power_Management:TPS2044D U?
+U 1 1 5E2F622E
+P 5950 2850
+F 0 "U?" H 5950 3317 50  0000 C CNN
+F 1 "TPS2044D" H 5950 3226 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5950 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 5900 3150 50  0001 C CNN
+	1    5950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E301315
+P 4950 2250
+F 0 "R?" H 5020 2296 50  0000 L CNN
+F 1 "xk" H 5020 2205 50  0000 L CNN
+F 2 "" V 4880 2250 50  0001 C CNN
+F 3 "~" H 4950 2250 50  0001 C CNN
+	1    4950 2250
+	1    0    0    -1  
+$EndComp
+Text Label 5950 3700 1    50   ~ 0
+GND
+Wire Wire Line
+	4050 2100 4950 2100
+Wire Wire Line
+	4950 2400 4950 2650
+Wire Wire Line
+	4950 2650 5300 2650
+Wire Wire Line
+	5300 2650 5300 2750
+Wire Wire Line
+	5300 2750 5450 2750
+Connection ~ 5300 2650
+Wire Wire Line
+	5300 2650 5450 2650
+Wire Wire Line
+	4050 1950 4800 1950
+Wire Wire Line
+	4800 1950 4800 3050
+Wire Wire Line
+	4800 3050 5150 3050
+Wire Wire Line
+	5450 3150 5300 3150
+Wire Wire Line
+	5300 3150 5300 3050
+Connection ~ 5300 3050
+Wire Wire Line
+	5300 3050 5450 3050
+$Comp
+L Device:R R?
+U 1 1 5E3318D4
+P 5150 3400
+F 0 "R?" H 5220 3446 50  0000 L CNN
+F 1 "xk" H 5220 3355 50  0000 L CNN
+F 2 "" V 5080 3400 50  0001 C CNN
+F 3 "~" H 5150 3400 50  0001 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3050 5150 3250
+Connection ~ 5150 3050
+Wire Wire Line
+	5150 3050 5300 3050
+Text Label 5150 3850 1    50   ~ 0
+GND
+Wire Wire Line
+	5150 3550 5150 3850
+$Comp
+L Device:C C?
+U 1 1 5E332CF8
+P 6500 2300
+F 0 "C?" H 6615 2346 50  0000 L CNN
+F 1 "0.1uF" H 6615 2255 50  0000 L CNN
+F 2 "" H 6538 2150 50  0001 C CNN
+F 3 "~" H 6500 2300 50  0001 C CNN
+	1    6500 2300
+	1    0    0    -1  
+$EndComp
+Text Label 6500 1700 3    50   ~ 0
+GND
+Wire Wire Line
+	6500 1700 6500 2150
+Wire Wire Line
+	6500 2450 6500 2650
+Connection ~ 6500 2650
+Wire Wire Line
+	6500 2650 6450 2650
+Text HLabel 7100 2850 2    50   Output ~ 0
+USB1_PWR
+Text HLabel 7100 2950 2    50   Output ~ 0
+USB2_PWR
+Wire Wire Line
+	6450 2850 6700 2850
+Wire Wire Line
+	6450 2950 6950 2950
+Text Label 6700 3800 1    50   ~ 0
+GND
+Wire Wire Line
+	6700 3500 6700 3800
+Text Label 6950 3800 1    50   ~ 0
+GND
+Wire Wire Line
+	6950 3500 6950 3800
+Wire Wire Line
+	6950 2950 6950 3200
+Connection ~ 6950 2950
+Wire Wire Line
+	6950 2950 7100 2950
+Wire Wire Line
+	6700 2850 6700 3200
+Connection ~ 6700 2850
+Wire Wire Line
+	6700 2850 7100 2850
+$Comp
+L Device:C C?
+U 1 1 5E3408C5
+P 6950 3350
+F 0 "C?" H 7065 3396 50  0000 L CNN
+F 1 "0.1uF" H 7065 3305 50  0000 L CNN
+F 2 "" H 6988 3200 50  0001 C CNN
+F 3 "~" H 6950 3350 50  0001 C CNN
+	1    6950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E340CE5
+P 6700 3350
+F 0 "C?" H 6815 3396 50  0000 L CNN
+F 1 "0.1uF" H 6815 3305 50  0000 L CNN
+F 2 "" H 6738 3200 50  0001 C CNN
+F 3 "~" H 6700 3350 50  0001 C CNN
+	1    6700 3350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
