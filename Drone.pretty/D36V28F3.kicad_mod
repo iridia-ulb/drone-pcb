@@ -19,7 +19,7 @@
   (pad 4 thru_hole rect (at 2.55 8.88) (size 1.524 1.524) (drill 1.02) (layers *.Cu *.Mask))
   (pad 5 thru_hole rect (at 5.09 8.88) (size 1.524 1.524) (drill 1.02) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 7.63 8.88) (size 1.524 1.524) (drill 1.02) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3d models/d36v28fx-step-down-voltage-regulators.step"
+  (model "${KIPRJMOD}/models/d36v28fx.step"
     (offset (xyz -8.9 -10.15 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
