@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -186,16 +186,6 @@ NoConn ~ 4850 2800
 NoConn ~ 4850 2700
 NoConn ~ 4850 2600
 NoConn ~ 4850 2500
-$Sheet
-S 7250 1250 650  850 
-U 5E2B9068
-F0 "USB Hub" 50
-F1 "usb-hub.sch" 50
-F2 "USB_DP" B L 7250 1550 50 
-F3 "USB_DM" B L 7250 1650 50 
-F4 "3V3" U L 7250 1350 50 
-F5 "GND" U L 7250 2000 50 
-$EndSheet
 Text Label 6550 2850 0    50   ~ 0
 HSIC_DATA
 Text Label 6550 2950 0    50   ~ 0
@@ -222,14 +212,6 @@ Wire Wire Line
 	6550 2950 7250 2950
 Wire Wire Line
 	6550 2850 7250 2850
-Text Label 6550 2000 0    50   ~ 0
-GND
-Wire Wire Line
-	6550 2000 7250 2000
-Text Label 6550 1350 0    50   ~ 0
-3V3
-Wire Wire Line
-	6550 1350 7250 1350
 $Sheet
 S 7250 2550 650  900 
 U 5E2EDC4D
@@ -248,12 +230,4 @@ Text Label 6550 3350 0    50   ~ 0
 GND
 Wire Wire Line
 	6550 3350 7250 3350
-Wire Wire Line
-	6550 1550 7250 1550
-Text Label 6550 1550 0    50   ~ 0
-USB_DP
-Text Label 6550 1650 0    50   ~ 0
-USB_DM
-Wire Wire Line
-	6550 1650 7250 1650
 $EndSCHEMATC
