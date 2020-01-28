@@ -141,20 +141,18 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E301315
-P 4950 2250
-F 0 "R?" H 5020 2296 50  0000 L CNN
-F 1 "xk" H 5020 2205 50  0000 L CNN
-F 2 "" V 4880 2250 50  0001 C CNN
-F 3 "~" H 4950 2250 50  0001 C CNN
-	1    4950 2250
+P 5300 1850
+F 0 "R?" H 5370 1896 50  0000 L CNN
+F 1 "xk" H 5370 1805 50  0000 L CNN
+F 2 "" V 5230 1850 50  0001 C CNN
+F 3 "~" H 5300 1850 50  0001 C CNN
+	1    5300 1850
 	1    0    0    -1  
 $EndComp
 Text Label 5950 3700 1    50   ~ 0
 GND
 Wire Wire Line
 	4050 2100 4950 2100
-Wire Wire Line
-	4950 2400 4950 2650
 Wire Wire Line
 	4950 2650 5300 2650
 Wire Wire Line
@@ -169,34 +167,12 @@ Wire Wire Line
 Wire Wire Line
 	4800 1950 4800 3050
 Wire Wire Line
-	4800 3050 5150 3050
-Wire Wire Line
 	5450 3150 5300 3150
 Wire Wire Line
 	5300 3150 5300 3050
 Connection ~ 5300 3050
 Wire Wire Line
 	5300 3050 5450 3050
-$Comp
-L Device:R R?
-U 1 1 5E3318D4
-P 5150 3400
-F 0 "R?" H 5220 3446 50  0000 L CNN
-F 1 "xk" H 5220 3355 50  0000 L CNN
-F 2 "" V 5080 3400 50  0001 C CNN
-F 3 "~" H 5150 3400 50  0001 C CNN
-	1    5150 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 3050 5150 3250
-Connection ~ 5150 3050
-Wire Wire Line
-	5150 3050 5300 3050
-Text Label 5150 3850 1    50   ~ 0
-GND
-Wire Wire Line
-	5150 3550 5150 3850
 $Comp
 L Device:C C?
 U 1 1 5E332CF8
@@ -265,4 +241,14 @@ F 3 "~" H 6700 3350 50  0001 C CNN
 	1    6700 3350
 	-1   0    0    1   
 $EndComp
+Text Label 5300 1500 3    50   ~ 0
+3V3
+Wire Wire Line
+	5300 1500 5300 1700
+Wire Wire Line
+	5300 2000 5300 2650
+Wire Wire Line
+	4950 2100 4950 2650
+Wire Wire Line
+	4800 3050 5300 3050
 $EndSCHEMATC
