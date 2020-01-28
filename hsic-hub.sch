@@ -34,7 +34,7 @@ AR Path="/5E2EDC4D/5E2F42C0" Ref="U?"  Part="1"
 F 0 "U?" H 2650 1250 50  0000 L CNN
 F 1 "USB3503" H 2650 1150 50  0000 L CNN
 F 2 "" H 3250 1100 50  0001 C CNN
-F 3 "" H 3250 1100 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en566511" H 3250 1100 50  0001 C CNN
 	1    3250 1100
 	1    0    0    -1  
 $EndComp
@@ -88,12 +88,12 @@ HUB_CONNECT
 $Comp
 L Device:C C?
 U 1 1 5E328065
-P 1000 3900
-F 0 "C?" H 1115 3946 50  0000 L CNN
-F 1 "C" H 1115 3855 50  0000 L CNN
-F 2 "" H 1038 3750 50  0001 C CNN
-F 3 "~" H 1000 3900 50  0001 C CNN
-	1    1000 3900
+P 1200 5150
+F 0 "C?" H 1315 5196 50  0000 L CNN
+F 1 "100n" H 1315 5105 50  0000 L CNN
+F 2 "" H 1238 5000 50  0001 C CNN
+F 3 "~" H 1200 5150 50  0001 C CNN
+	1    1200 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,7 +101,7 @@ L Device:R R?
 U 1 1 5E32A1DA
 P 2250 3800
 F 0 "R?" H 2320 3846 50  0000 L CNN
-F 1 "12k" H 2320 3755 50  0000 L CNN
+F 1 "12k,1%" H 2320 3755 50  0000 L CNN
 F 2 "" V 2180 3800 50  0001 C CNN
 F 3 "~" H 2250 3800 50  0001 C CNN
 	1    2250 3800
@@ -251,4 +251,78 @@ Wire Wire Line
 	4950 2100 4950 2650
 Wire Wire Line
 	4800 3050 5300 3050
+$Comp
+L Drone:ASTXR-12 X?
+U 1 1 5E308236
+P 1900 5000
+F 0 "X?" H 1700 5150 50  0000 L CNN
+F 1 "ASTXR-12" H 1700 5050 50  0000 L CNN
+F 2 "Drone:ASTXR-12" H 1700 4650 50  0001 L CNN
+F 3 "https://abracon.com/Oscillators/ASTXR-12-38.400MHz-514054-T.pdf" H 1700 5250 50  0001 L CNN
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 500  2000 0    50   ~ 0
+what is the logic level of all these signals, 1.2V?\nDoes that match the pins on the Up Board?
+Text Label 2950 4750 2    50   ~ 0
+3V3
+Text Label 2950 5450 2    50   ~ 0
+GND
+Text Label 1500 3050 0    50   ~ 0
+REFCLK
+Wire Wire Line
+	2450 3050 1500 3050
+Text Label 2950 5150 2    50   ~ 0
+REFCLK
+Text Label 2150 4150 1    50   ~ 0
+GND
+Text Label 2050 4150 1    50   ~ 0
+GND
+Wire Wire Line
+	2150 4150 2150 2900
+Wire Wire Line
+	2150 2900 2450 2900
+Wire Wire Line
+	2050 4150 2050 2800
+Wire Wire Line
+	2050 2800 2450 2800
+$Comp
+L Device:C C?
+U 1 1 5E338829
+P 2450 5150
+F 0 "C?" H 2565 5196 50  0000 L CNN
+F 1 "1n" H 2565 5105 50  0000 L CNN
+F 2 "" H 2488 5000 50  0001 C CNN
+F 3 "~" H 2450 5150 50  0001 C CNN
+	1    2450 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 5150 2950 5150
+Wire Wire Line
+	2200 5150 2300 5150
+Wire Wire Line
+	2200 5050 2300 5050
+Wire Wire Line
+	2300 5050 2300 4750
+Wire Wire Line
+	1200 4750 1200 5000
+Wire Wire Line
+	1200 5300 1200 5450
+Wire Wire Line
+	1200 5450 2300 5450
+Wire Wire Line
+	2300 5450 2300 5250
+Wire Wire Line
+	2300 5250 2200 5250
+Wire Wire Line
+	2300 4750 1200 4750
+Wire Wire Line
+	2950 5450 2300 5450
+Connection ~ 2300 5450
+Wire Wire Line
+	2950 4750 2300 4750
+Connection ~ 2300 4750
+Text Notes 1300 5750 0    50   ~ 0
+Check datasheet for correct placement\nof bypass and filter capacitors
 $EndSCHEMATC
