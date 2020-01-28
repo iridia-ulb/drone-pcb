@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ASTXR-12
+F https://abracon.com/Oscillators/ASTXR-12-38.400MHz-514054-T.pdf
+$ENDCMP
+#
 $CMP D36V28F3
 F https://www.pololu.com/product/3781
 $ENDCMP
