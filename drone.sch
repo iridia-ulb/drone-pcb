@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Drone:AXK5S00247YG P?
-U 1 1 5E1F8CEB
-P 3600 1400
-F 0 "P?" H 3600 1565 50  0000 C CNN
-F 1 "AXK5S00247YG" H 3600 1474 50  0000 C CNN
-F 2 "" H 3250 1400 50  0001 C CNN
-F 3 "" H 3250 1400 50  0001 C CNN
-	1    3600 1400
-	1    0    0    -1  
-$EndComp
 Text Label 1850 1500 0    50   ~ 0
 5V
 Text Label 1850 1700 0    50   ~ 0
@@ -150,8 +139,6 @@ NoConn ~ 2350 4500
 NoConn ~ 2350 4600
 NoConn ~ 2350 4800
 NoConn ~ 2350 4900
-NoConn ~ 2350 5100
-NoConn ~ 2350 5200
 NoConn ~ 2350 5400
 NoConn ~ 2350 5500
 NoConn ~ 2350 5700
@@ -230,4 +217,54 @@ F3 "HSIC_DATA" B L 7250 2850 50
 F4 "3V3" I L 7250 2650 50 
 F5 "GND" I L 7250 3350 50 
 $EndSheet
+$Sheet
+S 7250 3950 650  950 
+U 5E30BD8E
+F0 "LED Driver" 50
+F1 "led-driver.sch" 50
+F2 "I2C0_SDA" I L 7250 4350 50 
+F3 "I2C0_SCL" I L 7250 4500 50 
+F4 "5V" I L 7250 4000 50 
+F5 "GND" I L 7250 4800 50 
+F6 "3V3" I L 7250 4100 50 
+$EndSheet
+Text Label 1850 5100 0    50   ~ 0
+I2C0_SDA
+Text Label 1850 5200 0    50   ~ 0
+I2C0_SCL
+Wire Wire Line
+	1850 5100 2350 5100
+Wire Wire Line
+	1850 5200 2350 5200
+$Comp
+L Drone:AXK5S00247YG P?
+U 1 1 5E1F8CEB
+P 3600 1400
+F 0 "P?" H 3600 1565 50  0000 C CNN
+F 1 "AXK5S00247YG" H 3600 1474 50  0000 C CNN
+F 2 "" H 3250 1400 50  0001 C CNN
+F 3 "" H 3250 1400 50  0001 C CNN
+	1    3600 1400
+	1    0    0    -1  
+$EndComp
+Text Label 6550 4350 0    50   ~ 0
+I2C0_SDA
+Text Label 6550 4500 0    50   ~ 0
+I2C0_SCL
+Text Label 6550 4100 0    50   ~ 0
+3V3
+Wire Wire Line
+	6550 4100 7250 4100
+Wire Wire Line
+	6550 4350 7250 4350
+Wire Wire Line
+	6550 4500 7250 4500
+Text Label 6550 4800 0    50   ~ 0
+GND
+Wire Wire Line
+	6550 4800 7250 4800
+Text Label 6550 4000 0    50   ~ 0
+5V
+Wire Wire Line
+	6550 4000 7250 4000
 $EndSCHEMATC
