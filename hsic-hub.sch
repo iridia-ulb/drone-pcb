@@ -49,10 +49,10 @@ Wire Wire Line
 Connection ~ 2200 1450
 Wire Wire Line
 	2200 1450 2200 1550
-Text Label 2200 1200 0    50   ~ 0
+Text Label 1700 1200 0    50   ~ 0
 3V3
 Wire Wire Line
-	2450 1200 2200 1200
+	2450 1200 1700 1200
 Text HLabel 1400 850  0    50   Input ~ 0
 3V3
 Text HLabel 1400 750  0    50   Input ~ 0
@@ -121,9 +121,7 @@ Text Label 1750 950  2    50   ~ 0
 5V
 Wire Wire Line
 	1400 950  1750 950 
-Wire Wire Line
-	6800 2650 6500 2650
-Text Label 6800 2650 2    50   ~ 0
+Text Label 7000 2650 2    50   ~ 0
 5V
 Wire Wire Line
 	5950 3450 5950 3700
@@ -176,71 +174,16 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5E332CF8
-P 6500 2300
-F 0 "C?" H 6615 2346 50  0000 L CNN
-F 1 "0.1uF" H 6615 2255 50  0000 L CNN
-F 2 "" H 6538 2150 50  0001 C CNN
-F 3 "~" H 6500 2300 50  0001 C CNN
-	1    6500 2300
+P 6500 3250
+F 0 "C?" H 6615 3296 50  0000 L CNN
+F 1 "100n" H 6615 3205 50  0000 L CNN
+F 2 "" H 6538 3100 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
 	1    0    0    -1  
 $EndComp
-Text Label 6500 1700 3    50   ~ 0
+Text Label 6500 3700 1    50   ~ 0
 GND
-Wire Wire Line
-	6500 1700 6500 2150
-Wire Wire Line
-	6500 2450 6500 2650
-Connection ~ 6500 2650
-Wire Wire Line
-	6500 2650 6450 2650
-Text HLabel 7100 2850 2    50   Output ~ 0
-USB1_PWR
-Text HLabel 7100 2950 2    50   Output ~ 0
-USB2_PWR
-Wire Wire Line
-	6450 2850 6700 2850
-Wire Wire Line
-	6450 2950 6950 2950
-Text Label 6700 3800 1    50   ~ 0
-GND
-Wire Wire Line
-	6700 3500 6700 3800
-Text Label 6950 3800 1    50   ~ 0
-GND
-Wire Wire Line
-	6950 3500 6950 3800
-Wire Wire Line
-	6950 2950 6950 3200
-Connection ~ 6950 2950
-Wire Wire Line
-	6950 2950 7100 2950
-Wire Wire Line
-	6700 2850 6700 3200
-Connection ~ 6700 2850
-Wire Wire Line
-	6700 2850 7100 2850
-$Comp
-L Device:C C?
-U 1 1 5E3408C5
-P 6950 3350
-F 0 "C?" H 7065 3396 50  0000 L CNN
-F 1 "0.1uF" H 7065 3305 50  0000 L CNN
-F 2 "" H 6988 3200 50  0001 C CNN
-F 3 "~" H 6950 3350 50  0001 C CNN
-	1    6950 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E340CE5
-P 6700 3350
-F 0 "C?" H 6815 3396 50  0000 L CNN
-F 1 "0.1uF" H 6815 3305 50  0000 L CNN
-F 2 "" H 6738 3200 50  0001 C CNN
-F 3 "~" H 6700 3350 50  0001 C CNN
-	1    6700 3350
-	-1   0    0    1   
-$EndComp
 Text Label 5300 1500 3    50   ~ 0
 3V3
 Wire Wire Line
@@ -262,8 +205,8 @@ F 3 "https://abracon.com/Oscillators/ASTXR-12-38.400MHz-514054-T.pdf" H 1700 525
 	1    1900 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 500  2000 0    50   ~ 0
-what is the logic level of all these signals, 1.2V?\nDoes that match the pins on the Up Board?
+Text Notes 650  1800 0    50   ~ 0
+Voltage levels:\nHSIC STROBE/DATA: 1.2V\nIO PINS: 1.8V\nRESET: 3.3V\nOSC: 3.3V\nREFCLK: 3.3V\nHUB_CONNECT: 3.3V\n
 Text Label 2950 4750 2    50   ~ 0
 3V3
 Text Label 2950 5450 2    50   ~ 0
@@ -325,4 +268,166 @@ Wire Wire Line
 Connection ~ 2300 4750
 Text Notes 1300 5750 0    50   ~ 0
 Check datasheet for correct placement\nof bypass and filter capacitors
+Text Label 1700 1450 0    50   ~ 0
+VDD33_BYP
+Wire Wire Line
+	1700 1450 2200 1450
+Text Label 4750 1200 2    50   ~ 0
+VDD33_BYP
+Wire Wire Line
+	4050 1200 4250 1200
+Wire Wire Line
+	4050 1300 4250 1300
+Wire Wire Line
+	4250 1300 4250 1200
+Wire Wire Line
+	4250 1200 4750 1200
+Connection ~ 4250 1200
+Text Notes 4900 1300 2    50   ~ 0
+Disable Port 1
+$Comp
+L Drone:SM05B-SRSS-TB J?
+U 1 1 5E385FFC
+P 8550 1600
+F 0 "J?" H 8372 1401 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 8372 1310 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 8400 1850 50  0001 L CNN
+F 3 "" H 8550 1600 50  0001 C CNN
+	1    8550 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3408C5
+P 9600 1850
+F 0 "C?" H 9715 1896 50  0000 L CNN
+F 1 "100n" H 9715 1805 50  0000 L CNN
+F 2 "" H 9638 1700 50  0001 C CNN
+F 3 "~" H 9600 1850 50  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2850 7000 2850
+Wire Wire Line
+	6450 2950 7000 2950
+Text Label 7900 1750 0    50   ~ 0
+USB1_DM
+Text Label 7900 1850 0    50   ~ 0
+USB1_DP
+Wire Wire Line
+	6450 2650 6500 2650
+Wire Wire Line
+	6500 3100 6500 2650
+Connection ~ 6500 2650
+Wire Wire Line
+	6500 2650 7000 2650
+Wire Wire Line
+	6500 3400 6500 3700
+Text Label 7000 2850 2    50   ~ 0
+USB1_5V
+Text Label 7000 2950 2    50   ~ 0
+USB2_5V
+Text Label 7900 1650 0    50   ~ 0
+USB1_5V
+Text Label 7900 2050 0    50   ~ 0
+GND
+Wire Wire Line
+	7900 2050 8300 2050
+Wire Wire Line
+	7900 1850 8350 1850
+Wire Wire Line
+	7900 1750 8350 1750
+Wire Wire Line
+	7900 1650 8300 1650
+Wire Wire Line
+	8300 1650 8300 1500
+Wire Wire Line
+	8300 1500 9600 1500
+Wire Wire Line
+	9600 1500 9600 1700
+Connection ~ 8300 1650
+Wire Wire Line
+	8300 1650 8350 1650
+Wire Wire Line
+	9600 2000 9600 2200
+Wire Wire Line
+	9600 2200 8300 2200
+Wire Wire Line
+	8300 2200 8300 2050
+Connection ~ 8300 2050
+Wire Wire Line
+	8300 2050 8350 2050
+$Comp
+L Drone:SM05B-SRSS-TB J?
+U 1 1 5E3AC9C2
+P 8550 2600
+F 0 "J?" H 8372 2401 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 8372 2310 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 8400 2850 50  0001 L CNN
+F 3 "" H 8550 2600 50  0001 C CNN
+	1    8550 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3AC9C8
+P 9600 2850
+F 0 "C?" H 9715 2896 50  0000 L CNN
+F 1 "100n" H 9715 2805 50  0000 L CNN
+F 2 "" H 9638 2700 50  0001 C CNN
+F 3 "~" H 9600 2850 50  0001 C CNN
+	1    9600 2850
+	1    0    0    -1  
+$EndComp
+Text Label 7900 2750 0    50   ~ 0
+USB2_DM
+Text Label 7900 2850 0    50   ~ 0
+USB2_DP
+Text Label 7900 2650 0    50   ~ 0
+USB2_5V
+Text Label 7900 3050 0    50   ~ 0
+GND
+Wire Wire Line
+	7900 3050 8300 3050
+Wire Wire Line
+	7900 2850 8350 2850
+Wire Wire Line
+	7900 2750 8350 2750
+Wire Wire Line
+	7900 2650 8300 2650
+Wire Wire Line
+	8300 2650 8300 2500
+Wire Wire Line
+	8300 2500 9600 2500
+Wire Wire Line
+	9600 2500 9600 2700
+Connection ~ 8300 2650
+Wire Wire Line
+	8300 2650 8350 2650
+Wire Wire Line
+	9600 3000 9600 3200
+Wire Wire Line
+	9600 3200 8300 3200
+Wire Wire Line
+	8300 3200 8300 3050
+Connection ~ 8300 3050
+Wire Wire Line
+	8300 3050 8350 3050
+Text Label 4750 1550 2    50   ~ 0
+USB1_DM
+Text Label 4750 1450 2    50   ~ 0
+USB1_DP
+Wire Wire Line
+	4050 1450 4750 1450
+Wire Wire Line
+	4050 1550 4750 1550
+Text Label 4750 1800 2    50   ~ 0
+USB2_DM
+Text Label 4750 1700 2    50   ~ 0
+USB2_DP
+Wire Wire Line
+	4050 1700 4750 1700
+Wire Wire Line
+	4050 1800 4750 1800
 $EndSCHEMATC
