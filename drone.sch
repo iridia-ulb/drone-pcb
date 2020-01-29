@@ -220,13 +220,13 @@ $EndSheet
 $Sheet
 S 7250 3950 650  950 
 U 5E30BD8E
-F0 "LED Driver" 50
-F1 "led-driver.sch" 50
-F2 "I2C0_SDA" I L 7250 4350 50 
-F3 "I2C0_SCL" I L 7250 4500 50 
-F4 "5V" I L 7250 4000 50 
-F5 "GND" I L 7250 4800 50 
-F6 "3V3" I L 7250 4100 50 
+F0 "LEDs" 50
+F1 "leds.sch" 50
+F2 "5V" I L 7250 4050 50 
+F3 "GND" I L 7250 4800 50 
+F4 "3V3" I L 7250 4150 50 
+F5 "I2C_SDA_33" I L 7250 4350 50 
+F6 "I2C_SCL_33" I L 7250 4500 50 
 $EndSheet
 Text Label 1850 5100 0    50   ~ 0
 I2C0_SDA
@@ -248,13 +248,13 @@ F 3 "" H 3250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6550 4350 0    50   ~ 0
-I2C0_SDA
+I2CX_SDA_33
 Text Label 6550 4500 0    50   ~ 0
-I2C0_SCL
-Text Label 6550 4100 0    50   ~ 0
+I2CX_SCL_33
+Text Label 6550 4150 0    50   ~ 0
 3V3
 Wire Wire Line
-	6550 4100 7250 4100
+	6550 4150 7250 4150
 Wire Wire Line
 	6550 4350 7250 4350
 Wire Wire Line
@@ -263,8 +263,8 @@ Text Label 6550 4800 0    50   ~ 0
 GND
 Wire Wire Line
 	6550 4800 7250 4800
-Text Label 6550 4000 0    50   ~ 0
+Text Label 6550 4050 0    50   ~ 0
 5V
 Wire Wire Line
-	6550 4000 7250 4000
+	6550 4050 7250 4050
 $EndSCHEMATC
