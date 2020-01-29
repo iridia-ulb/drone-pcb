@@ -121,22 +121,22 @@ Text Label 2050 1400 2    50   ~ 0
 5V
 Wire Wire Line
 	1700 1400 2050 1400
-Text Label 8950 3450 2    50   ~ 0
+Text Label 9500 3500 2    50   ~ 0
 5V
 Wire Wire Line
 	5050 2050 5750 2050
 $Comp
 L Device:C C?
 U 1 1 5E332CF8
-P 8650 3700
-F 0 "C?" H 8765 3746 50  0000 L CNN
-F 1 "100n" H 8765 3655 50  0000 L CNN
-F 2 "" H 8688 3550 50  0001 C CNN
-F 3 "~" H 8650 3700 50  0001 C CNN
-	1    8650 3700
+P 8650 3750
+F 0 "C?" H 8765 3796 50  0000 L CNN
+F 1 "100n" H 8765 3705 50  0000 L CNN
+F 2 "" H 8688 3600 50  0001 C CNN
+F 3 "~" H 8650 3750 50  0001 C CNN
+	1    8650 3750
 	1    0    0    -1  
 $EndComp
-Text Label 8950 3950 2    50   ~ 0
+Text Label 9500 4000 2    50   ~ 0
 GND
 Text Label 6050 1300 3    50   ~ 0
 3V3
@@ -151,7 +151,7 @@ F 3 "https://abracon.com/Oscillators/ASTXR-12-38.400MHz-514054-T.pdf" H 1700 525
 	1    1900 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 5050 4750 0    50   ~ 0
+Text Notes 5050 4800 0    50   ~ 0
 Voltage levels:\nHSIC STROBE/DATA: 1.2V\nRESET: 3.3V\nOSC: 3.3V\nREFCLK: 3.3V\nHUB_CONNECT: 3.3V\nIO PINS (SDA, SCL): 1.8V\nSDA,SCL: variable (1.8V min, can be pulled up to 3.3V)
 Text Label 2950 4750 2    50   ~ 0
 3V3
@@ -243,16 +243,16 @@ F 3 "~" H 8450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 3650 8450 3650
+	8100 3700 8450 3700
 Wire Wire Line
-	8100 3750 8450 3750
+	8100 3800 8450 3800
 Text Label 6750 1500 0    50   ~ 0
 USB1_DM
 Text Label 6750 1600 0    50   ~ 0
 USB1_DP
-Text Label 8450 3650 2    50   ~ 0
+Text Label 8450 3700 2    50   ~ 0
 USB1_5V
-Text Label 8450 3750 2    50   ~ 0
+Text Label 8450 3800 2    50   ~ 0
 USB2_5V
 Text Label 6750 1400 0    50   ~ 0
 USB1_5V
@@ -304,8 +304,6 @@ USB2_5V
 Text Label 6750 2800 0    50   ~ 0
 GND
 Wire Wire Line
-	6750 2800 7150 2800
-Wire Wire Line
 	6750 2600 7200 2600
 Wire Wire Line
 	6750 2500 7200 2500
@@ -326,9 +324,6 @@ Wire Wire Line
 	8450 2950 7150 2950
 Wire Wire Line
 	7150 2950 7150 2800
-Connection ~ 7150 2800
-Wire Wire Line
-	7150 2800 7200 2800
 Text Label 5750 1650 2    50   ~ 0
 USB1_DM
 Text Label 5750 1550 2    50   ~ 0
@@ -438,12 +433,12 @@ Connection ~ 8450 2250
 $Comp
 L Drone:TPS2054D U?
 U 1 1 5E4E09E8
-P 7600 3350
-F 0 "U?" H 7300 3500 50  0000 L BNN
-F 1 "TPS2054D" H 7300 3400 50  0000 L BNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7300 3600 50  0001 L BNN
-F 3 "" H 7550 3350 50  0001 C CNN
-	1    7600 3350
+P 7600 3400
+F 0 "U?" H 7300 3550 50  0000 L BNN
+F 1 "TPS2054D" H 7300 3450 50  0000 L BNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7300 3650 50  0001 L BNN
+F 3 "" H 7550 3400 50  0001 C CNN
+	1    7600 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -452,35 +447,35 @@ Wire Wire Line
 	8900 2950 8450 2950
 Connection ~ 8450 2950
 Wire Wire Line
-	8100 3450 8650 3450
+	8100 3500 8650 3500
 Wire Wire Line
-	8100 3950 8650 3950
+	8100 4000 8650 4000
 Wire Wire Line
-	8650 3550 8650 3450
-Connection ~ 8650 3450
+	8650 3600 8650 3500
+Connection ~ 8650 3500
 Wire Wire Line
-	8650 3450 8950 3450
+	8650 3500 9100 3500
 Wire Wire Line
-	8650 3850 8650 3950
-Connection ~ 8650 3950
+	8650 3900 8650 4000
+Connection ~ 8650 4000
 Wire Wire Line
-	8650 3950 8950 3950
-Text Label 6750 3450 0    50   ~ 0
+	8650 4000 9100 4000
+Text Label 6750 3500 0    50   ~ 0
 PRTPWR
-Text Label 6750 3550 0    50   ~ 0
+Text Label 6750 3600 0    50   ~ 0
 PRTPWR
 Wire Wire Line
-	6750 3450 7100 3450
+	6750 3500 7100 3500
 Wire Wire Line
-	6750 3550 7100 3550
-Text Label 6750 3750 0    50   ~ 0
+	6750 3600 7100 3600
+Text Label 6750 3800 0    50   ~ 0
 ~OSC
-Text Label 6750 3850 0    50   ~ 0
+Text Label 6750 3900 0    50   ~ 0
 ~OSC
 Wire Wire Line
-	6750 3750 7100 3750
+	6750 3800 7100 3800
 Wire Wire Line
-	6750 3850 7100 3850
+	6750 3900 7100 3900
 Wire Wire Line
 	6050 1300 6050 1600
 Wire Wire Line
@@ -520,4 +515,32 @@ F 3 "" H 7400 2350 50  0001 C CNN
 	1    7400 2350
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5A610D
+P 9100 3750
+F 0 "C?" H 9215 3796 50  0000 L CNN
+F 1 "10u" H 9215 3705 50  0000 L CNN
+F 2 "" H 9138 3600 50  0001 C CNN
+F 3 "~" H 9100 3750 50  0001 C CNN
+	1    9100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3600 9100 3500
+Connection ~ 9100 3500
+Wire Wire Line
+	9100 3500 9500 3500
+Wire Wire Line
+	9100 3900 9100 4000
+Connection ~ 9100 4000
+Wire Wire Line
+	9100 4000 9500 4000
+Wire Wire Line
+	6750 2800 7150 2800
+Connection ~ 7150 2800
+Wire Wire Line
+	7150 2800 7200 2800
+Text Notes 1300 6050 0    50   ~ 0
+https://forum.up-community.org/discussion/4133/voltage-levels-on-the-100-pin-expansion-connector
 $EndSCHEMATC
