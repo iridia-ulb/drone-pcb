@@ -267,4 +267,17 @@ Text Label 6550 4050 0    50   ~ 0
 5V
 Wire Wire Line
 	6550 4050 7250 4050
+$Comp
+L Drone:XT60PW-M J?
+U 1 1 5E31D851
+P 1000 1150
+F 0 "J?" H 893 783 50  0000 C CNN
+F 1 "XT60PW-M" H 893 874 50  0000 C CNN
+F 2 "Drone:XT60PW-M" H 950 1450 50  0001 L BNN
+F 3 "https://www.snapeda.com/parts/XT60PW-M%20/AMASS/datasheet/" H 950 1250 50  0001 L BNN
+	1    1000 1150
+	-1   0    0    1   
+$EndComp
+Text Notes 1950 900  0    50   ~ 0
+TODO: \n1. batt connector to switch\n2. check what top level components are necessary (voltage regulators & stepdown?)\n3. relay (or similar) to motor board
 $EndSCHEMATC
