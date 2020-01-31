@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 1850 3550 1850
 Text HLabel 1400 1950 0    50   BiDi ~ 0
-HUB_HSIC_STROBE_12
+HUB_HSIC_STRB_12
 Text HLabel 1400 1850 0    50   BiDi ~ 0
 HUB_HSIC_DATA_12
 $Comp
@@ -31,6 +31,7 @@ U 1 1 5E2F42C0
 P 4350 850
 AR Path="/5E2B9068/5E2F42C0" Ref="U?"  Part="1" 
 AR Path="/5E2EDC4D/5E2F42C0" Ref="U?"  Part="1" 
+AR Path="/5E349830/5E2F42C0" Ref="U?"  Part="1" 
 F 0 "U?" H 3750 1000 50  0000 L CNN
 F 1 "USB3503" H 3750 900 50  0000 L CNN
 F 2 "" H 4350 850 50  0001 C CNN
@@ -66,9 +67,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 1500 1400 1500
 Wire Wire Line
-	2450 2200 3550 2200
+	1400 2200 3550 2200
 Wire Wire Line
-	2450 2100 3550 2100
+	1400 2100 3550 2100
 Wire Wire Line
 	2450 2400 3550 2400
 Wire Wire Line
@@ -527,10 +528,6 @@ F 3 "~" H 3350 3350 50  0001 C CNN
 	1    3350 3350
 	1    0    0    -1  
 $EndComp
-Text Label 2450 2100 0    50   ~ 0
-HUB_I2C_SCL_33
-Text Label 2450 2200 0    50   ~ 0
-HUB_I2C_SDA_33
 Text Label 2450 2300 0    50   ~ 0
 ~HUB_INT_33
 Text Label 2450 2400 0    50   ~ 0
@@ -680,17 +677,6 @@ Wire Wire Line
 Text Label 7750 4800 2    50   ~ 0
 HUB_CONNECT_33
 $Comp
-L Drone:BSS138DW Q?
-U 1 1 5E5F6987
-P 9050 4800
-F 0 "Q?" V 9300 4700 50  0000 L CNN
-F 1 "BSS138DW" V 9200 4700 50  0000 L CNN
-F 2 "" H 9150 4725 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 8950 4800 50  0001 L CNN
-	1    9050 4800
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E5F698D
 P 9300 4550
@@ -745,140 +731,25 @@ Wire Wire Line
 Connection ~ 9300 4800
 Text HLabel 8700 4800 0    50   Input ~ 0
 ~HUB_RESET_18
-$Comp
-L Drone:BSS138DW Q?
-U 2 1 5E636D9D
-P 6750 6000
-F 0 "Q?" V 7000 5900 50  0000 L CNN
-F 1 "BSS138DW" V 6900 5900 50  0000 L CNN
-F 2 "" H 6850 5925 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 6650 6000 50  0001 L CNN
-	2    6750 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E636DA3
-P 7000 5750
-F 0 "R?" H 7070 5796 50  0000 L CNN
-F 1 "10k" H 7070 5705 50  0000 L CNN
-F 2 "" V 6930 5750 50  0001 C CNN
-F 3 "~" H 7000 5750 50  0001 C CNN
-	1    7000 5750
-	1    0    0    -1  
-$EndComp
-Text Label 7000 5350 3    50   ~ 0
-3V3
-Wire Wire Line
-	7000 5350 7000 5600
-Wire Wire Line
-	7000 5900 7000 6000
-Wire Wire Line
-	7000 6000 6950 6000
-Text Label 6750 5350 3    50   ~ 0
-1V8
-Wire Wire Line
-	6750 5350 6750 5550
-$Comp
-L Device:R R?
-U 1 1 5E636DAF
-P 6500 5750
-F 0 "R?" H 6570 5796 50  0000 L CNN
-F 1 "10k" H 6570 5705 50  0000 L CNN
-F 2 "" V 6430 5750 50  0001 C CNN
-F 3 "~" H 6500 5750 50  0001 C CNN
-	1    6500 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 5600 6500 5550
-Wire Wire Line
-	6500 5550 6750 5550
-Connection ~ 6750 5550
-Wire Wire Line
-	6750 5550 6750 5700
-Wire Wire Line
-	6550 6000 6500 6000
-Wire Wire Line
-	6500 6000 6500 5900
-Wire Wire Line
-	6500 6000 6400 6000
-Connection ~ 6500 6000
-Text HLabel 6400 6000 0    50   Input ~ 0
-HUB_I2C_SDA_18
-$Comp
-L Drone:BSS138DW Q?
-U 1 1 5E636DBE
-P 4400 6000
-F 0 "Q?" V 4650 5900 50  0000 L CNN
-F 1 "BSS138DW" V 4550 5900 50  0000 L CNN
-F 2 "" H 4500 5925 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4300 6000 50  0001 L CNN
-	1    4400 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E636DC4
-P 4650 5750
-F 0 "R?" H 4720 5796 50  0000 L CNN
-F 1 "10k" H 4720 5705 50  0000 L CNN
-F 2 "" V 4580 5750 50  0001 C CNN
-F 3 "~" H 4650 5750 50  0001 C CNN
-	1    4650 5750
-	1    0    0    -1  
-$EndComp
-Text Label 4650 5350 3    50   ~ 0
-3V3
-Wire Wire Line
-	4650 5350 4650 5600
-Wire Wire Line
-	4650 5900 4650 6000
-Wire Wire Line
-	4650 6000 4600 6000
-Text Label 4400 5350 3    50   ~ 0
-1V8
-Wire Wire Line
-	4400 5350 4400 5550
-$Comp
-L Device:R R?
-U 1 1 5E636DD0
-P 4150 5750
-F 0 "R?" H 4220 5796 50  0000 L CNN
-F 1 "10k" H 4220 5705 50  0000 L CNN
-F 2 "" V 4080 5750 50  0001 C CNN
-F 3 "~" H 4150 5750 50  0001 C CNN
-	1    4150 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 5600 4150 5550
-Wire Wire Line
-	4150 5550 4400 5550
-Connection ~ 4400 5550
-Wire Wire Line
-	4400 5550 4400 5700
-Wire Wire Line
-	4200 6000 4150 6000
-Wire Wire Line
-	4150 6000 4150 5900
-Wire Wire Line
-	4150 6000 4050 6000
-Connection ~ 4150 6000
-Wire Wire Line
-	4650 6000 5400 6000
-Connection ~ 4650 6000
-Text HLabel 4050 6000 0    50   Input ~ 0
-HUB_I2C_SCL_18
-Connection ~ 7000 6000
-Wire Wire Line
-	7000 6000 7750 6000
-Text Label 5400 6000 2    50   ~ 0
-HUB_I2C_SCL_33
-Text Label 7750 6000 2    50   ~ 0
-HUB_I2C_SDA_33
 Text Notes 8400 5950 0    50   ~ 0
 Voltage levels:\nHSIC STROBE/DATA: 1.2V\nRESET: 3.3V\nOSC: 3.3V\nREFCLK: 3.3V\nHUB_CONNECT: 3.3V\nIO PINS (SDA, SCL): 1.8V\nSDA,SCL: variable (1.8V min, can be pulled up to 3.3V)
-Text Notes 3350 6450 0    50   ~ 0
+Text Notes 3550 5200 0    50   ~ 0
 TODO: check the maths of these MOSFETS, and consider the initial state of the hub
+Text HLabel 1400 2100 0    50   BiDi ~ 0
+HUB_I2C_SCL_33
+Text HLabel 1400 2200 0    50   BiDi ~ 0
+HUB_I2C_SDA_33
+$Comp
+L Drone:BSS138DW Q?
+U 2 1 5E532DF9
+P 9050 4800
+AR Path="/5E2EDC4D/5E532DF9" Ref="Q?"  Part="2" 
+AR Path="/5E349830/5E532DF9" Ref="Q?"  Part="2" 
+F 0 "Q?" V 9300 4700 50  0000 L CNN
+F 1 "BSS138DW" V 9200 4700 50  0000 L CNN
+F 2 "" H 9150 4725 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 8950 4800 50  0001 L CNN
+	2    9050 4800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

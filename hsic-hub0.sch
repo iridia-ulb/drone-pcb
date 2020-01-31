@@ -1,0 +1,803 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5150 3050 5850 3050
+Text Label 5850 3050 2    50   ~ 0
+GND
+Wire Wire Line
+	1400 1950 3550 1950
+Wire Wire Line
+	1400 1850 3550 1850
+Text HLabel 1400 1950 0    50   BiDi ~ 0
+HUB_HSIC_STRB_12
+Text HLabel 1400 1850 0    50   BiDi ~ 0
+HUB_HSIC_DATA_12
+$Comp
+L Drone:USB3503 U?
+U 1 1 5E2F42C0
+P 4350 850
+AR Path="/5E2B9068/5E2F42C0" Ref="U?"  Part="1" 
+AR Path="/5E2EDC4D/5E2F42C0" Ref="U?"  Part="1" 
+AR Path="/5E349830/5E2F42C0" Ref="U?"  Part="1" 
+F 0 "U?" H 3750 1000 50  0000 L CNN
+F 1 "USB3503" H 3750 900 50  0000 L CNN
+F 2 "" H 4350 850 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en566511" H 4350 850 50  0001 C CNN
+	1    4350 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1050 3300 1050
+Wire Wire Line
+	3300 1050 3300 1200
+Wire Wire Line
+	3300 1300 3550 1300
+Wire Wire Line
+	3550 1200 3300 1200
+Connection ~ 3300 1200
+Wire Wire Line
+	3300 1200 3300 1300
+Text Label 2000 950  0    50   ~ 0
+3V3
+Wire Wire Line
+	3550 950  2000 950 
+Text HLabel 1400 1500 0    50   Input ~ 0
+3V3
+Text HLabel 1400 1700 0    50   Input ~ 0
+GND
+Text Label 1700 1700 2    50   ~ 0
+GND
+Text Label 1700 1500 2    50   ~ 0
+3V3
+Wire Wire Line
+	1400 1700 1700 1700
+Wire Wire Line
+	1700 1500 1400 1500
+Wire Wire Line
+	1400 2200 3550 2200
+Wire Wire Line
+	1400 2100 3550 2100
+Wire Wire Line
+	2450 2400 3550 2400
+Wire Wire Line
+	2450 2300 3550 2300
+$Comp
+L Device:C C?
+U 1 1 5E328065
+P 1150 5000
+AR Path="/5E2EDC4D/5E328065" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E328065" Ref="C?"  Part="1" 
+F 0 "C?" H 1265 5046 50  0000 L CNN
+F 1 "100n" H 1265 4955 50  0000 L CNN
+F 2 "" H 1188 4850 50  0001 C CNN
+F 3 "~" H 1150 5000 50  0001 C CNN
+	1    1150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2900 3350 2900
+Wire Wire Line
+	3350 2900 3350 3200
+Text Label 3350 3900 1    50   ~ 0
+GND
+Wire Wire Line
+	3350 3500 3350 3900
+Text HLabel 1400 1400 0    50   Input ~ 0
+5V
+Text Label 1700 1400 2    50   ~ 0
+5V
+Wire Wire Line
+	1400 1400 1700 1400
+Text Label 9500 3200 2    50   ~ 0
+5V
+Wire Wire Line
+	5150 1700 5850 1700
+$Comp
+L Device:C C?
+U 1 1 5E332CF8
+P 8650 3450
+AR Path="/5E2EDC4D/5E332CF8" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E332CF8" Ref="C?"  Part="1" 
+F 0 "C?" H 8765 3496 50  0000 L CNN
+F 1 "100n" H 8765 3405 50  0000 L CNN
+F 2 "" H 8688 3300 50  0001 C CNN
+F 3 "~" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	1    0    0    -1  
+$EndComp
+Text Label 9500 3700 2    50   ~ 0
+GND
+Text Label 6150 950  3    50   ~ 0
+3V3
+$Comp
+L Drone:ASTXR-12 X?
+U 1 1 5E308236
+P 1850 4850
+AR Path="/5E2EDC4D/5E308236" Ref="X?"  Part="1" 
+AR Path="/5E349830/5E308236" Ref="X?"  Part="1" 
+F 0 "X?" H 1650 5000 50  0000 L CNN
+F 1 "ASTXR-12" H 1650 4900 50  0000 L CNN
+F 2 "Drone:ASTXR-12" H 1650 4500 50  0001 L CNN
+F 3 "https://abracon.com/Oscillators/ASTXR-12-38.400MHz-514054-T.pdf" H 1650 5100 50  0001 L CNN
+	1    1850 4850
+	1    0    0    -1  
+$EndComp
+Text Label 2900 4600 2    50   ~ 0
+3V3
+Text Label 2900 5300 2    50   ~ 0
+GND
+Text Label 2450 2800 0    50   ~ 0
+REFCLK
+Wire Wire Line
+	3550 2800 2450 2800
+Text Label 2900 5000 2    50   ~ 0
+REFCLK
+Text Label 3250 3900 1    50   ~ 0
+GND
+Text Label 3150 3900 1    50   ~ 0
+GND
+Wire Wire Line
+	3250 2650 3550 2650
+Wire Wire Line
+	3150 2550 3550 2550
+$Comp
+L Device:C C?
+U 1 1 5E338829
+P 2400 5000
+AR Path="/5E2EDC4D/5E338829" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E338829" Ref="C?"  Part="1" 
+F 0 "C?" H 2515 5046 50  0000 L CNN
+F 1 "1n" H 2515 4955 50  0000 L CNN
+F 2 "" H 2438 4850 50  0001 C CNN
+F 3 "~" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 5000 2900 5000
+Wire Wire Line
+	2150 5000 2250 5000
+Wire Wire Line
+	2150 4900 2250 4900
+Wire Wire Line
+	2250 4900 2250 4600
+Wire Wire Line
+	1150 4600 1150 4850
+Wire Wire Line
+	1150 5150 1150 5300
+Wire Wire Line
+	1150 5300 2250 5300
+Wire Wire Line
+	2250 5300 2250 5100
+Wire Wire Line
+	2250 5100 2150 5100
+Wire Wire Line
+	2250 4600 1150 4600
+Wire Wire Line
+	2900 5300 2250 5300
+Connection ~ 2250 5300
+Wire Wire Line
+	2900 4600 2250 4600
+Connection ~ 2250 4600
+Text Notes 1250 5600 0    50   ~ 0
+Check datasheet for correct placement\nof bypass and filter capacitors
+Text Label 1900 1200 0    50   ~ 0
+VDD33_BYP
+Wire Wire Line
+	1900 1200 3300 1200
+Text Label 5850 950  2    50   ~ 0
+VDD33_BYP
+Wire Wire Line
+	5150 950  5350 950 
+Wire Wire Line
+	5150 1050 5350 1050
+Wire Wire Line
+	5350 1050 5350 950 
+Wire Wire Line
+	5350 950  5850 950 
+Connection ~ 5350 950 
+Text Notes 5300 850  0    50   ~ 0
+Disable Port 1
+$Comp
+L Device:C C?
+U 1 1 5E3408C5
+P 8450 1300
+AR Path="/5E2EDC4D/5E3408C5" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E3408C5" Ref="C?"  Part="1" 
+F 0 "C?" H 8565 1346 50  0000 L CNN
+F 1 "100n" H 8565 1255 50  0000 L CNN
+F 2 "" H 8488 1150 50  0001 C CNN
+F 3 "~" H 8450 1300 50  0001 C CNN
+	1    8450 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3400 8450 3400
+Wire Wire Line
+	8100 3500 8450 3500
+Text Label 6750 1200 0    50   ~ 0
+USB1_DM
+Text Label 6750 1300 0    50   ~ 0
+USB1_DP
+Text Label 8450 3400 2    50   ~ 0
+USB1_5V
+Text Label 8450 3500 2    50   ~ 0
+USB2_5V
+Text Label 6750 1100 0    50   ~ 0
+USB1_5V
+Text Label 6750 1500 0    50   ~ 0
+GND
+Wire Wire Line
+	6750 1500 7150 1500
+Wire Wire Line
+	6750 1300 7200 1300
+Wire Wire Line
+	6750 1200 7200 1200
+Wire Wire Line
+	6750 1100 7150 1100
+Wire Wire Line
+	7150 1100 7150 950 
+Wire Wire Line
+	7150 950  8450 950 
+Wire Wire Line
+	8450 950  8450 1150
+Connection ~ 7150 1100
+Wire Wire Line
+	7150 1100 7200 1100
+Wire Wire Line
+	8450 1450 8450 1650
+Wire Wire Line
+	8450 1650 7150 1650
+Wire Wire Line
+	7150 1650 7150 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 1500 7200 1500
+$Comp
+L Device:C C?
+U 1 1 5E3AC9C8
+P 8450 2300
+AR Path="/5E2EDC4D/5E3AC9C8" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E3AC9C8" Ref="C?"  Part="1" 
+F 0 "C?" H 8565 2346 50  0000 L CNN
+F 1 "100n" H 8565 2255 50  0000 L CNN
+F 2 "" H 8488 2150 50  0001 C CNN
+F 3 "~" H 8450 2300 50  0001 C CNN
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+Text Label 6750 2200 0    50   ~ 0
+USB2_DM
+Text Label 6750 2300 0    50   ~ 0
+USB2_DP
+Text Label 6750 2100 0    50   ~ 0
+USB2_5V
+Text Label 6750 2500 0    50   ~ 0
+GND
+Wire Wire Line
+	6750 2300 7200 2300
+Wire Wire Line
+	6750 2200 7200 2200
+Wire Wire Line
+	6750 2100 7150 2100
+Wire Wire Line
+	7150 2100 7150 1950
+Wire Wire Line
+	7150 1950 8450 1950
+Wire Wire Line
+	8450 1950 8450 2150
+Connection ~ 7150 2100
+Wire Wire Line
+	7150 2100 7200 2100
+Wire Wire Line
+	8450 2450 8450 2650
+Wire Wire Line
+	8450 2650 7150 2650
+Wire Wire Line
+	7150 2650 7150 2500
+Text Label 5850 1300 2    50   ~ 0
+USB1_DM
+Text Label 5850 1200 2    50   ~ 0
+USB1_DP
+Wire Wire Line
+	5150 1200 5850 1200
+Wire Wire Line
+	5150 1300 5850 1300
+Text Label 5850 1550 2    50   ~ 0
+USB2_DM
+Text Label 5850 1450 2    50   ~ 0
+USB2_DP
+Wire Wire Line
+	5150 1450 5850 1450
+Wire Wire Line
+	5150 1550 5850 1550
+Wire Wire Line
+	1900 1200 1900 3200
+Text Label 1900 3900 1    50   ~ 0
+GND
+Wire Wire Line
+	1900 3500 1900 3900
+Text Label 2300 3900 1    50   ~ 0
+GND
+Wire Wire Line
+	2300 3900 2300 3500
+Wire Wire Line
+	3550 1650 3300 1650
+Wire Wire Line
+	3300 1650 3300 1550
+Wire Wire Line
+	3300 1450 3550 1450
+Wire Wire Line
+	3550 1550 3300 1550
+Connection ~ 3300 1550
+Wire Wire Line
+	3300 1550 3300 1450
+Wire Wire Line
+	3300 1550 2300 1550
+Text Label 2300 1550 0    50   ~ 0
+VDD12_BYP
+Text Label 5850 1700 2    50   ~ 0
+PRTPWR
+Text Label 5850 1850 2    50   ~ 0
+~OSC
+$Comp
+L Device:C C?
+U 1 1 5E4C4178
+P 8900 2300
+AR Path="/5E2EDC4D/5E4C4178" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E4C4178" Ref="C?"  Part="1" 
+F 0 "C?" H 9015 2346 50  0000 L CNN
+F 1 "1u" H 9015 2255 50  0000 L CNN
+F 2 "" H 8938 2150 50  0001 C CNN
+F 3 "~" H 8900 2300 50  0001 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E4C557D
+P 8900 1300
+AR Path="/5E2EDC4D/5E4C557D" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E4C557D" Ref="C?"  Part="1" 
+F 0 "C?" H 9015 1346 50  0000 L CNN
+F 1 "1u" H 9015 1255 50  0000 L CNN
+F 2 "" H 8938 1150 50  0001 C CNN
+F 3 "~" H 8900 1300 50  0001 C CNN
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1150 8900 950 
+Wire Wire Line
+	8900 950  8450 950 
+Connection ~ 8450 950 
+Wire Wire Line
+	8900 1450 8900 1650
+Wire Wire Line
+	8900 1650 8450 1650
+Connection ~ 8450 1650
+Wire Wire Line
+	8900 2150 8900 1950
+Wire Wire Line
+	8900 1950 8450 1950
+Connection ~ 8450 1950
+$Comp
+L Drone:TPS2054D U?
+U 1 1 5E4E09E8
+P 7600 3100
+AR Path="/5E2EDC4D/5E4E09E8" Ref="U?"  Part="1" 
+AR Path="/5E349830/5E4E09E8" Ref="U?"  Part="1" 
+F 0 "U?" H 7300 3250 50  0000 L BNN
+F 1 "TPS2054D" H 7300 3150 50  0000 L BNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7300 3350 50  0001 L BNN
+F 3 "" H 7550 3100 50  0001 C CNN
+	1    7600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2450 8900 2650
+Wire Wire Line
+	8900 2650 8450 2650
+Connection ~ 8450 2650
+Wire Wire Line
+	8100 3200 8650 3200
+Wire Wire Line
+	8100 3700 8650 3700
+Wire Wire Line
+	8650 3300 8650 3200
+Connection ~ 8650 3200
+Wire Wire Line
+	8650 3200 9100 3200
+Wire Wire Line
+	8650 3600 8650 3700
+Connection ~ 8650 3700
+Wire Wire Line
+	8650 3700 9100 3700
+Text Label 6750 3200 0    50   ~ 0
+PRTPWR
+Text Label 6750 3300 0    50   ~ 0
+PRTPWR
+Wire Wire Line
+	6750 3200 7100 3200
+Wire Wire Line
+	6750 3300 7100 3300
+Text Label 6750 3500 0    50   ~ 0
+~OSC
+Text Label 6750 3600 0    50   ~ 0
+~OSC
+Wire Wire Line
+	6750 3500 7100 3500
+Wire Wire Line
+	6750 3600 7100 3600
+Wire Wire Line
+	6150 950  6150 1250
+Wire Wire Line
+	5150 1850 6150 1850
+$Comp
+L Device:R R?
+U 1 1 5E301315
+P 6150 1400
+AR Path="/5E2EDC4D/5E301315" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E301315" Ref="R?"  Part="1" 
+F 0 "R?" H 6220 1446 50  0000 L CNN
+F 1 "10k" H 6220 1355 50  0000 L CNN
+F 2 "" V 6080 1400 50  0001 C CNN
+F 3 "~" H 6150 1400 50  0001 C CNN
+	1    6150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1850 6150 1550
+$Comp
+L Drone:SM05B-SRSS-TB J?
+U 1 1 5E385FFC
+P 7400 1050
+AR Path="/5E2EDC4D/5E385FFC" Ref="J?"  Part="1" 
+AR Path="/5E349830/5E385FFC" Ref="J?"  Part="1" 
+F 0 "J?" H 7200 700 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 7200 600 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 7250 1300 50  0001 L CNN
+F 3 "" H 7400 1050 50  0001 C CNN
+	1    7400 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drone:SM05B-SRSS-TB J?
+U 1 1 5E3AC9C2
+P 7400 2050
+AR Path="/5E2EDC4D/5E3AC9C2" Ref="J?"  Part="1" 
+AR Path="/5E349830/5E3AC9C2" Ref="J?"  Part="1" 
+F 0 "J?" H 7200 1700 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 7200 1600 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 7250 2300 50  0001 L CNN
+F 3 "" H 7400 2050 50  0001 C CNN
+	1    7400 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5A610D
+P 9100 3450
+AR Path="/5E2EDC4D/5E5A610D" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E5A610D" Ref="C?"  Part="1" 
+F 0 "C?" H 9215 3496 50  0000 L CNN
+F 1 "10u" H 9215 3405 50  0000 L CNN
+F 2 "" H 9138 3300 50  0001 C CNN
+F 3 "~" H 9100 3450 50  0001 C CNN
+	1    9100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3300 9100 3200
+Connection ~ 9100 3200
+Wire Wire Line
+	9100 3200 9500 3200
+Wire Wire Line
+	9100 3600 9100 3700
+Connection ~ 9100 3700
+Wire Wire Line
+	9100 3700 9500 3700
+Wire Wire Line
+	6750 2500 7150 2500
+Connection ~ 7150 2500
+Wire Wire Line
+	7150 2500 7200 2500
+Text Notes 3800 3500 0    50   ~ 0
+These passive components should be\nplaced as close to the USB3503 as\npossible\n
+$Comp
+L Device:C C?
+U 1 1 5E427B4C
+P 1900 3350
+AR Path="/5E2EDC4D/5E427B4C" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E427B4C" Ref="C?"  Part="1" 
+F 0 "C?" H 2015 3396 50  0000 L CNN
+F 1 "4u7" H 2015 3305 50  0000 L CNN
+F 2 "" H 1938 3200 50  0001 C CNN
+F 3 "~" H 1900 3350 50  0001 C CNN
+	1    1900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E42226D
+P 2300 3350
+AR Path="/5E2EDC4D/5E42226D" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E42226D" Ref="C?"  Part="1" 
+F 0 "C?" H 2415 3396 50  0000 L CNN
+F 1 "1u" H 2415 3305 50  0000 L CNN
+F 2 "" H 2338 3200 50  0001 C CNN
+F 3 "~" H 2300 3350 50  0001 C CNN
+	1    2300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3900 3150 2550
+Wire Wire Line
+	3250 3900 3250 2650
+$Comp
+L Device:R R?
+U 1 1 5E32A1DA
+P 3350 3350
+AR Path="/5E2EDC4D/5E32A1DA" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E32A1DA" Ref="R?"  Part="1" 
+F 0 "R?" H 3420 3396 50  0000 L CNN
+F 1 "12k,1%" H 3420 3305 50  0000 L CNN
+F 2 "" V 3280 3350 50  0001 C CNN
+F 3 "~" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	1    0    0    -1  
+$EndComp
+Text Label 2450 2300 0    50   ~ 0
+~HUB_INT_33
+Text Label 2450 2400 0    50   ~ 0
+~HUB_RESET_33
+$Comp
+L Drone:BSS138DW Q?
+U 2 1 5E42E78B
+P 6750 4800
+AR Path="/5E2EDC4D/5E42E78B" Ref="Q?"  Part="2" 
+AR Path="/5E349830/5E42E78B" Ref="Q?"  Part="2" 
+F 0 "Q?" V 7000 4700 50  0000 L CNN
+F 1 "BSS138DW" V 6900 4700 50  0000 L CNN
+F 2 "" H 6850 4725 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 6650 4800 50  0001 L CNN
+	2    6750 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E442615
+P 7000 4550
+AR Path="/5E2EDC4D/5E442615" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E442615" Ref="R?"  Part="1" 
+F 0 "R?" H 7070 4596 50  0000 L CNN
+F 1 "10k" H 7070 4505 50  0000 L CNN
+F 2 "" V 6930 4550 50  0001 C CNN
+F 3 "~" H 7000 4550 50  0001 C CNN
+	1    7000 4550
+	1    0    0    -1  
+$EndComp
+Text Label 7000 4150 3    50   ~ 0
+3V3
+Wire Wire Line
+	7000 4150 7000 4400
+Wire Wire Line
+	7000 4700 7000 4800
+Wire Wire Line
+	7000 4800 6950 4800
+Text Label 6750 4150 3    50   ~ 0
+1V8
+Wire Wire Line
+	6750 4150 6750 4350
+$Comp
+L Device:R R?
+U 1 1 5E453861
+P 6500 4550
+AR Path="/5E2EDC4D/5E453861" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E453861" Ref="R?"  Part="1" 
+F 0 "R?" H 6570 4596 50  0000 L CNN
+F 1 "10k" H 6570 4505 50  0000 L CNN
+F 2 "" V 6430 4550 50  0001 C CNN
+F 3 "~" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4400 6500 4350
+Wire Wire Line
+	6500 4350 6750 4350
+Connection ~ 6750 4350
+Wire Wire Line
+	6750 4350 6750 4500
+Wire Wire Line
+	6550 4800 6500 4800
+Wire Wire Line
+	6500 4800 6500 4700
+Wire Wire Line
+	6500 4800 6400 4800
+Connection ~ 6500 4800
+Wire Wire Line
+	2300 1550 2300 3200
+Wire Wire Line
+	2450 3050 3550 3050
+Text Label 2450 3050 0    50   ~ 0
+HUB_CONNECT_33
+Text HLabel 1400 1600 0    50   Input ~ 0
+1V8
+Text Label 1700 1600 2    50   ~ 0
+1V8
+Wire Wire Line
+	1400 1600 1700 1600
+Text HLabel 6400 4800 0    50   Input ~ 0
+HUB_CONNECT_18
+$Comp
+L Drone:BSS138DW Q?
+U 1 1 5E42DDB4
+P 4400 4800
+AR Path="/5E2EDC4D/5E42DDB4" Ref="Q?"  Part="1" 
+AR Path="/5E349830/5E42DDB4" Ref="Q?"  Part="1" 
+F 0 "Q?" V 4650 4700 50  0000 L CNN
+F 1 "BSS138DW" V 4550 4700 50  0000 L CNN
+F 2 "" H 4500 4725 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4300 4800 50  0001 L CNN
+	1    4400 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E55481E
+P 4650 4550
+AR Path="/5E2EDC4D/5E55481E" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E55481E" Ref="R?"  Part="1" 
+F 0 "R?" H 4720 4596 50  0000 L CNN
+F 1 "10k" H 4720 4505 50  0000 L CNN
+F 2 "" V 4580 4550 50  0001 C CNN
+F 3 "~" H 4650 4550 50  0001 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Text Label 4650 4150 3    50   ~ 0
+3V3
+Wire Wire Line
+	4650 4150 4650 4400
+Wire Wire Line
+	4650 4700 4650 4800
+Wire Wire Line
+	4650 4800 4600 4800
+Text Label 4400 4150 3    50   ~ 0
+1V8
+Wire Wire Line
+	4400 4150 4400 4350
+$Comp
+L Device:R R?
+U 1 1 5E55482A
+P 4150 4550
+AR Path="/5E2EDC4D/5E55482A" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E55482A" Ref="R?"  Part="1" 
+F 0 "R?" H 4220 4596 50  0000 L CNN
+F 1 "10k" H 4220 4505 50  0000 L CNN
+F 2 "" V 4080 4550 50  0001 C CNN
+F 3 "~" H 4150 4550 50  0001 C CNN
+	1    4150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4400 4150 4350
+Wire Wire Line
+	4150 4350 4400 4350
+Connection ~ 4400 4350
+Wire Wire Line
+	4400 4350 4400 4500
+Wire Wire Line
+	4200 4800 4150 4800
+Wire Wire Line
+	4150 4800 4150 4700
+Wire Wire Line
+	4150 4800 4050 4800
+Connection ~ 4150 4800
+Text Label 5400 4800 2    50   ~ 0
+~HUB_INT_33
+Wire Wire Line
+	4650 4800 5400 4800
+Connection ~ 4650 4800
+Text HLabel 4050 4800 0    50   Input ~ 0
+~HUB_INT_18
+Connection ~ 7000 4800
+Wire Wire Line
+	7000 4800 7750 4800
+Text Label 7750 4800 2    50   ~ 0
+HUB_CONNECT_33
+$Comp
+L Drone:BSS138DW Q?
+U 1 1 5E5F6987
+P 9050 4800
+AR Path="/5E2EDC4D/5E5F6987" Ref="Q?"  Part="1" 
+AR Path="/5E349830/5E5F6987" Ref="Q?"  Part="1" 
+F 0 "Q?" V 9300 4700 50  0000 L CNN
+F 1 "BSS138DW" V 9200 4700 50  0000 L CNN
+F 2 "" H 9150 4725 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 8950 4800 50  0001 L CNN
+	1    9050 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5F698D
+P 9300 4550
+AR Path="/5E2EDC4D/5E5F698D" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E5F698D" Ref="R?"  Part="1" 
+F 0 "R?" H 9370 4596 50  0000 L CNN
+F 1 "10k" H 9370 4505 50  0000 L CNN
+F 2 "" V 9230 4550 50  0001 C CNN
+F 3 "~" H 9300 4550 50  0001 C CNN
+	1    9300 4550
+	1    0    0    -1  
+$EndComp
+Text Label 9300 4150 3    50   ~ 0
+3V3
+Wire Wire Line
+	9300 4150 9300 4400
+Wire Wire Line
+	9300 4700 9300 4800
+Wire Wire Line
+	9300 4800 9250 4800
+Text Label 9050 4150 3    50   ~ 0
+1V8
+Wire Wire Line
+	9050 4150 9050 4350
+$Comp
+L Device:R R?
+U 1 1 5E5F6999
+P 8800 4550
+AR Path="/5E2EDC4D/5E5F6999" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E5F6999" Ref="R?"  Part="1" 
+F 0 "R?" H 8870 4596 50  0000 L CNN
+F 1 "10k" H 8870 4505 50  0000 L CNN
+F 2 "" V 8730 4550 50  0001 C CNN
+F 3 "~" H 8800 4550 50  0001 C CNN
+	1    8800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4400 8800 4350
+Wire Wire Line
+	8800 4350 9050 4350
+Connection ~ 9050 4350
+Wire Wire Line
+	9050 4350 9050 4500
+Wire Wire Line
+	8850 4800 8800 4800
+Wire Wire Line
+	8800 4800 8800 4700
+Wire Wire Line
+	8800 4800 8700 4800
+Connection ~ 8800 4800
+Text Label 10050 4800 2    50   ~ 0
+~HUB_RESET_33
+Wire Wire Line
+	9300 4800 10050 4800
+Connection ~ 9300 4800
+Text HLabel 8700 4800 0    50   Input ~ 0
+~HUB_RESET_18
+Text Notes 8400 5950 0    50   ~ 0
+Voltage levels:\nHSIC STROBE/DATA: 1.2V\nRESET: 3.3V\nOSC: 3.3V\nREFCLK: 3.3V\nHUB_CONNECT: 3.3V\nIO PINS (SDA, SCL): 1.8V\nSDA,SCL: variable (1.8V min, can be pulled up to 3.3V)
+Text Notes 3550 5200 0    50   ~ 0
+TODO: check the maths of these MOSFETS, and consider the initial state of the hub
+Text HLabel 1400 2100 0    50   BiDi ~ 0
+HUB_I2C_SCL_33
+Text HLabel 1400 2200 0    50   BiDi ~ 0
+HUB_I2C_SDA_33
+$EndSCHEMATC
