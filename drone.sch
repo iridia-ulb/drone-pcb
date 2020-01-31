@@ -279,5 +279,5 @@ F 3 "https://www.snapeda.com/parts/XT60PW-M%20/AMASS/datasheet/" H 950 1250 50  
 	-1   0    0    1   
 $EndComp
 Text Notes 1950 900  0    50   ~ 0
-TODO: \n1. batt connector to switch\n2. check what top level components are necessary (voltage regulators & stepdown?)\n3. relay (or similar) to motor board
+TODO: \n1. batt connector to switch (maybe not)\n2. check what top level components are necessary (voltage regulators & stepdown?)\n3.  CMX60D20 connection to motor board (double check symbol)
 $EndSCHEMATC
