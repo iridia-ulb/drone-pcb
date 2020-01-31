@@ -9,8 +9,7 @@ F https://www.diodes.com/assets/Datasheets/ds30203.pdf
 $ENDCMP
 #
 $CMP CMX60D20
-D CRYDOM - CMX60D20. - SSR, PCB MOUNT, 60VDC, 10VDC, 20A
-F http://www.crydom.com/cn/products/catalog/cmx-series-dc-pcb-mount.pdf
+F https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf
 $ENDCMP
 #
 $CMP D36V28F3
