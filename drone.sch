@@ -157,17 +157,6 @@ Wire Wire Line
 	4050 5250 4850 5250
 Wire Wire Line
 	4850 5650 4050 5650
-$Sheet
-S 7250 3950 650  950 
-U 5E30BD8E
-F0 "LEDs" 50
-F1 "leds.sch" 50
-F2 "5V" I L 7250 4050 50 
-F3 "GND" I L 7250 4800 50 
-F4 "3V3" I L 7250 4150 50 
-F5 "I2C_SDA_33" I L 7250 4350 50 
-F6 "I2C_SCL_33" I L 7250 4500 50 
-$EndSheet
 Text Label 750  6250 0    50   ~ 0
 I2C0_SDA_18
 Text Label 750  6350 0    50   ~ 0
@@ -176,26 +165,26 @@ Wire Wire Line
 	750  6250 1550 6250
 Wire Wire Line
 	750  6350 1550 6350
-Text Label 6550 4350 0    50   ~ 0
+Text Label 7800 5900 0    50   ~ 0
 I2CX_SDA_33
-Text Label 6550 4500 0    50   ~ 0
+Text Label 7800 6000 0    50   ~ 0
 I2CX_SCL_33
-Text Label 6550 4150 0    50   ~ 0
+Text Label 7800 5750 0    50   ~ 0
 3V3
 Wire Wire Line
-	6550 4150 7250 4150
+	7800 5750 8400 5750
 Wire Wire Line
-	6550 4350 7250 4350
+	7800 5900 8400 5900
 Wire Wire Line
-	6550 4500 7250 4500
-Text Label 6550 4800 0    50   ~ 0
+	7800 6000 8400 6000
+Text Label 7800 6150 0    50   ~ 0
 GND
 Wire Wire Line
-	6550 4800 7250 4800
-Text Label 6550 4050 0    50   ~ 0
+	7800 6150 8400 6150
+Text Label 7800 5650 0    50   ~ 0
 5V
 Wire Wire Line
-	6550 4050 7250 4050
+	7800 5650 8400 5650
 $Comp
 L Drone:BSS138DW Q?
 U 2 1 5E376DCF
@@ -690,9 +679,20 @@ Add PCA9544A and headers for ToF sensors
 Text Notes 8450 2700 0    50   ~ 0
 TODO: Check I2C address space for these two buses
 $Sheet
-S 6850 2550 800  800 
+S 8400 4400 600  850 
 U 5E3E92F4
 F0 "Power" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 8400 5550 600  700 
+U 5E30BD8E
+F0 "LEDs" 50
+F1 "leds.sch" 50
+F2 "5V" I L 8400 5650 50 
+F3 "GND" I L 8400 6150 50 
+F4 "3V3" I L 8400 5750 50 
+F5 "I2C_SDA_33" I L 8400 5900 50 
+F6 "I2C_SCL_33" I L 8400 6000 50 
 $EndSheet
 $EndSCHEMATC
