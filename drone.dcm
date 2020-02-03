@@ -20,8 +20,16 @@ $CMP D36V50F5
 F https://www.pololu.com/product/4091
 $ENDCMP
 #
+$CMP PCA9544ADWR
+F http://www.ti.com/lit/ds/symlink/pca9544a.pdf
+$ENDCMP
+#
 $CMP USB2512B
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
+$ENDCMP
+#
+$CMP VL53L0X
+F https://www.pololu.com/product/2490
 $ENDCMP
 #
 $CMP XT60PW-M

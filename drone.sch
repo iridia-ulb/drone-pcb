@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -670,8 +670,6 @@ Wire Wire Line
 	5050 4750 4250 4750
 Wire Wire Line
 	5050 4650 4250 4650
-Text Notes 4250 4150 0    50   ~ 0
-TODO: Check if ISH GPIOs are normal\nGPIOs (from Linux's perspective)
 Text Notes 4250 3350 0    50   ~ 0
 TODO: Which UART port is the console by default?\n(Add FT232 or similar port for debugging without WLAN)
 Text Notes 9300 6300 0    50   ~ 0
@@ -694,5 +692,11 @@ F3 "GND" I L 8400 6150 50
 F4 "3V3" I L 8400 5750 50 
 F5 "I2C_SDA_33" I L 8400 5900 50 
 F6 "I2C_SCL_33" I L 8400 6000 50 
+$EndSheet
+$Sheet
+S 8300 3050 700  950 
+U 5E38A5E7
+F0 "TimeOfFlightSensors" 50
+F1 "tof-sensors.sch" 50
 $EndSheet
 $EndSCHEMATC
