@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -196,19 +196,6 @@ Text Label 6550 4050 0    50   ~ 0
 5V
 Wire Wire Line
 	6550 4050 7250 4050
-$Comp
-L Drone:XT60PW-M J?
-U 1 1 5E31D851
-P 950 1850
-F 0 "J?" H 843 1483 50  0000 C CNN
-F 1 "XT60PW-M" H 843 1574 50  0000 C CNN
-F 2 "Drone:XT60PW-M" H 900 2150 50  0001 L BNN
-F 3 "https://www.snapeda.com/parts/XT60PW-M%20/AMASS/datasheet/" H 900 1950 50  0001 L BNN
-	1    950  1850
-	-1   0    0    1   
-$EndComp
-Text Notes 1750 1250 0    50   ~ 0
-TODO: \n1. batt connector to switch (maybe not)\n2. check what top level components are necessary (voltage regulators & stepdown?)\n3.  CMX60D20 connection to motor board (double check symbol)\n4. Replace motor driver 2 pin male connector with a proper connector\n5. check XT60PW and CMX60D20 connections (connect to proper GPIO)
 $Comp
 L Drone:BSS138DW Q?
 U 2 1 5E376DCF
@@ -702,54 +689,10 @@ Text Notes 9300 6300 0    50   ~ 0
 Add PCA9544A and headers for ToF sensors
 Text Notes 8450 2700 0    50   ~ 0
 TODO: Check I2C address space for these two buses
-$Comp
-L Drone:CMX60D20 SSR?
-U 1 1 5E37E9CF
-P 5550 1850
-F 0 "SSR?" H 5725 2517 50  0000 C CNN
-F 1 "CMX60D20" H 5725 2426 50  0000 C CNN
-F 2 "Drone:CMX60D20" H 5450 1850 50  0001 L BNN
-F 3 "https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf" H 5550 1850 50  0001 C CNN
-	1    5550 1850
-	1    0    0    -1  
-$EndComp
-Text Label 4550 2200 0    50   ~ 0
-GND
-Wire Wire Line
-	4550 2200 5100 2200
-Text Label 4550 2000 0    50   ~ 0
-GPIO_3V3
-Wire Wire Line
-	4550 2000 5100 2000
-Text Label 4550 1550 0    50   ~ 0
-11V1
-Wire Wire Line
-	4550 1550 5100 1550
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5E3AD01E
-P 6750 950
-F 0 "J?" V 6812 994 50  0000 L CNN
-F 1 "MOTOR_DRIVER" V 6903 994 50  0000 L CNN
-F 2 "" H 6750 950 50  0001 C CNN
-F 3 "~" H 6750 950 50  0001 C CNN
-	1    6750 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6650 1150 6650 1550
-Wire Wire Line
-	6350 1550 6650 1550
-Text Label 6750 1400 3    50   ~ 0
-GND
-Wire Wire Line
-	6750 1150 6750 1400
-Text Label 1650 1950 2    50   ~ 0
-11V1
-Wire Wire Line
-	1650 1950 1350 1950
-Text Label 1650 1750 2    50   ~ 0
-GND
-Wire Wire Line
-	1650 1750 1350 1750
+$Sheet
+S 6850 2550 800  800 
+U 5E3E92F4
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
 $EndSCHEMATC
