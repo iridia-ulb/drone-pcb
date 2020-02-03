@@ -1,4 +1,4 @@
-16919023144792221
+16920603908952221
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46059,6 +46059,13 @@ SM05B-SRSS-TB
 0
 7
 6
+Drone
+SSOP-20_3.9x8.7mm_P0.635mm
+SSOP20: plastic shrink small outline package; 24 leads; body width 3.9 mm; lead pitch 0.635; (see http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf)
+SSOP 0.635
+0
+20
+20
 Drone
 XT60PW-M
 

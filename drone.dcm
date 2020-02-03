@@ -20,6 +20,12 @@ $CMP D36V50F5
 F https://www.pololu.com/product/4091
 $ENDCMP
 #
+$CMP FT231XS
+D Full Speed USB to Full Handshake UART, SSOP-20
+K FTDI USB UART interface converter
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+$ENDCMP
+#
 $CMP PCA9544ADWR
 F http://www.ti.com/lit/ds/symlink/pca9544a.pdf
 $ENDCMP

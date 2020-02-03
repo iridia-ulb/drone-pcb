@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -165,26 +165,26 @@ Wire Wire Line
 	750  6250 1550 6250
 Wire Wire Line
 	750  6350 1550 6350
-Text Label 7800 5900 0    50   ~ 0
+Text Label 7550 5900 0    50   ~ 0
 I2CX_SDA_33
-Text Label 7800 6000 0    50   ~ 0
+Text Label 7550 6000 0    50   ~ 0
 I2CX_SCL_33
-Text Label 7800 5750 0    50   ~ 0
+Text Label 7550 5750 0    50   ~ 0
 3V3
 Wire Wire Line
-	7800 5750 8400 5750
+	7550 5750 8150 5750
 Wire Wire Line
-	7800 5900 8400 5900
+	7550 5900 8150 5900
 Wire Wire Line
-	7800 6000 8400 6000
-Text Label 7800 6150 0    50   ~ 0
+	7550 6000 8150 6000
+Text Label 7550 6150 0    50   ~ 0
 GND
 Wire Wire Line
-	7800 6150 8400 6150
-Text Label 7800 5650 0    50   ~ 0
+	7550 6150 8150 6150
+Text Label 7550 5650 0    50   ~ 0
 5V
 Wire Wire Line
-	7800 5650 8400 5650
+	7550 5650 8150 5650
 $Comp
 L Drone:BSS138DW Q?
 U 2 1 5E376DCF
@@ -670,6 +670,8 @@ Wire Wire Line
 	5050 4750 4250 4750
 Wire Wire Line
 	5050 4650 4250 4650
+Text Notes 4250 4150 0    50   ~ 0
+TODO: Check if ISH GPIOs are normal\nGPIOs (from Linux's perspective)
 Text Notes 4250 3350 0    50   ~ 0
 TODO: Which UART port is the console by default?\n(Add FT232 or similar port for debugging without WLAN)
 Text Notes 9300 6300 0    50   ~ 0
@@ -677,26 +679,35 @@ Add PCA9544A and headers for ToF sensors
 Text Notes 8450 2700 0    50   ~ 0
 TODO: Check I2C address space for these two buses
 $Sheet
-S 8400 4400 600  850 
+S 8150 4400 600  850 
 U 5E3E92F4
 F0 "Power" 50
 F1 "power.sch" 50
+F2 "5V" O R 8750 4700 50 
+F3 "3V3" O R 8750 4800 50 
+F4 "GND" O R 8750 5150 50 
 $EndSheet
 $Sheet
-S 8400 5550 600  700 
+S 8150 5550 600  700 
 U 5E30BD8E
 F0 "LEDs" 50
 F1 "leds.sch" 50
-F2 "5V" I L 8400 5650 50 
-F3 "GND" I L 8400 6150 50 
-F4 "3V3" I L 8400 5750 50 
-F5 "I2C_SDA_33" I L 8400 5900 50 
-F6 "I2C_SCL_33" I L 8400 6000 50 
+F2 "5V" I L 8150 5650 50 
+F3 "GND" I L 8150 6150 50 
+F4 "3V3" I L 8150 5750 50 
+F5 "I2C_SDA_33" I L 8150 5900 50 
+F6 "I2C_SCL_33" I L 8150 6000 50 
 $EndSheet
-$Sheet
-S 8300 3050 700  950 
-U 5E38A5E7
-F0 "ToFSensors" 50
-F1 "tof-sensors.sch" 50
-$EndSheet
+Text Label 9000 4700 2    50   ~ 0
+5V
+Text Label 9000 4800 2    50   ~ 0
+3V3
+Text Label 9000 5150 2    50   ~ 0
+GND
+Wire Wire Line
+	9000 4700 8750 4700
+Wire Wire Line
+	9000 4800 8750 4800
+Wire Wire Line
+	9000 5150 8750 5150
 $EndSCHEMATC
