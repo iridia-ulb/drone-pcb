@@ -696,7 +696,7 @@ $EndSheet
 $Sheet
 S 8300 3050 700  950 
 U 5E38A5E7
-F0 "TimeOfFlightSensors" 50
+F0 "ToFSensors" 50
 F1 "tof-sensors.sch" 50
 $EndSheet
 $EndSCHEMATC
