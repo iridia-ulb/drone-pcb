@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -71,6 +71,8 @@ $Comp
 L Drone:D36V50F5 U?
 U 1 1 5E3ABE9B
 P 5150 3700
+AR Path="/5E3ABE9B" Ref="U?"  Part="1" 
+AR Path="/5E3E92F4/5E3ABE9B" Ref="U?"  Part="1" 
 F 0 "U?" H 5150 3650 50  0000 C CNN
 F 1 "D36V50F5" H 5150 3750 50  0000 C CNN
 F 2 "Drone:D36V50F5" H 5100 3650 50  0001 C CNN

@@ -598,12 +598,6 @@ Add PCA9544A and headers for ToF sensors
 Text Notes 8450 2700 0    50   ~ 0
 TODO: Check I2C address space for these two buses
 $Sheet
-S 8400 4400 650  900 
-U 5E3E92F4
-F0 "Power" 50
-F1 "power.sch" 50
-$EndSheet
-$Sheet
 S 8400 5550 650  700 
 U 5E30BD8E
 F0 "LEDs" 50
@@ -879,4 +873,25 @@ Wire Wire Line
 	1550 3850 750  3850
 Wire Wire Line
 	1550 3750 750  3750
+$Sheet
+S 8400 4400 650  900 
+U 5E3E92F4
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "5V" O L 8400 4500 50 
+F3 "3V3" O L 8400 4600 50 
+F4 "GND" O L 8400 5200 50 
+$EndSheet
+Text Label 7800 4600 0    50   ~ 0
+3V3
+Wire Wire Line
+	7800 4600 8400 4600
+Text Label 7800 4500 0    50   ~ 0
+5V
+Wire Wire Line
+	7800 4500 8400 4500
+Text Label 7800 5200 0    50   ~ 0
+GND
+Wire Wire Line
+	7800 5200 8400 5200
 $EndSCHEMATC
