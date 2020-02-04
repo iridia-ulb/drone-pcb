@@ -24,6 +24,10 @@ $CMP PCA9544ADWR
 F http://www.ti.com/lit/ds/symlink/pca9544a.pdf
 $ENDCMP
 #
+$CMP PCA9554DWR
+F http://www.ti.com/lit/ds/symlink/pca9554.pdf
+$ENDCMP
+#
 $CMP USB2512B
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
 $ENDCMP

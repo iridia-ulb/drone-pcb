@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -286,7 +286,7 @@ I2C_SDA_18
 NoConn ~ 5550 1000
 NoConn ~ 5550 1400
 Text Notes 5750 1925 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E3EC0D2
@@ -321,7 +321,7 @@ Wire Wire Line
 NoConn ~ 7050 1000
 NoConn ~ 7050 1400
 Text Notes 7250 1925 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E3EE0B4
@@ -356,7 +356,7 @@ Wire Wire Line
 NoConn ~ 8550 1000
 NoConn ~ 8550 1400
 Text Notes 8750 1925 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E3F05E5
@@ -391,7 +391,7 @@ Wire Wire Line
 NoConn ~ 10050 1000
 NoConn ~ 10050 1400
 Text Notes 10250 1925 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:PCA9544ADWR U?
 U 1 1 5E40ACDC
@@ -500,7 +500,7 @@ I2C_SCL_28
 Text Label 2250 3400 0    50   ~ 0
 I2C_SDA_28
 Text Notes 5750 3825 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E40AD1F
@@ -535,7 +535,7 @@ Wire Wire Line
 NoConn ~ 7050 2900
 NoConn ~ 7050 3300
 Text Notes 7250 3825 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E40AD32
@@ -570,7 +570,7 @@ Wire Wire Line
 NoConn ~ 8550 2900
 NoConn ~ 8550 3300
 Text Notes 8750 3825 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E40AD45
@@ -605,7 +605,7 @@ Wire Wire Line
 NoConn ~ 10050 2900
 NoConn ~ 10050 3300
 Text Notes 10250 3825 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:PCA9544ADWR U?
 U 1 1 5E4113E1
@@ -699,7 +699,7 @@ Wire Wire Line
 NoConn ~ 5550 4800
 NoConn ~ 5550 5200
 Text Notes 5750 5725 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E411424
@@ -734,7 +734,7 @@ Wire Wire Line
 NoConn ~ 7050 4800
 NoConn ~ 7050 5200
 Text Notes 7250 5725 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E411437
@@ -767,7 +767,7 @@ Wire Wire Line
 NoConn ~ 8550 4800
 NoConn ~ 8550 5200
 Text Notes 8750 5725 0    50   ~ 0
-Address: 0x29 (7-bit)
+7-bit Address: 29h
 $Comp
 L Drone:VL53L0X J?
 U 1 1 5E41144A
@@ -802,13 +802,13 @@ Wire Wire Line
 NoConn ~ 10050 4800
 NoConn ~ 10050 5200
 Text Notes 10250 5725 0    50   ~ 0
-Address: 0x29 (7-bit)
-Text Notes 3975 6375 2    50   ~ 0
-Address: 0x72 (7-bit)
+7-bit Address: 29h
+Text Notes 3875 6375 2    50   ~ 0
+7-bit Address: 72h
 Text Notes 3125 4475 0    50   ~ 0
-Address: 0x71 (7-bit)
+7-bit Address: 71h
 Text Notes 3125 2575 0    50   ~ 0
-Address: 0x70 (7-bit)
+7-bit Address: 70h
 Wire Wire Line
 	2250 3400 2950 3400
 Wire Wire Line
