@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -13,60 +13,47 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7750 1200 0    50   ~ 0
-TODO: \n1. batt connector to switch (maybe not)\n2. check what top level components are necessary (voltage regulators & stepdown?)\n3.  CMX60D20 connection to motor board (double check symbol)\n4. Replace motor driver 2 pin male connector with a proper connector\n5. check XT60PW and CMX60D20 connections (connect to proper GPIO)
+Text Notes 5950 1700 0    50   ~ 0
+TODO: \n2. check what top level components are necessary (voltage regulators & stepdown?)\n4. Replace motor driver 2 pin male connector with a proper connector\n5. Check connectors orientation\n
 $Comp
 L Drone:CMX60D20 SSR?
 U 1 1 5E3F8AD0
-P 5900 1500
+P 3300 1350
 AR Path="/5E3F8AD0" Ref="SSR?"  Part="1" 
 AR Path="/5E3E92F4/5E3F8AD0" Ref="U?"  Part="1" 
-F 0 "U?" H 5700 1650 50  0000 C CNN
-F 1 "CMX60D20" H 5850 1550 50  0000 C CNN
-F 2 "Drone:CMX60D20" H 5800 1500 50  0001 L BNN
-F 3 "https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf" H 5900 1500 50  0001 C CNN
-	1    5900 1500
+F 0 "U?" H 3100 1500 50  0000 C CNN
+F 1 "CMX60D20" H 3250 1400 50  0000 C CNN
+F 2 "Drone:CMX60D20" H 3200 1350 50  0001 L BNN
+F 3 "https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf" H 3300 1350 50  0001 C CNN
+	1    3300 1350
 	1    0    0    -1  
 $EndComp
-Text Label 4950 1650 0    50   ~ 0
+Text Label 2350 1500 0    50   ~ 0
 GND
 Wire Wire Line
-	4950 1650 5450 1650
-Text Label 4950 1550 0    50   ~ 0
+	2350 1500 2850 1500
+Text Label 2350 1400 0    50   ~ 0
 GPIO_3V3
-Text Label 4950 1200 0    50   ~ 0
+Text Label 2350 1050 0    50   ~ 0
 11V1
-Text Label 6500 1150 3    50   ~ 0
+Text Label 3900 1000 3    50   ~ 0
 GND
-$Comp
-L Drone:XT60PW-M J?
-U 1 1 5E3FF515
-P 1600 4000
-AR Path="/5E3FF515" Ref="J?"  Part="1" 
-AR Path="/5E3E92F4/5E3FF515" Ref="J?"  Part="1" 
-F 0 "J?" H 1493 3633 50  0000 C CNN
-F 1 "XT60PW-M" H 1493 3724 50  0000 C CNN
-F 2 "Drone:XT60PW-M" H 1550 4300 50  0001 L BNN
-F 3 "https://www.snapeda.com/parts/XT60PW-M%20/AMASS/datasheet/" H 1550 4100 50  0001 L BNN
-	1    1600 4000
-	-1   0    0    1   
-$EndComp
-Text Label 2300 3900 2    50   ~ 0
+Text Label 1900 1300 2    50   ~ 0
 11V1
 Wire Wire Line
-	2300 4100 2000 4100
-Text Label 2300 4100 2    50   ~ 0
+	1900 1500 1600 1500
+Text Label 1900 1500 2    50   ~ 0
 GND
 Wire Wire Line
-	2300 3900 2000 3900
+	1900 1300 1600 1300
 Wire Wire Line
-	5450 1550 4950 1550
+	2850 1400 2350 1400
 Wire Wire Line
-	6350 1200 6350 1550
+	3750 1050 3750 1400
 Wire Wire Line
-	4950 1200 6350 1200
+	2350 1050 3750 1050
 Wire Wire Line
-	6350 1650 6500 1650
+	3750 1500 3900 1500
 $Comp
 L Drone:D36V50F5 U?
 U 1 1 5E3ABE9B
@@ -177,21 +164,30 @@ Text Label 10650 6100 0    50   ~ 0
 3V3
 Text Label 10650 6000 0    50   ~ 0
 5V
+Wire Wire Line
+	3900 1000 3900 1300
+Text Notes 3950 1150 0    50   ~ 0
+Motor_Driver_Connector
 $Comp
-L Drone:XT60PW-M J?
-U 1 1 5E4231A4
-P 6900 1550
-AR Path="/5E4231A4" Ref="J?"  Part="1" 
-AR Path="/5E3E92F4/5E4231A4" Ref="J?"  Part="1" 
-F 0 "J?" H 6793 1183 50  0000 C CNN
-F 1 "XT60PW-M" H 6793 1274 50  0000 C CNN
-F 2 "Drone:XT60PW-M" H 6850 1850 50  0001 L BNN
-F 3 "https://www.snapeda.com/parts/XT60PW-M%20/AMASS/datasheet/" H 6850 1650 50  0001 L BNN
-	1    6900 1550
+L Drone:XT90PW-M J?
+U 1 1 5E3D24EA
+P 1200 1400
+F 0 "J?" H 1093 1033 50  0000 C CNN
+F 1 "XT90PW-M" H 1093 1124 50  0000 C CNN
+F 2 "Drone:XT90PW-M" H 1100 1650 50  0001 L BNN
+F 3 "" H 1150 1500 50  0001 L BNN
+	1    1200 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:XT60PW-F_Vertical J?
+U 1 1 5E3DE251
+P 4300 1400
+F 0 "J?" H 4530 1446 50  0000 L CNN
+F 1 "XT60PW-F_Vertical" H 4530 1355 50  0000 L CNN
+F 2 "Drone:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 4200 1650 50  0001 L BNN
+F 3 "" H 4250 1500 50  0001 L BNN
+	1    4300 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 1150 6500 1450
-Text Notes 6650 1300 0    50   ~ 0
-Motor_Driver_Connector
 $EndSCHEMATC
