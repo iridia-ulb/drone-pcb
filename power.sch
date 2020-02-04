@@ -57,112 +57,112 @@ Wire Wire Line
 $Comp
 L Drone:D36V50F5 U?
 U 1 1 5E3ABE9B
-P 5150 3700
+P 1750 2500
 AR Path="/5E3ABE9B" Ref="U?"  Part="1" 
 AR Path="/5E3E92F4/5E3ABE9B" Ref="U?"  Part="1" 
-F 0 "U?" H 5150 3650 50  0000 C CNN
-F 1 "D36V50F5" H 5150 3750 50  0000 C CNN
-F 2 "Drone:D36V50F5" H 5100 3650 50  0001 C CNN
-F 3 "https://www.pololu.com/product/4091" H 5100 3650 50  0001 C CNN
-	1    5150 3700
+F 0 "U?" H 1750 2450 50  0000 C CNN
+F 1 "D36V50F5" H 1750 2550 50  0000 C CNN
+F 2 "Drone:D36V50F5" H 1700 2450 50  0001 C CNN
+F 3 "https://www.pololu.com/product/4091" H 1700 2450 50  0001 C CNN
+	1    1750 2500
 	1    0    0    -1  
 $EndComp
-Text Label 4300 3600 0    50   ~ 0
+Text Label 900  2400 0    50   ~ 0
 11V1
-Text Label 6650 3550 0    50   ~ 0
+Text Label 3250 2350 0    50   ~ 0
 11V1
 Wire Wire Line
-	6650 3550 7050 3550
-Text Label 6800 4000 1    50   ~ 0
+	3250 2350 3650 2350
+Text Label 3400 2800 1    50   ~ 0
 GND
 Wire Wire Line
-	6800 3750 7050 3750
+	3400 2550 3650 2550
 Wire Wire Line
-	6800 3750 6800 4000
-Text Label 6000 3600 2    50   ~ 0
+	3400 2550 3400 2800
+Text Label 2600 2400 2    50   ~ 0
 5V
 Wire Wire Line
-	5700 3600 5750 3600
-Text Label 5100 4800 1    50   ~ 0
+	2300 2400 2350 2400
+Text Label 1700 3600 1    50   ~ 0
 GND
 Wire Wire Line
-	5400 4150 5400 4300
+	2000 2950 2000 3100
 Wire Wire Line
-	5400 4300 5250 4300
+	2000 3100 1850 3100
 Wire Wire Line
-	5100 4300 5100 4400
+	1700 3100 1700 3200
 Wire Wire Line
-	5100 4150 5100 4300
-Connection ~ 5100 4300
+	1700 2950 1700 3100
+Connection ~ 1700 3100
 Wire Wire Line
-	5250 4150 5250 4300
-Connection ~ 5250 4300
+	1850 2950 1850 3100
+Connection ~ 1850 3100
 Wire Wire Line
-	5250 4300 5100 4300
+	1850 3100 1700 3100
 Wire Wire Line
-	4950 4150 4950 4400
+	1550 2950 1550 3200
 Wire Wire Line
-	4950 4400 5100 4400
-Connection ~ 5100 4400
+	1550 3200 1700 3200
+Connection ~ 1700 3200
 Wire Wire Line
-	5100 4400 5100 4800
+	1700 3200 1700 3600
 Wire Wire Line
-	4300 3600 4550 3600
+	900  2400 1150 2400
 Wire Wire Line
-	4550 3600 4550 3800
+	1150 2400 1150 2600
 Wire Wire Line
-	4550 3800 4600 3800
-Connection ~ 4550 3600
+	1150 2600 1200 2600
+Connection ~ 1150 2400
 Wire Wire Line
-	4550 3600 4600 3600
+	1150 2400 1200 2400
 Wire Wire Line
-	5700 3800 5750 3800
+	2300 2600 2350 2600
 Wire Wire Line
-	5750 3800 5750 3600
-Connection ~ 5750 3600
+	2350 2600 2350 2400
+Connection ~ 2350 2400
 Wire Wire Line
-	5750 3600 6000 3600
-Text Notes 4750 5200 0    50   ~ 0
+	2350 2400 2600 2400
+Text Notes 1350 4000 0    50   ~ 0
 1. PG low battery indicator? (open drain and external pull up resistor is required)\n2. Enabled by default so EN shouldnt be wired?\n3. any capacitors missing?
 Wire Wire Line
-	8150 3550 8400 3550
-Text Label 8400 3550 2    50   ~ 0
+	4750 2350 5000 2350
+Text Label 5000 2350 2    50   ~ 0
 3V3
 $Comp
 L Drone:D36V28F3 U?
 U 1 1 5E3B18FA
-P 7600 3650
-F 0 "U?" H 7600 3750 50  0000 C CNN
-F 1 "D36V28F3" H 7600 3600 50  0000 C CNN
-F 2 "" H 7550 3600 50  0001 C CNN
-F 3 "https://www.pololu.com/product/3781" H 7550 3600 50  0001 C CNN
-	1    7600 3650
+P 4200 2450
+F 0 "U?" H 4200 2550 50  0000 C CNN
+F 1 "D36V28F3" H 4200 2400 50  0000 C CNN
+F 2 "" H 4150 2400 50  0001 C CNN
+F 3 "https://www.pololu.com/product/3781" H 4150 2400 50  0001 C CNN
+	1    4200 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 3750 8150 4100
+	4750 2550 4750 2900
 Wire Wire Line
-	8150 4100 7050 4100
+	4750 2900 3650 2900
 Wire Wire Line
-	7050 4100 7050 3750
-Connection ~ 7050 3750
-Text HLabel 10900 6000 2    50   Output ~ 0
+	3650 2900 3650 2550
+Connection ~ 3650 2550
+Text HLabel 10900 5750 2    50   Output ~ 0
 5V
-Text HLabel 10900 6100 2    50   Output ~ 0
+Text HLabel 10900 5850 2    50   Output ~ 0
 3V3
-Text HLabel 10900 6200 2    50   Output ~ 0
+Text HLabel 10900 6150 2    50   Output ~ 0
 GND
 Wire Wire Line
-	10900 6000 10650 6000
+	10900 5750 10650 5750
 Wire Wire Line
-	10900 6100 10650 6100
+	10900 5850 10650 5850
 Wire Wire Line
-	10900 6200 10650 6200
-Text Label 10650 6200 0    50   ~ 0
+	10900 6150 10650 6150
+Text Label 10650 6150 0    50   ~ 0
 GND
-Text Label 10650 6100 0    50   ~ 0
+Text Label 10650 5850 0    50   ~ 0
 3V3
-Text Label 10650 6000 0    50   ~ 0
+Text Label 10650 5750 0    50   ~ 0
 5V
 Wire Wire Line
 	3900 1000 3900 1300
@@ -190,4 +190,160 @@ F 3 "" H 4250 1500 50  0001 L BNN
 	1    4300 1400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Regulator_Linear:TLV75528PDBV U?
+U 1 1 5E3F118A
+P 1750 4800
+F 0 "U?" H 1750 5142 50  0000 C CNN
+F 1 "TLV75528PDBV" H 1750 5051 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1750 5125 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 1750 4850 50  0001 C CNN
+	1    1750 4800
+	1    0    0    -1  
+$EndComp
+Text Label 1050 4700 0    50   ~ 0
+3V3
+Text Label 2450 4700 2    50   ~ 0
+2V8
+Wire Wire Line
+	2050 4700 2450 4700
+$Comp
+L Device:C C?
+U 1 1 5E40BD7D
+P 1050 5000
+AR Path="/5E349830/5E40BD7D" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/5E40BD7D" Ref="C?"  Part="1" 
+F 0 "C?" H 1165 5046 50  0000 L CNN
+F 1 "10u" H 1165 4955 50  0000 L CNN
+F 2 "" H 1088 4850 50  0001 C CNN
+F 3 "~" H 1050 5000 50  0001 C CNN
+	1    1050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4700 1300 4700
+Text Label 1050 5450 1    50   ~ 0
+GND
+Wire Wire Line
+	1050 5150 1050 5200
+Wire Wire Line
+	1050 4700 1050 4850
+$Comp
+L Device:C C?
+U 1 1 5E41DB5A
+P 2450 5000
+AR Path="/5E349830/5E41DB5A" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/5E41DB5A" Ref="C?"  Part="1" 
+F 0 "C?" H 2565 5046 50  0000 L CNN
+F 1 "10u" H 2565 4955 50  0000 L CNN
+F 2 "" H 2488 4850 50  0001 C CNN
+F 3 "~" H 2450 5000 50  0001 C CNN
+	1    2450 5000
+	1    0    0    -1  
+$EndComp
+Text Label 2450 5450 1    50   ~ 0
+GND
+Wire Wire Line
+	2450 4700 2450 4850
+Wire Wire Line
+	1750 5100 1750 5200
+Wire Wire Line
+	1750 5200 1050 5200
+Connection ~ 1050 5200
+Wire Wire Line
+	2450 5150 2450 5450
+Wire Wire Line
+	1050 5200 1050 5450
+Text HLabel 10900 5950 2    50   Output ~ 0
+2V8
+Wire Wire Line
+	10900 5950 10650 5950
+Text Label 10650 5950 0    50   ~ 0
+2V8
+Text Notes 900  5800 0    50   ~ 0
+1. capacitors are within min and max in datasheet (but why choose what value?)\n2. EN is higher than V_HI (more than 1V) (check!)\n3. when i copy them to copter lib (many variations are copied as well!)
+Wire Wire Line
+	1300 4700 1300 4800
+Wire Wire Line
+	1300 4800 1450 4800
+Connection ~ 1300 4700
+Wire Wire Line
+	1300 4700 1450 4700
+$Comp
+L Regulator_Linear:TLV75518PDBV U?
+U 1 1 5E44271A
+P 3750 4800
+F 0 "U?" H 3750 5142 50  0000 C CNN
+F 1 "TLV75518PDBV" H 3750 5051 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3750 5125 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 3750 4850 50  0001 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+Text Label 3050 4700 0    50   ~ 0
+3V3
+Text Label 4450 4700 2    50   ~ 0
+1V8
+Wire Wire Line
+	4050 4700 4450 4700
+$Comp
+L Device:C C?
+U 1 1 5E4477D8
+P 3050 5000
+AR Path="/5E349830/5E4477D8" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/5E4477D8" Ref="C?"  Part="1" 
+F 0 "C?" H 3165 5046 50  0000 L CNN
+F 1 "10u" H 3165 4955 50  0000 L CNN
+F 2 "" H 3088 4850 50  0001 C CNN
+F 3 "~" H 3050 5000 50  0001 C CNN
+	1    3050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4700 3300 4700
+Text Label 3050 5450 1    50   ~ 0
+GND
+Wire Wire Line
+	3050 5150 3050 5200
+Wire Wire Line
+	3050 4700 3050 4850
+$Comp
+L Device:C C?
+U 1 1 5E4477E2
+P 4450 5000
+AR Path="/5E349830/5E4477E2" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/5E4477E2" Ref="C?"  Part="1" 
+F 0 "C?" H 4565 5046 50  0000 L CNN
+F 1 "10u" H 4565 4955 50  0000 L CNN
+F 2 "" H 4488 4850 50  0001 C CNN
+F 3 "~" H 4450 5000 50  0001 C CNN
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+Text Label 4450 5450 1    50   ~ 0
+GND
+Wire Wire Line
+	4450 4700 4450 4850
+Wire Wire Line
+	3750 5100 3750 5200
+Wire Wire Line
+	3750 5200 3050 5200
+Connection ~ 3050 5200
+Wire Wire Line
+	4450 5150 4450 5450
+Wire Wire Line
+	3050 5200 3050 5450
+Wire Wire Line
+	3300 4700 3300 4800
+Wire Wire Line
+	3300 4800 3450 4800
+Connection ~ 3300 4700
+Wire Wire Line
+	3300 4700 3450 4700
+Text HLabel 10900 6050 2    50   Output ~ 0
+1V8
+Text Label 10650 6050 0    50   ~ 0
+1V8
+Wire Wire Line
+	10650 6050 10900 6050
 $EndSCHEMATC

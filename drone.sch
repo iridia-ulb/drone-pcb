@@ -881,6 +881,8 @@ F1 "power.sch" 50
 F2 "5V" O L 8400 4500 50 
 F3 "3V3" O L 8400 4600 50 
 F4 "GND" O L 8400 5200 50 
+F5 "2V8" O L 8400 4700 50 
+F6 "1V8" O L 8400 4800 50 
 $EndSheet
 Text Label 7800 4600 0    50   ~ 0
 3V3
@@ -894,4 +896,12 @@ Text Label 7800 5200 0    50   ~ 0
 GND
 Wire Wire Line
 	7800 5200 8400 5200
+Text Label 7800 4800 0    50   ~ 0
+1V8
+Wire Wire Line
+	7800 4800 8400 4800
+Text Label 7800 4700 0    50   ~ 0
+2V8
+Wire Wire Line
+	7800 4700 8400 4700
 $EndSCHEMATC
