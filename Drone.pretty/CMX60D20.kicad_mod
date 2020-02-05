@@ -1,4 +1,4 @@
-(module CMX60D20 (layer F.Cu) (tedit 5E345FCF)
+(module CMX60D20 (layer F.Cu) (tedit 5E3AB862)
   (fp_text reference REF** (at 16.51 1.27) (layer F.SilkS)
     (effects (font (size 1.001173 1.001173) (thickness 0.015)))
   )
@@ -20,4 +20,9 @@
   (pad 2 thru_hole oval (at 10.16 0) (size 3.816 7.632) (drill 2.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 27.94 0) (size 3.816 7.632) (drill 2.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at 0 0) (size 3.816 7.632) (drill 2.8) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/models/CMX60D20.step
+    (offset (xyz 13.5 -1 12))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
