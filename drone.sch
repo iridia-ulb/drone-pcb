@@ -101,9 +101,6 @@ Wire Wire Line
 	4850 5950 4050 5950
 Wire Wire Line
 	4850 5350 4050 5350
-NoConn ~ 1550 3150
-NoConn ~ 1550 3250
-NoConn ~ 1550 3350
 NoConn ~ 1550 3450
 NoConn ~ 1550 3550
 NoConn ~ 1550 4050
@@ -591,8 +588,6 @@ Wire Wire Line
 	4050 5450 4850 5450
 Wire Wire Line
 	4050 5550 4850 5550
-Text Notes 4250 3350 0    50   ~ 0
-TODO: Which UART port is the console by default?\n(Add FT232 or similar port for debugging without WLAN)
 Text Notes 9300 6300 0    50   ~ 0
 Add PCA9544A and headers for ToF sensors
 Text Notes 8450 2700 0    50   ~ 0
@@ -825,8 +820,6 @@ Text Label 750  5050 0    50   ~ 0
 Wire Wire Line
 	750  5050 1550 5050
 NoConn ~ 1550 4850
-Text Notes 550  3400 0    50   ~ 0
-TODO: Investigate these\nPMU signals
 Text Notes 3400 2300 0    50   ~ 0
 7-bit Address: 0x20
 Text Label 7600 3750 0    50   ~ 0
@@ -904,4 +897,35 @@ Text Label 7800 4700 0    50   ~ 0
 2V8
 Wire Wire Line
 	7800 4700 8400 4700
+NoConn ~ 4050 3450
+NoConn ~ 4050 3350
+NoConn ~ 4050 3250
+NoConn ~ 4050 3150
+Wire Wire Line
+	750  3150 1550 3150
+Text Label 750  3150 0    50   ~ 0
+~PMU_RSTBTN
+Wire Wire Line
+	750  3250 1550 3250
+Text Label 750  3250 0    50   ~ 0
+~PMU_PWRBTN
+Wire Wire Line
+	750  3350 1550 3350
+Text Label 750  3350 0    50   ~ 0
+~PMU_SLP_S01X
+Wire Wire Line
+	5250 5050 6050 5050
+Text Label 5250 5050 0    50   ~ 0
+~PMU_RSTBTN
+Wire Wire Line
+	5250 5200 6050 5200
+Text Label 5250 5200 0    50   ~ 0
+~PMU_PWRBTN
+Wire Wire Line
+	5250 5350 6050 5350
+Text Label 5250 5350 0    50   ~ 0
+~PMU_SLP_S01X
+NoConn ~ 6050 5050
+NoConn ~ 6050 5200
+NoConn ~ 6050 5350
 $EndSCHEMATC
