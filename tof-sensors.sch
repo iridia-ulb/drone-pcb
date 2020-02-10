@@ -1129,7 +1129,7 @@ AR Path="/5E2EDC4D/5E8CF4AC" Ref="C?"  Part="1"
 AR Path="/5E349830/5E8CF4AC" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E8CF4AC" Ref="C?"  Part="1" 
 F 0 "C?" V 6100 5950 50  0000 L CNN
-F 1 "10u" V 5800 5925 50  0000 L CNN
+F 1 "1u" V 5800 5925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5988 5850 50  0001 C CNN
 F 3 "~" H 5950 6000 50  0001 C CNN
 	1    5950 6000
@@ -1161,7 +1161,7 @@ AR Path="/5E2EDC4D/5E9006E4" Ref="C?"  Part="1"
 AR Path="/5E349830/5E9006E4" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E9006E4" Ref="C?"  Part="1" 
 F 0 "C?" V 7600 5950 50  0000 L CNN
-F 1 "10u" V 7300 5925 50  0000 L CNN
+F 1 "1u" V 7300 5925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 5850 50  0001 C CNN
 F 3 "~" H 7450 6000 50  0001 C CNN
 	1    7450 6000
@@ -1183,7 +1183,7 @@ AR Path="/5E2EDC4D/5E90FB3F" Ref="C?"  Part="1"
 AR Path="/5E349830/5E90FB3F" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E90FB3F" Ref="C?"  Part="1" 
 F 0 "C?" V 9100 5950 50  0000 L CNN
-F 1 "10u" V 8800 5925 50  0000 L CNN
+F 1 "1u" V 8800 5925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8988 5850 50  0001 C CNN
 F 3 "~" H 8950 6000 50  0001 C CNN
 	1    8950 6000
@@ -1205,7 +1205,7 @@ AR Path="/5E2EDC4D/5E91F806" Ref="C?"  Part="1"
 AR Path="/5E349830/5E91F806" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E91F806" Ref="C?"  Part="1" 
 F 0 "C?" V 10600 5950 50  0000 L CNN
-F 1 "10u" V 10300 5925 50  0000 L CNN
+F 1 "1u" V 10300 5925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10488 5850 50  0001 C CNN
 F 3 "~" H 10450 6000 50  0001 C CNN
 	1    10450 6000
@@ -1250,7 +1250,7 @@ AR Path="/5E2EDC4D/5E97BAD6" Ref="C?"  Part="1"
 AR Path="/5E349830/5E97BAD6" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E97BAD6" Ref="C?"  Part="1" 
 F 0 "C?" V 6100 4050 50  0000 L CNN
-F 1 "10u" V 5800 4025 50  0000 L CNN
+F 1 "1u" V 5800 4025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5988 3950 50  0001 C CNN
 F 3 "~" H 5950 4100 50  0001 C CNN
 	1    5950 4100
@@ -1272,7 +1272,7 @@ AR Path="/5E2EDC4D/5E98D090" Ref="C?"  Part="1"
 AR Path="/5E349830/5E98D090" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E98D090" Ref="C?"  Part="1" 
 F 0 "C?" V 7600 4050 50  0000 L CNN
-F 1 "10u" V 7300 4025 50  0000 L CNN
+F 1 "1u" V 7300 4025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 3950 50  0001 C CNN
 F 3 "~" H 7450 4100 50  0001 C CNN
 	1    7450 4100
@@ -1294,7 +1294,7 @@ AR Path="/5E2EDC4D/5E99EC21" Ref="C?"  Part="1"
 AR Path="/5E349830/5E99EC21" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E99EC21" Ref="C?"  Part="1" 
 F 0 "C?" V 9100 4050 50  0000 L CNN
-F 1 "10u" V 8800 4025 50  0000 L CNN
+F 1 "1u" V 8800 4025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8988 3950 50  0001 C CNN
 F 3 "~" H 8950 4100 50  0001 C CNN
 	1    8950 4100
@@ -1316,7 +1316,7 @@ AR Path="/5E2EDC4D/5E9B0BEB" Ref="C?"  Part="1"
 AR Path="/5E349830/5E9B0BEB" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E9B0BEB" Ref="C?"  Part="1" 
 F 0 "C?" V 10600 4050 50  0000 L CNN
-F 1 "10u" V 10300 4025 50  0000 L CNN
+F 1 "1u" V 10300 4025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10488 3950 50  0001 C CNN
 F 3 "~" H 10450 4100 50  0001 C CNN
 	1    10450 4100
@@ -1338,7 +1338,7 @@ AR Path="/5E2EDC4D/5E9C64B5" Ref="C?"  Part="1"
 AR Path="/5E349830/5E9C64B5" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E9C64B5" Ref="C?"  Part="1" 
 F 0 "C?" V 6100 2150 50  0000 L CNN
-F 1 "10u" V 5800 2125 50  0000 L CNN
+F 1 "1u" V 5800 2125 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5988 2050 50  0001 C CNN
 F 3 "~" H 5950 2200 50  0001 C CNN
 	1    5950 2200
@@ -1360,7 +1360,7 @@ AR Path="/5E2EDC4D/5E9D94B0" Ref="C?"  Part="1"
 AR Path="/5E349830/5E9D94B0" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E9D94B0" Ref="C?"  Part="1" 
 F 0 "C?" V 7600 2150 50  0000 L CNN
-F 1 "10u" V 7300 2125 50  0000 L CNN
+F 1 "1u" V 7300 2125 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 2050 50  0001 C CNN
 F 3 "~" H 7450 2200 50  0001 C CNN
 	1    7450 2200
@@ -1382,7 +1382,7 @@ AR Path="/5E2EDC4D/5E9F1FB9" Ref="C?"  Part="1"
 AR Path="/5E349830/5E9F1FB9" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5E9F1FB9" Ref="C?"  Part="1" 
 F 0 "C?" V 9100 2150 50  0000 L CNN
-F 1 "10u" V 8800 2125 50  0000 L CNN
+F 1 "1u" V 8800 2125 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8988 2050 50  0001 C CNN
 F 3 "~" H 8950 2200 50  0001 C CNN
 	1    8950 2200
@@ -1404,7 +1404,7 @@ AR Path="/5E2EDC4D/5EA05A6C" Ref="C?"  Part="1"
 AR Path="/5E349830/5EA05A6C" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5EA05A6C" Ref="C?"  Part="1" 
 F 0 "C?" V 10600 2150 50  0000 L CNN
-F 1 "10u" V 10300 2125 50  0000 L CNN
+F 1 "1u" V 10300 2125 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10488 2050 50  0001 C CNN
 F 3 "~" H 10450 2200 50  0001 C CNN
 	1    10450 2200
@@ -1515,7 +1515,7 @@ AR Path="/5E2EDC4D/5EB4E851" Ref="C?"  Part="1"
 AR Path="/5E349830/5EB4E851" Ref="C?"  Part="1" 
 AR Path="/5E38A5E7/5EB4E851" Ref="C?"  Part="1" 
 F 0 "C?" H 1950 5500 50  0000 L CNN
-F 1 "10u" H 1950 5600 50  0000 L CNN
+F 1 "1u" H 1950 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1888 5450 50  0001 C CNN
 F 3 "~" H 1850 5600 50  0001 C CNN
 	1    1850 5600
@@ -1559,24 +1559,6 @@ Text Label 1650 2800 0    50   ~ 0
 2V8
 Text Label 1650 4200 0    50   ~ 0
 GND
-Wire Wire Line
-	1650 4200 1850 4200
-Wire Wire Line
-	1650 2800 1850 2800
-$Comp
-L Drone:CAP C?
-U 1 1 5EC8D7F9
-P 1850 3700
-AR Path="/5E2EDC4D/5EC8D7F9" Ref="C?"  Part="1" 
-AR Path="/5E349830/5EC8D7F9" Ref="C?"  Part="1" 
-AR Path="/5E38A5E7/5EC8D7F9" Ref="C?"  Part="1" 
-F 0 "C?" H 1950 3600 50  0000 L CNN
-F 1 "10u" H 1950 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1888 3550 50  0001 C CNN
-F 3 "~" H 1850 3700 50  0001 C CNN
-	1    1850 3700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Drone:CAP C?
 U 1 1 5EC8D7FF
@@ -1592,20 +1574,10 @@ F 3 "~" H 2150 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 3550 1850 2800
-Connection ~ 1850 2800
-Wire Wire Line
-	1850 2800 2150 2800
-Wire Wire Line
 	2150 2900 2150 2800
 Connection ~ 2150 2800
 Wire Wire Line
 	2150 2800 2850 2800
-Wire Wire Line
-	1850 3850 1850 4200
-Connection ~ 1850 4200
-Wire Wire Line
-	1850 4200 2150 4200
 Wire Wire Line
 	2150 3200 2150 4200
 Connection ~ 2150 4200
@@ -1615,24 +1587,6 @@ Text Label 1650 900  0    50   ~ 0
 2V8
 Text Label 1650 2300 0    50   ~ 0
 GND
-Wire Wire Line
-	1650 2300 1850 2300
-Wire Wire Line
-	1650 900  1850 900 
-$Comp
-L Drone:CAP C?
-U 1 1 5ECCC8D3
-P 1850 1800
-AR Path="/5E2EDC4D/5ECCC8D3" Ref="C?"  Part="1" 
-AR Path="/5E349830/5ECCC8D3" Ref="C?"  Part="1" 
-AR Path="/5E38A5E7/5ECCC8D3" Ref="C?"  Part="1" 
-F 0 "C?" H 1950 1700 50  0000 L CNN
-F 1 "10u" H 1950 1800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1888 1650 50  0001 C CNN
-F 3 "~" H 1850 1800 50  0001 C CNN
-	1    1850 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Drone:CAP C?
 U 1 1 5ECCC8D9
@@ -1648,20 +1602,10 @@ F 3 "~" H 2150 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 1650 1850 900 
-Connection ~ 1850 900 
-Wire Wire Line
-	1850 900  2150 900 
-Wire Wire Line
 	2150 1000 2150 900 
 Connection ~ 2150 900 
 Wire Wire Line
 	2150 900  2950 900 
-Wire Wire Line
-	1850 1950 1850 2300
-Connection ~ 1850 2300
-Wire Wire Line
-	1850 2300 2150 2300
 Wire Wire Line
 	2150 1300 2150 2300
 Connection ~ 2150 2300
@@ -1679,4 +1623,60 @@ Text Label 2250 5500 0    50   ~ 0
 INT_GRPC_28
 Wire Wire Line
 	2250 5500 2950 5500
+Wire Wire Line
+	1850 4200 2150 4200
+Wire Wire Line
+	1650 4200 1850 4200
+Connection ~ 1850 4200
+Wire Wire Line
+	1850 3850 1850 4200
+$Comp
+L Drone:CAP C?
+U 1 1 5EC8D7F9
+P 1850 3700
+AR Path="/5E2EDC4D/5EC8D7F9" Ref="C?"  Part="1" 
+AR Path="/5E349830/5EC8D7F9" Ref="C?"  Part="1" 
+AR Path="/5E38A5E7/5EC8D7F9" Ref="C?"  Part="1" 
+F 0 "C?" H 1950 3600 50  0000 L CNN
+F 1 "1u" H 1950 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1888 3550 50  0001 C CNN
+F 3 "~" H 1850 3700 50  0001 C CNN
+	1    1850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2800 2150 2800
+Wire Wire Line
+	1650 2800 1850 2800
+Connection ~ 1850 2800
+Wire Wire Line
+	1850 3550 1850 2800
+Wire Wire Line
+	1850 900  2150 900 
+Wire Wire Line
+	1650 900  1850 900 
+Connection ~ 1850 900 
+Wire Wire Line
+	1850 1650 1850 900 
+Wire Wire Line
+	1850 2300 2150 2300
+Wire Wire Line
+	1650 2300 1850 2300
+Connection ~ 1850 2300
+Wire Wire Line
+	1850 1950 1850 2300
+$Comp
+L Drone:CAP C?
+U 1 1 5ECCC8D3
+P 1850 1800
+AR Path="/5E2EDC4D/5ECCC8D3" Ref="C?"  Part="1" 
+AR Path="/5E349830/5ECCC8D3" Ref="C?"  Part="1" 
+AR Path="/5E38A5E7/5ECCC8D3" Ref="C?"  Part="1" 
+F 0 "C?" H 1950 1700 50  0000 L CNN
+F 1 "1u" H 1950 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1888 1650 50  0001 C CNN
+F 3 "~" H 1850 1800 50  0001 C CNN
+	1    1850 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
