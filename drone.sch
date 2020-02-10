@@ -914,18 +914,62 @@ Wire Wire Line
 Text Label 750  3350 0    50   ~ 0
 ~PMU_SLP_S01X
 Wire Wire Line
-	5250 5050 6050 5050
-Text Label 5250 5050 0    50   ~ 0
+	5200 2150 6000 2150
+Text Label 5200 2150 0    50   ~ 0
 ~PMU_RSTBTN
 Wire Wire Line
-	5250 5200 6050 5200
-Text Label 5250 5200 0    50   ~ 0
+	5200 2300 6000 2300
+Text Label 5200 2300 0    50   ~ 0
 ~PMU_PWRBTN
 Wire Wire Line
-	5250 5350 6050 5350
-Text Label 5250 5350 0    50   ~ 0
+	5200 2450 6000 2450
+Text Label 5200 2450 0    50   ~ 0
 ~PMU_SLP_S01X
-NoConn ~ 6050 5050
-NoConn ~ 6050 5200
-NoConn ~ 6050 5350
+NoConn ~ 6000 2150
+NoConn ~ 6000 2300
+NoConn ~ 6000 2450
+$Comp
+L Drone:SN74LVC2G14 U?
+U 1 1 5E4205A6
+P 6300 1600
+F 0 "U?" H 6275 1867 50  0000 C CNN
+F 1 "SN74LVC2G14" H 6275 1776 50  0000 C CNN
+F 2 "" H 6300 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 6300 1600 50  0001 C CNN
+	1    6300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:SN74LVC2G14 U?
+U 2 1 5E4228F0
+P 7150 1600
+F 0 "U?" H 7125 1867 50  0000 C CNN
+F 1 "SN74LVC2G14" H 7125 1776 50  0000 C CNN
+F 2 "" H 7150 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 7150 1600 50  0001 C CNN
+	2    7150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E4286C0
+P 5700 1350
+F 0 "SW?" H 5700 1635 50  0000 C CNN
+F 1 "SW_Push" H 5700 1544 50  0000 C CNN
+F 2 "" H 5700 1550 50  0001 C CNN
+F 3 "~" H 5700 1550 50  0001 C CNN
+	1    5700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E429630
+P 5700 1800
+F 0 "SW?" H 5700 2085 50  0000 C CNN
+F 1 "SW_Push" H 5700 1994 50  0000 C CNN
+F 2 "" H 5700 2000 50  0001 C CNN
+F 3 "~" H 5700 2000 50  0001 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
