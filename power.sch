@@ -208,14 +208,14 @@ Text Label 2450 4700 2    50   ~ 0
 Wire Wire Line
 	2050 4700 2450 4700
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E40BD7D
 P 1050 5000
 AR Path="/5E349830/5E40BD7D" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E40BD7D" Ref="C?"  Part="1" 
 F 0 "C?" H 1165 5046 50  0000 L CNN
 F 1 "10u" H 1165 4955 50  0000 L CNN
-F 2 "" H 1088 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1088 4850 50  0001 C CNN
 F 3 "~" H 1050 5000 50  0001 C CNN
 	1    1050 5000
 	1    0    0    -1  
@@ -229,14 +229,14 @@ Wire Wire Line
 Wire Wire Line
 	1050 4700 1050 4850
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E41DB5A
 P 2450 5000
 AR Path="/5E349830/5E41DB5A" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E41DB5A" Ref="C?"  Part="1" 
 F 0 "C?" H 2565 5046 50  0000 L CNN
 F 1 "10u" H 2565 4955 50  0000 L CNN
-F 2 "" H 2488 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2488 4850 50  0001 C CNN
 F 3 "~" H 2450 5000 50  0001 C CNN
 	1    2450 5000
 	1    0    0    -1  
@@ -289,14 +289,14 @@ Text Label 4450 4700 2    50   ~ 0
 Wire Wire Line
 	4050 4700 4450 4700
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E4477D8
 P 3050 5000
 AR Path="/5E349830/5E4477D8" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E4477D8" Ref="C?"  Part="1" 
 F 0 "C?" H 3165 5046 50  0000 L CNN
 F 1 "10u" H 3165 4955 50  0000 L CNN
-F 2 "" H 3088 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3088 4850 50  0001 C CNN
 F 3 "~" H 3050 5000 50  0001 C CNN
 	1    3050 5000
 	1    0    0    -1  
@@ -310,14 +310,14 @@ Wire Wire Line
 Wire Wire Line
 	3050 4700 3050 4850
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E4477E2
 P 4450 5000
 AR Path="/5E349830/5E4477E2" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E4477E2" Ref="C?"  Part="1" 
 F 0 "C?" H 4565 5046 50  0000 L CNN
 F 1 "10u" H 4565 4955 50  0000 L CNN
-F 2 "" H 4488 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4488 4850 50  0001 C CNN
 F 3 "~" H 4450 5000 50  0001 C CNN
 	1    4450 5000
 	1    0    0    -1  

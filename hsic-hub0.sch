@@ -75,14 +75,14 @@ Wire Wire Line
 Wire Wire Line
 	1400 2300 3550 2300
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E328065
 P 1150 5000
 AR Path="/5E2EDC4D/5E328065" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E328065" Ref="C?"  Part="1" 
 F 0 "C?" H 1265 5046 50  0000 L CNN
 F 1 "100n" H 1265 4955 50  0000 L CNN
-F 2 "" H 1188 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1188 4850 50  0001 C CNN
 F 3 "~" H 1150 5000 50  0001 C CNN
 	1    1150 5000
 	1    0    0    -1  
@@ -106,14 +106,14 @@ Text Label 9500 3200 2    50   ~ 0
 Wire Wire Line
 	5150 1700 5850 1700
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E332CF8
 P 8650 3450
 AR Path="/5E2EDC4D/5E332CF8" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E332CF8" Ref="C?"  Part="1" 
 F 0 "C?" H 8765 3496 50  0000 L CNN
 F 1 "100n" H 8765 3405 50  0000 L CNN
-F 2 "" H 8688 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8688 3300 50  0001 C CNN
 F 3 "~" H 8650 3450 50  0001 C CNN
 	1    8650 3450
 	1    0    0    -1  
@@ -154,14 +154,14 @@ Wire Wire Line
 Wire Wire Line
 	3150 2550 3550 2550
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E338829
 P 2400 5000
 AR Path="/5E2EDC4D/5E338829" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E338829" Ref="C?"  Part="1" 
 F 0 "C?" H 2515 5046 50  0000 L CNN
 F 1 "1n" H 2515 4955 50  0000 L CNN
-F 2 "" H 2438 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2438 4850 50  0001 C CNN
 F 3 "~" H 2400 5000 50  0001 C CNN
 	1    2400 5000
 	0    1    1    0   
@@ -212,14 +212,14 @@ Connection ~ 5350 950
 Text Notes 5300 850  0    50   ~ 0
 Disable Port 1
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E3408C5
 P 8450 1300
 AR Path="/5E2EDC4D/5E3408C5" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E3408C5" Ref="C?"  Part="1" 
 F 0 "C?" H 8565 1346 50  0000 L CNN
 F 1 "100n" H 8565 1255 50  0000 L CNN
-F 2 "" H 8488 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 1150 50  0001 C CNN
 F 3 "~" H 8450 1300 50  0001 C CNN
 	1    8450 1300
 	1    0    0    -1  
@@ -267,14 +267,14 @@ Connection ~ 7150 1500
 Wire Wire Line
 	7150 1500 7200 1500
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E3AC9C8
 P 8450 2300
 AR Path="/5E2EDC4D/5E3AC9C8" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E3AC9C8" Ref="C?"  Part="1" 
 F 0 "C?" H 8565 2346 50  0000 L CNN
 F 1 "100n" H 8565 2255 50  0000 L CNN
-F 2 "" H 8488 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 2150 50  0001 C CNN
 F 3 "~" H 8450 2300 50  0001 C CNN
 	1    8450 2300
 	1    0    0    -1  
@@ -354,27 +354,27 @@ PRTPWR
 Text Label 5850 1850 2    50   ~ 0
 ~OSC
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E4C4178
 P 8900 2300
 AR Path="/5E2EDC4D/5E4C4178" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E4C4178" Ref="C?"  Part="1" 
 F 0 "C?" H 9015 2346 50  0000 L CNN
 F 1 "1u" H 9015 2255 50  0000 L CNN
-F 2 "" H 8938 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 2150 50  0001 C CNN
 F 3 "~" H 8900 2300 50  0001 C CNN
 	1    8900 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E4C557D
 P 8900 1300
 AR Path="/5E2EDC4D/5E4C557D" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E4C557D" Ref="C?"  Part="1" 
 F 0 "C?" H 9015 1346 50  0000 L CNN
 F 1 "1u" H 9015 1255 50  0000 L CNN
-F 2 "" H 8938 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 1150 50  0001 C CNN
 F 3 "~" H 8900 1300 50  0001 C CNN
 	1    8900 1300
 	1    0    0    -1  
@@ -447,14 +447,14 @@ Wire Wire Line
 Wire Wire Line
 	5150 1850 6150 1850
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E301315
 P 6150 1400
 AR Path="/5E2EDC4D/5E301315" Ref="R?"  Part="1" 
 AR Path="/5E349830/5E301315" Ref="R?"  Part="1" 
 F 0 "R?" H 6220 1446 50  0000 L CNN
 F 1 "10k" H 6220 1355 50  0000 L CNN
-F 2 "" V 6080 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 1400 50  0001 C CNN
 F 3 "~" H 6150 1400 50  0001 C CNN
 	1    6150 1400
 	1    0    0    -1  
@@ -488,14 +488,14 @@ F 3 "" H 7400 2050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E5A610D
 P 9100 3450
 AR Path="/5E2EDC4D/5E5A610D" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E5A610D" Ref="C?"  Part="1" 
 F 0 "C?" H 9215 3496 50  0000 L CNN
 F 1 "10u" H 9215 3405 50  0000 L CNN
-F 2 "" H 9138 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9138 3300 50  0001 C CNN
 F 3 "~" H 9100 3450 50  0001 C CNN
 	1    9100 3450
 	1    0    0    -1  
@@ -518,27 +518,27 @@ Wire Wire Line
 Text Notes 3750 3650 0    50   ~ 0
 These passive components should be\nplaced as close to the USB3503 as\npossible\n
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E427B4C
 P 1900 3350
 AR Path="/5E2EDC4D/5E427B4C" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E427B4C" Ref="C?"  Part="1" 
 F 0 "C?" H 2015 3396 50  0000 L CNN
 F 1 "4u7" H 2015 3305 50  0000 L CNN
-F 2 "" H 1938 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1938 3200 50  0001 C CNN
 F 3 "~" H 1900 3350 50  0001 C CNN
 	1    1900 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E42226D
 P 2300 3350
 AR Path="/5E2EDC4D/5E42226D" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E42226D" Ref="C?"  Part="1" 
 F 0 "C?" H 2415 3396 50  0000 L CNN
 F 1 "1u" H 2415 3305 50  0000 L CNN
-F 2 "" H 2338 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 3200 50  0001 C CNN
 F 3 "~" H 2300 3350 50  0001 C CNN
 	1    2300 3350
 	1    0    0    -1  
@@ -548,14 +548,14 @@ Wire Wire Line
 Wire Wire Line
 	3250 3900 3250 2650
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E32A1DA
 P 3350 3350
 AR Path="/5E2EDC4D/5E32A1DA" Ref="R?"  Part="1" 
 AR Path="/5E349830/5E32A1DA" Ref="R?"  Part="1" 
 F 0 "R?" H 3420 3396 50  0000 L CNN
 F 1 "12k,1%" H 3420 3305 50  0000 L CNN
-F 2 "" V 3280 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3280 3350 50  0001 C CNN
 F 3 "~" H 3350 3350 50  0001 C CNN
 	1    3350 3350
 	1    0    0    -1  

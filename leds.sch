@@ -26,7 +26,7 @@ LED0
 Wire Wire Line
 	3200 4850 2950 4850
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E39412E
 P 2800 5250
 AR Path="/5E2EDC4D/5E39412E" Ref="R?"  Part="1" 
@@ -34,13 +34,13 @@ AR Path="/5E3090FF/5E39412E" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E39412E" Ref="R?"  Part="1" 
 F 0 "R?" V 2850 5350 50  0000 L CNN
 F 1 "130" V 2870 5205 50  0000 L CNN
-F 2 "" V 2730 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 5250 50  0001 C CNN
 F 3 "~" H 2800 5250 50  0001 C CNN
 	1    2800 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E394128
 P 2800 4850
 AR Path="/5E2EDC4D/5E394128" Ref="R?"  Part="1" 
@@ -48,13 +48,13 @@ AR Path="/5E3090FF/5E394128" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E394128" Ref="R?"  Part="1" 
 F 0 "R?" V 2850 4950 50  0000 L CNN
 F 1 "56" V 2870 4805 50  0000 L CNN
-F 2 "" V 2730 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 4850 50  0001 C CNN
 F 3 "~" H 2800 4850 50  0001 C CNN
 	1    2800 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E394122
 P 2800 5050
 AR Path="/5E2EDC4D/5E394122" Ref="R?"  Part="1" 
@@ -62,7 +62,7 @@ AR Path="/5E3090FF/5E394122" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E394122" Ref="R?"  Part="1" 
 F 0 "R?" V 2850 5150 50  0000 L CNN
 F 1 "56" V 2870 5005 50  0000 L CNN
-F 2 "" V 2730 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 5050 50  0001 C CNN
 F 3 "~" H 2800 5050 50  0001 C CNN
 	1    2800 5050
 	0    -1   -1   0   
@@ -142,7 +142,7 @@ Entry Wire Line
 Entry Wire Line
 	10400 2000 10500 2100
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E322DC6
 P 8600 3250
 AR Path="/5E2EDC4D/5E322DC6" Ref="C?"  Part="1" 
@@ -150,7 +150,7 @@ AR Path="/5E3090FF/5E322DC6" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E322DC6" Ref="C?"  Part="1" 
 F 0 "C?" H 8715 3296 50  0000 L CNN
 F 1 "100nF" H 8715 3205 50  0000 L CNN
-F 2 "" H 8638 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8638 3100 50  0001 C CNN
 F 3 "~" H 8600 3250 50  0001 C CNN
 	1    8600 3250
 	-1   0    0    1   
@@ -296,7 +296,7 @@ Text Label 1850 4400 3    50   ~ 0
 Text Label 1100 5450 1    50   ~ 0
 GND
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E41CE8E
 P 1550 5050
 AR Path="/5E2EDC4D/5E41CE8E" Ref="C?"  Part="1" 
@@ -304,13 +304,13 @@ AR Path="/5E3090FF/5E41CE8E" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E41CE8E" Ref="C?"  Part="1" 
 F 0 "C?" H 1665 5096 50  0000 L CNN
 F 1 "10u" H 1665 5005 50  0000 L CNN
-F 2 "" H 1588 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1588 4900 50  0001 C CNN
 F 3 "~" H 1550 5050 50  0001 C CNN
 	1    1550 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E423672
 P 1100 5050
 AR Path="/5E2EDC4D/5E423672" Ref="C?"  Part="1" 
@@ -318,7 +318,7 @@ AR Path="/5E3090FF/5E423672" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E423672" Ref="C?"  Part="1" 
 F 0 "C?" H 1215 5096 50  0000 L CNN
 F 1 "100n" H 1215 5005 50  0000 L CNN
-F 2 "" H 1138 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1138 4900 50  0001 C CNN
 F 3 "~" H 1100 5050 50  0001 C CNN
 	1    1100 5050
 	1    0    0    -1  
@@ -379,7 +379,7 @@ LED4
 Wire Wire Line
 	5600 4850 5350 4850
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E35DA90
 P 5200 5250
 AR Path="/5E2EDC4D/5E35DA90" Ref="R?"  Part="1" 
@@ -387,13 +387,13 @@ AR Path="/5E3090FF/5E35DA90" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E35DA90" Ref="R?"  Part="1" 
 F 0 "R?" V 5250 5350 50  0000 L CNN
 F 1 "130" V 5270 5205 50  0000 L CNN
-F 2 "" V 5130 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 5250 50  0001 C CNN
 F 3 "~" H 5200 5250 50  0001 C CNN
 	1    5200 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E35DA96
 P 5200 4850
 AR Path="/5E2EDC4D/5E35DA96" Ref="R?"  Part="1" 
@@ -401,13 +401,13 @@ AR Path="/5E3090FF/5E35DA96" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E35DA96" Ref="R?"  Part="1" 
 F 0 "R?" V 5250 4950 50  0000 L CNN
 F 1 "56" V 5270 4805 50  0000 L CNN
-F 2 "" V 5130 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 4850 50  0001 C CNN
 F 3 "~" H 5200 4850 50  0001 C CNN
 	1    5200 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E35DA9C
 P 5200 5050
 AR Path="/5E2EDC4D/5E35DA9C" Ref="R?"  Part="1" 
@@ -415,7 +415,7 @@ AR Path="/5E3090FF/5E35DA9C" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E35DA9C" Ref="R?"  Part="1" 
 F 0 "R?" V 5250 5150 50  0000 L CNN
 F 1 "56" V 5270 5005 50  0000 L CNN
-F 2 "" V 5130 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 5050 50  0001 C CNN
 F 3 "~" H 5200 5050 50  0001 C CNN
 	1    5200 5050
 	0    -1   -1   0   
@@ -437,7 +437,7 @@ Text Label 4250 4400 3    50   ~ 0
 Text Label 3500 5450 1    50   ~ 0
 GND
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E35DAAA
 P 3950 5050
 AR Path="/5E2EDC4D/5E35DAAA" Ref="C?"  Part="1" 
@@ -445,13 +445,13 @@ AR Path="/5E3090FF/5E35DAAA" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E35DAAA" Ref="C?"  Part="1" 
 F 0 "C?" H 4065 5096 50  0000 L CNN
 F 1 "10u" H 4065 5005 50  0000 L CNN
-F 2 "" H 3988 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 4900 50  0001 C CNN
 F 3 "~" H 3950 5050 50  0001 C CNN
 	1    3950 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E35DAB0
 P 3500 5050
 AR Path="/5E2EDC4D/5E35DAB0" Ref="C?"  Part="1" 
@@ -459,7 +459,7 @@ AR Path="/5E3090FF/5E35DAB0" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E35DAB0" Ref="C?"  Part="1" 
 F 0 "C?" H 3615 5096 50  0000 L CNN
 F 1 "100n" H 3615 5005 50  0000 L CNN
-F 2 "" H 3538 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3538 4900 50  0001 C CNN
 F 3 "~" H 3500 5050 50  0001 C CNN
 	1    3500 5050
 	1    0    0    -1  
@@ -520,7 +520,7 @@ LED8
 Wire Wire Line
 	8000 4850 7750 4850
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E363A4B
 P 7600 5250
 AR Path="/5E2EDC4D/5E363A4B" Ref="R?"  Part="1" 
@@ -528,13 +528,13 @@ AR Path="/5E3090FF/5E363A4B" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E363A4B" Ref="R?"  Part="1" 
 F 0 "R?" V 7650 5350 50  0000 L CNN
 F 1 "130" V 7670 5205 50  0000 L CNN
-F 2 "" V 7530 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5250 50  0001 C CNN
 F 3 "~" H 7600 5250 50  0001 C CNN
 	1    7600 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E363A51
 P 7600 4850
 AR Path="/5E2EDC4D/5E363A51" Ref="R?"  Part="1" 
@@ -542,13 +542,13 @@ AR Path="/5E3090FF/5E363A51" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E363A51" Ref="R?"  Part="1" 
 F 0 "R?" V 7650 4950 50  0000 L CNN
 F 1 "56" V 7670 4805 50  0000 L CNN
-F 2 "" V 7530 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4850 50  0001 C CNN
 F 3 "~" H 7600 4850 50  0001 C CNN
 	1    7600 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E363A57
 P 7600 5050
 AR Path="/5E2EDC4D/5E363A57" Ref="R?"  Part="1" 
@@ -556,7 +556,7 @@ AR Path="/5E3090FF/5E363A57" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E363A57" Ref="R?"  Part="1" 
 F 0 "R?" V 7650 5150 50  0000 L CNN
 F 1 "56" V 7670 5005 50  0000 L CNN
-F 2 "" V 7530 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5050 50  0001 C CNN
 F 3 "~" H 7600 5050 50  0001 C CNN
 	1    7600 5050
 	0    -1   -1   0   
@@ -578,7 +578,7 @@ Text Label 6650 4400 3    50   ~ 0
 Text Label 5900 5450 1    50   ~ 0
 GND
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E363A65
 P 6350 5050
 AR Path="/5E2EDC4D/5E363A65" Ref="C?"  Part="1" 
@@ -586,13 +586,13 @@ AR Path="/5E3090FF/5E363A65" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E363A65" Ref="C?"  Part="1" 
 F 0 "C?" H 6465 5096 50  0000 L CNN
 F 1 "10u" H 6465 5005 50  0000 L CNN
-F 2 "" H 6388 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6388 4900 50  0001 C CNN
 F 3 "~" H 6350 5050 50  0001 C CNN
 	1    6350 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E363A6B
 P 5900 5050
 AR Path="/5E2EDC4D/5E363A6B" Ref="C?"  Part="1" 
@@ -600,7 +600,7 @@ AR Path="/5E3090FF/5E363A6B" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E363A6B" Ref="C?"  Part="1" 
 F 0 "C?" H 6015 5096 50  0000 L CNN
 F 1 "100n" H 6015 5005 50  0000 L CNN
-F 2 "" H 5938 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 4900 50  0001 C CNN
 F 3 "~" H 5900 5050 50  0001 C CNN
 	1    5900 5050
 	1    0    0    -1  
@@ -661,7 +661,7 @@ LED12
 Wire Wire Line
 	10400 4850 10150 4850
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E370DE6
 P 10000 5250
 AR Path="/5E2EDC4D/5E370DE6" Ref="R?"  Part="1" 
@@ -669,13 +669,13 @@ AR Path="/5E3090FF/5E370DE6" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E370DE6" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 5350 50  0000 L CNN
 F 1 "130" V 10070 5205 50  0000 L CNN
-F 2 "" V 9930 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 5250 50  0001 C CNN
 F 3 "~" H 10000 5250 50  0001 C CNN
 	1    10000 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E370DEC
 P 10000 4850
 AR Path="/5E2EDC4D/5E370DEC" Ref="R?"  Part="1" 
@@ -683,13 +683,13 @@ AR Path="/5E3090FF/5E370DEC" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E370DEC" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 4950 50  0000 L CNN
 F 1 "56" V 10070 4805 50  0000 L CNN
-F 2 "" V 9930 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 4850 50  0001 C CNN
 F 3 "~" H 10000 4850 50  0001 C CNN
 	1    10000 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Drone:RES R?
 U 1 1 5E370DF2
 P 10000 5050
 AR Path="/5E2EDC4D/5E370DF2" Ref="R?"  Part="1" 
@@ -697,7 +697,7 @@ AR Path="/5E3090FF/5E370DF2" Ref="R?"  Part="1"
 AR Path="/5E30BD8E/5E370DF2" Ref="R?"  Part="1" 
 F 0 "R?" V 10050 5150 50  0000 L CNN
 F 1 "56" V 10070 5005 50  0000 L CNN
-F 2 "" V 9930 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 5050 50  0001 C CNN
 F 3 "~" H 10000 5050 50  0001 C CNN
 	1    10000 5050
 	0    -1   -1   0   
@@ -719,7 +719,7 @@ Text Label 9050 4400 3    50   ~ 0
 Text Label 8300 5450 1    50   ~ 0
 GND
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E370E00
 P 8750 5050
 AR Path="/5E2EDC4D/5E370E00" Ref="C?"  Part="1" 
@@ -727,13 +727,13 @@ AR Path="/5E3090FF/5E370E00" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E370E00" Ref="C?"  Part="1" 
 F 0 "C?" H 8865 5096 50  0000 L CNN
 F 1 "10u" H 8865 5005 50  0000 L CNN
-F 2 "" H 8788 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8788 4900 50  0001 C CNN
 F 3 "~" H 8750 5050 50  0001 C CNN
 	1    8750 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Drone:CAP C?
 U 1 1 5E370E06
 P 8300 5050
 AR Path="/5E2EDC4D/5E370E06" Ref="C?"  Part="1" 
@@ -741,7 +741,7 @@ AR Path="/5E3090FF/5E370E06" Ref="C?"  Part="1"
 AR Path="/5E30BD8E/5E370E06" Ref="C?"  Part="1" 
 F 0 "C?" H 8415 5096 50  0000 L CNN
 F 1 "100n" H 8415 5005 50  0000 L CNN
-F 2 "" H 8338 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8338 4900 50  0001 C CNN
 F 3 "~" H 8300 5050 50  0001 C CNN
 	1    8300 5050
 	1    0    0    -1  
