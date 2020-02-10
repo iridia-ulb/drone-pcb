@@ -913,63 +913,209 @@ Wire Wire Line
 	750  3350 1550 3350
 Text Label 750  3350 0    50   ~ 0
 ~PMU_SLP_S01X
-Wire Wire Line
-	5200 2150 6000 2150
-Text Label 5200 2150 0    50   ~ 0
-~PMU_RSTBTN
-Wire Wire Line
-	5200 2300 6000 2300
-Text Label 5200 2300 0    50   ~ 0
+Text Label 7300 2400 2    50   ~ 0
 ~PMU_PWRBTN
 Wire Wire Line
-	5200 2450 6000 2450
-Text Label 5200 2450 0    50   ~ 0
+	7400 5000 8200 5000
+Text Label 7400 5000 0    50   ~ 0
 ~PMU_SLP_S01X
-NoConn ~ 6000 2150
-NoConn ~ 6000 2300
-NoConn ~ 6000 2450
+NoConn ~ 8200 5000
+$Comp
+L Device:C C?
+U 1 1 5E485B02
+P 6150 1600
+AR Path="/5E2EDC4D/5E485B02" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E485B02" Ref="C?"  Part="1" 
+AR Path="/5E485B02" Ref="C?"  Part="1" 
+F 0 "C?" H 6265 1646 50  0000 L CNN
+F 1 "1u" H 6265 1555 50  0000 L CNN
+F 2 "" H 6188 1450 50  0001 C CNN
+F 3 "~" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4F9090
+P 5850 1400
+AR Path="/5E2EDC4D/5E4F9090" Ref="R?"  Part="1" 
+AR Path="/5E4F9090" Ref="R?"  Part="1" 
+F 0 "R?" H 5920 1446 50  0000 L CNN
+F 1 "10k" H 5920 1355 50  0000 L CNN
+F 2 "" V 5780 1400 50  0001 C CNN
+F 3 "~" H 5850 1400 50  0001 C CNN
+	1    5850 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 1400 6150 1400
+Wire Wire Line
+	6150 1400 6150 1450
+Text Label 6150 1900 1    50   ~ 0
+GND
+Wire Wire Line
+	6150 1750 6150 1900
 $Comp
 L Drone:SN74LVC2G14 U?
-U 1 1 5E4205A6
-P 6300 1600
-F 0 "U?" H 6275 1867 50  0000 C CNN
-F 1 "SN74LVC2G14" H 6275 1776 50  0000 C CNN
-F 2 "" H 6300 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 6300 1600 50  0001 C CNN
-	1    6300 1600
+U 1 1 5E52F22E
+P 6500 1400
+F 0 "U?" H 6600 1250 50  0000 L BNN
+F 1 "SN74LVC2G14" H 6600 1150 50  0000 L BNN
+F 2 "" H 6500 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 6500 1400 50  0001 C CNN
+	1    6500 1400
+	1    0    0    -1  
+$EndComp
+Text Label 7300 1400 2    50   ~ 0
+~PMU_RSTBTN
+Text Label 6500 1000 3    50   ~ 0
+1V8
+Wire Wire Line
+	6500 1000 6500 1300
+Text Label 6500 1900 1    50   ~ 0
+GND
+Wire Wire Line
+	6500 1900 6500 1500
+Wire Wire Line
+	5500 1750 5500 1900
+Text Label 5500 1900 1    50   ~ 0
+GND
+Wire Wire Line
+	5500 1400 5500 1450
+Connection ~ 5500 1400
+Wire Wire Line
+	5500 1400 5700 1400
+Wire Wire Line
+	5500 1350 5500 1400
+Wire Wire Line
+	5500 1000 5500 1150
+$Comp
+L Drone:PUSHBTN SW?
+U 1 1 5E4AFF57
+P 5500 1250
+F 0 "SW?" V 5500 1328 50  0000 L CNN
+F 1 "PUSHBTN" H 5535 1175 50  0001 C CNN
+F 2 "" H 5500 1450 50  0001 C CNN
+F 3 "" H 5500 1450 50  0001 C CNN
+	1    5500 1250
+	0    1    1    0   
+$EndComp
+Text Label 5500 1000 3    50   ~ 0
+1V8
+$Comp
+L Device:R R?
+U 1 1 5E47913A
+P 5500 1600
+AR Path="/5E2EDC4D/5E47913A" Ref="R?"  Part="1" 
+AR Path="/5E47913A" Ref="R?"  Part="1" 
+F 0 "R?" H 5570 1646 50  0000 L CNN
+F 1 "10k" H 5570 1555 50  0000 L CNN
+F 2 "" V 5430 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+	1    5500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E623D34
+P 6150 2600
+AR Path="/5E2EDC4D/5E623D34" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E623D34" Ref="C?"  Part="1" 
+AR Path="/5E623D34" Ref="C?"  Part="1" 
+F 0 "C?" H 6265 2646 50  0000 L CNN
+F 1 "1u" H 6265 2555 50  0000 L CNN
+F 2 "" H 6188 2450 50  0001 C CNN
+F 3 "~" H 6150 2600 50  0001 C CNN
+	1    6150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E623D3A
+P 5850 2400
+AR Path="/5E2EDC4D/5E623D3A" Ref="R?"  Part="1" 
+AR Path="/5E623D3A" Ref="R?"  Part="1" 
+F 0 "R?" H 5920 2446 50  0000 L CNN
+F 1 "10k" H 5920 2355 50  0000 L CNN
+F 2 "" V 5780 2400 50  0001 C CNN
+F 3 "~" H 5850 2400 50  0001 C CNN
+	1    5850 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 2400 6150 2400
+Wire Wire Line
+	6150 2400 6150 2450
+Text Label 6150 2900 1    50   ~ 0
+GND
+Wire Wire Line
+	6150 2750 6150 2900
+Text Label 6500 2000 3    50   ~ 0
+1V8
+Wire Wire Line
+	6500 2000 6500 2300
+Text Label 6500 2900 1    50   ~ 0
+GND
+Wire Wire Line
+	6500 2900 6500 2500
+Wire Wire Line
+	5500 2750 5500 2900
+Text Label 5500 2900 1    50   ~ 0
+GND
+Wire Wire Line
+	5500 2400 5500 2450
+Connection ~ 5500 2400
+Wire Wire Line
+	5500 2400 5700 2400
+Wire Wire Line
+	5500 2350 5500 2400
+Wire Wire Line
+	5500 2000 5500 2150
+$Comp
+L Drone:PUSHBTN SW?
+U 1 1 5E623D59
+P 5500 2250
+F 0 "SW?" V 5500 2328 50  0000 L CNN
+F 1 "PUSHBTN" H 5535 2175 50  0001 C CNN
+F 2 "" H 5500 2450 50  0001 C CNN
+F 3 "" H 5500 2450 50  0001 C CNN
+	1    5500 2250
+	0    1    1    0   
+$EndComp
+Text Label 5500 2000 3    50   ~ 0
+1V8
+$Comp
+L Device:R R?
+U 1 1 5E623D60
+P 5500 2600
+AR Path="/5E2EDC4D/5E623D60" Ref="R?"  Part="1" 
+AR Path="/5E623D60" Ref="R?"  Part="1" 
+F 0 "R?" H 5570 2646 50  0000 L CNN
+F 1 "10k" H 5570 2555 50  0000 L CNN
+F 2 "" V 5430 2600 50  0001 C CNN
+F 3 "~" H 5500 2600 50  0001 C CNN
+	1    5500 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Drone:SN74LVC2G14 U?
-U 2 1 5E4228F0
-P 7150 1600
-F 0 "U?" H 7125 1867 50  0000 C CNN
-F 1 "SN74LVC2G14" H 7125 1776 50  0000 C CNN
-F 2 "" H 7150 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 7150 1600 50  0001 C CNN
-	2    7150 1600
+U 2 1 5E623D44
+P 6500 2400
+F 0 "U?" H 6600 2250 50  0000 L BNN
+F 1 "SN74LVC2G14" H 6600 2150 50  0000 L BNN
+F 2 "" H 6500 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 6500 2400 50  0001 C CNN
+	2    6500 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5E4286C0
-P 5700 1350
-F 0 "SW?" H 5700 1635 50  0000 C CNN
-F 1 "SW_Push" H 5700 1544 50  0000 C CNN
-F 2 "" H 5700 1550 50  0001 C CNN
-F 3 "~" H 5700 1550 50  0001 C CNN
-	1    5700 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5E429630
-P 5700 1800
-F 0 "SW?" H 5700 2085 50  0000 C CNN
-F 1 "SW_Push" H 5700 1994 50  0000 C CNN
-F 2 "" H 5700 2000 50  0001 C CNN
-F 3 "~" H 5700 2000 50  0001 C CNN
-	1    5700 1800
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	6150 1400 6250 1400
+Connection ~ 6150 1400
+Wire Wire Line
+	6800 1400 7300 1400
+Wire Wire Line
+	6150 2400 6250 2400
+Connection ~ 6150 2400
+Wire Wire Line
+	6800 2400 7300 2400
 $EndSCHEMATC
