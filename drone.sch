@@ -990,8 +990,8 @@ U 1 1 5E4AFF57
 P 5500 1250
 F 0 "SW?" V 5500 1328 50  0000 L CNN
 F 1 "PUSHBTN" H 5535 1175 50  0001 C CNN
-F 2 "" H 5500 1450 50  0001 C CNN
-F 3 "" H 5500 1450 50  0001 C CNN
+F 2 "Drone:B3FS-1012P" H 5500 1450 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" H 5500 1450 50  0001 C CNN
 	1    5500 1250
 	0    1    1    0   
 $EndComp
@@ -1072,8 +1072,8 @@ U 1 1 5E623D59
 P 5500 2250
 F 0 "SW?" V 5500 2328 50  0000 L CNN
 F 1 "PUSHBTN" H 5535 2175 50  0001 C CNN
-F 2 "" H 5500 2450 50  0001 C CNN
-F 3 "" H 5500 2450 50  0001 C CNN
+F 2 "Drone:B3FS-1012P" H 5500 2450 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" H 5500 2450 50  0001 C CNN
 	1    5500 2250
 	0    1    1    0   
 $EndComp

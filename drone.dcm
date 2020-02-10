@@ -38,6 +38,10 @@ $CMP PCA9554DWR
 F http://www.ti.com/lit/ds/symlink/pca9554.pdf
 $ENDCMP
 #
+$CMP PUSHBTN
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf
+$ENDCMP
+#
 $CMP SN74LVC2G14
 F http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf
 $ENDCMP
