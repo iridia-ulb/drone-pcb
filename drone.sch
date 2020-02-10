@@ -1118,4 +1118,100 @@ Wire Wire Line
 Connection ~ 6150 2400
 Wire Wire Line
 	6800 2400 7300 2400
+$Comp
+L Drone:24LC32AF U?
+U 1 1 5E427D77
+P 6200 3400
+F 0 "U?" H 6200 3550 50  0000 L BNN
+F 1 "24LC32AF" H 6200 3450 50  0000 L BNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 6200 3400 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf" H 6200 3575 50  0001 L BNN
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 6200 4200 0    50   ~ 0
+7-bit Address: 0x50
+Text Label 5150 4200 1    50   ~ 0
+GND
+Wire Wire Line
+	6000 3650 5900 3650
+Wire Wire Line
+	5900 3650 5900 3750
+Connection ~ 5900 4000
+Wire Wire Line
+	5900 4000 6000 4000
+Connection ~ 5900 3750
+Wire Wire Line
+	5900 3750 5900 3850
+Wire Wire Line
+	5900 3750 6000 3750
+Wire Wire Line
+	6000 3850 5900 3850
+Connection ~ 5900 3850
+Wire Wire Line
+	5900 3850 5900 4000
+$Comp
+L Device:C C?
+U 1 1 5E4973DC
+P 5700 3700
+AR Path="/5E2EDC4D/5E4973DC" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E4973DC" Ref="C?"  Part="1" 
+AR Path="/5E4973DC" Ref="C?"  Part="1" 
+F 0 "C?" H 5815 3746 50  0000 L CNN
+F 1 "100n" H 5815 3655 50  0000 L CNN
+F 2 "" H 5738 3550 50  0001 C CNN
+F 3 "~" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 3850 5700 4000
+Connection ~ 5700 4000
+Wire Wire Line
+	5700 4000 5900 4000
+Wire Wire Line
+	5700 3550 5700 3500
+Wire Wire Line
+	5700 3500 6000 3500
+Connection ~ 5700 3500
+Text Label 5700 3300 3    50   ~ 0
+3V3
+Wire Wire Line
+	5700 3300 5700 3500
+Text Label 7400 3750 2    50   ~ 0
+I2C0_SDA_33
+Text Label 7400 3650 2    50   ~ 0
+I2C0_SCL_33
+Wire Wire Line
+	6900 3650 7400 3650
+Wire Wire Line
+	6900 3750 7400 3750
+Wire Wire Line
+	6900 3500 7000 3500
+Wire Wire Line
+	7000 3500 7000 3150
+$Comp
+L Device:R R?
+U 1 1 5E5A5861
+P 5150 3700
+AR Path="/5E2EDC4D/5E5A5861" Ref="R?"  Part="1" 
+AR Path="/5E5A5861" Ref="R?"  Part="1" 
+F 0 "R?" H 5220 3746 50  0000 L CNN
+F 1 "10k" H 5220 3655 50  0000 L CNN
+F 2 "" V 5080 3700 50  0001 C CNN
+F 3 "~" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3150 5150 3550
+Wire Wire Line
+	5150 3150 7000 3150
+Wire Wire Line
+	5150 3850 5150 4000
+Wire Wire Line
+	5150 4000 5700 4000
+Wire Wire Line
+	5150 4000 5150 4200
+Connection ~ 5150 4000
 $EndSCHEMATC
