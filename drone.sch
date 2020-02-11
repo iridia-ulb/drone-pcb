@@ -871,6 +871,8 @@ F3 "3V3" O L 8400 4600 50
 F4 "GND" O L 8400 5200 50 
 F5 "2V8" O L 8400 4700 50 
 F6 "1V8" O L 8400 4800 50 
+F7 "SYS_EN_18" I L 8400 5050 50 
+F8 "~PMU_SLP_18" I L 8400 4950 50 
 $EndSheet
 Text Label 7800 4600 0    50   ~ 0
 3V3
@@ -911,10 +913,9 @@ Text Label 750  3350 0    50   ~ 0
 Text Label 7300 2400 2    50   ~ 0
 ~PMU_PWRBTN
 Wire Wire Line
-	7400 5000 8200 5000
-Text Label 7400 5000 0    50   ~ 0
+	7800 4950 8400 4950
+Text Label 7800 4950 0    50   ~ 0
 ~PMU_SLP_S01X
-NoConn ~ 8200 5000
 $Comp
 L Drone:CAP C?
 U 1 1 5E485B02
@@ -1238,4 +1239,8 @@ Wire Wire Line
 	2800 2000 2800 2200
 Connection ~ 2800 2000
 Connection ~ 3500 2000
+Text Label 7800 5050 0    50   ~ 0
+SYS_EN_18
+Wire Wire Line
+	8400 5050 7800 5050
 $EndSCHEMATC
