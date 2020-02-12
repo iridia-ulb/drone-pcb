@@ -1,4 +1,4 @@
-16928510839269221
+16931676456561221
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46073,6 +46073,20 @@ D36V50F5
 0
 12
 12
+Drone
+D36V50F5_S
+surface-mounted straight socket strip, 2x06, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Surface mounted socket strip SMD 2x06 2.54mm double row
+0
+12
+12
+Drone
+ES02MSABE
+
+
+0
+5
+5
 Drone
 SM05B-SRSS-TB
 
