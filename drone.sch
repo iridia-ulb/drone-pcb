@@ -621,8 +621,8 @@ $Comp
 L Drone:PCA9554DWR U?
 U 1 1 5E3AC483
 P 3750 1050
-F 0 "U?" H 3975 1215 50  0000 C CNN
-F 1 "PCA9554DWR" H 3750 -100 50  0000 L BNN
+F 0 "U?" H 3800 1250 50  0000 C CNN
+F 1 "PCA9554DWR" H 3750 1100 50  0000 L BNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 4650 -100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/pca9554.pdf" H 4700 -100 50  0001 C CNN
 	1    3750 1050
@@ -815,7 +815,7 @@ Text Label 750  5050 0    50   ~ 0
 Wire Wire Line
 	750  5050 1550 5050
 NoConn ~ 1550 4850
-Text Notes 3750 2300 0    50   ~ 0
+Text Notes 3750 2200 0    50   ~ 0
 7-bit Address: 0x20
 Text Label 7600 3750 0    50   ~ 0
 I2C0_SCL_18
@@ -1243,4 +1243,6 @@ Text Label 7800 5050 0    50   ~ 0
 SYS_EN_18
 Wire Wire Line
 	8400 5050 7800 5050
+Text Notes 3750 2400 0    50   ~ 0
+TODO: Pull-up/down these pins to get\ndefault connect
 $EndSCHEMATC

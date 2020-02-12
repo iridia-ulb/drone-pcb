@@ -312,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3350 8650 3350
 Text Label 8650 3450 0    50   ~ 0
-~PMU_SLP_18
+SYS_EN_18
 Text Label 8650 3350 0    50   ~ 0
 MTR_EN_18
 $Comp
@@ -468,4 +468,24 @@ Text Notes 4550 3900 0    50   ~ 0
 TODO: Pull down CTRL unless switched
 Text Notes 4700 1600 0    50   ~ 0
 TODO: EN after 5V is good and not SLP
+$Comp
+L Drone:BSS138DW Q?
+U 1 1 5E456F98
+P 4300 2750
+AR Path="/5E2EDC4D/5E456F98" Ref="Q?"  Part="1" 
+AR Path="/5E456F98" Ref="Q?"  Part="1" 
+AR Path="/5E3E92F4/5E456F98" Ref="Q?"  Part="1" 
+F 0 "Q?" V 4550 2650 50  0000 L CNN
+F 1 "BSS138DW" V 4450 2650 50  0000 L CNN
+F 2 "" H 4400 2675 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4200 2750 50  0001 L CNN
+	1    4300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2100 4300 2100
+Wire Wire Line
+	4300 2100 4300 2550
+Text Label 3700 3150 0    50   ~ 0
+SYS_EN_18
 $EndSCHEMATC
