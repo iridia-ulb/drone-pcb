@@ -103,7 +103,6 @@ Wire Wire Line
 	4850 5350 4050 5350
 NoConn ~ 1550 3450
 NoConn ~ 1550 3550
-NoConn ~ 1550 4050
 NoConn ~ 1550 4150
 NoConn ~ 1550 4950
 NoConn ~ 1550 5150
@@ -130,7 +129,6 @@ NoConn ~ 4050 6350
 NoConn ~ 4050 6250
 NoConn ~ 4050 6050
 NoConn ~ 4050 4950
-NoConn ~ 4050 4850
 NoConn ~ 4050 4750
 NoConn ~ 4050 4650
 NoConn ~ 4050 4550
@@ -621,8 +619,8 @@ $Comp
 L Drone:PCA9554DWR U?
 U 1 1 5E3AC483
 P 3750 1050
-F 0 "U?" H 3800 1250 50  0000 C CNN
-F 1 "PCA9554DWR" H 3750 1100 50  0000 L BNN
+F 0 "U?" H 3800 1175 50  0000 C CNN
+F 1 "PCA9554DWR" H 3750 1075 50  0000 L BNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 4650 -100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/pca9554.pdf" H 4700 -100 50  0001 C CNN
 	1    3750 1050
@@ -871,8 +869,8 @@ F3 "3V3" O L 8400 4600 50
 F4 "GND" O L 8400 5200 50 
 F5 "2V8" O L 8400 4700 50 
 F6 "1V8" O L 8400 4800 50 
-F7 "SYS_EN_18" I L 8400 5050 50 
-F8 "~PMU_SLP_18" I L 8400 4950 50 
+F7 "SYS_EN_18" I L 8400 4950 50 
+F8 "MTR_EN_18" I L 8400 5050 50 
 $EndSheet
 Text Label 7800 4600 0    50   ~ 0
 3V3
@@ -894,10 +892,6 @@ Text Label 7800 4700 0    50   ~ 0
 2V8
 Wire Wire Line
 	7800 4700 8400 4700
-NoConn ~ 4050 3450
-NoConn ~ 4050 3350
-NoConn ~ 4050 3250
-NoConn ~ 4050 3150
 Wire Wire Line
 	750  3150 1550 3150
 Text Label 750  3150 0    50   ~ 0
@@ -1118,8 +1112,8 @@ $Comp
 L Drone:24LC32AF U?
 U 1 1 5E427D77
 P 6200 3400
-F 0 "U?" H 6200 3550 50  0000 L BNN
-F 1 "24LC32AF" H 6200 3450 50  0000 L BNN
+F 0 "U?" H 6200 3500 50  0000 L BNN
+F 1 "24LC32AF" H 6200 3425 50  0000 L BNN
 F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 6200 3400 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf" H 6200 3575 50  0001 L BNN
 	1    6200 3400
@@ -1240,9 +1234,114 @@ Wire Wire Line
 Connection ~ 2800 2000
 Connection ~ 3500 2000
 Text Label 7800 5050 0    50   ~ 0
-SYS_EN_18
+MTR_EN_18
 Wire Wire Line
 	8400 5050 7800 5050
 Text Notes 3750 2400 0    50   ~ 0
 TODO: Pull-up/down these pins to get\ndefault connect
+Text Label 4850 4850 2    50   ~ 0
+MTR_EN_18
+$Comp
+L Drone:TXB0104DR U?
+U 1 1 5E627BC0
+P 6100 4800
+F 0 "U?" H 6100 4900 50  0000 L BNN
+F 1 "TXB0104DR" H 6100 4825 50  0000 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6925 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5900 4750 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+Text Label 5700 4600 3    50   ~ 0
+1V8
+Wire Wire Line
+	5700 4600 5700 4900
+Wire Wire Line
+	5700 4900 5900 4900
+Text Label 7100 4600 3    50   ~ 0
+3V3
+Wire Wire Line
+	7100 4600 7100 4900
+Wire Wire Line
+	7100 4900 6900 4900
+Text Label 5300 5600 0    50   ~ 0
+MTR_EN_18
+Wire Wire Line
+	5900 5700 5750 5700
+Wire Wire Line
+	5750 5700 5750 6300
+Text Label 5750 6300 1    50   ~ 0
+GND
+Wire Wire Line
+	4050 3150 4850 3150
+Text Label 4850 3150 2    50   ~ 0
+UART1_RTS_18
+Wire Wire Line
+	4050 3250 4850 3250
+Text Label 4850 3250 2    50   ~ 0
+UART1_CTS_18
+Wire Wire Line
+	4050 3350 4850 3350
+Text Label 4850 3350 2    50   ~ 0
+UART1_TX_18
+Wire Wire Line
+	4050 3450 4850 3450
+Wire Wire Line
+	5900 5100 5300 5100
+Text Label 5300 5100 0    50   ~ 0
+UART1_RTS_18
+Wire Wire Line
+	5900 5200 5300 5200
+Text Label 5300 5200 0    50   ~ 0
+UART1_CTS_18
+Wire Wire Line
+	5900 5300 5300 5300
+Text Label 5300 5300 0    50   ~ 0
+UART1_TX_18
+Wire Wire Line
+	5900 5400 5300 5400
+Text Label 5300 5400 0    50   ~ 0
+UART1_RX_18
+Text Label 4850 3450 2    50   ~ 0
+UART1_RX_18
+Wire Wire Line
+	6900 5100 7500 5100
+Text Label 7500 5100 2    50   ~ 0
+UART1_RTS_33
+Wire Wire Line
+	6900 5200 7500 5200
+Text Label 7500 5200 2    50   ~ 0
+UART1_CTS_33
+Wire Wire Line
+	6900 5300 7500 5300
+Text Label 7500 5300 2    50   ~ 0
+UART1_TX_33
+Wire Wire Line
+	6900 5400 7500 5400
+Text Label 7500 5400 2    50   ~ 0
+UART1_RX_33
+Wire Wire Line
+	4850 4850 4050 4850
+NoConn ~ 1550 4050
+$Comp
+L Drone:RES R?
+U 1 1 5E81EEEB
+P 5250 5850
+AR Path="/5E2EDC4D/5E81EEEB" Ref="R?"  Part="1" 
+AR Path="/5E81EEEB" Ref="R?"  Part="1" 
+F 0 "R?" H 5320 5896 50  0000 L CNN
+F 1 "10k" H 5320 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 5850 50  0001 C CNN
+F 3 "~" H 5250 5850 50  0001 C CNN
+	1    5250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5700 5250 5600
+Wire Wire Line
+	5250 5600 5900 5600
+Text Label 5250 6300 1    50   ~ 0
+GND
+Wire Wire Line
+	5250 6300 5250 6000
 $EndSCHEMATC

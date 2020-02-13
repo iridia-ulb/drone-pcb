@@ -13,479 +13,533 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9300 3550 2    50   Output ~ 0
+Text HLabel 1750 3900 2    50   Output ~ 0
 5V
-Text HLabel 9300 3650 2    50   Output ~ 0
+Text HLabel 1750 4000 2    50   Output ~ 0
 3V3
-Text HLabel 9300 3950 2    50   Output ~ 0
+Text HLabel 1750 4300 2    50   Output ~ 0
 GND
 Wire Wire Line
-	9300 3550 8650 3550
+	1750 3900 1100 3900
 Wire Wire Line
-	9300 3650 8650 3650
+	1750 4000 1100 4000
 Wire Wire Line
-	9300 3950 8650 3950
-Text Label 8650 3950 0    50   ~ 0
+	1750 4300 1100 4300
+Text Label 1100 4300 0    50   ~ 0
 GND
-Text Label 8650 3650 0    50   ~ 0
+Text Label 1100 4000 0    50   ~ 0
 3V3
-Text Label 8650 3550 0    50   ~ 0
+Text Label 1100 3900 0    50   ~ 0
 5V
-Text HLabel 9300 3750 2    50   Output ~ 0
+Text HLabel 1750 4100 2    50   Output ~ 0
 2V8
 Wire Wire Line
-	9300 3750 8650 3750
-Text Label 8650 3750 0    50   ~ 0
+	1750 4100 1100 4100
+Text Label 1100 4100 0    50   ~ 0
 2V8
-Text HLabel 9300 3850 2    50   Output ~ 0
+Text HLabel 1750 4200 2    50   Output ~ 0
 1V8
-Text Label 8650 3850 0    50   ~ 0
+Text Label 1100 4200 0    50   ~ 0
 1V8
 Wire Wire Line
-	8650 3850 9300 3850
+	1100 4200 1750 4200
 Wire Wire Line
-	8550 1900 8700 1900
-Connection ~ 8550 1900
+	9250 1850 9400 1850
+Connection ~ 9250 1850
 Wire Wire Line
-	8550 2000 8700 2000
+	9250 1950 9400 1950
 Wire Wire Line
-	8550 1900 8550 2000
+	9250 1850 9250 1950
 Wire Wire Line
-	9700 2350 9700 2750
+	10400 2300 10400 2700
 Wire Wire Line
-	9700 1900 9700 2050
-Text Label 9700 2750 1    50   ~ 0
+	10400 1850 10400 2000
+Text Label 10400 2700 1    50   ~ 0
 GND
 $Comp
 L Drone:CAP C?
 U 1 1 5E4477E2
-P 9700 2200
+P 10400 2150
 AR Path="/5E349830/5E4477E2" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E4477E2" Ref="C?"  Part="1" 
-F 0 "C?" H 9815 2246 50  0000 L CNN
-F 1 "1u" H 9815 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9738 2050 50  0001 C CNN
-F 3 "~" H 9700 2200 50  0001 C CNN
-	1    9700 2200
+F 0 "C?" H 10515 2196 50  0000 L CNN
+F 1 "1u" H 10515 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10438 2000 50  0001 C CNN
+F 3 "~" H 10400 2150 50  0001 C CNN
+	1    10400 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 1900 8300 2050
-Text Label 8300 2750 1    50   ~ 0
+	9000 1850 9000 2000
+Text Label 9000 2700 1    50   ~ 0
 GND
 Wire Wire Line
-	8300 1900 8550 1900
+	9000 1850 9250 1850
 $Comp
 L Drone:CAP C?
 U 1 1 5E4477D8
-P 8300 2200
+P 9000 2150
 AR Path="/5E349830/5E4477D8" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E4477D8" Ref="C?"  Part="1" 
-F 0 "C?" H 8415 2246 50  0000 L CNN
-F 1 "1u" H 8415 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8338 2050 50  0001 C CNN
-F 3 "~" H 8300 2200 50  0001 C CNN
-	1    8300 2200
+F 0 "C?" H 9115 2196 50  0000 L CNN
+F 1 "1u" H 9115 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 2000 50  0001 C CNN
+F 3 "~" H 9000 2150 50  0001 C CNN
+	1    9000 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 1900 9700 1900
-Text Label 9700 1900 2    50   ~ 0
+	10000 1850 10400 1850
+Text Label 10400 1850 2    50   ~ 0
 1V8
-Text Label 8300 1900 0    50   ~ 0
+Text Label 9000 1850 0    50   ~ 0
 3V3
 Wire Wire Line
-	6550 1900 6700 1900
-Connection ~ 6550 1900
+	7250 1850 7400 1850
+Connection ~ 7250 1850
 Wire Wire Line
-	6550 2000 6700 2000
+	7250 1950 7400 1950
 Wire Wire Line
-	6550 1900 6550 2000
+	7250 1850 7250 1950
 Wire Wire Line
-	7700 2350 7700 2750
+	8400 2300 8400 2700
 Wire Wire Line
-	7700 1900 7700 2050
-Text Label 7700 2750 1    50   ~ 0
+	8400 1850 8400 2000
+Text Label 8400 2700 1    50   ~ 0
 GND
 $Comp
 L Drone:CAP C?
 U 1 1 5E41DB5A
-P 7700 2200
+P 8400 2150
 AR Path="/5E349830/5E41DB5A" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E41DB5A" Ref="C?"  Part="1" 
-F 0 "C?" H 7815 2246 50  0000 L CNN
-F 1 "1u" H 7815 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7738 2050 50  0001 C CNN
-F 3 "~" H 7700 2200 50  0001 C CNN
-	1    7700 2200
+F 0 "C?" H 8515 2196 50  0000 L CNN
+F 1 "1u" H 8515 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 2000 50  0001 C CNN
+F 3 "~" H 8400 2150 50  0001 C CNN
+	1    8400 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 1900 6300 2050
-Text Label 6300 2750 1    50   ~ 0
+	7000 1850 7000 2000
+Text Label 7000 2700 1    50   ~ 0
 GND
 Wire Wire Line
-	6300 1900 6550 1900
+	7000 1850 7250 1850
 $Comp
 L Drone:CAP C?
 U 1 1 5E40BD7D
-P 6300 2200
+P 7000 2150
 AR Path="/5E349830/5E40BD7D" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E40BD7D" Ref="C?"  Part="1" 
-F 0 "C?" H 6415 2246 50  0000 L CNN
-F 1 "1u" H 6415 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6338 2050 50  0001 C CNN
-F 3 "~" H 6300 2200 50  0001 C CNN
-	1    6300 2200
+F 0 "C?" H 7115 2196 50  0000 L CNN
+F 1 "1u" H 7115 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7038 2000 50  0001 C CNN
+F 3 "~" H 7000 2150 50  0001 C CNN
+	1    7000 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 1900 7700 1900
-Text Label 7700 1900 2    50   ~ 0
+	8000 1850 8400 1850
+Text Label 8400 1850 2    50   ~ 0
 2V8
-Text Label 6300 1900 0    50   ~ 0
+Text Label 7000 1850 0    50   ~ 0
 3V3
 $Comp
 L Drone:XT60PW-F_Vertical J?
 U 1 1 5E3DE251
-P 6700 3850
-F 0 "J?" H 6500 3525 50  0000 L CNN
-F 1 "XT60PW-F_Vertical" H 6500 3600 50  0000 L CNN
-F 2 "Drone:XT60-F_1x02_P7.20mm_Vertical" H 6600 4100 50  0001 L BNN
-F 3 "" H 6650 3950 50  0001 L BNN
-	1    6700 3850
+P 9800 3750
+F 0 "J?" H 9600 3425 50  0000 L CNN
+F 1 "XT60PW-F_Vertical" H 9600 3500 50  0000 L CNN
+F 2 "Drone:XT60-F_1x02_P7.20mm_Vertical" H 9700 4000 50  0001 L BNN
+F 3 "" H 9750 3850 50  0001 L BNN
+	1    9800 3750
 	1    0    0    1   
 $EndComp
 $Comp
 L Drone:XT90PW-M J?
 U 1 1 5E3D24EA
-P 2950 3750
-F 0 "J?" H 2843 3383 50  0000 C CNN
-F 1 "XT90PW-M" H 2843 3474 50  0000 C CNN
-F 2 "Drone:XT90PW-M" H 2850 4000 50  0001 L BNN
-F 3 "" H 2900 3850 50  0001 L BNN
-	1    2950 3750
-	-1   0    0    1   
+P 9800 4800
+F 0 "J?" H 9693 4433 50  0000 C CNN
+F 1 "XT90PW-M" H 9693 4524 50  0000 C CNN
+F 2 "Drone:XT90PW-M" H 9700 5050 50  0001 L BNN
+F 3 "" H 9750 4900 50  0001 L BNN
+	1    9800 4800
+	1    0    0    1   
 $EndComp
 $Comp
 L Drone:D36V28F3 U?
 U 1 1 5E3B18FA
-P 4700 1800
+P 5550 1750
 AR Path="/5E3B18FA" Ref="U?"  Part="1" 
 AR Path="/5E3E92F4/5E3B18FA" Ref="U?"  Part="1" 
-F 0 "U?" H 4700 1900 50  0000 L BNN
-F 1 "D36V28F3" H 4700 1825 50  0000 L BNN
-F 2 "Drone:D36V28F3" H 4650 1750 50  0001 C CNN
-F 3 "https://www.pololu.com/product/3781" H 4650 1750 50  0001 C CNN
-	1    4700 1800
+F 0 "U?" H 5550 1850 50  0000 L BNN
+F 1 "D36V28F3" H 5550 1775 50  0000 L BNN
+F 2 "Drone:D36V28F3" H 5500 1700 50  0001 C CNN
+F 3 "https://www.pololu.com/product/3781" H 5500 1700 50  0001 C CNN
+	1    5550 1750
 	1    0    0    -1  
 $EndComp
-Text Label 3550 1900 2    50   ~ 0
+Text Label 3150 1850 2    50   ~ 0
 5V
 $Comp
 L Drone:D36V50F5 U?
 U 1 1 5E3ABE9B
-P 2650 1800
+P 2250 1750
 AR Path="/5E3ABE9B" Ref="U?"  Part="1" 
 AR Path="/5E3E92F4/5E3ABE9B" Ref="U?"  Part="1" 
-F 0 "U?" H 2650 1900 50  0000 L BNN
-F 1 "D36V50F5" H 2650 1825 50  0000 L BNN
-F 2 "Drone:D36V50F5" H 2600 1750 50  0001 C CNN
-F 3 "https://www.pololu.com/product/4091" H 2600 1750 50  0001 C CNN
-	1    2650 1800
+F 0 "U?" H 2250 1850 50  0000 L BNN
+F 1 "D36V50F5" H 2250 1775 50  0000 L BNN
+F 2 "Drone:D36V50F5" H 2200 1700 50  0001 C CNN
+F 3 "https://www.pololu.com/product/4091" H 2200 1700 50  0001 C CNN
+	1    2250 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 3300 5950 3650
+	9050 3200 9050 3550
 Wire Wire Line
-	5050 3650 4550 3650
+	8150 3550 7900 3550
 Wire Wire Line
-	3650 3650 3350 3650
-Text Label 3650 3850 2    50   ~ 0
+	9100 4700 9400 4700
+Text Label 9100 4900 0    50   ~ 0
 GND
 Wire Wire Line
-	3650 3850 3350 3850
-Text Label 3650 3650 2    50   ~ 0
+	9100 4900 9400 4900
+Text Label 9100 4700 0    50   ~ 0
 11V1
-Text Label 4550 3650 0    50   ~ 0
-GPIO_MTR?_3V3
-Wire Wire Line
-	4550 3750 5050 3750
-Text Label 4550 3750 0    50   ~ 0
-GND
 $Comp
 L Drone:CMX60D20 SSR?
 U 1 1 5E3F8AD0
-P 5500 3600
+P 8600 3500
 AR Path="/5E3F8AD0" Ref="SSR?"  Part="1" 
 AR Path="/5E3E92F4/5E3F8AD0" Ref="U?"  Part="1" 
-F 0 "U?" H 5300 3725 50  0000 C CNN
-F 1 "CMX60D20" H 5450 3650 50  0000 C CNN
-F 2 "Drone:CMX60D20" H 5400 3600 50  0001 L BNN
-F 3 "https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf" H 5500 3600 50  0001 C CNN
-	1    5500 3600
+F 0 "U?" H 8400 3625 50  0000 C CNN
+F 1 "CMX60D20" H 8550 3550 50  0000 C CNN
+F 2 "Drone:CMX60D20" H 8500 3500 50  0001 L BNN
+F 3 "https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf" H 8600 3500 50  0001 C CNN
+	1    8600 3500
 	1    0    0    -1  
 $EndComp
 Text Notes 7600 950  0    50   ~ 0
 TODO: \n2. check what top level components are necessary (voltage regulators & stepdown?)\n4. Replace motor driver 2 pin male connector with a proper connector\n5. Check connectors orientation\n
-$Comp
-L Drone:BSS138DW Q?
-U 1 1 5E529078
-P 5250 5300
-AR Path="/5E2EDC4D/5E529078" Ref="Q?"  Part="1" 
-AR Path="/5E529078" Ref="Q?"  Part="1" 
-AR Path="/5E3E92F4/5E529078" Ref="Q?"  Part="1" 
-F 0 "Q?" V 5500 5200 50  0000 L CNN
-F 1 "BSS138DW" V 5400 5200 50  0000 L CNN
-F 2 "" H 5350 5225 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 5150 5300 50  0001 L CNN
-	1    5250 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E52907E
-P 5500 5050
-AR Path="/5E2EDC4D/5E52907E" Ref="R?"  Part="1" 
-AR Path="/5E52907E" Ref="R?"  Part="1" 
-AR Path="/5E3E92F4/5E52907E" Ref="R?"  Part="1" 
-F 0 "R?" H 5570 5096 50  0000 L CNN
-F 1 "10k" H 5570 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 5050 50  0001 C CNN
-F 3 "~" H 5500 5050 50  0001 C CNN
-	1    5500 5050
-	1    0    0    -1  
-$EndComp
-Text Label 5500 4650 3    50   ~ 0
-3V3
-Wire Wire Line
-	5500 4650 5500 4900
-Wire Wire Line
-	5500 5200 5500 5300
-Wire Wire Line
-	5500 5300 5450 5300
-Text Label 5250 4650 3    50   ~ 0
-1V8
-Wire Wire Line
-	5250 4650 5250 4850
-$Comp
-L Drone:RES R?
-U 1 1 5E52908A
-P 5000 5050
-AR Path="/5E2EDC4D/5E52908A" Ref="R?"  Part="1" 
-AR Path="/5E52908A" Ref="R?"  Part="1" 
-AR Path="/5E3E92F4/5E52908A" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 5096 50  0000 L CNN
-F 1 "10k" H 5070 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 5050 50  0001 C CNN
-F 3 "~" H 5000 5050 50  0001 C CNN
-	1    5000 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 4900 5000 4850
-Wire Wire Line
-	5000 4850 5250 4850
-Connection ~ 5250 4850
-Wire Wire Line
-	5250 4850 5250 5000
-Wire Wire Line
-	5050 5300 5000 5300
-Wire Wire Line
-	5000 5300 5000 5200
-Connection ~ 5000 5300
-Wire Wire Line
-	5500 5300 6050 5300
-Connection ~ 5500 5300
-Wire Wire Line
-	4450 5300 5000 5300
-Text Label 6050 5300 2    50   ~ 0
-GPIO_MTR?_33
-Text Label 4450 5300 0    50   ~ 0
-GPIO_MTR?_18
-Text HLabel 9300 3450 2    50   Input ~ 0
-~PMU_SLP_18
-Text HLabel 9300 3350 2    50   Input ~ 0
+Text HLabel 1750 3800 2    50   Input ~ 0
+SYS_EN_18
+Text HLabel 1750 3700 2    50   Input ~ 0
 MTR_EN_18
 Wire Wire Line
-	9300 3450 8650 3450
+	1750 3800 1100 3800
 Wire Wire Line
-	9300 3350 8650 3350
-Text Label 8650 3450 0    50   ~ 0
+	1750 3700 1100 3700
+Text Label 1100 3800 0    50   ~ 0
 SYS_EN_18
-Text Label 8650 3350 0    50   ~ 0
+Text Label 1100 3700 0    50   ~ 0
 MTR_EN_18
 $Comp
 L Drone:TLV75518PDBV U?
 U 1 1 5E58F736
-P 8800 1800
-F 0 "U?" H 8800 1900 50  0000 L BNN
-F 1 "TLV75518PDBV" H 8800 1825 50  0000 L BNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8800 2100 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 8800 1800 50  0001 C CNN
-	1    8800 1800
+P 9500 1750
+F 0 "U?" H 9500 1850 50  0000 L BNN
+F 1 "TLV75518PDBV" H 9500 1775 50  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9500 2050 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 9500 1750 50  0001 C CNN
+	1    9500 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Drone:TLV75528PDBV U?
 U 1 1 5E59019E
-P 6800 1800
-F 0 "U?" H 6800 1900 50  0000 L BNN
-F 1 "TLV75528PDBV" H 6800 1825 50  0000 L BNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6800 2100 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 6800 1800 50  0001 C CNN
-	1    6800 1800
+P 7500 1750
+F 0 "U?" H 7500 1850 50  0000 L BNN
+F 1 "TLV75528PDBV" H 7500 1775 50  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7500 2050 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 7500 1750 50  0001 C CNN
+	1    7500 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 2350 6300 2750
+	7000 2300 7000 2700
 Wire Wire Line
-	7300 2100 7400 2100
+	8000 2050 8100 2050
 Wire Wire Line
-	7400 2100 7400 2750
-Text Label 7400 2750 1    50   ~ 0
+	8100 2050 8100 2700
+Text Label 8100 2700 1    50   ~ 0
 GND
 Wire Wire Line
-	8300 2350 8300 2750
+	9000 2300 9000 2700
 Wire Wire Line
-	9300 2100 9450 2100
+	10000 2050 10150 2050
 Wire Wire Line
-	9450 2100 9450 2750
-Text Label 9450 2750 1    50   ~ 0
+	10150 2050 10150 2700
+Text Label 10150 2700 1    50   ~ 0
 GND
-Text Label 2200 1900 0    50   ~ 0
+Text Label 1800 1850 0    50   ~ 0
 11V1
 Wire Wire Line
-	2200 1900 2450 1900
+	1800 1850 2050 1850
 Wire Wire Line
-	2550 2000 2450 2000
+	2150 1950 2050 1950
 Wire Wire Line
-	2450 2000 2450 1900
-Connection ~ 2450 1900
+	2050 1950 2050 1850
+Connection ~ 2050 1850
 Wire Wire Line
-	2450 1900 2550 1900
+	2050 1850 2150 1850
 Wire Wire Line
-	3250 1900 3350 1900
+	2850 1850 2950 1850
 Wire Wire Line
-	3250 2000 3350 2000
+	2850 1950 2950 1950
 Wire Wire Line
-	3350 2000 3350 1900
-Connection ~ 3350 1900
+	2950 1950 2950 1850
+Connection ~ 2950 1850
 Wire Wire Line
-	3350 1900 3550 1900
-NoConn ~ 4600 2200
-NoConn ~ 2550 2500
-Text Label 4250 1900 0    50   ~ 0
+	2950 1850 3150 1850
+NoConn ~ 5450 2150
+NoConn ~ 2150 2450
+Text Label 4350 1850 0    50   ~ 0
 11V1
-Wire Wire Line
-	4250 1900 4600 1900
-Text Label 5600 1900 2    50   ~ 0
+Text Label 6450 1850 2    50   ~ 0
 3V3
 Wire Wire Line
-	5300 1900 5600 1900
-Text Label 3350 2750 1    50   ~ 0
+	6150 1850 6450 1850
+Text Label 2950 2700 1    50   ~ 0
 GND
 Wire Wire Line
-	3350 2750 3350 2500
+	2950 2700 2950 2450
 Wire Wire Line
-	3350 2200 3250 2200
+	2950 2150 2850 2150
 Wire Wire Line
-	3250 2300 3350 2300
-Connection ~ 3350 2300
+	2850 2250 2950 2250
+Connection ~ 2950 2250
 Wire Wire Line
-	3350 2300 3350 2200
+	2950 2250 2950 2150
 Wire Wire Line
-	3250 2400 3350 2400
-Connection ~ 3350 2400
+	2850 2350 2950 2350
+Connection ~ 2950 2350
 Wire Wire Line
-	3350 2400 3350 2300
+	2950 2350 2950 2250
 Wire Wire Line
-	3250 2500 3350 2500
-Connection ~ 3350 2500
+	2850 2450 2950 2450
+Connection ~ 2950 2450
 Wire Wire Line
-	3350 2500 3350 2400
-Text Label 5400 2750 1    50   ~ 0
+	2950 2450 2950 2350
+Text Label 6250 2700 1    50   ~ 0
 GND
 Wire Wire Line
-	5400 2100 5300 2100
+	6250 2050 6150 2050
 Wire Wire Line
-	5300 2200 5400 2200
-Connection ~ 5400 2200
+	6150 2150 6250 2150
+Connection ~ 6250 2150
 Wire Wire Line
-	5400 2200 5400 2100
+	6250 2150 6250 2050
 Wire Wire Line
-	5400 2200 5400 2750
-NoConn ~ 2550 2150
-NoConn ~ 2550 2250
-Text Notes 6500 4150 0    50   ~ 0
+	6250 2150 6250 2700
+NoConn ~ 2150 2100
+NoConn ~ 2150 2200
+Text Notes 9600 4050 0    50   ~ 0
 Power Board Connector
 Wire Wire Line
-	5950 3750 6300 3750
-Text Label 5950 3300 3    50   ~ 0
+	9050 3650 9400 3650
+Text Label 9050 3200 3    50   ~ 0
 11V1
 Wire Wire Line
-	6300 3950 5950 3950
+	9400 3850 9050 3850
 Wire Wire Line
-	5950 3950 5950 4200
-Text Label 5950 4200 1    50   ~ 0
+	9050 3850 9050 4100
+Text Label 9050 4100 1    50   ~ 0
 GND
 $Comp
 L Drone:ES02MSABE S?
 U 1 1 5E69A4C6
-P 1750 2300
-F 0 "S?" H 1750 2400 50  0000 L BNN
-F 1 "ES02MSABE" H 1750 2325 50  0000 L BNN
-F 2 "" H 1975 2200 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/ES/documents/datasheet.pdf" H 1900 2200 50  0001 C CNN
-	1    1750 2300
+P 1350 2250
+F 0 "S?" H 1350 2350 50  0000 L BNN
+F 1 "ES02MSABE" H 1350 2275 50  0000 L BNN
+F 2 "" H 1575 2150 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Slide/ES/documents/datasheet.pdf" H 1500 2150 50  0001 C CNN
+	1    1350 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2400 2550 2400
+	1800 2350 2150 2350
 $Comp
 L Drone:RES R?
 U 1 1 5E6ACD3A
-P 1500 2650
+P 1100 2600
 AR Path="/5E2EDC4D/5E6ACD3A" Ref="R?"  Part="1" 
 AR Path="/5E6ACD3A" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E6ACD3A" Ref="R?"  Part="1" 
-F 0 "R?" H 1570 2696 50  0000 L CNN
-F 1 "1k" H 1570 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 2650 50  0001 C CNN
-F 3 "~" H 1500 2650 50  0001 C CNN
-	1    1500 2650
+F 0 "R?" H 1170 2646 50  0000 L CNN
+F 1 "1k" H 1170 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 2600 50  0001 C CNN
+F 3 "~" H 1100 2600 50  0001 C CNN
+	1    1100 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2500 1500 2400
+	1100 2450 1100 2350
 Wire Wire Line
-	1500 2400 1600 2400
-Text Label 1500 3000 1    50   ~ 0
+	1100 2350 1200 2350
+Text Label 1100 2950 1    50   ~ 0
 GND
 Wire Wire Line
-	1500 2800 1500 3000
-Text Notes 4550 3900 0    50   ~ 0
-TODO: Pull down CTRL unless switched
-Text Notes 4700 1600 0    50   ~ 0
-TODO: EN after 5V is good and not SLP
+	1100 2750 1100 2950
+Wire Wire Line
+	5450 2050 5150 2050
+Wire Wire Line
+	5150 2050 5150 3000
+Text Label 3700 4150 0    50   ~ 0
+SYS_EN_18
 $Comp
 L Drone:BSS138DW Q?
 U 1 1 5E456F98
-P 4300 2750
+P 5150 3200
 AR Path="/5E2EDC4D/5E456F98" Ref="Q?"  Part="1" 
 AR Path="/5E456F98" Ref="Q?"  Part="1" 
 AR Path="/5E3E92F4/5E456F98" Ref="Q?"  Part="1" 
-F 0 "Q?" V 4550 2650 50  0000 L CNN
-F 1 "BSS138DW" V 4450 2650 50  0000 L CNN
-F 2 "" H 4400 2675 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4200 2750 50  0001 L CNN
-	1    4300 2750
+F 0 "Q?" V 5400 3100 50  0000 L CNN
+F 1 "BSS138DW" V 5300 3100 50  0000 L CNN
+F 2 "" H 5250 3125 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 5050 3200 50  0001 L CNN
+	1    5150 3200
+	1    0    0    -1  
+$EndComp
+Text Label 5150 3700 1    50   ~ 0
+GND
+Wire Wire Line
+	5150 3700 5150 3400
+Wire Wire Line
+	4850 3200 4700 3200
+$Comp
+L Drone:RES R?
+U 1 1 5E4B6163
+P 4700 2600
+AR Path="/5E2EDC4D/5E4B6163" Ref="R?"  Part="1" 
+AR Path="/5E4B6163" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/5E4B6163" Ref="R?"  Part="1" 
+F 0 "R?" H 4770 2646 50  0000 L CNN
+F 1 "100k" H 4770 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4700 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 2100 4300 2100
+	4350 1850 4700 1850
 Wire Wire Line
-	4300 2100 4300 2550
-Text Label 3700 3150 0    50   ~ 0
-SYS_EN_18
+	4700 3200 4700 2750
+Wire Wire Line
+	4700 2450 4700 1850
+Connection ~ 4700 1850
+Wire Wire Line
+	4700 1850 5450 1850
+$Comp
+L Drone:BSS138DW Q?
+U 2 1 5E4C65D5
+P 4400 4150
+AR Path="/5E2EDC4D/5E4C65D5" Ref="Q?"  Part="2" 
+AR Path="/5E4C65D5" Ref="Q?"  Part="2" 
+AR Path="/5E3E92F4/5E4C65D5" Ref="Q?"  Part="2" 
+F 0 "Q?" V 4650 4050 50  0000 L CNN
+F 1 "BSS138DW" V 4550 4050 50  0000 L CNN
+F 2 "" H 4500 4075 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4300 4150 50  0001 L CNN
+	2    4400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:BSS138DW Q?
+U 1 1 5E4D7614
+P 4400 3650
+AR Path="/5E2EDC4D/5E4D7614" Ref="Q?"  Part="1" 
+AR Path="/5E4D7614" Ref="Q?"  Part="1" 
+AR Path="/5E3E92F4/5E4D7614" Ref="Q?"  Part="1" 
+F 0 "Q?" V 4650 3550 50  0000 L CNN
+F 1 "BSS138DW" V 4550 3550 50  0000 L CNN
+F 2 "" H 4500 3575 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4300 3650 50  0001 L CNN
+	1    4400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3450
+Connection ~ 4700 3200
+Wire Wire Line
+	4400 3850 4400 3950
+Text Label 4400 4600 1    50   ~ 0
+GND
+Wire Wire Line
+	4400 4600 4400 4350
+Wire Wire Line
+	3700 4150 4100 4150
+Text Label 7050 4100 0    50   ~ 0
+MTR_EN_18
+Text Label 7900 3550 0    50   ~ 0
+3V3
+$Comp
+L Drone:BSS138DW Q?
+U 2 1 5E57AB75
+P 7900 4100
+AR Path="/5E2EDC4D/5E57AB75" Ref="Q?"  Part="2" 
+AR Path="/5E57AB75" Ref="Q?"  Part="2" 
+AR Path="/5E3E92F4/5E57AB75" Ref="Q?"  Part="2" 
+F 0 "Q?" V 8150 4000 50  0000 L CNN
+F 1 "BSS138DW" V 8050 4000 50  0000 L CNN
+F 2 "" H 8000 4025 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 7800 4100 50  0001 L CNN
+	2    7900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3650 7900 3650
+Wire Wire Line
+	7900 3650 7900 3900
+Wire Wire Line
+	7050 4100 7600 4100
+Text Label 7900 4550 1    50   ~ 0
+GND
+Wire Wire Line
+	7900 4550 7900 4300
+$Comp
+L Drone:RES R?
+U 1 1 5E5A9908
+P 3250 3400
+AR Path="/5E2EDC4D/5E5A9908" Ref="R?"  Part="1" 
+AR Path="/5E5A9908" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/5E5A9908" Ref="R?"  Part="1" 
+F 0 "R?" H 3320 3446 50  0000 L CNN
+F 1 "10k" H 3320 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 3400 50  0001 C CNN
+F 3 "~" H 3250 3400 50  0001 C CNN
+	1    3250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E5A9BE0
+P 3250 3900
+AR Path="/5E2EDC4D/5E5A9BE0" Ref="R?"  Part="1" 
+AR Path="/5E5A9BE0" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/5E5A9BE0" Ref="R?"  Part="1" 
+F 0 "R?" H 3320 3946 50  0000 L CNN
+F 1 "5.6k" H 3320 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 3900 50  0001 C CNN
+F 3 "~" H 3250 3900 50  0001 C CNN
+	1    3250 3900
+	1    0    0    -1  
+$EndComp
+Text Label 3250 3000 3    50   ~ 0
+5V
+Wire Wire Line
+	3250 3650 3250 3550
+Wire Wire Line
+	3250 3650 4100 3650
+Wire Wire Line
+	3250 3650 3250 3750
+Connection ~ 3250 3650
+Wire Wire Line
+	3250 3000 3250 3250
+Wire Wire Line
+	3250 4050 3250 4600
+Text Label 3250 4600 1    50   ~ 0
+GND
 $EndSCHEMATC

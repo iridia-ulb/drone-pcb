@@ -52,6 +52,10 @@ $CMP TLV75528PDBV
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TXB0104DR
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
 $CMP USB2512B
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
 $ENDCMP
