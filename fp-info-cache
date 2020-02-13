@@ -1,4 +1,4 @@
-16931676456561221
+16933258196823221
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46087,6 +46087,13 @@ ES02MSABE
 0
 5
 5
+Drone
+JST_GH_SM06B-GHS-TB
+JST GH series connector, SM06B-GHS-TB, side entry type
+connector jst GH SMT side horizontal entry 1.25mm pitch
+0
+8
+6
 Drone
 SM05B-SRSS-TB
 

@@ -40,6 +40,10 @@ $CMP PUSHBTN
 F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf
 $ENDCMP
 #
+$CMP SM06B-GHS-TB
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf?5e4554877fdb1
+$ENDCMP
+#
 $CMP SN74LVC2G14
 F http://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf
 $ENDCMP
