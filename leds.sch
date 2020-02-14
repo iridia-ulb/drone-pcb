@@ -33,7 +33,7 @@ AR Path="/5E2EDC4D/5E39412E" Ref="R?"  Part="1"
 AR Path="/5E3090FF/5E39412E" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E39412E" Ref="R?"  Part="1" 
 F 0 "R?" V 2850 5350 50  0000 L CNN
-F 1 "130" V 2870 5205 50  0000 L CNN
+F 1 "290" V 2870 5205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 5250 50  0001 C CNN
 F 3 "~" H 2800 5250 50  0001 C CNN
 	1    2800 5250
@@ -47,7 +47,7 @@ AR Path="/5E2EDC4D/5E394128" Ref="R?"  Part="1"
 AR Path="/5E3090FF/5E394128" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E394128" Ref="R?"  Part="1" 
 F 0 "R?" V 2850 4950 50  0000 L CNN
-F 1 "56" V 2870 4805 50  0000 L CNN
+F 1 "210" V 2870 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 4850 50  0001 C CNN
 F 3 "~" H 2800 4850 50  0001 C CNN
 	1    2800 4850
@@ -61,7 +61,7 @@ AR Path="/5E2EDC4D/5E394122" Ref="R?"  Part="1"
 AR Path="/5E3090FF/5E394122" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E394122" Ref="R?"  Part="1" 
 F 0 "R?" V 2850 5150 50  0000 L CNN
-F 1 "56" V 2870 5005 50  0000 L CNN
+F 1 "250" V 2870 5005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2730 5050 50  0001 C CNN
 F 3 "~" H 2800 5050 50  0001 C CNN
 	1    2800 5050
@@ -107,7 +107,7 @@ Wire Wire Line
 	10100 2100 10400 2100
 Wire Wire Line
 	10100 2000 10400 2000
-Text Label 10600 3200 1    50   ~ 0
+Text Label 10500 4150 1    50   ~ 0
 LED[0..15]
 Entry Wire Line
 	10400 3500 10500 3600
@@ -292,7 +292,7 @@ Entry Wire Line
 Entry Wire Line
 	3200 5250 3300 5150
 Text Label 1850 4400 3    50   ~ 0
-3V3
+5V
 Text Label 1100 5450 1    50   ~ 0
 GND
 $Comp
@@ -355,17 +355,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 4850 1550 4850
 Connection ~ 1550 4850
-$Comp
-L Drone:LED_RGB D?
-U 1 1 5E346672
-P 2250 4750
-F 0 "D?" H 2250 4916 50  0000 C CNN
-F 1 "LED_RGB" H 2250 4825 50  0000 C CNN
-F 2 "" H 2250 4400 50  0001 C CNN
-F 3 "" H 2250 4400 50  0001 C CNN
-	1    2250 4750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 5250 5600 5250
 Wire Wire Line
@@ -378,48 +367,6 @@ Text Label 5350 4850 0    50   ~ 0
 LED4
 Wire Wire Line
 	5600 4850 5350 4850
-$Comp
-L Drone:RES R?
-U 1 1 5E35DA90
-P 5200 5250
-AR Path="/5E2EDC4D/5E35DA90" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E35DA90" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E35DA90" Ref="R?"  Part="1" 
-F 0 "R?" V 5250 5350 50  0000 L CNN
-F 1 "130" V 5270 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 5250 50  0001 C CNN
-F 3 "~" H 5200 5250 50  0001 C CNN
-	1    5200 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E35DA96
-P 5200 4850
-AR Path="/5E2EDC4D/5E35DA96" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E35DA96" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E35DA96" Ref="R?"  Part="1" 
-F 0 "R?" V 5250 4950 50  0000 L CNN
-F 1 "56" V 5270 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 4850 50  0001 C CNN
-F 3 "~" H 5200 4850 50  0001 C CNN
-	1    5200 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E35DA9C
-P 5200 5050
-AR Path="/5E2EDC4D/5E35DA9C" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E35DA9C" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E35DA9C" Ref="R?"  Part="1" 
-F 0 "R?" V 5250 5150 50  0000 L CNN
-F 1 "56" V 5270 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 5050 50  0001 C CNN
-F 3 "~" H 5200 5050 50  0001 C CNN
-	1    5200 5050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5050 4850 5000 4850
 Wire Wire Line
@@ -433,7 +380,7 @@ Entry Wire Line
 Entry Wire Line
 	5600 5250 5700 5150
 Text Label 4250 4400 3    50   ~ 0
-3V3
+5V
 Text Label 3500 5450 1    50   ~ 0
 GND
 $Comp
@@ -496,17 +443,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 4850 3950 4850
 Connection ~ 3950 4850
-$Comp
-L Drone:LED_RGB D?
-U 1 1 5E35DAC8
-P 4650 4750
-F 0 "D?" H 4650 4916 50  0000 C CNN
-F 1 "LED_RGB" H 4650 4825 50  0000 C CNN
-F 2 "" H 4650 4400 50  0001 C CNN
-F 3 "" H 4650 4400 50  0001 C CNN
-	1    4650 4750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 5250 8000 5250
 Wire Wire Line
@@ -519,48 +455,6 @@ Text Label 7750 4850 0    50   ~ 0
 LED8
 Wire Wire Line
 	8000 4850 7750 4850
-$Comp
-L Drone:RES R?
-U 1 1 5E363A4B
-P 7600 5250
-AR Path="/5E2EDC4D/5E363A4B" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E363A4B" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E363A4B" Ref="R?"  Part="1" 
-F 0 "R?" V 7650 5350 50  0000 L CNN
-F 1 "130" V 7670 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5250 50  0001 C CNN
-F 3 "~" H 7600 5250 50  0001 C CNN
-	1    7600 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E363A51
-P 7600 4850
-AR Path="/5E2EDC4D/5E363A51" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E363A51" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E363A51" Ref="R?"  Part="1" 
-F 0 "R?" V 7650 4950 50  0000 L CNN
-F 1 "56" V 7670 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4850 50  0001 C CNN
-F 3 "~" H 7600 4850 50  0001 C CNN
-	1    7600 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E363A57
-P 7600 5050
-AR Path="/5E2EDC4D/5E363A57" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E363A57" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E363A57" Ref="R?"  Part="1" 
-F 0 "R?" V 7650 5150 50  0000 L CNN
-F 1 "56" V 7670 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5050 50  0001 C CNN
-F 3 "~" H 7600 5050 50  0001 C CNN
-	1    7600 5050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7450 4850 7400 4850
 Wire Wire Line
@@ -574,7 +468,7 @@ Entry Wire Line
 Entry Wire Line
 	8000 5250 8100 5150
 Text Label 6650 4400 3    50   ~ 0
-3V3
+5V
 Text Label 5900 5450 1    50   ~ 0
 GND
 $Comp
@@ -637,17 +531,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 4850 6350 4850
 Connection ~ 6350 4850
-$Comp
-L Drone:LED_RGB D?
-U 1 1 5E363A83
-P 7050 4750
-F 0 "D?" H 7050 4916 50  0000 C CNN
-F 1 "LED_RGB" H 7050 4825 50  0000 C CNN
-F 2 "" H 7050 4400 50  0001 C CNN
-F 3 "" H 7050 4400 50  0001 C CNN
-	1    7050 4750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10150 5250 10400 5250
 Wire Wire Line
@@ -660,48 +543,6 @@ Text Label 10150 4850 0    50   ~ 0
 LED12
 Wire Wire Line
 	10400 4850 10150 4850
-$Comp
-L Drone:RES R?
-U 1 1 5E370DE6
-P 10000 5250
-AR Path="/5E2EDC4D/5E370DE6" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E370DE6" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E370DE6" Ref="R?"  Part="1" 
-F 0 "R?" V 10050 5350 50  0000 L CNN
-F 1 "130" V 10070 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 5250 50  0001 C CNN
-F 3 "~" H 10000 5250 50  0001 C CNN
-	1    10000 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E370DEC
-P 10000 4850
-AR Path="/5E2EDC4D/5E370DEC" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E370DEC" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E370DEC" Ref="R?"  Part="1" 
-F 0 "R?" V 10050 4950 50  0000 L CNN
-F 1 "56" V 10070 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 4850 50  0001 C CNN
-F 3 "~" H 10000 4850 50  0001 C CNN
-	1    10000 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E370DF2
-P 10000 5050
-AR Path="/5E2EDC4D/5E370DF2" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E370DF2" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E370DF2" Ref="R?"  Part="1" 
-F 0 "R?" V 10050 5150 50  0000 L CNN
-F 1 "56" V 10070 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 5050 50  0001 C CNN
-F 3 "~" H 10000 5050 50  0001 C CNN
-	1    10000 5050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9850 4850 9800 4850
 Wire Wire Line
@@ -715,7 +556,7 @@ Entry Wire Line
 Entry Wire Line
 	10400 5250 10500 5150
 Text Label 9050 4400 3    50   ~ 0
-3V3
+5V
 Text Label 8300 5450 1    50   ~ 0
 GND
 $Comp
@@ -778,17 +619,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 4850 8750 4850
 Connection ~ 8750 4850
-$Comp
-L Drone:LED_RGB D?
-U 1 1 5E370E1E
-P 9450 4750
-F 0 "D?" H 9450 4916 50  0000 C CNN
-F 1 "LED_RGB" H 9450 4825 50  0000 C CNN
-F 2 "" H 9450 4400 50  0001 C CNN
-F 3 "" H 9450 4400 50  0001 C CNN
-	1    9450 4750
-	-1   0    0    -1  
-$EndComp
 Wire Bus Line
 	10500 4250 8100 4250
 Connection ~ 10500 4250
@@ -798,6 +628,176 @@ Wire Bus Line
 Connection ~ 8100 4250
 Wire Bus Line
 	8100 4250 5700 4250
+$Comp
+L Drone:MSL0402RGBU1 D?
+U 1 1 5E5BBF03
+P 2400 5350
+F 0 "D?" H 2620 4570 50  0000 L BNN
+F 1 "MSL0402RGBU1" H 2125 4650 50  0000 L BNN
+F 2 "Drone:MSL0402RGBU1" H 2400 4650 50  0001 L BNN
+F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 2550 5000 50  0001 C CNN
+	1    2400 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:MSL0402RGBU1 D?
+U 1 1 5E5CC62E
+P 4800 5350
+F 0 "D?" H 5020 4570 50  0000 L BNN
+F 1 "MSL0402RGBU1" H 4525 4650 50  0000 L BNN
+F 2 "Drone:MSL0402RGBU1" H 4800 4650 50  0001 L BNN
+F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 4950 5000 50  0001 C CNN
+	1    4800 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:MSL0402RGBU1 D?
+U 1 1 5E5D274B
+P 7200 5350
+F 0 "D?" H 7420 4570 50  0000 L BNN
+F 1 "MSL0402RGBU1" H 6925 4650 50  0000 L BNN
+F 2 "Drone:MSL0402RGBU1" H 7200 4650 50  0001 L BNN
+F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 7350 5000 50  0001 C CNN
+	1    7200 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:MSL0402RGBU1 D?
+U 1 1 5E5D8D79
+P 9600 5350
+F 0 "D?" H 9820 4570 50  0000 L BNN
+F 1 "MSL0402RGBU1" H 9325 4650 50  0000 L BNN
+F 2 "Drone:MSL0402RGBU1" H 9600 4650 50  0001 L BNN
+F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 9750 5000 50  0001 C CNN
+	1    9600 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E61ABA5
+P 5200 5250
+AR Path="/5E2EDC4D/5E61ABA5" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E61ABA5" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E61ABA5" Ref="R?"  Part="1" 
+F 0 "R?" V 5250 5350 50  0000 L CNN
+F 1 "290" V 5270 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 5250 50  0001 C CNN
+F 3 "~" H 5200 5250 50  0001 C CNN
+	1    5200 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E61ABAB
+P 5200 4850
+AR Path="/5E2EDC4D/5E61ABAB" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E61ABAB" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E61ABAB" Ref="R?"  Part="1" 
+F 0 "R?" V 5250 4950 50  0000 L CNN
+F 1 "210" V 5270 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 4850 50  0001 C CNN
+F 3 "~" H 5200 4850 50  0001 C CNN
+	1    5200 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E61ABB1
+P 5200 5050
+AR Path="/5E2EDC4D/5E61ABB1" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E61ABB1" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E61ABB1" Ref="R?"  Part="1" 
+F 0 "R?" V 5250 5150 50  0000 L CNN
+F 1 "250" V 5270 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 5050 50  0001 C CNN
+F 3 "~" H 5200 5050 50  0001 C CNN
+	1    5200 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E620B07
+P 7600 5250
+AR Path="/5E2EDC4D/5E620B07" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E620B07" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E620B07" Ref="R?"  Part="1" 
+F 0 "R?" V 7650 5350 50  0000 L CNN
+F 1 "290" V 7670 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5250 50  0001 C CNN
+F 3 "~" H 7600 5250 50  0001 C CNN
+	1    7600 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E620B0D
+P 7600 4850
+AR Path="/5E2EDC4D/5E620B0D" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E620B0D" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E620B0D" Ref="R?"  Part="1" 
+F 0 "R?" V 7650 4950 50  0000 L CNN
+F 1 "210" V 7670 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 4850 50  0001 C CNN
+F 3 "~" H 7600 4850 50  0001 C CNN
+	1    7600 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E620B13
+P 7600 5050
+AR Path="/5E2EDC4D/5E620B13" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E620B13" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E620B13" Ref="R?"  Part="1" 
+F 0 "R?" V 7650 5150 50  0000 L CNN
+F 1 "250" V 7670 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 5050 50  0001 C CNN
+F 3 "~" H 7600 5050 50  0001 C CNN
+	1    7600 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E626F94
+P 10000 5250
+AR Path="/5E2EDC4D/5E626F94" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E626F94" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E626F94" Ref="R?"  Part="1" 
+F 0 "R?" V 10050 5350 50  0000 L CNN
+F 1 "290" V 10070 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 5250 50  0001 C CNN
+F 3 "~" H 10000 5250 50  0001 C CNN
+	1    10000 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E626F9A
+P 10000 4850
+AR Path="/5E2EDC4D/5E626F9A" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E626F9A" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E626F9A" Ref="R?"  Part="1" 
+F 0 "R?" V 10050 4950 50  0000 L CNN
+F 1 "210" V 10070 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 4850 50  0001 C CNN
+F 3 "~" H 10000 4850 50  0001 C CNN
+	1    10000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E626FA0
+P 10000 5050
+AR Path="/5E2EDC4D/5E626FA0" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E626FA0" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E626FA0" Ref="R?"  Part="1" 
+F 0 "R?" V 10050 5150 50  0000 L CNN
+F 1 "250" V 10070 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9930 5050 50  0001 C CNN
+F 3 "~" H 10000 5050 50  0001 C CNN
+	1    10000 5050
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	3300 4250 3300 5150
 Wire Bus Line

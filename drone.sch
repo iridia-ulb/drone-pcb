@@ -1344,4 +1344,36 @@ Text Label 5250 6300 1    50   ~ 0
 GND
 Wire Wire Line
 	5250 6300 5250 6000
+$Comp
+L Drone:SM06B-GHS-TB J?
+U 1 1 5E4C7107
+P 5250 6650
+F 0 "J?" H 5300 6775 50  0000 C CNN
+F 1 "SM06B-GHS-TB" H 5550 6700 50  0000 C CNN
+F 2 "Drone:JST_GH_SM06B-GHS-TB" H 5250 5975 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf?5e4554877fdb1" H 5650 6700 50  0001 C CNN
+	1    5250 6650
+	1    0    0    -1  
+$EndComp
+Text Label 6200 7100 2    50   ~ 0
+UART1_CTS_33
+Wire Wire Line
+	5600 7100 6200 7100
+Text Label 6200 7000 2    50   ~ 0
+UART1_RTS_33
+Wire Wire Line
+	5600 7000 6200 7000
+Text Label 6200 6900 2    50   ~ 0
+UART1_TX_33
+Wire Wire Line
+	5600 6900 6200 6900
+Text Label 6200 6800 2    50   ~ 0
+UART1_RX_33
+Wire Wire Line
+	5600 6800 6200 6800
+Wire Wire Line
+	5600 7200 6200 7200
+Text Label 6200 7200 2    50   ~ 0
+GND
+NoConn ~ 5600 6700
 $EndSCHEMATC

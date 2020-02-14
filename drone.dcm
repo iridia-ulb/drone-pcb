@@ -28,6 +28,10 @@ $CMP ES02MSABE
 F https://dznh3ojzb2azq.cloudfront.net/products/Slide/ES/documents/datasheet.pdf
 $ENDCMP
 #
+$CMP MSL0402RGBU1
+F https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND
+$ENDCMP
+#
 $CMP PCA9544ADWR
 F http://www.ti.com/lit/ds/symlink/pca9544a.pdf
 $ENDCMP

@@ -211,103 +211,14 @@ Wire Wire Line
 Connection ~ 5350 950 
 Text Notes 5300 850  0    50   ~ 0
 Disable Port 1
-$Comp
-L Drone:CAP C?
-U 1 1 5E3408C5
-P 8450 1300
-AR Path="/5E2EDC4D/5E3408C5" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E3408C5" Ref="C?"  Part="1" 
-F 0 "C?" H 8565 1346 50  0000 L CNN
-F 1 "100n" H 8565 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 1150 50  0001 C CNN
-F 3 "~" H 8450 1300 50  0001 C CNN
-	1    8450 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 3400 8450 3400
 Wire Wire Line
 	8100 3500 8450 3500
-Text Label 6750 1200 0    50   ~ 0
-USB1_DM
-Text Label 6750 1300 0    50   ~ 0
-USB1_DP
 Text Label 8450 3400 2    50   ~ 0
 USB1_5V
 Text Label 8450 3500 2    50   ~ 0
 USB2_5V
-Text Label 6750 1100 0    50   ~ 0
-USB1_5V
-Text Label 6750 1500 0    50   ~ 0
-GND
-Wire Wire Line
-	6750 1500 7150 1500
-Wire Wire Line
-	6750 1300 7200 1300
-Wire Wire Line
-	6750 1200 7200 1200
-Wire Wire Line
-	6750 1100 7150 1100
-Wire Wire Line
-	7150 1100 7150 950 
-Wire Wire Line
-	7150 950  8450 950 
-Wire Wire Line
-	8450 950  8450 1150
-Connection ~ 7150 1100
-Wire Wire Line
-	7150 1100 7200 1100
-Wire Wire Line
-	8450 1450 8450 1650
-Wire Wire Line
-	8450 1650 7150 1650
-Wire Wire Line
-	7150 1650 7150 1500
-Connection ~ 7150 1500
-Wire Wire Line
-	7150 1500 7200 1500
-$Comp
-L Drone:CAP C?
-U 1 1 5E3AC9C8
-P 8450 2300
-AR Path="/5E2EDC4D/5E3AC9C8" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E3AC9C8" Ref="C?"  Part="1" 
-F 0 "C?" H 8565 2346 50  0000 L CNN
-F 1 "100n" H 8565 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 2150 50  0001 C CNN
-F 3 "~" H 8450 2300 50  0001 C CNN
-	1    8450 2300
-	1    0    0    -1  
-$EndComp
-Text Label 6750 2200 0    50   ~ 0
-USB2_DM
-Text Label 6750 2300 0    50   ~ 0
-USB2_DP
-Text Label 6750 2100 0    50   ~ 0
-USB2_5V
-Text Label 6750 2500 0    50   ~ 0
-GND
-Wire Wire Line
-	6750 2300 7200 2300
-Wire Wire Line
-	6750 2200 7200 2200
-Wire Wire Line
-	6750 2100 7150 2100
-Wire Wire Line
-	7150 2100 7150 1950
-Wire Wire Line
-	7150 1950 8450 1950
-Wire Wire Line
-	8450 1950 8450 2150
-Connection ~ 7150 2100
-Wire Wire Line
-	7150 2100 7200 2100
-Wire Wire Line
-	8450 2450 8450 2650
-Wire Wire Line
-	8450 2650 7150 2650
-Wire Wire Line
-	7150 2650 7150 2500
 Text Label 5850 1300 2    50   ~ 0
 USB1_DM
 Text Label 5850 1200 2    50   ~ 0
@@ -354,47 +265,6 @@ PRTPWR
 Text Label 5850 1850 2    50   ~ 0
 ~OSC
 $Comp
-L Drone:CAP C?
-U 1 1 5E4C4178
-P 8900 2300
-AR Path="/5E2EDC4D/5E4C4178" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E4C4178" Ref="C?"  Part="1" 
-F 0 "C?" H 9015 2346 50  0000 L CNN
-F 1 "1u" H 9015 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 2150 50  0001 C CNN
-F 3 "~" H 8900 2300 50  0001 C CNN
-	1    8900 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E4C557D
-P 8900 1300
-AR Path="/5E2EDC4D/5E4C557D" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E4C557D" Ref="C?"  Part="1" 
-F 0 "C?" H 9015 1346 50  0000 L CNN
-F 1 "1u" H 9015 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 1150 50  0001 C CNN
-F 3 "~" H 8900 1300 50  0001 C CNN
-	1    8900 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 1150 8900 950 
-Wire Wire Line
-	8900 950  8450 950 
-Connection ~ 8450 950 
-Wire Wire Line
-	8900 1450 8900 1650
-Wire Wire Line
-	8900 1650 8450 1650
-Connection ~ 8450 1650
-Wire Wire Line
-	8900 2150 8900 1950
-Wire Wire Line
-	8900 1950 8450 1950
-Connection ~ 8450 1950
-$Comp
 L Drone:TPS2054D U?
 U 1 1 5E4E09E8
 P 7600 3100
@@ -407,11 +277,6 @@ F 3 "" H 7550 3100 50  0001 C CNN
 	1    7600 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 2450 8900 2650
-Wire Wire Line
-	8900 2650 8450 2650
-Connection ~ 8450 2650
 Wire Wire Line
 	8100 3200 8650 3200
 Wire Wire Line
@@ -462,32 +327,6 @@ $EndComp
 Wire Wire Line
 	6150 1850 6150 1550
 $Comp
-L Drone:SM05B-SRSS-TB J?
-U 1 1 5E385FFC
-P 7400 1050
-AR Path="/5E2EDC4D/5E385FFC" Ref="J?"  Part="1" 
-AR Path="/5E349830/5E385FFC" Ref="J?"  Part="1" 
-F 0 "J?" H 7200 700 50  0000 R CNN
-F 1 "SM05B-SRSS-TB" H 7200 600 50  0000 R CNN
-F 2 "Drone:SM05B-SRSS-TB" H 7250 1300 50  0001 L CNN
-F 3 "" H 7400 1050 50  0001 C CNN
-	1    7400 1050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Drone:SM05B-SRSS-TB J?
-U 1 1 5E3AC9C2
-P 7400 2050
-AR Path="/5E2EDC4D/5E3AC9C2" Ref="J?"  Part="1" 
-AR Path="/5E349830/5E3AC9C2" Ref="J?"  Part="1" 
-F 0 "J?" H 7200 1700 50  0000 R CNN
-F 1 "SM05B-SRSS-TB" H 7200 1600 50  0000 R CNN
-F 2 "Drone:SM05B-SRSS-TB" H 7250 2300 50  0001 L CNN
-F 3 "" H 7400 2050 50  0001 C CNN
-	1    7400 2050
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Drone:CAP C?
 U 1 1 5E5A610D
 P 9100 3450
@@ -510,11 +349,6 @@ Wire Wire Line
 Connection ~ 9100 3700
 Wire Wire Line
 	9100 3700 9500 3700
-Wire Wire Line
-	6750 2500 7150 2500
-Connection ~ 7150 2500
-Wire Wire Line
-	7150 2500 7200 2500
 Text Notes 3750 3650 0    50   ~ 0
 These passive components should be\nplaced as close to the USB3503 as\npossible\n
 $Comp
@@ -586,4 +420,170 @@ Text Notes 3750 3350 0    50   ~ 0
 CONFIG_USB_HSIC_USB3503
 Text Notes 3750 3250 0    50   ~ 0
 7-bit address: 0x08
+$Comp
+L Drone:CAP C?
+U 1 1 5E54C353
+P 8450 1300
+AR Path="/5E2EDC4D/5E54C353" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E54C353" Ref="C?"  Part="1" 
+F 0 "C?" H 8565 1346 50  0000 L CNN
+F 1 "100n" H 8565 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 1150 50  0001 C CNN
+F 3 "~" H 8450 1300 50  0001 C CNN
+	1    8450 1300
+	1    0    0    -1  
+$EndComp
+Text Label 6750 1200 0    50   ~ 0
+USB1_DM
+Text Label 6750 1300 0    50   ~ 0
+USB1_DP
+Text Label 6750 1100 0    50   ~ 0
+USB1_5V
+Text Label 6750 1500 0    50   ~ 0
+GND
+Wire Wire Line
+	6750 1500 7150 1500
+Wire Wire Line
+	6750 1300 7200 1300
+Wire Wire Line
+	6750 1200 7200 1200
+Wire Wire Line
+	6750 1100 7150 1100
+Wire Wire Line
+	7150 1100 7150 950 
+Wire Wire Line
+	7150 950  8450 950 
+Wire Wire Line
+	8450 950  8450 1150
+Connection ~ 7150 1100
+Wire Wire Line
+	7150 1100 7200 1100
+Wire Wire Line
+	8450 1450 8450 1650
+Wire Wire Line
+	8450 1650 7150 1650
+Wire Wire Line
+	7150 1650 7150 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 1500 7200 1500
+$Comp
+L Drone:CAP C?
+U 1 1 5E54C36B
+P 8450 2300
+AR Path="/5E2EDC4D/5E54C36B" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E54C36B" Ref="C?"  Part="1" 
+F 0 "C?" H 8565 2346 50  0000 L CNN
+F 1 "100n" H 8565 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8488 2150 50  0001 C CNN
+F 3 "~" H 8450 2300 50  0001 C CNN
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+Text Label 6750 2200 0    50   ~ 0
+USB2_DM
+Text Label 6750 2300 0    50   ~ 0
+USB2_DP
+Text Label 6750 2100 0    50   ~ 0
+USB2_5V
+Text Label 6750 2500 0    50   ~ 0
+GND
+Wire Wire Line
+	6750 2300 7200 2300
+Wire Wire Line
+	6750 2200 7200 2200
+Wire Wire Line
+	6750 2100 7150 2100
+Wire Wire Line
+	7150 2100 7150 1950
+Wire Wire Line
+	7150 1950 8450 1950
+Wire Wire Line
+	8450 1950 8450 2150
+Connection ~ 7150 2100
+Wire Wire Line
+	7150 2100 7200 2100
+Wire Wire Line
+	8450 2450 8450 2650
+Wire Wire Line
+	7150 2650 7150 2500
+$Comp
+L Drone:CAP C?
+U 1 1 5E54C380
+P 8900 2300
+AR Path="/5E2EDC4D/5E54C380" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E54C380" Ref="C?"  Part="1" 
+F 0 "C?" H 9015 2346 50  0000 L CNN
+F 1 "1u" H 9015 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 2150 50  0001 C CNN
+F 3 "~" H 8900 2300 50  0001 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 5E54C386
+P 8900 1300
+AR Path="/5E2EDC4D/5E54C386" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E54C386" Ref="C?"  Part="1" 
+F 0 "C?" H 9015 1346 50  0000 L CNN
+F 1 "1u" H 9015 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 1150 50  0001 C CNN
+F 3 "~" H 8900 1300 50  0001 C CNN
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1150 8900 950 
+Wire Wire Line
+	8900 950  8450 950 
+Connection ~ 8450 950 
+Wire Wire Line
+	8900 1450 8900 1650
+Wire Wire Line
+	8900 1650 8450 1650
+Connection ~ 8450 1650
+Wire Wire Line
+	8900 2150 8900 1950
+Wire Wire Line
+	8900 1950 8450 1950
+Connection ~ 8450 1950
+Wire Wire Line
+	8900 2450 8900 2650
+$Comp
+L Drone:SM05B-SRSS-TB J?
+U 1 1 5E54C398
+P 7550 1050
+AR Path="/5E2EDC4D/5E54C398" Ref="J?"  Part="1" 
+AR Path="/5E349830/5E54C398" Ref="J?"  Part="1" 
+F 0 "J?" H 7525 950 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 7525 1025 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 7400 1300 50  0001 L CNN
+F 3 "" H 7550 1050 50  0001 C CNN
+	1    7550 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drone:SM05B-SRSS-TB J?
+U 1 1 5E54C39E
+P 7550 2050
+AR Path="/5E2EDC4D/5E54C39E" Ref="J?"  Part="1" 
+AR Path="/5E349830/5E54C39E" Ref="J?"  Part="1" 
+F 0 "J?" H 7525 1950 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 7525 2025 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 7400 2300 50  0001 L CNN
+F 3 "" H 7550 2050 50  0001 C CNN
+	1    7550 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2500 7150 2500
+Connection ~ 7150 2500
+Wire Wire Line
+	7150 2500 7200 2500
+Wire Wire Line
+	7150 2650 8450 2650
+Connection ~ 8450 2650
+Wire Wire Line
+	8450 2650 8900 2650
 $EndSCHEMATC
