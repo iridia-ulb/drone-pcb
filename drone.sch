@@ -1244,33 +1244,33 @@ MTR_EN_18
 $Comp
 L Drone:TXB0104DR U?
 U 1 1 5E627BC0
-P 6100 4800
-F 0 "U?" H 6100 4900 50  0000 L BNN
-F 1 "TXB0104DR" H 6100 4825 50  0000 L BNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6925 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5900 4750 50  0001 C CNN
-	1    6100 4800
+P 6100 4750
+F 0 "U?" H 6100 4850 50  0000 L BNN
+F 1 "TXB0104DR" H 6100 4775 50  0000 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6925 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5900 4700 50  0001 C CNN
+	1    6100 4750
 	1    0    0    -1  
 $EndComp
-Text Label 5700 4600 3    50   ~ 0
+Text Label 5700 4550 3    50   ~ 0
 1V8
 Wire Wire Line
-	5700 4600 5700 4900
+	5700 4550 5700 4850
 Wire Wire Line
-	5700 4900 5900 4900
-Text Label 7100 4600 3    50   ~ 0
+	5700 4850 5900 4850
+Text Label 7100 4550 3    50   ~ 0
 3V3
 Wire Wire Line
-	7100 4600 7100 4900
+	7100 4550 7100 4850
 Wire Wire Line
-	7100 4900 6900 4900
-Text Label 5300 5600 0    50   ~ 0
+	7100 4850 6900 4850
+Text Label 5300 5550 0    50   ~ 0
 MTR_EN_18
 Wire Wire Line
-	5900 5700 5750 5700
+	5900 5650 5750 5650
 Wire Wire Line
-	5750 5700 5750 6300
-Text Label 5750 6300 1    50   ~ 0
+	5750 5650 5750 6250
+Text Label 5750 6250 1    50   ~ 0
 GND
 Wire Wire Line
 	4050 3150 4850 3150
@@ -1287,38 +1287,38 @@ UART1_TX_18
 Wire Wire Line
 	4050 3450 4850 3450
 Wire Wire Line
-	5900 5100 5300 5100
-Text Label 5300 5100 0    50   ~ 0
+	5900 5050 5300 5050
+Text Label 5300 5050 0    50   ~ 0
 UART1_RTS_18
 Wire Wire Line
-	5900 5200 5300 5200
-Text Label 5300 5200 0    50   ~ 0
+	5900 5150 5300 5150
+Text Label 5300 5150 0    50   ~ 0
 UART1_CTS_18
 Wire Wire Line
-	5900 5300 5300 5300
-Text Label 5300 5300 0    50   ~ 0
+	5900 5250 5300 5250
+Text Label 5300 5250 0    50   ~ 0
 UART1_TX_18
 Wire Wire Line
-	5900 5400 5300 5400
-Text Label 5300 5400 0    50   ~ 0
+	5900 5350 5300 5350
+Text Label 5300 5350 0    50   ~ 0
 UART1_RX_18
 Text Label 4850 3450 2    50   ~ 0
 UART1_RX_18
 Wire Wire Line
-	6900 5100 7500 5100
-Text Label 7500 5100 2    50   ~ 0
+	6900 5050 7500 5050
+Text Label 7500 5050 2    50   ~ 0
 UART1_RTS_33
 Wire Wire Line
-	6900 5200 7500 5200
-Text Label 7500 5200 2    50   ~ 0
+	6900 5150 7500 5150
+Text Label 7500 5150 2    50   ~ 0
 UART1_CTS_33
 Wire Wire Line
-	6900 5300 7500 5300
-Text Label 7500 5300 2    50   ~ 0
+	6900 5250 7500 5250
+Text Label 7500 5250 2    50   ~ 0
 UART1_TX_33
 Wire Wire Line
-	6900 5400 7500 5400
-Text Label 7500 5400 2    50   ~ 0
+	6900 5350 7500 5350
+Text Label 7500 5350 2    50   ~ 0
 UART1_RX_33
 Wire Wire Line
 	4850 4850 4050 4850
@@ -1326,24 +1326,24 @@ NoConn ~ 1550 4050
 $Comp
 L Drone:RES R?
 U 1 1 5E81EEEB
-P 5250 5850
+P 5300 5800
 AR Path="/5E2EDC4D/5E81EEEB" Ref="R?"  Part="1" 
 AR Path="/5E81EEEB" Ref="R?"  Part="1" 
-F 0 "R?" H 5320 5896 50  0000 L CNN
-F 1 "10k" H 5320 5805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 5850 50  0001 C CNN
-F 3 "~" H 5250 5850 50  0001 C CNN
-	1    5250 5850
+F 0 "R?" H 5370 5846 50  0000 L CNN
+F 1 "10k" H 5370 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5230 5800 50  0001 C CNN
+F 3 "~" H 5300 5800 50  0001 C CNN
+	1    5300 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 5700 5250 5600
+	5300 5650 5300 5550
 Wire Wire Line
-	5250 5600 5900 5600
-Text Label 5250 6300 1    50   ~ 0
+	5300 5550 5900 5550
+Text Label 5300 6250 1    50   ~ 0
 GND
 Wire Wire Line
-	5250 6300 5250 6000
+	5300 6250 5300 5950
 $Comp
 L Drone:SM06B-GHS-TB J?
 U 1 1 5E4C7107
@@ -1376,4 +1376,50 @@ Wire Wire Line
 Text Label 6200 7200 2    50   ~ 0
 GND
 NoConn ~ 5600 6700
+$Comp
+L Drone:CAP C?
+U 1 1 5E5867CF
+P 5500 4850
+AR Path="/5E2EDC4D/5E5867CF" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E5867CF" Ref="C?"  Part="1" 
+AR Path="/5E5867CF" Ref="C?"  Part="1" 
+F 0 "C?" H 5615 4896 50  0000 L CNN
+F 1 "100n" H 5615 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5538 4700 50  0001 C CNN
+F 3 "~" H 5500 4850 50  0001 C CNN
+	1    5500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 5E58708C
+P 7300 4850
+AR Path="/5E2EDC4D/5E58708C" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E58708C" Ref="C?"  Part="1" 
+AR Path="/5E58708C" Ref="C?"  Part="1" 
+F 0 "C?" H 7415 4896 50  0000 L CNN
+F 1 "100n" H 7415 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7338 4700 50  0001 C CNN
+F 3 "~" H 7300 4850 50  0001 C CNN
+	1    7300 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4850 5700 4850
+Connection ~ 5700 4850
+Wire Wire Line
+	7100 4850 7150 4850
+Connection ~ 7100 4850
+Text Label 5150 6250 1    50   ~ 0
+GND
+Wire Wire Line
+	5150 6250 5150 4850
+Wire Wire Line
+	5150 4850 5350 4850
+Text Label 7650 6250 1    50   ~ 0
+GND
+Wire Wire Line
+	7650 6250 7650 4850
+Wire Wire Line
+	7650 4850 7450 4850
 $EndSCHEMATC

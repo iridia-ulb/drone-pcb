@@ -203,8 +203,6 @@ Wire Wire Line
 	8800 3200 8800 3100
 Wire Wire Line
 	8600 3000 9000 3000
-Text Label 9550 3700 0    50   ~ 0
-I2C_Address=10h
 Text HLabel 8300 2300 0    50   Input ~ 0
 I2C_SDA_33
 Wire Wire Line
@@ -277,8 +275,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 3100 8600 3000
 Connection ~ 8600 3000
-Text Notes 3750 4150 0    50   ~ 0
-TODO:\n1. Decide on LED model\n2. Select voltages, currents, resistor values
 Wire Wire Line
 	2650 4850 2600 4850
 Wire Wire Line
@@ -798,6 +794,8 @@ F 3 "~" H 10000 5050 50  0001 C CNN
 	1    10000 5050
 	0    -1   -1   0   
 $EndComp
+Text Notes 9200 3700 0    50   ~ 0
+7-bit Address: 0x10
 Wire Bus Line
 	3300 4250 3300 5150
 Wire Bus Line
