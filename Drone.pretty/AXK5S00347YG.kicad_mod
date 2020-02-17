@@ -1,11 +1,11 @@
-(module AXK5S00347YG (layer F.Cu) (tedit 5E416A02)
+(module AXK5S00347YG (layer F.Cu) (tedit 5E4AADEB)
   (descr "Socket for the UP board")
   (tags Connector)
   (attr smd)
-  (fp_text reference REF** (at -0.0762 0.0762) (layer F.SilkS)
+  (fp_text reference REF** (at -12 -5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text value AXK5S00347YG (at -0.0254 4.7498) (layer F.SilkS) hide
+  (fp_text value AXK5S00347YG (at -8 5) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start 14.1 -1.2) (end 13.65 -1.65) (layer F.SilkS) (width 0.1))

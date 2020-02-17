@@ -68,6 +68,10 @@ $CMP USB2512B
 F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
 $ENDCMP
 #
+$CMP USB3503
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en566511
+$ENDCMP
+#
 $CMP VL53L0X
 F https://www.pololu.com/product/2490
 $ENDCMP
