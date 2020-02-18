@@ -1,4 +1,4 @@
-15829280772437200
+15830862898281200
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -43953,13 +43953,6 @@ ASTXR-12
 4
 4
 Drone
-AXK5S00347YG
-Socket for the UP board
-Connector
-0
-104
-100
-Drone
 B3FS-1012P
 
 
@@ -44023,6 +44016,13 @@ MSL0402RGBU1
 6
 6
 Drone
+PCB-OUTLINE
+
+
+0
+0
+0
+Drone
 SM05B-SRSS-TB
 
 
@@ -44036,6 +44036,13 @@ SM07B-SRSS-TB
 0
 9
 8
+Drone
+UP-CORE
+UP Core
+Connector
+0
+104
+100
 Drone
 USB3503ML
 
