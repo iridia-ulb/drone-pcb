@@ -711,12 +711,12 @@ $EndComp
 $Comp
 L Drone:LED D?
 U 1 1 5E54B3E6
-P 2250 5250
-F 0 "D?" H 2250 5450 50  0000 C CNN
-F 1 "LED (R)" H 2250 5350 50  0000 C CNN
-F 2 "Drone:C503B" H 2250 5250 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 2250 5250 50  0001 C CNN
-	1    2250 5250
+P 2300 5250
+F 0 "D?" H 2300 5450 50  0000 C CNN
+F 1 "LED (R)" H 2300 5350 50  0000 C CNN
+F 2 "Drone:C503B" H 2300 5250 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 2300 5250 50  0001 C CNN
+	1    2300 5250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -727,10 +727,6 @@ Wire Wire Line
 	4800 5250 5050 5250
 Wire Wire Line
 	4250 5250 4500 5250
-Wire Wire Line
-	2400 5250 2650 5250
-Wire Wire Line
-	1850 5250 2100 5250
 $Comp
 L Drone:LED D?
 U 1 1 5E52A866
@@ -896,6 +892,10 @@ Wire Wire Line
 Connection ~ 1850 4950
 Wire Wire Line
 	1850 4950 1850 5250
+Wire Wire Line
+	2450 5250 2650 5250
+Wire Wire Line
+	1850 5250 2150 5250
 Wire Bus Line
 	3300 4250 3300 5150
 Wire Bus Line
