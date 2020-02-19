@@ -28,6 +28,12 @@ $CMP ES02MSABE
 F https://dznh3ojzb2azq.cloudfront.net/products/Slide/ES/documents/datasheet.pdf
 $ENDCMP
 #
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP MSL0402RGBU1
 F https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND
 $ENDCMP

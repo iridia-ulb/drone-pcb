@@ -16,15 +16,15 @@ $EndDescr
 Wire Wire Line
 	2950 5250 3200 5250
 Wire Wire Line
-	2950 5050 3200 5050
+	2950 4950 3200 4950
 Text Label 2950 5250 0    50   ~ 0
 LED2
-Text Label 2950 5050 0    50   ~ 0
+Text Label 2950 4950 0    50   ~ 0
 LED1
-Text Label 2950 4850 0    50   ~ 0
+Text Label 2950 4650 0    50   ~ 0
 LED0
 Wire Wire Line
-	3200 4850 2950 4850
+	3200 4650 2950 4650
 $Comp
 L Drone:RES R?
 U 1 1 5E39412E
@@ -42,29 +42,29 @@ $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E394128
-P 2800 4850
+P 2800 4650
 AR Path="/5E2EDC4D/5E394128" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E394128" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E394128" Ref="R17"  Part="1" 
-F 0 "R17" V 2850 4950 50  0000 L CNN
-F 1 "210" V 2870 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 4850 50  0001 C CNN
-F 3 "~" H 2800 4850 50  0001 C CNN
-	1    2800 4850
+F 0 "R17" V 2850 4750 50  0000 L CNN
+F 1 "210" V 2870 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 4650 50  0001 C CNN
+F 3 "~" H 2800 4650 50  0001 C CNN
+	1    2800 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E394122
-P 2800 5050
+P 2800 4950
 AR Path="/5E2EDC4D/5E394122" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E394122" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E394122" Ref="R18"  Part="1" 
-F 0 "R18" V 2850 5150 50  0000 L CNN
-F 1 "250" V 2870 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 5050 50  0001 C CNN
-F 3 "~" H 2800 5050 50  0001 C CNN
-	1    2800 5050
+F 0 "R18" V 2850 5050 50  0000 L CNN
+F 1 "250" V 2870 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 4950 50  0001 C CNN
+F 3 "~" H 2800 4950 50  0001 C CNN
+	1    2800 4950
 	0    -1   -1   0   
 $EndComp
 Text Label 10100 3500 0    50   ~ 0
@@ -275,16 +275,10 @@ Wire Wire Line
 Wire Wire Line
 	8600 3100 8600 3000
 Connection ~ 8600 3000
-Wire Wire Line
-	2650 4850 2600 4850
-Wire Wire Line
-	2650 5050 2600 5050
-Wire Wire Line
-	2650 5250 2600 5250
 Entry Wire Line
-	3200 4850 3300 4750
+	3200 4650 3300 4550
 Entry Wire Line
-	3200 5050 3300 4950
+	3200 4950 3300 4850
 Entry Wire Line
 	3200 5250 3300 5150
 Text Label 1850 4400 3    50   ~ 0
@@ -320,19 +314,8 @@ F 3 "~" H 1100 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 4400 1850 4850
-Wire Wire Line
-	1900 4850 1850 4850
+	1850 4400 1850 4650
 Connection ~ 1850 4850
-Wire Wire Line
-	1850 4850 1850 5050
-Wire Wire Line
-	1900 5050 1850 5050
-Connection ~ 1850 5050
-Wire Wire Line
-	1850 5050 1850 5250
-Wire Wire Line
-	1900 5250 1850 5250
 Wire Wire Line
 	1100 5450 1100 5250
 Wire Wire Line
@@ -354,25 +337,19 @@ Connection ~ 1550 4850
 Wire Wire Line
 	5350 5250 5600 5250
 Wire Wire Line
-	5350 5050 5600 5050
+	5350 4950 5600 4950
 Text Label 5350 5250 0    50   ~ 0
 LED6
-Text Label 5350 5050 0    50   ~ 0
+Text Label 5350 4950 0    50   ~ 0
 LED5
-Text Label 5350 4850 0    50   ~ 0
+Text Label 5350 4650 0    50   ~ 0
 LED4
 Wire Wire Line
-	5600 4850 5350 4850
-Wire Wire Line
-	5050 4850 5000 4850
-Wire Wire Line
-	5050 5050 5000 5050
-Wire Wire Line
-	5050 5250 5000 5250
+	5600 4650 5350 4650
 Entry Wire Line
-	5600 4850 5700 4750
+	5600 4650 5700 4550
 Entry Wire Line
-	5600 5050 5700 4950
+	5600 4950 5700 4850
 Entry Wire Line
 	5600 5250 5700 5150
 Text Label 4250 4400 3    50   ~ 0
@@ -408,19 +385,10 @@ F 3 "~" H 3500 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 4400 4250 4850
-Wire Wire Line
-	4300 4850 4250 4850
+	4250 4400 4250 4650
 Connection ~ 4250 4850
 Wire Wire Line
-	4250 4850 4250 5050
-Wire Wire Line
-	4300 5050 4250 5050
-Connection ~ 4250 5050
-Wire Wire Line
-	4250 5050 4250 5250
-Wire Wire Line
-	4300 5250 4250 5250
+	4250 4850 4250 4950
 Wire Wire Line
 	3500 5450 3500 5250
 Wire Wire Line
@@ -442,25 +410,19 @@ Connection ~ 3950 4850
 Wire Wire Line
 	7750 5250 8000 5250
 Wire Wire Line
-	7750 5050 8000 5050
+	7750 4950 8000 4950
 Text Label 7750 5250 0    50   ~ 0
 LED10
-Text Label 7750 5050 0    50   ~ 0
+Text Label 7750 4950 0    50   ~ 0
 LED9
-Text Label 7750 4850 0    50   ~ 0
+Text Label 7750 4650 0    50   ~ 0
 LED8
 Wire Wire Line
-	8000 4850 7750 4850
-Wire Wire Line
-	7450 4850 7400 4850
-Wire Wire Line
-	7450 5050 7400 5050
-Wire Wire Line
-	7450 5250 7400 5250
+	8000 4650 7750 4650
 Entry Wire Line
-	8000 4850 8100 4750
+	8000 4650 8100 4550
 Entry Wire Line
-	8000 5050 8100 4950
+	8000 4950 8100 4850
 Entry Wire Line
 	8000 5250 8100 5150
 Text Label 6650 4400 3    50   ~ 0
@@ -495,20 +457,7 @@ F 3 "~" H 5900 5050 50  0001 C CNN
 	1    5900 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 4400 6650 4850
-Wire Wire Line
-	6700 4850 6650 4850
 Connection ~ 6650 4850
-Wire Wire Line
-	6650 4850 6650 5050
-Wire Wire Line
-	6700 5050 6650 5050
-Connection ~ 6650 5050
-Wire Wire Line
-	6650 5050 6650 5250
-Wire Wire Line
-	6700 5250 6650 5250
 Wire Wire Line
 	5900 5450 5900 5250
 Wire Wire Line
@@ -530,25 +479,19 @@ Connection ~ 6350 4850
 Wire Wire Line
 	10150 5250 10400 5250
 Wire Wire Line
-	10150 5050 10400 5050
+	10150 4950 10400 4950
 Text Label 10150 5250 0    50   ~ 0
 LED14
-Text Label 10150 5050 0    50   ~ 0
+Text Label 10150 4950 0    50   ~ 0
 LED13
-Text Label 10150 4850 0    50   ~ 0
+Text Label 10150 4650 0    50   ~ 0
 LED12
 Wire Wire Line
-	10400 4850 10150 4850
-Wire Wire Line
-	9850 4850 9800 4850
-Wire Wire Line
-	9850 5050 9800 5050
-Wire Wire Line
-	9850 5250 9800 5250
+	10400 4650 10150 4650
 Entry Wire Line
-	10400 4850 10500 4750
+	10400 4650 10500 4550
 Entry Wire Line
-	10400 5050 10500 4950
+	10400 4950 10500 4850
 Entry Wire Line
 	10400 5250 10500 5150
 Text Label 9050 4400 3    50   ~ 0
@@ -583,20 +526,7 @@ F 3 "~" H 8300 5050 50  0001 C CNN
 	1    8300 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9050 4400 9050 4850
-Wire Wire Line
-	9100 4850 9050 4850
 Connection ~ 9050 4850
-Wire Wire Line
-	9050 4850 9050 5050
-Wire Wire Line
-	9100 5050 9050 5050
-Connection ~ 9050 5050
-Wire Wire Line
-	9050 5050 9050 5250
-Wire Wire Line
-	9100 5250 9050 5250
 Wire Wire Line
 	8300 5450 8300 5250
 Wire Wire Line
@@ -625,50 +555,6 @@ Connection ~ 8100 4250
 Wire Bus Line
 	8100 4250 5700 4250
 $Comp
-L Drone:MSL0402RGBU1 D1
-U 1 1 5E5BBF03
-P 2400 5350
-F 0 "D1" H 2620 4570 50  0000 L BNN
-F 1 "MSL0402RGBU1" H 2125 4650 50  0000 L BNN
-F 2 "Drone:MSL0402RGBU1" H 2400 4650 50  0001 L BNN
-F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 2550 5000 50  0001 C CNN
-	1    2400 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Drone:MSL0402RGBU1 D2
-U 1 1 5E5CC62E
-P 4800 5350
-F 0 "D2" H 5020 4570 50  0000 L BNN
-F 1 "MSL0402RGBU1" H 4525 4650 50  0000 L BNN
-F 2 "Drone:MSL0402RGBU1" H 4800 4650 50  0001 L BNN
-F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 4950 5000 50  0001 C CNN
-	1    4800 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Drone:MSL0402RGBU1 D3
-U 1 1 5E5D274B
-P 7200 5350
-F 0 "D3" H 7420 4570 50  0000 L BNN
-F 1 "MSL0402RGBU1" H 6925 4650 50  0000 L BNN
-F 2 "Drone:MSL0402RGBU1" H 7200 4650 50  0001 L BNN
-F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 7350 5000 50  0001 C CNN
-	1    7200 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Drone:MSL0402RGBU1 D4
-U 1 1 5E5D8D79
-P 9600 5350
-F 0 "D4" H 9820 4570 50  0000 L BNN
-F 1 "MSL0402RGBU1" H 9325 4650 50  0000 L BNN
-F 2 "Drone:MSL0402RGBU1" H 9600 4650 50  0001 L BNN
-F 3 "https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND" H 9750 5000 50  0001 C CNN
-	1    9600 5350
-	-1   0    0    1   
-$EndComp
-$Comp
 L Drone:RES R?
 U 1 1 5E61ABA5
 P 5200 5250
@@ -685,29 +571,29 @@ $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E61ABAB
-P 5200 4850
+P 5200 4650
 AR Path="/5E2EDC4D/5E61ABAB" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E61ABAB" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E61ABAB" Ref="R20"  Part="1" 
-F 0 "R20" V 5250 4950 50  0000 L CNN
-F 1 "210" V 5270 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 4850 50  0001 C CNN
-F 3 "~" H 5200 4850 50  0001 C CNN
-	1    5200 4850
+F 0 "R20" V 5250 4750 50  0000 L CNN
+F 1 "210" V 5270 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 4650 50  0001 C CNN
+F 3 "~" H 5200 4650 50  0001 C CNN
+	1    5200 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E61ABB1
-P 5200 5050
+P 5200 4950
 AR Path="/5E2EDC4D/5E61ABB1" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E61ABB1" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E61ABB1" Ref="R21"  Part="1" 
-F 0 "R21" V 5250 5150 50  0000 L CNN
-F 1 "250" V 5270 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 5050 50  0001 C CNN
-F 3 "~" H 5200 5050 50  0001 C CNN
-	1    5200 5050
+F 0 "R21" V 5250 5050 50  0000 L CNN
+F 1 "250" V 5270 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 4950 50  0001 C CNN
+F 3 "~" H 5200 4950 50  0001 C CNN
+	1    5200 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -727,29 +613,29 @@ $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E620B0D
-P 7600 4850
+P 7600 4650
 AR Path="/5E2EDC4D/5E620B0D" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E620B0D" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E620B0D" Ref="R23"  Part="1" 
-F 0 "R23" V 7650 4950 50  0000 L CNN
-F 1 "210" V 7670 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 4850 50  0001 C CNN
-F 3 "~" H 7600 4850 50  0001 C CNN
-	1    7600 4850
+F 0 "R23" V 7650 4750 50  0000 L CNN
+F 1 "210" V 7670 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 4650 50  0001 C CNN
+F 3 "~" H 7600 4650 50  0001 C CNN
+	1    7600 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E620B13
-P 7600 5050
+P 7600 4950
 AR Path="/5E2EDC4D/5E620B13" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E620B13" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E620B13" Ref="R24"  Part="1" 
-F 0 "R24" V 7650 5150 50  0000 L CNN
-F 1 "250" V 7670 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 5050 50  0001 C CNN
-F 3 "~" H 7600 5050 50  0001 C CNN
-	1    7600 5050
+F 0 "R24" V 7650 5050 50  0000 L CNN
+F 1 "250" V 7670 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 4950 50  0001 C CNN
+F 3 "~" H 7600 4950 50  0001 C CNN
+	1    7600 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -769,33 +655,247 @@ $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E626F9A
-P 10000 4850
+P 10000 4650
 AR Path="/5E2EDC4D/5E626F9A" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E626F9A" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E626F9A" Ref="R26"  Part="1" 
-F 0 "R26" V 10050 4950 50  0000 L CNN
-F 1 "210" V 10070 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 4850 50  0001 C CNN
-F 3 "~" H 10000 4850 50  0001 C CNN
-	1    10000 4850
+F 0 "R26" V 10050 4750 50  0000 L CNN
+F 1 "210" V 10070 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 4650 50  0001 C CNN
+F 3 "~" H 10000 4650 50  0001 C CNN
+	1    10000 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E626FA0
-P 10000 5050
+P 10000 4950
 AR Path="/5E2EDC4D/5E626FA0" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E626FA0" Ref="R?"  Part="1" 
 AR Path="/5E30BD8E/5E626FA0" Ref="R27"  Part="1" 
-F 0 "R27" V 10050 5150 50  0000 L CNN
-F 1 "250" V 10070 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 5050 50  0001 C CNN
-F 3 "~" H 10000 5050 50  0001 C CNN
-	1    10000 5050
+F 0 "R27" V 10050 5050 50  0000 L CNN
+F 1 "250" V 10070 4905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 4950 50  0001 C CNN
+F 3 "~" H 10000 4950 50  0001 C CNN
+	1    10000 4950
 	0    -1   -1   0   
 $EndComp
 Text Notes 9200 3700 0    50   ~ 0
 7-bit Address: 0x10
+Wire Wire Line
+	9600 5250 9850 5250
+Wire Wire Line
+	9050 5250 9300 5250
+$Comp
+L Drone:LED D?
+U 1 1 5E54945F
+P 7050 5250
+F 0 "D?" H 7050 5450 50  0000 C CNN
+F 1 "LED (R)" H 7050 5350 50  0000 C CNN
+F 2 "Drone:C503B" H 7050 5250 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 7050 5250 50  0001 C CNN
+	1    7050 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:LED D?
+U 1 1 5E54ACFC
+P 4650 5250
+F 0 "D?" H 4650 5450 50  0000 C CNN
+F 1 "LED (R)" H 4650 5350 50  0000 C CNN
+F 2 "Drone:C503B" H 4650 5250 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 4650 5250 50  0001 C CNN
+	1    4650 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:LED D?
+U 1 1 5E54B3E6
+P 2250 5250
+F 0 "D?" H 2250 5450 50  0000 C CNN
+F 1 "LED (R)" H 2250 5350 50  0000 C CNN
+F 2 "Drone:C503B" H 2250 5250 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 2250 5250 50  0001 C CNN
+	1    2250 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 5250 7450 5250
+Wire Wire Line
+	6650 5250 6900 5250
+Wire Wire Line
+	4800 5250 5050 5250
+Wire Wire Line
+	4250 5250 4500 5250
+Wire Wire Line
+	2400 5250 2650 5250
+Wire Wire Line
+	1850 5250 2100 5250
+$Comp
+L Drone:LED D?
+U 1 1 5E52A866
+P 9450 5250
+F 0 "D?" H 9450 5450 50  0000 C CNN
+F 1 "LED (R)" H 9450 5350 50  0000 C CNN
+F 2 "Drone:C503B" H 9450 5250 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 9450 5250 50  0001 C CNN
+	1    9450 5250
+	-1   0    0    1   
+$EndComp
+Connection ~ 9050 4950
+Wire Wire Line
+	9050 4950 9050 5250
+Wire Wire Line
+	9050 4850 9050 4950
+Wire Wire Line
+	6650 4850 6650 4950
+Wire Wire Line
+	6650 4400 6650 4650
+Wire Wire Line
+	9300 4650 9050 4650
+Wire Wire Line
+	9600 4650 9850 4650
+$Comp
+L Drone:LED D?
+U 1 1 5E5D7FC9
+P 9450 4650
+F 0 "D?" H 9500 4850 50  0000 C CNN
+F 1 "LED (B)" H 9450 4750 50  0000 C CNN
+F 2 "Drone:C503B" H 9450 4650 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 9450 4650 50  0001 C CNN
+	1    9450 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 4950 9300 4950
+$Comp
+L Drone:LED D?
+U 1 1 5E58AD4B
+P 9450 4950
+F 0 "D?" H 9500 5150 50  0000 C CNN
+F 1 "LED (G)" H 9450 5050 50  0000 C CNN
+F 2 "Drone:C503B" H 9450 4950 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 9450 4950 50  0001 C CNN
+	1    9450 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9600 4950 9850 4950
+Connection ~ 9050 4650
+Wire Wire Line
+	9050 4650 9050 4850
+Wire Wire Line
+	9050 4400 9050 4650
+$Comp
+L Drone:LED D?
+U 1 1 5E615B46
+P 7050 4650
+F 0 "D?" H 7100 4850 50  0000 C CNN
+F 1 "LED (B)" H 7050 4750 50  0000 C CNN
+F 2 "Drone:C503B" H 7050 4650 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 7050 4650 50  0001 C CNN
+	1    7050 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:LED D?
+U 1 1 5E616474
+P 7050 4950
+F 0 "D?" H 7100 5150 50  0000 C CNN
+F 1 "LED (G)" H 7050 5050 50  0000 C CNN
+F 2 "Drone:C503B" H 7050 4950 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 7050 4950 50  0001 C CNN
+	1    7050 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 4650 7450 4650
+Wire Wire Line
+	7200 4950 7450 4950
+Wire Wire Line
+	6900 4650 6650 4650
+Connection ~ 6650 4650
+Wire Wire Line
+	6650 4650 6650 4850
+Wire Wire Line
+	6900 4950 6650 4950
+Connection ~ 6650 4950
+Wire Wire Line
+	6650 4950 6650 5250
+$Comp
+L Drone:LED D?
+U 1 1 5E6437A4
+P 4650 4950
+F 0 "D?" H 4700 5150 50  0000 C CNN
+F 1 "LED (G)" H 4650 5050 50  0000 C CNN
+F 2 "Drone:C503B" H 4650 4950 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 4650 4950 50  0001 C CNN
+	1    4650 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:LED D?
+U 1 1 5E643FB3
+P 4650 4650
+F 0 "D?" H 4700 4850 50  0000 C CNN
+F 1 "LED (B)" H 4650 4750 50  0000 C CNN
+F 2 "Drone:C503B" H 4650 4650 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 4650 4650 50  0001 C CNN
+	1    4650 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4650 5050 4650
+Wire Wire Line
+	4800 4950 5050 4950
+Wire Wire Line
+	4500 4650 4250 4650
+Connection ~ 4250 4650
+Wire Wire Line
+	4250 4650 4250 4850
+Wire Wire Line
+	4500 4950 4250 4950
+Connection ~ 4250 4950
+Wire Wire Line
+	4250 4950 4250 5250
+Wire Wire Line
+	1850 4850 1850 4950
+$Comp
+L Drone:LED D?
+U 1 1 5E68C9C6
+P 2300 4950
+F 0 "D?" H 2350 5150 50  0000 C CNN
+F 1 "LED (G)" H 2300 5050 50  0000 C CNN
+F 2 "Drone:C503B" H 2300 4950 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 2300 4950 50  0001 C CNN
+	1    2300 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:LED D?
+U 1 1 5E68D057
+P 2300 4650
+F 0 "D?" H 2350 4850 50  0000 C CNN
+F 1 "LED (B)" H 2300 4750 50  0000 C CNN
+F 2 "Drone:C503B" H 2300 4650 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 2300 4650 50  0001 C CNN
+	1    2300 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 4650 2650 4650
+Wire Wire Line
+	2450 4950 2650 4950
+Wire Wire Line
+	2150 4650 1850 4650
+Connection ~ 1850 4650
+Wire Wire Line
+	1850 4650 1850 4850
+Wire Wire Line
+	2150 4950 1850 4950
+Connection ~ 1850 4950
+Wire Wire Line
+	1850 4950 1850 5250
 Wire Bus Line
 	3300 4250 3300 5150
 Wire Bus Line
