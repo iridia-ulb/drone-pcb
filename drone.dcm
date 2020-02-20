@@ -28,10 +28,19 @@ $CMP ES02MSABE
 F https://dznh3ojzb2azq.cloudfront.net/products/Slide/ES/documents/datasheet.pdf
 $ENDCMP
 #
-$CMP LED
-D Light emitting diode
+$CMP LED-BLUE
 K LED diode
-F ~
+F https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf
+$ENDCMP
+#
+$CMP LED-GREEN
+K LED diode
+F https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf
+$ENDCMP
+#
+$CMP LED-RED
+K LED diode
+F https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf
 $ENDCMP
 #
 $CMP MSL0402RGBU1

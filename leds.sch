@@ -13,58 +13,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2950 5250 3200 5250
-Wire Wire Line
-	2950 4950 3200 4950
-Text Label 2950 5250 0    50   ~ 0
-LED2
-Text Label 2950 4950 0    50   ~ 0
-LED1
-Text Label 2950 4650 0    50   ~ 0
-LED0
-Wire Wire Line
-	3200 4650 2950 4650
-$Comp
-L Drone:RES R?
-U 1 1 5E39412E
-P 2800 5250
-AR Path="/5E2EDC4D/5E39412E" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E39412E" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E39412E" Ref="R19"  Part="1" 
-F 0 "R19" V 2850 5350 50  0000 L CNN
-F 1 "290" V 2870 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 5250 50  0001 C CNN
-F 3 "~" H 2800 5250 50  0001 C CNN
-	1    2800 5250
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E394128
-P 2800 4650
+P 2500 5000
 AR Path="/5E2EDC4D/5E394128" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E394128" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E394128" Ref="R17"  Part="1" 
-F 0 "R17" V 2850 4750 50  0000 L CNN
-F 1 "210" V 2870 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 4650 50  0001 C CNN
-F 3 "~" H 2800 4650 50  0001 C CNN
-	1    2800 4650
+AR Path="/5E30BD8E/5E394128" Ref="R?"  Part="1" 
+F 0 "R?" V 2600 5000 50  0000 C CNN
+F 1 "100" V 2400 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 5000 50  0001 C CNN
+F 3 "~" H 2500 5000 50  0001 C CNN
+	1    2500 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E394122
-P 2800 4950
+P 2500 5500
 AR Path="/5E2EDC4D/5E394122" Ref="R?"  Part="1" 
 AR Path="/5E3090FF/5E394122" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E394122" Ref="R18"  Part="1" 
-F 0 "R18" V 2850 5050 50  0000 L CNN
-F 1 "250" V 2870 4905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 4950 50  0001 C CNN
-F 3 "~" H 2800 4950 50  0001 C CNN
-	1    2800 4950
+AR Path="/5E30BD8E/5E394122" Ref="R?"  Part="1" 
+F 0 "R?" V 2600 5500 50  0000 C CNN
+F 1 "100" V 2400 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 5500 50  0001 C CNN
+F 3 "~" H 2500 5500 50  0001 C CNN
+	1    2500 5500
 	0    -1   -1   0   
 $EndComp
 Text Label 10100 3500 0    50   ~ 0
@@ -275,635 +249,666 @@ Wire Wire Line
 Wire Wire Line
 	8600 3100 8600 3000
 Connection ~ 8600 3000
-Entry Wire Line
-	3200 4650 3300 4550
-Entry Wire Line
-	3200 4950 3300 4850
-Entry Wire Line
-	3200 5250 3300 5150
-Text Label 1850 4400 3    50   ~ 0
+Text Label 1850 4500 3    50   ~ 0
 5V
-Text Label 1100 5450 1    50   ~ 0
+Text Label 1050 6000 1    50   ~ 0
 GND
 $Comp
 L Drone:CAP C?
 U 1 1 5E41CE8E
-P 1550 5050
+P 1500 5250
 AR Path="/5E2EDC4D/5E41CE8E" Ref="C?"  Part="1" 
 AR Path="/5E3090FF/5E41CE8E" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E41CE8E" Ref="C8"  Part="1" 
-F 0 "C8" H 1665 5096 50  0000 L CNN
-F 1 "10u" H 1665 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 4900 50  0001 C CNN
-F 3 "~" H 1550 5050 50  0001 C CNN
-	1    1550 5050
+AR Path="/5E30BD8E/5E41CE8E" Ref="C?"  Part="1" 
+F 0 "C?" H 1615 5296 50  0000 L CNN
+F 1 "10u" H 1615 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 5100 50  0001 C CNN
+F 3 "~" H 1500 5250 50  0001 C CNN
+	1    1500 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Drone:CAP C?
 U 1 1 5E423672
-P 1100 5050
+P 1050 5250
 AR Path="/5E2EDC4D/5E423672" Ref="C?"  Part="1" 
 AR Path="/5E3090FF/5E423672" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E423672" Ref="C7"  Part="1" 
-F 0 "C7" H 1215 5096 50  0000 L CNN
-F 1 "100n" H 1215 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1138 4900 50  0001 C CNN
-F 3 "~" H 1100 5050 50  0001 C CNN
-	1    1100 5050
+AR Path="/5E30BD8E/5E423672" Ref="C?"  Part="1" 
+F 0 "C?" H 1165 5296 50  0000 L CNN
+F 1 "100n" H 1165 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1088 5100 50  0001 C CNN
+F 3 "~" H 1050 5250 50  0001 C CNN
+	1    1050 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 4400 1850 4650
-Connection ~ 1850 4850
+	1050 6000 1050 5500
 Wire Wire Line
-	1100 5450 1100 5250
+	1050 5500 1500 5500
 Wire Wire Line
-	1100 5250 1550 5250
+	1500 5500 1500 5400
+Connection ~ 1050 5500
 Wire Wire Line
-	1550 5250 1550 5200
-Connection ~ 1100 5250
-Wire Wire Line
-	1100 5250 1100 5200
-Wire Wire Line
-	1550 4900 1550 4850
-Wire Wire Line
-	1550 4850 1850 4850
-Wire Wire Line
-	1100 4900 1100 4850
-Wire Wire Line
-	1100 4850 1550 4850
-Connection ~ 1550 4850
-Wire Wire Line
-	5350 5250 5600 5250
-Wire Wire Line
-	5350 4950 5600 4950
-Text Label 5350 5250 0    50   ~ 0
-LED6
-Text Label 5350 4950 0    50   ~ 0
-LED5
-Text Label 5350 4650 0    50   ~ 0
-LED4
-Wire Wire Line
-	5600 4650 5350 4650
-Entry Wire Line
-	5600 4650 5700 4550
-Entry Wire Line
-	5600 4950 5700 4850
-Entry Wire Line
-	5600 5250 5700 5150
-Text Label 4250 4400 3    50   ~ 0
-5V
-Text Label 3500 5450 1    50   ~ 0
-GND
-$Comp
-L Drone:CAP C?
-U 1 1 5E35DAAA
-P 3950 5050
-AR Path="/5E2EDC4D/5E35DAAA" Ref="C?"  Part="1" 
-AR Path="/5E3090FF/5E35DAAA" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E35DAAA" Ref="C10"  Part="1" 
-F 0 "C10" H 4065 5096 50  0000 L CNN
-F 1 "10u" H 4065 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3988 4900 50  0001 C CNN
-F 3 "~" H 3950 5050 50  0001 C CNN
-	1    3950 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E35DAB0
-P 3500 5050
-AR Path="/5E2EDC4D/5E35DAB0" Ref="C?"  Part="1" 
-AR Path="/5E3090FF/5E35DAB0" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E35DAB0" Ref="C9"  Part="1" 
-F 0 "C9" H 3615 5096 50  0000 L CNN
-F 1 "100n" H 3615 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 4900 50  0001 C CNN
-F 3 "~" H 3500 5050 50  0001 C CNN
-	1    3500 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 4400 4250 4650
-Connection ~ 4250 4850
-Wire Wire Line
-	4250 4850 4250 4950
-Wire Wire Line
-	3500 5450 3500 5250
-Wire Wire Line
-	3500 5250 3950 5250
-Wire Wire Line
-	3950 5250 3950 5200
-Connection ~ 3500 5250
-Wire Wire Line
-	3500 5250 3500 5200
-Wire Wire Line
-	3950 4900 3950 4850
-Wire Wire Line
-	3950 4850 4250 4850
-Wire Wire Line
-	3500 4900 3500 4850
-Wire Wire Line
-	3500 4850 3950 4850
-Connection ~ 3950 4850
-Wire Wire Line
-	7750 5250 8000 5250
-Wire Wire Line
-	7750 4950 8000 4950
-Text Label 7750 5250 0    50   ~ 0
-LED10
-Text Label 7750 4950 0    50   ~ 0
-LED9
-Text Label 7750 4650 0    50   ~ 0
-LED8
-Wire Wire Line
-	8000 4650 7750 4650
-Entry Wire Line
-	8000 4650 8100 4550
-Entry Wire Line
-	8000 4950 8100 4850
-Entry Wire Line
-	8000 5250 8100 5150
-Text Label 6650 4400 3    50   ~ 0
-5V
-Text Label 5900 5450 1    50   ~ 0
-GND
-$Comp
-L Drone:CAP C?
-U 1 1 5E363A65
-P 6350 5050
-AR Path="/5E2EDC4D/5E363A65" Ref="C?"  Part="1" 
-AR Path="/5E3090FF/5E363A65" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E363A65" Ref="C12"  Part="1" 
-F 0 "C12" H 6465 5096 50  0000 L CNN
-F 1 "10u" H 6465 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6388 4900 50  0001 C CNN
-F 3 "~" H 6350 5050 50  0001 C CNN
-	1    6350 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E363A6B
-P 5900 5050
-AR Path="/5E2EDC4D/5E363A6B" Ref="C?"  Part="1" 
-AR Path="/5E3090FF/5E363A6B" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E363A6B" Ref="C11"  Part="1" 
-F 0 "C11" H 6015 5096 50  0000 L CNN
-F 1 "100n" H 6015 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5938 4900 50  0001 C CNN
-F 3 "~" H 5900 5050 50  0001 C CNN
-	1    5900 5050
-	1    0    0    -1  
-$EndComp
-Connection ~ 6650 4850
-Wire Wire Line
-	5900 5450 5900 5250
-Wire Wire Line
-	5900 5250 6350 5250
-Wire Wire Line
-	6350 5250 6350 5200
-Connection ~ 5900 5250
-Wire Wire Line
-	5900 5250 5900 5200
-Wire Wire Line
-	6350 4900 6350 4850
-Wire Wire Line
-	6350 4850 6650 4850
-Wire Wire Line
-	5900 4900 5900 4850
-Wire Wire Line
-	5900 4850 6350 4850
-Connection ~ 6350 4850
-Wire Wire Line
-	10150 5250 10400 5250
-Wire Wire Line
-	10150 4950 10400 4950
-Text Label 10150 5250 0    50   ~ 0
-LED14
-Text Label 10150 4950 0    50   ~ 0
-LED13
-Text Label 10150 4650 0    50   ~ 0
-LED12
-Wire Wire Line
-	10400 4650 10150 4650
-Entry Wire Line
-	10400 4650 10500 4550
-Entry Wire Line
-	10400 4950 10500 4850
-Entry Wire Line
-	10400 5250 10500 5150
-Text Label 9050 4400 3    50   ~ 0
-5V
-Text Label 8300 5450 1    50   ~ 0
-GND
-$Comp
-L Drone:CAP C?
-U 1 1 5E370E00
-P 8750 5050
-AR Path="/5E2EDC4D/5E370E00" Ref="C?"  Part="1" 
-AR Path="/5E3090FF/5E370E00" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E370E00" Ref="C15"  Part="1" 
-F 0 "C15" H 8865 5096 50  0000 L CNN
-F 1 "10u" H 8865 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8788 4900 50  0001 C CNN
-F 3 "~" H 8750 5050 50  0001 C CNN
-	1    8750 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E370E06
-P 8300 5050
-AR Path="/5E2EDC4D/5E370E06" Ref="C?"  Part="1" 
-AR Path="/5E3090FF/5E370E06" Ref="C?"  Part="1" 
-AR Path="/5E30BD8E/5E370E06" Ref="C13"  Part="1" 
-F 0 "C13" H 8415 5096 50  0000 L CNN
-F 1 "100n" H 8415 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 4900 50  0001 C CNN
-F 3 "~" H 8300 5050 50  0001 C CNN
-	1    8300 5050
-	1    0    0    -1  
-$EndComp
-Connection ~ 9050 4850
-Wire Wire Line
-	8300 5450 8300 5250
-Wire Wire Line
-	8300 5250 8750 5250
-Wire Wire Line
-	8750 5250 8750 5200
-Connection ~ 8300 5250
-Wire Wire Line
-	8300 5250 8300 5200
-Wire Wire Line
-	8750 4900 8750 4850
-Wire Wire Line
-	8750 4850 9050 4850
-Wire Wire Line
-	8300 4900 8300 4850
-Wire Wire Line
-	8300 4850 8750 4850
-Connection ~ 8750 4850
-Wire Bus Line
-	10500 4250 8100 4250
-Connection ~ 10500 4250
-Connection ~ 5700 4250
-Wire Bus Line
-	5700 4250 3300 4250
-Connection ~ 8100 4250
-Wire Bus Line
-	8100 4250 5700 4250
-$Comp
-L Drone:RES R?
-U 1 1 5E61ABA5
-P 5200 5250
-AR Path="/5E2EDC4D/5E61ABA5" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E61ABA5" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E61ABA5" Ref="R22"  Part="1" 
-F 0 "R22" V 5250 5350 50  0000 L CNN
-F 1 "290" V 5270 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 5250 50  0001 C CNN
-F 3 "~" H 5200 5250 50  0001 C CNN
-	1    5200 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E61ABAB
-P 5200 4650
-AR Path="/5E2EDC4D/5E61ABAB" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E61ABAB" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E61ABAB" Ref="R20"  Part="1" 
-F 0 "R20" V 5250 4750 50  0000 L CNN
-F 1 "210" V 5270 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 4650 50  0001 C CNN
-F 3 "~" H 5200 4650 50  0001 C CNN
-	1    5200 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E61ABB1
-P 5200 4950
-AR Path="/5E2EDC4D/5E61ABB1" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E61ABB1" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E61ABB1" Ref="R21"  Part="1" 
-F 0 "R21" V 5250 5050 50  0000 L CNN
-F 1 "250" V 5270 4905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5130 4950 50  0001 C CNN
-F 3 "~" H 5200 4950 50  0001 C CNN
-	1    5200 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E620B07
-P 7600 5250
-AR Path="/5E2EDC4D/5E620B07" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E620B07" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E620B07" Ref="R25"  Part="1" 
-F 0 "R25" V 7650 5350 50  0000 L CNN
-F 1 "290" V 7670 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 5250 50  0001 C CNN
-F 3 "~" H 7600 5250 50  0001 C CNN
-	1    7600 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E620B0D
-P 7600 4650
-AR Path="/5E2EDC4D/5E620B0D" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E620B0D" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E620B0D" Ref="R23"  Part="1" 
-F 0 "R23" V 7650 4750 50  0000 L CNN
-F 1 "210" V 7670 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 4650 50  0001 C CNN
-F 3 "~" H 7600 4650 50  0001 C CNN
-	1    7600 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E620B13
-P 7600 4950
-AR Path="/5E2EDC4D/5E620B13" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E620B13" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E620B13" Ref="R24"  Part="1" 
-F 0 "R24" V 7650 5050 50  0000 L CNN
-F 1 "250" V 7670 4905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7530 4950 50  0001 C CNN
-F 3 "~" H 7600 4950 50  0001 C CNN
-	1    7600 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E626F94
-P 10000 5250
-AR Path="/5E2EDC4D/5E626F94" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E626F94" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E626F94" Ref="R28"  Part="1" 
-F 0 "R28" V 10050 5350 50  0000 L CNN
-F 1 "290" V 10070 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 5250 50  0001 C CNN
-F 3 "~" H 10000 5250 50  0001 C CNN
-	1    10000 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E626F9A
-P 10000 4650
-AR Path="/5E2EDC4D/5E626F9A" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E626F9A" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E626F9A" Ref="R26"  Part="1" 
-F 0 "R26" V 10050 4750 50  0000 L CNN
-F 1 "210" V 10070 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 4650 50  0001 C CNN
-F 3 "~" H 10000 4650 50  0001 C CNN
-	1    10000 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5E626FA0
-P 10000 4950
-AR Path="/5E2EDC4D/5E626FA0" Ref="R?"  Part="1" 
-AR Path="/5E3090FF/5E626FA0" Ref="R?"  Part="1" 
-AR Path="/5E30BD8E/5E626FA0" Ref="R27"  Part="1" 
-F 0 "R27" V 10050 5050 50  0000 L CNN
-F 1 "250" V 10070 4905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 4950 50  0001 C CNN
-F 3 "~" H 10000 4950 50  0001 C CNN
-	1    10000 4950
-	0    -1   -1   0   
-$EndComp
+	1050 5500 1050 5400
 Text Notes 9200 3700 0    50   ~ 0
 7-bit Address: 0x10
-Wire Wire Line
-	9600 5250 9850 5250
-Wire Wire Line
-	9050 5250 9300 5250
 $Comp
-L Drone:LED D?
-U 1 1 5E54945F
-P 7050 5250
-F 0 "D?" H 7050 5450 50  0000 C CNN
-F 1 "LED (R)" H 7050 5350 50  0000 C CNN
-F 2 "Drone:C503B" H 7050 5250 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 7050 5250 50  0001 C CNN
-	1    7050 5250
-	-1   0    0    1   
+L Drone:LED-RED D?
+U 1 1 5E539CCB
+P 2100 6000
+F 0 "D?" H 2100 6100 50  0000 C CNN
+F 1 "LED-RED" H 2100 5900 50  0000 C CNN
+F 2 "Drone:C503B" H 2050 5750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 2100 6000 50  0001 L BNN
+F 4 "Cree" H 2050 5650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-RAN-CZ0C0AA1" H 2050 5550 50  0001 L BNN "Manufacturer Number"
+	1    2100 6000
+	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:LED D?
-U 1 1 5E54ACFC
-P 4650 5250
-F 0 "D?" H 4650 5450 50  0000 C CNN
-F 1 "LED (R)" H 4650 5350 50  0000 C CNN
-F 2 "Drone:C503B" H 4650 5250 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 4650 5250 50  0001 C CNN
-	1    4650 5250
-	-1   0    0    1   
+L Drone:LED-GREEN D?
+U 1 1 5E544403
+P 2100 5500
+F 0 "D?" H 2100 5600 50  0000 C CNN
+F 1 "LED-GREEN" H 2100 5400 50  0000 C CNN
+F 2 "Drone:C503B" H 2050 5250 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 2100 5500 50  0001 L BNN
+F 4 "Cree" H 2050 5150 50  0001 L BNN "Manufacturer"
+F 5 "C503B-GAN-CB0F0791" H 2050 5050 50  0001 L BNN "Manufacturer Number"
+	1    2100 5500
+	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:LED D?
-U 1 1 5E54B3E6
-P 2300 5250
-F 0 "D?" H 2300 5450 50  0000 C CNN
-F 1 "LED (R)" H 2300 5350 50  0000 C CNN
-F 2 "Drone:C503B" H 2300 5250 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 2300 5250 50  0001 C CNN
-	1    2300 5250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 5250 7450 5250
-Wire Wire Line
-	6650 5250 6900 5250
-Wire Wire Line
-	4800 5250 5050 5250
-Wire Wire Line
-	4250 5250 4500 5250
-$Comp
-L Drone:LED D?
-U 1 1 5E52A866
-P 9450 5250
-F 0 "D?" H 9450 5450 50  0000 C CNN
-F 1 "LED (R)" H 9450 5350 50  0000 C CNN
-F 2 "Drone:C503B" H 9450 5250 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 9450 5250 50  0001 C CNN
-	1    9450 5250
-	-1   0    0    1   
-$EndComp
-Connection ~ 9050 4950
-Wire Wire Line
-	9050 4950 9050 5250
-Wire Wire Line
-	9050 4850 9050 4950
-Wire Wire Line
-	6650 4850 6650 4950
-Wire Wire Line
-	6650 4400 6650 4650
-Wire Wire Line
-	9300 4650 9050 4650
-Wire Wire Line
-	9600 4650 9850 4650
-$Comp
-L Drone:LED D?
-U 1 1 5E5D7FC9
-P 9450 4650
-F 0 "D?" H 9500 4850 50  0000 C CNN
-F 1 "LED (B)" H 9450 4750 50  0000 C CNN
-F 2 "Drone:C503B" H 9450 4650 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 9450 4650 50  0001 C CNN
-	1    9450 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9050 4950 9300 4950
-$Comp
-L Drone:LED D?
-U 1 1 5E58AD4B
-P 9450 4950
-F 0 "D?" H 9500 5150 50  0000 C CNN
-F 1 "LED (G)" H 9450 5050 50  0000 C CNN
-F 2 "Drone:C503B" H 9450 4950 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 9450 4950 50  0001 C CNN
-	1    9450 4950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 4950 9850 4950
-Connection ~ 9050 4650
-Wire Wire Line
-	9050 4650 9050 4850
-Wire Wire Line
-	9050 4400 9050 4650
-$Comp
-L Drone:LED D?
-U 1 1 5E615B46
-P 7050 4650
-F 0 "D?" H 7100 4850 50  0000 C CNN
-F 1 "LED (B)" H 7050 4750 50  0000 C CNN
-F 2 "Drone:C503B" H 7050 4650 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 7050 4650 50  0001 C CNN
-	1    7050 4650
-	-1   0    0    1   
+L Drone:LED-BLUE D?
+U 1 1 5E55F63E
+P 2100 5000
+F 0 "D?" H 2100 5100 50  0000 C CNN
+F 1 "LED-BLUE" H 2100 4900 50  0000 C CNN
+F 2 "Drone:C503B" H 2050 4750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 2100 5000 50  0001 L BNN
+F 4 "Cree" H 2050 4650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-BAN-CY0C0461" H 2050 4550 50  0001 L BNN "Manufacturer Number"
+	1    2100 5000
+	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:LED D?
-U 1 1 5E616474
-P 7050 4950
-F 0 "D?" H 7100 5150 50  0000 C CNN
-F 1 "LED (G)" H 7050 5050 50  0000 C CNN
-F 2 "Drone:C503B" H 7050 4950 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 7050 4950 50  0001 C CNN
-	1    7050 4950
-	-1   0    0    1   
+L Drone:RES R?
+U 1 1 5E39412E
+P 2500 6000
+AR Path="/5E2EDC4D/5E39412E" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E39412E" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E39412E" Ref="R?"  Part="1" 
+F 0 "R?" V 2600 6000 50  0000 C CNN
+F 1 "145" V 2400 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 6000 50  0001 C CNN
+F 3 "~" H 2500 6000 50  0001 C CNN
+	1    2500 6000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 4650 7450 4650
+	1950 5000 1850 5000
 Wire Wire Line
-	7200 4950 7450 4950
+	1850 5000 1850 5500
 Wire Wire Line
-	6900 4650 6650 4650
-Connection ~ 6650 4650
+	1850 5500 1950 5500
+Connection ~ 1850 5000
 Wire Wire Line
-	6650 4650 6650 4850
+	1850 5500 1850 6000
 Wire Wire Line
-	6900 4950 6650 4950
-Connection ~ 6650 4950
+	1850 6000 1950 6000
+Connection ~ 1850 5500
 Wire Wire Line
-	6650 4950 6650 5250
-$Comp
-L Drone:LED D?
-U 1 1 5E6437A4
-P 4650 4950
-F 0 "D?" H 4700 5150 50  0000 C CNN
-F 1 "LED (G)" H 4650 5050 50  0000 C CNN
-F 2 "Drone:C503B" H 4650 4950 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 4650 4950 50  0001 C CNN
-	1    4650 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Drone:LED D?
-U 1 1 5E643FB3
-P 4650 4650
-F 0 "D?" H 4700 4850 50  0000 C CNN
-F 1 "LED (B)" H 4650 4750 50  0000 C CNN
-F 2 "Drone:C503B" H 4650 4650 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 4650 4650 50  0001 C CNN
-	1    4650 4650
-	-1   0    0    1   
-$EndComp
+	2250 6000 2350 6000
 Wire Wire Line
-	4800 4650 5050 4650
+	2250 5500 2350 5500
 Wire Wire Line
-	4800 4950 5050 4950
+	2250 5000 2350 5000
 Wire Wire Line
-	4500 4650 4250 4650
-Connection ~ 4250 4650
+	1850 4500 1850 5000
 Wire Wire Line
-	4250 4650 4250 4850
+	1850 5000 1500 5000
 Wire Wire Line
-	4500 4950 4250 4950
-Connection ~ 4250 4950
+	1050 5000 1050 5100
 Wire Wire Line
-	4250 4950 4250 5250
+	1500 5000 1500 5100
+Connection ~ 1500 5000
 Wire Wire Line
-	1850 4850 1850 4950
-$Comp
-L Drone:LED D?
-U 1 1 5E68C9C6
-P 2300 4950
-F 0 "D?" H 2350 5150 50  0000 C CNN
-F 1 "LED (G)" H 2300 5050 50  0000 C CNN
-F 2 "Drone:C503B" H 2300 4950 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 2300 4950 50  0001 C CNN
-	1    2300 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Drone:LED D?
-U 1 1 5E68D057
-P 2300 4650
-F 0 "D?" H 2350 4850 50  0000 C CNN
-F 1 "LED (B)" H 2300 4750 50  0000 C CNN
-F 2 "Drone:C503B" H 2300 4650 50  0001 C CNN
-F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 2300 4650 50  0001 C CNN
-	1    2300 4650
-	-1   0    0    1   
-$EndComp
+	1500 5000 1050 5000
 Wire Wire Line
-	2450 4650 2650 4650
+	2650 6000 2900 6000
+Text Label 2650 6000 0    50   ~ 0
+LED2
+Entry Wire Line
+	2900 6000 3000 5900
 Wire Wire Line
-	2450 4950 2650 4950
+	2650 5500 2900 5500
+Text Label 2650 5500 0    50   ~ 0
+LED1
+Entry Wire Line
+	2900 5500 3000 5400
 Wire Wire Line
-	2150 4650 1850 4650
-Connection ~ 1850 4650
-Wire Wire Line
-	1850 4650 1850 4850
-Wire Wire Line
-	2150 4950 1850 4950
-Connection ~ 1850 4950
-Wire Wire Line
-	1850 4950 1850 5250
-Wire Wire Line
-	2450 5250 2650 5250
-Wire Wire Line
-	1850 5250 2150 5250
+	2650 5000 2900 5000
+Text Label 2650 5000 0    50   ~ 0
+LED0
+Entry Wire Line
+	2900 5000 3000 4900
 Wire Bus Line
-	3300 4250 3300 5150
+	3000 4250 10500 4250
+$Comp
+L Drone:RES R?
+U 1 1 5E68B705
+P 4750 5000
+AR Path="/5E2EDC4D/5E68B705" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E68B705" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E68B705" Ref="R?"  Part="1" 
+F 0 "R?" V 4850 5000 50  0000 C CNN
+F 1 "100" V 4650 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 5000 50  0001 C CNN
+F 3 "~" H 4750 5000 50  0001 C CNN
+	1    4750 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E68B70B
+P 4750 5500
+AR Path="/5E2EDC4D/5E68B70B" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E68B70B" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E68B70B" Ref="R?"  Part="1" 
+F 0 "R?" V 4850 5500 50  0000 C CNN
+F 1 "100" V 4650 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 5500 50  0001 C CNN
+F 3 "~" H 4750 5500 50  0001 C CNN
+	1    4750 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 4100 4500 3    50   ~ 0
+5V
+Text Label 3300 6000 1    50   ~ 0
+GND
+$Comp
+L Drone:CAP C?
+U 1 1 5E68B713
+P 3750 5250
+AR Path="/5E2EDC4D/5E68B713" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/5E68B713" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/5E68B713" Ref="C?"  Part="1" 
+F 0 "C?" H 3865 5296 50  0000 L CNN
+F 1 "10u" H 3865 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3788 5100 50  0001 C CNN
+F 3 "~" H 3750 5250 50  0001 C CNN
+	1    3750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 5E68B719
+P 3300 5250
+AR Path="/5E2EDC4D/5E68B719" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/5E68B719" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/5E68B719" Ref="C?"  Part="1" 
+F 0 "C?" H 3415 5296 50  0000 L CNN
+F 1 "100n" H 3415 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3338 5100 50  0001 C CNN
+F 3 "~" H 3300 5250 50  0001 C CNN
+	1    3300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6000 3300 5500
+Wire Wire Line
+	3300 5500 3750 5500
+Wire Wire Line
+	3750 5500 3750 5400
+Connection ~ 3300 5500
+Wire Wire Line
+	3300 5500 3300 5400
+$Comp
+L Drone:LED-RED D?
+U 1 1 5E68B726
+P 4350 6000
+F 0 "D?" H 4350 6100 50  0000 C CNN
+F 1 "LED-RED" H 4350 5900 50  0000 C CNN
+F 2 "Drone:C503B" H 4300 5750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 4350 6000 50  0001 L BNN
+F 4 "Cree" H 4300 5650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-RAN-CZ0C0AA1" H 4300 5550 50  0001 L BNN "Manufacturer Number"
+	1    4350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:LED-GREEN D?
+U 1 1 5E68B72E
+P 4350 5500
+F 0 "D?" H 4350 5600 50  0000 C CNN
+F 1 "LED-GREEN" H 4350 5400 50  0000 C CNN
+F 2 "Drone:C503B" H 4300 5250 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 4350 5500 50  0001 L BNN
+F 4 "Cree" H 4300 5150 50  0001 L BNN "Manufacturer"
+F 5 "C503B-GAN-CB0F0791" H 4300 5050 50  0001 L BNN "Manufacturer Number"
+	1    4350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:LED-BLUE D?
+U 1 1 5E68B736
+P 4350 5000
+F 0 "D?" H 4350 5100 50  0000 C CNN
+F 1 "LED-BLUE" H 4350 4900 50  0000 C CNN
+F 2 "Drone:C503B" H 4300 4750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 4350 5000 50  0001 L BNN
+F 4 "Cree" H 4300 4650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-BAN-CY0C0461" H 4300 4550 50  0001 L BNN "Manufacturer Number"
+	1    4350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E68B73C
+P 4750 6000
+AR Path="/5E2EDC4D/5E68B73C" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E68B73C" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E68B73C" Ref="R?"  Part="1" 
+F 0 "R?" V 4850 6000 50  0000 C CNN
+F 1 "145" V 4650 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 6000 50  0001 C CNN
+F 3 "~" H 4750 6000 50  0001 C CNN
+	1    4750 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 5000 4100 5000
+Wire Wire Line
+	4100 5000 4100 5500
+Wire Wire Line
+	4100 5500 4200 5500
+Connection ~ 4100 5000
+Wire Wire Line
+	4100 5500 4100 6000
+Wire Wire Line
+	4100 6000 4200 6000
+Connection ~ 4100 5500
+Wire Wire Line
+	4500 6000 4600 6000
+Wire Wire Line
+	4500 5500 4600 5500
+Wire Wire Line
+	4500 5000 4600 5000
+Wire Wire Line
+	4100 4500 4100 5000
+Wire Wire Line
+	4100 5000 3750 5000
+Wire Wire Line
+	3300 5000 3300 5100
+Wire Wire Line
+	3750 5000 3750 5100
+Connection ~ 3750 5000
+Wire Wire Line
+	3750 5000 3300 5000
+Wire Wire Line
+	4900 6000 5150 6000
+Text Label 4900 6000 0    50   ~ 0
+LED6
+Entry Wire Line
+	5150 6000 5250 5900
+Wire Wire Line
+	4900 5500 5150 5500
+Text Label 4900 5500 0    50   ~ 0
+LED5
+Entry Wire Line
+	5150 5500 5250 5400
+Wire Wire Line
+	4900 5000 5150 5000
+Text Label 4900 5000 0    50   ~ 0
+LED4
+Entry Wire Line
+	5150 5000 5250 4900
+$Comp
+L Drone:RES R?
+U 1 1 5E68FF7A
+P 7000 5000
+AR Path="/5E2EDC4D/5E68FF7A" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E68FF7A" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E68FF7A" Ref="R?"  Part="1" 
+F 0 "R?" V 7100 5000 50  0000 C CNN
+F 1 "100" V 6900 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 5000 50  0001 C CNN
+F 3 "~" H 7000 5000 50  0001 C CNN
+	1    7000 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E68FF80
+P 7000 5500
+AR Path="/5E2EDC4D/5E68FF80" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E68FF80" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E68FF80" Ref="R?"  Part="1" 
+F 0 "R?" V 7100 5500 50  0000 C CNN
+F 1 "100" V 6900 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 5500 50  0001 C CNN
+F 3 "~" H 7000 5500 50  0001 C CNN
+	1    7000 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 6350 4500 3    50   ~ 0
+5V
+Text Label 5550 6000 1    50   ~ 0
+GND
+$Comp
+L Drone:CAP C?
+U 1 1 5E68FF88
+P 6000 5250
+AR Path="/5E2EDC4D/5E68FF88" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/5E68FF88" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/5E68FF88" Ref="C?"  Part="1" 
+F 0 "C?" H 6115 5296 50  0000 L CNN
+F 1 "10u" H 6115 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6038 5100 50  0001 C CNN
+F 3 "~" H 6000 5250 50  0001 C CNN
+	1    6000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 5E68FF8E
+P 5550 5250
+AR Path="/5E2EDC4D/5E68FF8E" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/5E68FF8E" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/5E68FF8E" Ref="C?"  Part="1" 
+F 0 "C?" H 5665 5296 50  0000 L CNN
+F 1 "100n" H 5665 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5588 5100 50  0001 C CNN
+F 3 "~" H 5550 5250 50  0001 C CNN
+	1    5550 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 6000 5550 5500
+Wire Wire Line
+	5550 5500 6000 5500
+Wire Wire Line
+	6000 5500 6000 5400
+Connection ~ 5550 5500
+Wire Wire Line
+	5550 5500 5550 5400
+$Comp
+L Drone:LED-RED D?
+U 1 1 5E68FF9B
+P 6600 6000
+F 0 "D?" H 6600 6100 50  0000 C CNN
+F 1 "LED-RED" H 6600 5900 50  0000 C CNN
+F 2 "Drone:C503B" H 6550 5750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 6600 6000 50  0001 L BNN
+F 4 "Cree" H 6550 5650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-RAN-CZ0C0AA1" H 6550 5550 50  0001 L BNN "Manufacturer Number"
+	1    6600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:LED-GREEN D?
+U 1 1 5E68FFA3
+P 6600 5500
+F 0 "D?" H 6600 5600 50  0000 C CNN
+F 1 "LED-GREEN" H 6600 5400 50  0000 C CNN
+F 2 "Drone:C503B" H 6550 5250 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 6600 5500 50  0001 L BNN
+F 4 "Cree" H 6550 5150 50  0001 L BNN "Manufacturer"
+F 5 "C503B-GAN-CB0F0791" H 6550 5050 50  0001 L BNN "Manufacturer Number"
+	1    6600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:LED-BLUE D?
+U 1 1 5E68FFAB
+P 6600 5000
+F 0 "D?" H 6600 5100 50  0000 C CNN
+F 1 "LED-BLUE" H 6600 4900 50  0000 C CNN
+F 2 "Drone:C503B" H 6550 4750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 6600 5000 50  0001 L BNN
+F 4 "Cree" H 6550 4650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-BAN-CY0C0461" H 6550 4550 50  0001 L BNN "Manufacturer Number"
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E68FFB1
+P 7000 6000
+AR Path="/5E2EDC4D/5E68FFB1" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E68FFB1" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E68FFB1" Ref="R?"  Part="1" 
+F 0 "R?" V 7100 6000 50  0000 C CNN
+F 1 "145" V 6900 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 6000 50  0001 C CNN
+F 3 "~" H 7000 6000 50  0001 C CNN
+	1    7000 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 5000 6350 5000
+Wire Wire Line
+	6350 5000 6350 5500
+Wire Wire Line
+	6350 5500 6450 5500
+Connection ~ 6350 5000
+Wire Wire Line
+	6350 5500 6350 6000
+Wire Wire Line
+	6350 6000 6450 6000
+Connection ~ 6350 5500
+Wire Wire Line
+	6750 6000 6850 6000
+Wire Wire Line
+	6750 5500 6850 5500
+Wire Wire Line
+	6750 5000 6850 5000
+Wire Wire Line
+	6350 4500 6350 5000
+Wire Wire Line
+	6350 5000 6000 5000
+Wire Wire Line
+	5550 5000 5550 5100
+Wire Wire Line
+	6000 5000 6000 5100
+Connection ~ 6000 5000
+Wire Wire Line
+	6000 5000 5550 5000
+Wire Wire Line
+	7150 6000 7400 6000
+Text Label 7150 6000 0    50   ~ 0
+LED10
+Entry Wire Line
+	7400 6000 7500 5900
+Wire Wire Line
+	7150 5500 7400 5500
+Text Label 7150 5500 0    50   ~ 0
+LED9
+Entry Wire Line
+	7400 5500 7500 5400
+Wire Wire Line
+	7150 5000 7400 5000
+Text Label 7150 5000 0    50   ~ 0
+LED8
+Entry Wire Line
+	7400 5000 7500 4900
+$Comp
+L Drone:RES R?
+U 1 1 5E696D05
+P 9250 5000
+AR Path="/5E2EDC4D/5E696D05" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E696D05" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E696D05" Ref="R?"  Part="1" 
+F 0 "R?" V 9350 5000 50  0000 C CNN
+F 1 "100" V 9150 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9180 5000 50  0001 C CNN
+F 3 "~" H 9250 5000 50  0001 C CNN
+	1    9250 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E696D0B
+P 9250 5500
+AR Path="/5E2EDC4D/5E696D0B" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E696D0B" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E696D0B" Ref="R?"  Part="1" 
+F 0 "R?" V 9350 5500 50  0000 C CNN
+F 1 "100" V 9150 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9180 5500 50  0001 C CNN
+F 3 "~" H 9250 5500 50  0001 C CNN
+	1    9250 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 8600 4500 3    50   ~ 0
+5V
+Text Label 7800 6000 1    50   ~ 0
+GND
+$Comp
+L Drone:CAP C?
+U 1 1 5E696D13
+P 8250 5250
+AR Path="/5E2EDC4D/5E696D13" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/5E696D13" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/5E696D13" Ref="C?"  Part="1" 
+F 0 "C?" H 8365 5296 50  0000 L CNN
+F 1 "10u" H 8365 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8288 5100 50  0001 C CNN
+F 3 "~" H 8250 5250 50  0001 C CNN
+	1    8250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 5E696D19
+P 7800 5250
+AR Path="/5E2EDC4D/5E696D19" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/5E696D19" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/5E696D19" Ref="C?"  Part="1" 
+F 0 "C?" H 7915 5296 50  0000 L CNN
+F 1 "100n" H 7915 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7838 5100 50  0001 C CNN
+F 3 "~" H 7800 5250 50  0001 C CNN
+	1    7800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6000 7800 5500
+Wire Wire Line
+	7800 5500 8250 5500
+Wire Wire Line
+	8250 5500 8250 5400
+Connection ~ 7800 5500
+Wire Wire Line
+	7800 5500 7800 5400
+$Comp
+L Drone:LED-RED D?
+U 1 1 5E696D26
+P 8850 6000
+F 0 "D?" H 8850 6100 50  0000 C CNN
+F 1 "LED-RED" H 8850 5900 50  0000 C CNN
+F 2 "Drone:C503B" H 8800 5750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf" H 8850 6000 50  0001 L BNN
+F 4 "Cree" H 8800 5650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-RAN-CZ0C0AA1" H 8800 5550 50  0001 L BNN "Manufacturer Number"
+	1    8850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:LED-GREEN D?
+U 1 1 5E696D2E
+P 8850 5500
+F 0 "D?" H 8850 5600 50  0000 C CNN
+F 1 "LED-GREEN" H 8850 5400 50  0000 C CNN
+F 2 "Drone:C503B" H 8800 5250 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 8850 5500 50  0001 L BNN
+F 4 "Cree" H 8800 5150 50  0001 L BNN "Manufacturer"
+F 5 "C503B-GAN-CB0F0791" H 8800 5050 50  0001 L BNN "Manufacturer Number"
+	1    8850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:LED-BLUE D?
+U 1 1 5E696D36
+P 8850 5000
+F 0 "D?" H 8850 5100 50  0000 C CNN
+F 1 "LED-BLUE" H 8850 4900 50  0000 C CNN
+F 2 "Drone:C503B" H 8800 4750 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf" H 8850 5000 50  0001 L BNN
+F 4 "Cree" H 8800 4650 50  0001 L BNN "Manufacturer"
+F 5 "C503B-BAN-CY0C0461" H 8800 4550 50  0001 L BNN "Manufacturer Number"
+	1    8850 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5E696D3C
+P 9250 6000
+AR Path="/5E2EDC4D/5E696D3C" Ref="R?"  Part="1" 
+AR Path="/5E3090FF/5E696D3C" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5E696D3C" Ref="R?"  Part="1" 
+F 0 "R?" V 9350 6000 50  0000 C CNN
+F 1 "145" V 9150 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9180 6000 50  0001 C CNN
+F 3 "~" H 9250 6000 50  0001 C CNN
+	1    9250 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 5000 8600 5000
+Wire Wire Line
+	8600 5000 8600 5500
+Wire Wire Line
+	8600 5500 8700 5500
+Connection ~ 8600 5000
+Wire Wire Line
+	8600 5500 8600 6000
+Wire Wire Line
+	8600 6000 8700 6000
+Connection ~ 8600 5500
+Wire Wire Line
+	9000 6000 9100 6000
+Wire Wire Line
+	9000 5500 9100 5500
+Wire Wire Line
+	9000 5000 9100 5000
+Wire Wire Line
+	8600 4500 8600 5000
+Wire Wire Line
+	8600 5000 8250 5000
+Wire Wire Line
+	7800 5000 7800 5100
+Wire Wire Line
+	8250 5000 8250 5100
+Connection ~ 8250 5000
+Wire Wire Line
+	8250 5000 7800 5000
+Wire Wire Line
+	9400 6000 9650 6000
+Text Label 9400 6000 0    50   ~ 0
+LED14
+Entry Wire Line
+	9650 6000 9750 5900
+Wire Wire Line
+	9400 5500 9650 5500
+Text Label 9400 5500 0    50   ~ 0
+LED13
+Entry Wire Line
+	9650 5500 9750 5400
+Wire Wire Line
+	9400 5000 9650 5000
+Text Label 9400 5000 0    50   ~ 0
+LED12
+Entry Wire Line
+	9650 5000 9750 4900
 Wire Bus Line
-	5700 4250 5700 5150
+	3000 4250 3000 5900
 Wire Bus Line
-	8100 4250 8100 5150
+	5250 4250 5250 5900
 Wire Bus Line
-	10500 4250 10500 5150
+	7500 4250 7500 5900
+Wire Bus Line
+	9750 4250 9750 5900
 Wire Bus Line
 	10500 2100 10500 4250
 $EndSCHEMATC
