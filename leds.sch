@@ -887,16 +887,6 @@ Text Label 9400 5000 0    50   ~ 0
 LED12
 Entry Wire Line
 	9650 5000 9750 4900
-Wire Bus Line
-	3000 4250 3000 5900
-Wire Bus Line
-	5250 4250 5250 5900
-Wire Bus Line
-	7500 4250 7500 5900
-Wire Bus Line
-	9750 4250 9750 5900
-Wire Bus Line
-	10500 2100 10500 4250
 Text Notes 1850 6350 0    50   ~ 0
 LED resistors must be at least 1/16W
 $Comp
@@ -913,4 +903,14 @@ F 3 "~" H 8600 3250 50  0001 C CNN
 	1    8600 3250
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	3000 4250 3000 5900
+Wire Bus Line
+	5250 4250 5250 5900
+Wire Bus Line
+	7500 4250 7500 5900
+Wire Bus Line
+	9750 4250 9750 5900
+Wire Bus Line
+	10500 2100 10500 4250
 $EndSCHEMATC
