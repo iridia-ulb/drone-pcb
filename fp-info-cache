@@ -1,4 +1,4 @@
-15829284066150200
+15832453373535200
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -43967,6 +43967,13 @@ C503B
 2
 2
 Drone
+C0805
+
+
+0
+2
+2
+Drone
 CMX60D20
 
 
@@ -43982,8 +43989,8 @@ D36V28F3_S
 5
 Drone
 D36V50F5_S
-surface-mounted straight socket strip, 2x06, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Surface mounted socket strip SMD 2x06 2.54mm double row
+
+
 0
 12
 12
@@ -44016,6 +44023,13 @@ PCB-OUTLINE
 0
 0
 Drone
+R0805
+
+
+0
+2
+2
+Drone
 SM05B-SRSS-TB
 
 
@@ -44045,8 +44059,8 @@ USB3503ML
 33
 Drone
 XT60-F_1x02_P7.20mm_Vertical
-AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf
-XT60 female vertical
+
+
 0
 2
 2
