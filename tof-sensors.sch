@@ -48,7 +48,7 @@ U 1 1 5E3969EF
 P 5750 800
 F 0 "J2" H 5750 825 50  0000 L BNN
 F 1 "VL53L0X" H 5750 -225 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 5750 800 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 5750 800 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 5750 800 50  0001 C CNN
 	1    5750 800 
 	1    0    0    -1  
@@ -223,7 +223,6 @@ Text Label 2900 7200 0    50   ~ 0
 I2C_SCL_18
 Text Label 1000 7200 0    50   ~ 0
 I2C_SDA_18
-NoConn ~ 5550 1000
 NoConn ~ 5550 1400
 Text Notes 5750 1925 0    50   ~ 0
 7-bit Address: 29h
@@ -233,7 +232,7 @@ U 1 1 5E3EC0D2
 P 7250 800
 F 0 "J5" H 7250 825 50  0000 L BNN
 F 1 "VL53L0X" H 7250 -225 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 7250 800 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 7250 800 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 7250 800 50  0001 C CNN
 	1    7250 800 
 	1    0    0    -1  
@@ -258,7 +257,6 @@ Text Label 6500 1500 0    50   ~ 0
 I2CA1_INT_28
 Wire Wire Line
 	6500 1500 7050 1500
-NoConn ~ 7050 1000
 NoConn ~ 7050 1400
 Text Notes 7250 1925 0    50   ~ 0
 7-bit Address: 29h
@@ -268,7 +266,7 @@ U 1 1 5E3EE0B4
 P 8750 800
 F 0 "J8" H 8750 825 50  0000 L BNN
 F 1 "VL53L0X" H 8750 -225 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 8750 800 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 8750 800 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 8750 800 50  0001 C CNN
 	1    8750 800 
 	1    0    0    -1  
@@ -293,7 +291,6 @@ Text Label 8000 1500 0    50   ~ 0
 I2CA2_INT_28
 Wire Wire Line
 	8000 1500 8550 1500
-NoConn ~ 8550 1000
 NoConn ~ 8550 1400
 Text Notes 8750 1925 0    50   ~ 0
 7-bit Address: 29h
@@ -303,7 +300,7 @@ U 1 1 5E3F05E5
 P 10250 800
 F 0 "J11" H 10250 825 50  0000 L BNN
 F 1 "VL53L0X" H 10250 -225 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 10250 800 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 10250 800 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 10250 800 50  0001 C CNN
 	1    10250 800 
 	1    0    0    -1  
@@ -328,7 +325,6 @@ Text Label 9500 1500 0    50   ~ 0
 I2CA3_INT_28
 Wire Wire Line
 	9500 1500 10050 1500
-NoConn ~ 10050 1000
 NoConn ~ 10050 1400
 Text Notes 10250 1925 0    50   ~ 0
 7-bit Address: 29h
@@ -349,7 +345,7 @@ U 1 1 5E40ACE6
 P 5750 2700
 F 0 "J3" H 5750 2725 50  0000 L BNN
 F 1 "VL53L0X" H 5750 1675 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 5750 2700 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 5750 2700 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 5750 2700 50  0001 C CNN
 	1    5750 2700
 	1    0    0    -1  
@@ -433,7 +429,6 @@ Text Label 5000 3400 0    50   ~ 0
 I2CB0_INT_28
 Wire Wire Line
 	5000 3400 5550 3400
-NoConn ~ 5550 2900
 NoConn ~ 5550 3300
 Text Label 2250 3500 0    50   ~ 0
 I2C_SCL_28
@@ -441,17 +436,6 @@ Text Label 2250 3400 0    50   ~ 0
 I2C_SDA_28
 Text Notes 5750 3825 0    50   ~ 0
 7-bit Address: 29h
-$Comp
-L Drone:VL53L0X J6
-U 1 1 5E40AD1F
-P 7250 2700
-F 0 "J6" H 7250 2725 50  0000 L BNN
-F 1 "VL53L0X" H 7250 1675 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 7250 2700 50  0001 C CNN
-F 3 "https://www.pololu.com/product/2490" H 7250 2700 50  0001 C CNN
-	1    7250 2700
-	1    0    0    -1  
-$EndComp
 Text Label 6500 2800 0    50   ~ 0
 2V8
 Wire Wire Line
@@ -472,7 +456,6 @@ Text Label 6500 3400 0    50   ~ 0
 I2CB1_INT_28
 Wire Wire Line
 	6500 3400 7050 3400
-NoConn ~ 7050 2900
 NoConn ~ 7050 3300
 Text Notes 7250 3825 0    50   ~ 0
 7-bit Address: 29h
@@ -482,7 +465,7 @@ U 1 1 5E40AD32
 P 8750 2700
 F 0 "J9" H 8750 2725 50  0000 L BNN
 F 1 "VL53L0X" H 8750 1675 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 8750 2700 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 8750 2700 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 8750 2700 50  0001 C CNN
 	1    8750 2700
 	1    0    0    -1  
@@ -507,7 +490,6 @@ Text Label 8000 3400 0    50   ~ 0
 I2CB2_INT_28
 Wire Wire Line
 	8000 3400 8550 3400
-NoConn ~ 8550 2900
 NoConn ~ 8550 3300
 Text Notes 8750 3825 0    50   ~ 0
 7-bit Address: 29h
@@ -517,7 +499,7 @@ U 1 1 5E40AD45
 P 10250 2700
 F 0 "J12" H 10250 2725 50  0000 L BNN
 F 1 "VL53L0X" H 10250 1675 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 10250 2700 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 10250 2700 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 10250 2700 50  0001 C CNN
 	1    10250 2700
 	1    0    0    -1  
@@ -542,7 +524,6 @@ Text Label 9500 3400 0    50   ~ 0
 I2CB3_INT_28
 Wire Wire Line
 	9500 3400 10050 3400
-NoConn ~ 10050 2900
 NoConn ~ 10050 3300
 Text Notes 10250 3825 0    50   ~ 0
 7-bit Address: 29h
@@ -563,7 +544,7 @@ U 1 1 5E4113EB
 P 5750 4600
 F 0 "J4" H 5750 4625 50  0000 L BNN
 F 1 "VL53L0X" H 5750 3575 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 5750 4600 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 5750 4600 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 5750 4600 50  0001 C CNN
 	1    5750 4600
 	1    0    0    -1  
@@ -636,7 +617,6 @@ Text Label 5000 5300 0    50   ~ 0
 I2CC0_INT_28
 Wire Wire Line
 	5000 5300 5550 5300
-NoConn ~ 5550 4800
 NoConn ~ 5550 5200
 Text Notes 5750 5725 0    50   ~ 0
 7-bit Address: 29h
@@ -646,7 +626,7 @@ U 1 1 5E411424
 P 7250 4600
 F 0 "J7" H 7250 4625 50  0000 L BNN
 F 1 "VL53L0X" H 7250 3575 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 7250 4600 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 7250 4600 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 7250 4600 50  0001 C CNN
 	1    7250 4600
 	1    0    0    -1  
@@ -671,7 +651,6 @@ Text Label 6500 5300 0    50   ~ 0
 I2CC1_INT_28
 Wire Wire Line
 	6500 5300 7050 5300
-NoConn ~ 7050 4800
 NoConn ~ 7050 5200
 Text Notes 7250 5725 0    50   ~ 0
 7-bit Address: 29h
@@ -681,7 +660,7 @@ U 1 1 5E411437
 P 8750 4600
 F 0 "J10" H 8750 4625 50  0000 L BNN
 F 1 "VL53L0X" H 8750 3575 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 8750 4600 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 8750 4600 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 8750 4600 50  0001 C CNN
 	1    8750 4600
 	1    0    0    -1  
@@ -704,7 +683,6 @@ Text Label 8000 5300 0    50   ~ 0
 I2CC2_INT_28
 Wire Wire Line
 	8000 5300 8550 5300
-NoConn ~ 8550 4800
 NoConn ~ 8550 5200
 Text Notes 8750 5725 0    50   ~ 0
 7-bit Address: 29h
@@ -714,7 +692,7 @@ U 1 1 5E41144A
 P 10250 4600
 F 0 "J13" H 10250 4625 50  0000 L BNN
 F 1 "VL53L0X" H 10250 3575 50  0000 L BNN
-F 2 "Drone:SM07B-SRSS-TB" H 10250 4600 50  0001 C CNN
+F 2 "Drone:7-188275-8" H 10250 4600 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2490" H 10250 4600 50  0001 C CNN
 	1    10250 4600
 	1    0    0    -1  
@@ -739,7 +717,6 @@ Text Label 9500 5300 0    50   ~ 0
 I2CC3_INT_28
 Wire Wire Line
 	9500 5300 10050 5300
-NoConn ~ 10050 4800
 NoConn ~ 10050 5200
 Text Notes 10250 5725 0    50   ~ 0
 7-bit Address: 29h
@@ -1629,4 +1606,231 @@ Wire Wire Line
 	3700 6550 3700 6900
 Text Notes 1700 7600 0    50   ~ 0
 Pull-up resistors for the 1.8V side are located near the 3.3V shifting circuitry
+$Comp
+L Drone:RES R?
+U 1 1 5E5EB7C3
+P 5350 650
+AR Path="/5E2EDC4D/5E5EB7C3" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E5EB7C3" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E5EB7C3" Ref="R49"  Part="1" 
+F 0 "R49" V 5450 600 50  0000 L CNN
+F 1 "DNP" V 5250 650 50  0000 C CNN
+F 2 "Drone:R0805" V 5280 650 50  0001 C CNN
+F 3 "~" H 5350 650 50  0001 C CNN
+	1    5350 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 650  5200 1000
+Wire Wire Line
+	5200 1000 5550 1000
+$Comp
+L Drone:RES R?
+U 1 1 5E62F808
+P 5350 2550
+AR Path="/5E2EDC4D/5E62F808" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E62F808" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E62F808" Ref="R50"  Part="1" 
+F 0 "R50" V 5450 2500 50  0000 L CNN
+F 1 "DNP" V 5250 2550 50  0000 C CNN
+F 2 "Drone:R0805" V 5280 2550 50  0001 C CNN
+F 3 "~" H 5350 2550 50  0001 C CNN
+	1    5350 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2550 5200 2900
+$Comp
+L Drone:RES R?
+U 1 1 5E650C2A
+P 5350 4450
+AR Path="/5E2EDC4D/5E650C2A" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E650C2A" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E650C2A" Ref="R51"  Part="1" 
+F 0 "R51" V 5450 4400 50  0000 L CNN
+F 1 "DNP" V 5250 4450 50  0000 C CNN
+F 2 "Drone:R0805" V 5280 4450 50  0001 C CNN
+F 3 "~" H 5350 4450 50  0001 C CNN
+	1    5350 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 4450 5200 4800
+$Comp
+L Drone:RES R?
+U 1 1 5E6725CE
+P 6850 4450
+AR Path="/5E2EDC4D/5E6725CE" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E6725CE" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E6725CE" Ref="R54"  Part="1" 
+F 0 "R54" V 6950 4400 50  0000 L CNN
+F 1 "DNP" V 6750 4450 50  0000 C CNN
+F 2 "Drone:R0805" V 6780 4450 50  0001 C CNN
+F 3 "~" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 4450 6700 4800
+$Comp
+L Drone:RES R?
+U 1 1 5E693CF4
+P 6850 2550
+AR Path="/5E2EDC4D/5E693CF4" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E693CF4" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E693CF4" Ref="R53"  Part="1" 
+F 0 "R53" V 6950 2500 50  0000 L CNN
+F 1 "DNP" V 6750 2550 50  0000 C CNN
+F 2 "Drone:R0805" V 6780 2550 50  0001 C CNN
+F 3 "~" H 6850 2550 50  0001 C CNN
+	1    6850 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 2550 6700 2900
+$Comp
+L Drone:RES R?
+U 1 1 5E6B50EE
+P 6850 650
+AR Path="/5E2EDC4D/5E6B50EE" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E6B50EE" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E6B50EE" Ref="R52"  Part="1" 
+F 0 "R52" V 6950 600 50  0000 L CNN
+F 1 "DNP" V 6750 650 50  0000 C CNN
+F 2 "Drone:R0805" V 6780 650 50  0001 C CNN
+F 3 "~" H 6850 650 50  0001 C CNN
+	1    6850 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 650  6700 1000
+$Comp
+L Drone:RES R?
+U 1 1 5E6D5FEA
+P 8350 650
+AR Path="/5E2EDC4D/5E6D5FEA" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E6D5FEA" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E6D5FEA" Ref="R55"  Part="1" 
+F 0 "R55" V 8450 600 50  0000 L CNN
+F 1 "DNP" V 8250 650 50  0000 C CNN
+F 2 "Drone:R0805" V 8280 650 50  0001 C CNN
+F 3 "~" H 8350 650 50  0001 C CNN
+	1    8350 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 650  8200 1000
+$Comp
+L Drone:RES R?
+U 1 1 5E6F6EE2
+P 9850 650
+AR Path="/5E2EDC4D/5E6F6EE2" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E6F6EE2" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E6F6EE2" Ref="R58"  Part="1" 
+F 0 "R58" V 9950 600 50  0000 L CNN
+F 1 "DNP" V 9750 650 50  0000 C CNN
+F 2 "Drone:R0805" V 9780 650 50  0001 C CNN
+F 3 "~" H 9850 650 50  0001 C CNN
+	1    9850 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 650  9700 1000
+$Comp
+L Drone:RES R?
+U 1 1 5E7191AC
+P 8350 2550
+AR Path="/5E2EDC4D/5E7191AC" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E7191AC" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E7191AC" Ref="R56"  Part="1" 
+F 0 "R56" V 8450 2500 50  0000 L CNN
+F 1 "DNP" V 8250 2550 50  0000 C CNN
+F 2 "Drone:R0805" V 8280 2550 50  0001 C CNN
+F 3 "~" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 2550 8200 2900
+$Comp
+L Drone:RES R?
+U 1 1 5E739E25
+P 9850 2550
+AR Path="/5E2EDC4D/5E739E25" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E739E25" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E739E25" Ref="R59"  Part="1" 
+F 0 "R59" V 9950 2500 50  0000 L CNN
+F 1 "DNP" V 9750 2550 50  0000 C CNN
+F 2 "Drone:R0805" V 9780 2550 50  0001 C CNN
+F 3 "~" H 9850 2550 50  0001 C CNN
+	1    9850 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 2550 9700 2900
+$Comp
+L Drone:RES R?
+U 1 1 5E75D138
+P 9850 4450
+AR Path="/5E2EDC4D/5E75D138" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E75D138" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E75D138" Ref="R60"  Part="1" 
+F 0 "R60" V 9950 4400 50  0000 L CNN
+F 1 "DNP" V 9750 4450 50  0000 C CNN
+F 2 "Drone:R0805" V 9780 4450 50  0001 C CNN
+F 3 "~" H 9850 4450 50  0001 C CNN
+	1    9850 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 4450 9700 4800
+$Comp
+L Drone:RES R?
+U 1 1 5E77E6AA
+P 8350 4450
+AR Path="/5E2EDC4D/5E77E6AA" Ref="R?"  Part="1" 
+AR Path="/5E349830/5E77E6AA" Ref="R?"  Part="1" 
+AR Path="/5E38A5E7/5E77E6AA" Ref="R57"  Part="1" 
+F 0 "R57" V 8450 4400 50  0000 L CNN
+F 1 "DNP" V 8250 4450 50  0000 C CNN
+F 2 "Drone:R0805" V 8280 4450 50  0001 C CNN
+F 3 "~" H 8350 4450 50  0001 C CNN
+	1    8350 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 4450 8200 4800
+Wire Wire Line
+	6700 1000 7050 1000
+Wire Wire Line
+	8200 1000 8550 1000
+Wire Wire Line
+	9700 1000 10050 1000
+Wire Wire Line
+	9700 2900 10050 2900
+Wire Wire Line
+	8200 2900 8550 2900
+Wire Wire Line
+	5200 2900 5550 2900
+Wire Wire Line
+	5200 4800 5550 4800
+Wire Wire Line
+	8200 4800 8550 4800
+Wire Wire Line
+	9700 4800 10050 4800
+Wire Wire Line
+	6700 2900 7050 2900
+$Comp
+L Drone:VL53L0X J6
+U 1 1 5E40AD1F
+P 7250 2700
+F 0 "J6" H 7250 2725 50  0000 L BNN
+F 1 "VL53L0X" H 7250 1675 50  0000 L BNN
+F 2 "Drone:7-188275-8" H 7250 2700 50  0001 C CNN
+F 3 "https://www.pololu.com/product/2490" H 7250 2700 50  0001 C CNN
+	1    7250 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4800 7050 4800
 $EndSCHEMATC

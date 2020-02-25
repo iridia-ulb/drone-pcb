@@ -101,8 +101,6 @@ Wire Wire Line
 	1500 1150 1800 1150
 Text Label 10450 3250 2    50   ~ 0
 5V
-Wire Wire Line
-	6000 1900 6700 1900
 $Comp
 L Drone:CAP C50
 U 1 1 5E332CF8
@@ -395,8 +393,6 @@ Wire Wire Line
 	7700 3650 8050 3650
 Wire Wire Line
 	7000 1000 7000 1450
-Wire Wire Line
-	6000 2050 7000 2050
 $Comp
 L Drone:RES R44
 U 1 1 5E301315
@@ -410,8 +406,6 @@ F 3 "~" H 7000 1600 50  0001 C CNN
 	1    7000 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 2050 7000 1750
 $Comp
 L Drone:SM05B-SRSS-TB J16
 U 1 1 5E385FFC
@@ -579,4 +573,29 @@ Wire Wire Line
 	2300 3700 2300 4100
 Text Label 2300 4100 1    50   ~ 0
 GND
+Wire Wire Line
+	7300 1000 7300 1450
+$Comp
+L Drone:RES R37
+U 1 1 5E58C868
+P 7300 1600
+AR Path="/5E2EDC4D/5E58C868" Ref="R37"  Part="1" 
+AR Path="/5E349830/5E58C868" Ref="R?"  Part="1" 
+F 0 "R37" H 7370 1646 50  0000 L CNN
+F 1 "10k" H 7370 1555 50  0000 L CNN
+F 2 "Drone:R0805" V 7230 1600 50  0001 C CNN
+F 3 "~" H 7300 1600 50  0001 C CNN
+	1    7300 1600
+	1    0    0    -1  
+$EndComp
+Text Label 7300 1000 3    50   ~ 0
+VDD33_BYP
+Wire Wire Line
+	7300 2050 7300 1750
+Wire Wire Line
+	6000 2050 7300 2050
+Wire Wire Line
+	7000 1900 7000 1750
+Wire Wire Line
+	6000 1900 7000 1900
 $EndSCHEMATC
