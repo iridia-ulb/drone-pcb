@@ -41,40 +41,30 @@ F 3 "~" H 2500 5500 50  0001 C CNN
 	1    2500 5500
 	0    -1   -1   0   
 $EndComp
-Text Label 10100 3500 0    50   ~ 0
-LED15
 Text Label 10100 3400 0    50   ~ 0
 LED14
 Text Label 10100 3300 0    50   ~ 0
 LED13
 Text Label 10100 3200 0    50   ~ 0
 LED12
-Text Label 10100 3100 0    50   ~ 0
-LED11
 Text Label 10100 3000 0    50   ~ 0
 LED10
 Text Label 10100 2900 0    50   ~ 0
 LED9
 Text Label 10100 2800 0    50   ~ 0
 LED8
-Text Label 10100 2700 0    50   ~ 0
-LED7
 Text Label 10100 2600 0    50   ~ 0
 LED6
 Text Label 10100 2500 0    50   ~ 0
 LED5
 Text Label 10100 2400 0    50   ~ 0
 LED4
-Text Label 10100 2300 0    50   ~ 0
-LED3
 Text Label 10100 2200 0    50   ~ 0
 LED2
 Text Label 10100 2100 0    50   ~ 0
 LED1
 Text Label 10100 2000 0    50   ~ 0
 LED0
-Wire Wire Line
-	10100 3500 10400 3500
 Wire Wire Line
 	10100 3400 10400 3400
 Wire Wire Line
@@ -84,15 +74,11 @@ Wire Wire Line
 Text Label 10500 4150 1    50   ~ 0
 LED[0..15]
 Entry Wire Line
-	10400 3500 10500 3600
-Entry Wire Line
 	10400 3400 10500 3500
 Entry Wire Line
 	10400 3300 10500 3400
 Entry Wire Line
 	10400 3200 10500 3300
-Entry Wire Line
-	10400 3100 10500 3200
 Entry Wire Line
 	10400 3000 10500 3100
 Entry Wire Line
@@ -100,15 +86,11 @@ Entry Wire Line
 Entry Wire Line
 	10400 2800 10500 2900
 Entry Wire Line
-	10400 2700 10500 2800
-Entry Wire Line
 	10400 2600 10500 2700
 Entry Wire Line
 	10400 2500 10500 2600
 Entry Wire Line
 	10400 2400 10500 2500
-Entry Wire Line
-	10400 2300 10500 2400
 Entry Wire Line
 	10400 2200 10500 2300
 Entry Wire Line
@@ -178,23 +160,17 @@ Wire Wire Line
 Wire Wire Line
 	10100 3200 10400 3200
 Wire Wire Line
-	10100 3100 10400 3100
-Wire Wire Line
 	10100 3000 10400 3000
 Wire Wire Line
 	10100 2900 10400 2900
 Wire Wire Line
 	10100 2800 10400 2800
 Wire Wire Line
-	10100 2700 10400 2700
-Wire Wire Line
 	10100 2600 10400 2600
 Wire Wire Line
 	10100 2500 10400 2500
 Wire Wire Line
 	10100 2400 10400 2400
-Wire Wire Line
-	10100 2300 10400 2300
 Wire Wire Line
 	10100 2200 10400 2200
 $Comp
@@ -903,6 +879,10 @@ F 3 "~" H 8600 3250 50  0001 C CNN
 	1    8600 3250
 	-1   0    0    1   
 $EndComp
+NoConn ~ 10100 2300
+NoConn ~ 10100 2700
+NoConn ~ 10100 3100
+NoConn ~ 10100 3500
 Wire Bus Line
 	3000 4250 3000 5900
 Wire Bus Line
