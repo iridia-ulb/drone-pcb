@@ -1203,37 +1203,6 @@ Text Notes 3750 2400 0    50   ~ 0
 TODO: Pull-up/down these pins to get\ndefault connect
 Text Label 4850 4850 2    50   ~ 0
 MTR_EN_18
-$Comp
-L Drone:TXB0104DR U2
-U 1 1 5E627BC0
-P 6100 4750
-F 0 "U2" H 6100 4850 50  0000 L BNN
-F 1 "TXB0104DR" H 6100 4775 50  0000 L BNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6925 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5900 4700 50  0001 C CNN
-	1    6100 4750
-	1    0    0    -1  
-$EndComp
-Text Label 5700 4550 3    50   ~ 0
-1V8
-Wire Wire Line
-	5700 4550 5700 4850
-Wire Wire Line
-	5700 4850 5900 4850
-Text Label 7100 4550 3    50   ~ 0
-3V3
-Wire Wire Line
-	7100 4550 7100 4850
-Wire Wire Line
-	7100 4850 6900 4850
-Text Label 5300 5550 0    50   ~ 0
-MTR_EN_18
-Wire Wire Line
-	5900 5650 5750 5650
-Wire Wire Line
-	5750 5650 5750 6250
-Text Label 5750 6250 1    50   ~ 0
-GND
 Wire Wire Line
 	4050 3150 4850 3150
 Text Label 4850 3150 2    50   ~ 0
@@ -1248,142 +1217,11 @@ Text Label 4850 3350 2    50   ~ 0
 UART1_TX_18
 Wire Wire Line
 	4050 3450 4850 3450
-Wire Wire Line
-	5900 5050 5300 5050
-Text Label 5300 5050 0    50   ~ 0
-UART1_RTS_18
-Wire Wire Line
-	5900 5150 5300 5150
-Text Label 5300 5150 0    50   ~ 0
-UART1_CTS_18
-Wire Wire Line
-	5900 5250 5300 5250
-Text Label 5300 5250 0    50   ~ 0
-UART1_TX_18
-Wire Wire Line
-	5900 5350 5300 5350
-Text Label 5300 5350 0    50   ~ 0
-UART1_RX_18
 Text Label 4850 3450 2    50   ~ 0
 UART1_RX_18
 Wire Wire Line
-	6900 5050 7500 5050
-Text Label 7500 5050 2    50   ~ 0
-UART1_RTS_33
-Wire Wire Line
-	6900 5150 7500 5150
-Text Label 7500 5150 2    50   ~ 0
-UART1_CTS_33
-Wire Wire Line
-	6900 5250 7500 5250
-Text Label 7500 5250 2    50   ~ 0
-UART1_TX_33
-Wire Wire Line
-	6900 5350 7500 5350
-Text Label 7500 5350 2    50   ~ 0
-UART1_RX_33
-Wire Wire Line
 	4850 4850 4050 4850
 NoConn ~ 1550 4050
-$Comp
-L Drone:RES R?
-U 1 1 5E81EEEB
-P 5300 5800
-AR Path="/5E2EDC4D/5E81EEEB" Ref="R?"  Part="1" 
-AR Path="/5E81EEEB" Ref="R4"  Part="1" 
-F 0 "R4" H 5370 5846 50  0000 L CNN
-F 1 "10k" H 5370 5755 50  0000 L CNN
-F 2 "Drone:R0805" V 5230 5800 50  0001 C CNN
-F 3 "~" H 5300 5800 50  0001 C CNN
-	1    5300 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 5650 5300 5550
-Wire Wire Line
-	5300 5550 5900 5550
-Text Label 5300 6250 1    50   ~ 0
-GND
-Wire Wire Line
-	5300 6250 5300 5950
-$Comp
-L Drone:SM06B-GHS-TB J17
-U 1 1 5E4C7107
-P 5250 6650
-F 0 "J17" H 5300 6775 50  0000 C CNN
-F 1 "SM06B-GHS-TB" H 5550 6700 50  0000 C CNN
-F 2 "Drone:JST_GH_SM06B-GHS-TB" H 5250 5975 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf?5e4554877fdb1" H 5650 6700 50  0001 C CNN
-	1    5250 6650
-	1    0    0    -1  
-$EndComp
-Text Label 6200 7100 2    50   ~ 0
-UART1_CTS_33
-Wire Wire Line
-	5600 7100 6200 7100
-Text Label 6200 7000 2    50   ~ 0
-UART1_RTS_33
-Wire Wire Line
-	5600 7000 6200 7000
-Text Label 6200 6900 2    50   ~ 0
-UART1_TX_33
-Wire Wire Line
-	5600 6900 6200 6900
-Text Label 6200 6800 2    50   ~ 0
-UART1_RX_33
-Wire Wire Line
-	5600 6800 6200 6800
-Wire Wire Line
-	5600 7200 6200 7200
-Text Label 6200 7200 2    50   ~ 0
-GND
-NoConn ~ 5600 6700
-$Comp
-L Drone:CAP C?
-U 1 1 5E5867CF
-P 5500 4850
-AR Path="/5E2EDC4D/5E5867CF" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E5867CF" Ref="C?"  Part="1" 
-AR Path="/5E5867CF" Ref="C2"  Part="1" 
-F 0 "C2" H 5615 4896 50  0000 L CNN
-F 1 "100n" H 5615 4805 50  0000 L CNN
-F 2 "Drone:C0805" H 5538 4700 50  0001 C CNN
-F 3 "~" H 5500 4850 50  0001 C CNN
-	1    5500 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E58708C
-P 7300 4850
-AR Path="/5E2EDC4D/5E58708C" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E58708C" Ref="C?"  Part="1" 
-AR Path="/5E58708C" Ref="C6"  Part="1" 
-F 0 "C6" H 7415 4896 50  0000 L CNN
-F 1 "100n" H 7415 4805 50  0000 L CNN
-F 2 "Drone:C0805" H 7338 4700 50  0001 C CNN
-F 3 "~" H 7300 4850 50  0001 C CNN
-	1    7300 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5650 4850 5700 4850
-Connection ~ 5700 4850
-Wire Wire Line
-	7100 4850 7150 4850
-Connection ~ 7100 4850
-Text Label 5150 6250 1    50   ~ 0
-GND
-Wire Wire Line
-	5150 6250 5150 4850
-Wire Wire Line
-	5150 4850 5350 4850
-Text Label 7650 6250 1    50   ~ 0
-GND
-Wire Wire Line
-	7650 6250 7650 4850
-Wire Wire Line
-	7650 4850 7450 4850
 $Comp
 L Drone:BSS138DW Q?
 U 2 1 5E376DCF
@@ -1410,4 +1248,134 @@ F 3 "" H 2450 2550 50  0001 C CNN
 $EndComp
 Text Label 9400 3400 0    50   ~ 0
 HUB0_HSIC_STRB_12
+$Comp
+L Drone:TXB0104DR U?
+U 1 1 5E86C46F
+P 6050 4700
+F 0 "U?" H 6050 4800 50  0000 L BNN
+F 1 "TXB0104DR" H 6050 4725 50  0000 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6875 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5850 4650 50  0001 C CNN
+	1    6050 4700
+	1    0    0    -1  
+$EndComp
+Text Label 5650 4500 3    50   ~ 0
+1V8
+Wire Wire Line
+	5650 4500 5650 4800
+Wire Wire Line
+	5650 4800 5850 4800
+Text Label 7050 4400 3    50   ~ 0
+SYS_3V3
+Wire Wire Line
+	7050 4400 7050 4800
+Wire Wire Line
+	7050 4800 6850 4800
+Text Label 5250 5500 0    50   ~ 0
+MTR_EN_18
+Wire Wire Line
+	5850 5600 5700 5600
+Wire Wire Line
+	5700 5600 5700 6200
+Text Label 5700 6200 1    50   ~ 0
+GND
+Wire Wire Line
+	5850 5000 5250 5000
+Text Label 5250 5000 0    50   ~ 0
+UART1_RTS_18
+Wire Wire Line
+	5850 5100 5250 5100
+Text Label 5250 5100 0    50   ~ 0
+UART1_CTS_18
+Wire Wire Line
+	5850 5200 5250 5200
+Text Label 5250 5200 0    50   ~ 0
+UART1_TX_18
+Wire Wire Line
+	5850 5300 5250 5300
+Text Label 5250 5300 0    50   ~ 0
+UART1_RX_18
+Wire Wire Line
+	6850 5000 7450 5000
+Text Label 7450 5000 2    50   ~ 0
+UART1_RTS_33
+Wire Wire Line
+	6850 5100 7450 5100
+Text Label 7450 5100 2    50   ~ 0
+UART1_CTS_33
+Wire Wire Line
+	6850 5200 7450 5200
+Text Label 7450 5200 2    50   ~ 0
+UART1_TX_33
+Wire Wire Line
+	6850 5300 7450 5300
+Text Label 7450 5300 2    50   ~ 0
+UART1_RX_33
+$Comp
+L Drone:RES R?
+U 1 1 5E86C48F
+P 5250 5750
+AR Path="/5E2EDC4D/5E86C48F" Ref="R?"  Part="1" 
+AR Path="/5E86C48F" Ref="R?"  Part="1" 
+F 0 "R?" H 5320 5796 50  0000 L CNN
+F 1 "10k" H 5320 5705 50  0000 L CNN
+F 2 "Drone:R0805" V 5180 5750 50  0001 C CNN
+F 3 "~" H 5250 5750 50  0001 C CNN
+	1    5250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5600 5250 5500
+Wire Wire Line
+	5250 5500 5850 5500
+Text Label 5250 6200 1    50   ~ 0
+GND
+Wire Wire Line
+	5250 6200 5250 5900
+$Comp
+L Drone:CAP C?
+U 1 1 5E86C499
+P 5450 4800
+AR Path="/5E2EDC4D/5E86C499" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E86C499" Ref="C?"  Part="1" 
+AR Path="/5E86C499" Ref="C?"  Part="1" 
+F 0 "C?" H 5565 4846 50  0000 L CNN
+F 1 "100n" H 5565 4755 50  0000 L CNN
+F 2 "Drone:C0805" H 5488 4650 50  0001 C CNN
+F 3 "~" H 5450 4800 50  0001 C CNN
+	1    5450 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 5E86C49F
+P 7250 4800
+AR Path="/5E2EDC4D/5E86C49F" Ref="C?"  Part="1" 
+AR Path="/5E349830/5E86C49F" Ref="C?"  Part="1" 
+AR Path="/5E86C49F" Ref="C?"  Part="1" 
+F 0 "C?" H 7365 4846 50  0000 L CNN
+F 1 "100n" H 7365 4755 50  0000 L CNN
+F 2 "Drone:C0805" H 7288 4650 50  0001 C CNN
+F 3 "~" H 7250 4800 50  0001 C CNN
+	1    7250 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4800 5650 4800
+Connection ~ 5650 4800
+Wire Wire Line
+	7050 4800 7100 4800
+Connection ~ 7050 4800
+Text Label 5100 6200 1    50   ~ 0
+GND
+Wire Wire Line
+	5100 6200 5100 4800
+Wire Wire Line
+	5100 4800 5300 4800
+Text Label 7600 6200 1    50   ~ 0
+GND
+Wire Wire Line
+	7600 6200 7600 4800
+Wire Wire Line
+	7600 4800 7400 4800
 $EndSCHEMATC
