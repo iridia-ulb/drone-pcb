@@ -220,8 +220,6 @@ F 3 "https://www.tme.com/Document/b27c1a9b330ca081d5500ebe72e3b05d/c_m_x.pdf" H 
 	1    8600 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 7600 950  0    50   ~ 0
-TODO: \n2. check what top level components are necessary (voltage regulators & stepdown?)\n4. Replace motor driver 2 pin male connector with a proper connector\n5. Check connectors orientation\n
 Text HLabel 1750 3800 2    50   Input ~ 0
 SYS_EN_18
 Text HLabel 1750 3700 2    50   Input ~ 0
@@ -541,4 +539,38 @@ Wire Wire Line
 	3250 4050 3250 4600
 Text Label 3250 4600 1    50   ~ 0
 GND
+$Comp
+L Drone:XBEE J20
+U 1 1 5E5DEFCB
+P 2200 5150
+F 0 "J20" H 2900 5315 50  0000 C CNN
+F 1 "XBEE" H 2900 5224 50  0000 C CNN
+F 2 "Drone:XBEE" H 2400 3600 50  0001 C CNN
+F 3 "https://www.sparkfun.com/pages/xbee_guide" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	1    0    0    -1  
+$EndComp
+Text Label 1850 6800 1    50   ~ 0
+GND
+Wire Wire Line
+	1850 6800 1850 6550
+Wire Wire Line
+	1850 6550 2000 6550
+Text Label 1800 5150 1    50   ~ 0
+3V3
+Wire Wire Line
+	2000 5250 1800 5250
+Wire Wire Line
+	1800 5250 1800 5150
+$Comp
+L Drone:AP2281 U12
+U 1 1 5E6384D1
+P 4700 5150
+F 0 "U12" H 4900 5315 50  0000 C CNN
+F 1 "AP2281" H 4900 5224 50  0000 C CNN
+F 2 "Drone:AP2281" H 4950 4600 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2281.pdf" H 5750 4700 50  0001 C CNN
+	1    4700 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
