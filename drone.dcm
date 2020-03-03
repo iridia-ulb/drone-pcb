@@ -47,8 +47,37 @@ K LED diode
 F https://www.cree.com/led-components/media/documents/C503B-RAS-RAN-AAS-AAN-RBS-RBN-ABS-ABN-RCS-RCN-ACS-ACN-1079.pdf
 $ENDCMP
 #
+$CMP LED-SMD-BLUE
+K LED diode
+F http://www.kingbrightusa.com/images/catalog/SPEC/APT3216VBC-D.pdf
+$ENDCMP
+#
+$CMP LED-SMD-GREEN
+K LED diode
+F http://www.kingbrightusa.com/images/catalog/SPEC/APT3216ZGC.pdf
+$ENDCMP
+#
+$CMP LED-SMD-ORANGE
+K LED diode
+F http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK.pdf
+$ENDCMP
+#
+$CMP LED-SMD-RED
+K LED diode
+F http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK-J3-PRV.pdf
+$ENDCMP
+#
+$CMP LED-SMD-YELLOW
+K LED diode
+F http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SYCK.pdf
+$ENDCMP
+#
 $CMP MSL0402RGBU1
 F https://www.digikey.be/products/en?keywords=MSL0402RGBU1DKR-ND
+$ENDCMP
+#
+$CMP NC7SZ157
+F https://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF
 $ENDCMP
 #
 $CMP PCA9544ADWR
