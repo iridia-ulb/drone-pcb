@@ -223,10 +223,6 @@ Wire Wire Line
 	9050 3450 9400 3450
 Wire Wire Line
 	9050 3550 9400 3550
-Text Label 7700 1250 0    50   ~ 0
-USB1_DM
-Text Label 7700 1350 0    50   ~ 0
-USB1_DP
 Text Label 9400 3450 2    50   ~ 0
 USB1_5V
 Text Label 9400 3550 2    50   ~ 0
@@ -274,10 +270,6 @@ F 3 "~" H 9400 2350 50  0001 C CNN
 	1    9400 2350
 	1    0    0    -1  
 $EndComp
-Text Label 7700 2250 0    50   ~ 0
-USB2_DM
-Text Label 7700 2350 0    50   ~ 0
-USB2_DP
 Text Label 7700 2150 0    50   ~ 0
 USB2_5V
 Text Label 7700 2550 0    50   ~ 0
@@ -304,17 +296,17 @@ Wire Wire Line
 Wire Wire Line
 	8100 2700 8100 2550
 Text Label 6700 1500 2    50   ~ 0
-USB1_DM
+USB3_DN
 Text Label 6700 1400 2    50   ~ 0
-USB1_DP
+USB3_DP
 Wire Wire Line
 	6000 1400 6700 1400
 Wire Wire Line
 	6000 1500 6700 1500
 Text Label 6700 1750 2    50   ~ 0
-USB2_DM
+USB4_DN
 Text Label 6700 1650 2    50   ~ 0
-USB2_DP
+USB4_DP
 Wire Wire Line
 	6000 1650 6700 1650
 Wire Wire Line
@@ -598,4 +590,12 @@ Wire Wire Line
 	7000 1900 7000 1750
 Wire Wire Line
 	6000 1900 7000 1900
+Text Label 7700 1350 0    50   ~ 0
+USB3_DP
+Text Label 7700 1250 0    50   ~ 0
+USB3_DN
+Text Label 7700 2350 0    50   ~ 0
+USB4_DP
+Text Label 7700 2250 0    50   ~ 0
+USB4_DN
 $EndSCHEMATC
