@@ -184,7 +184,7 @@ AR Path="/5E57AB75" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5E57AB75" Ref="Q7"  Part="2" 
 F 0 "Q7" V 9050 4800 50  0000 L CNN
 F 1 "BSS138DW" V 8950 4800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8900 4825 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 8900 4825 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 8700 4900 50  0001 L CNN
 	2    8800 4900
 	1    0    0    -1  
@@ -929,7 +929,7 @@ AR Path="/5E6D212F" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5E6D212F" Ref="Q6"  Part="1" 
 F 0 "Q6" V 1350 6950 50  0000 L CNN
 F 1 "BSS138DW" V 1250 6950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1200 6975 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 1200 6975 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 1000 7050 50  0001 L CNN
 	1    1100 7050
 	1    0    0    -1  
@@ -1132,7 +1132,7 @@ AR Path="/5E729310" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5E729310" Ref="Q6"  Part="2" 
 F 0 "Q6" V 2600 6950 50  0000 L CNN
 F 1 "BSS138DW" V 2500 6950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2450 6975 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 2450 6975 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 2250 7050 50  0001 L CNN
 	2    2350 7050
 	1    0    0    -1  
@@ -1175,7 +1175,7 @@ AR Path="/5E713795" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5E713795" Ref="Q8"  Part="2" 
 F 0 "Q8" V 5250 6950 50  0000 L CNN
 F 1 "BSS138DW" V 5150 6950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5100 6975 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 5100 6975 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4900 7050 50  0001 L CNN
 	2    5000 7050
 	1    0    0    -1  
@@ -1216,7 +1216,7 @@ AR Path="/5E70B1D1" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5E70B1D1" Ref="Q8"  Part="1" 
 F 0 "Q8" V 3850 6950 50  0000 L CNN
 F 1 "BSS138DW" V 3750 6950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3700 6975 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 3700 6975 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 3500 7050 50  0001 L CNN
 	1    3600 7050
 	1    0    0    -1  
@@ -1260,7 +1260,7 @@ AR Path="/5ECB265A" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5ECB265A" Ref="Q9"  Part="1" 
 F 0 "Q9" V 7150 5150 50  0000 L CNN
 F 1 "BSS138DW" V 7050 5150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7000 5175 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 7000 5175 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 6800 5250 50  0001 L CNN
 	1    6900 5250
 	1    0    0    -1  
@@ -1274,7 +1274,7 @@ AR Path="/5ECB2D66" Ref="Q?"  Part="2"
 AR Path="/5E3E92F4/5ECB2D66" Ref="Q9"  Part="2" 
 F 0 "Q9" V 7750 4800 50  0000 L CNN
 F 1 "BSS138DW" V 7650 4800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7600 4825 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 7600 4825 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 7400 4900 50  0001 L CNN
 	2    7500 4900
 	1    0    0    -1  

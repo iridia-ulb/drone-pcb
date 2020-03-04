@@ -142,7 +142,7 @@ AR Path="/5E3B3D8E" Ref="Q?"  Part="2"
 AR Path="/5E38A5E7/5E3B3D8E" Ref="Q5"  Part="1" 
 F 0 "Q5" V 2050 7100 50  0000 L CNN
 F 1 "BSS138DW" V 1950 7100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 7125 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 1900 7125 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 1700 7200 50  0001 L CNN
 	1    1800 7200
 	0    1    1    0   
@@ -156,7 +156,7 @@ AR Path="/5E3B3D94" Ref="Q?"  Part="1"
 AR Path="/5E38A5E7/5E3B3D94" Ref="Q5"  Part="2" 
 F 0 "Q5" V 3950 7100 50  0000 L CNN
 F 1 "BSS138DW" V 3850 7100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3800 7125 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 3800 7125 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 3600 7200 50  0001 L CNN
 	2    3700 7200
 	0    1    1    0   
@@ -828,7 +828,7 @@ AR Path="/5E7EA263" Ref="Q?"  Part="2"
 AR Path="/5E38A5E7/5E7EA263" Ref="Q4"  Part="2" 
 F 0 "Q4" V 1500 5300 50  0000 L CNN
 F 1 "BSS138DW" V 1400 5300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1350 5325 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 1350 5325 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 1150 5400 50  0001 L CNN
 	2    1250 5400
 	1    0    0    -1  
@@ -842,7 +842,7 @@ AR Path="/5E7EA269" Ref="Q?"  Part="1"
 AR Path="/5E38A5E7/5E7EA269" Ref="Q4"  Part="1" 
 F 0 "Q4" V 1500 3400 50  0000 L CNN
 F 1 "BSS138DW" V 1400 3400 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1350 3425 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 1350 3425 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 1150 3500 50  0001 L CNN
 	1    1250 3500
 	1    0    0    -1  
@@ -970,7 +970,7 @@ AR Path="/5E83091B" Ref="Q?"  Part="1"
 AR Path="/5E38A5E7/5E83091B" Ref="Q3"  Part="2" 
 F 0 "Q3" V 1500 1500 50  0000 L CNN
 F 1 "BSS138DW" V 1400 1500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1350 1525 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 1350 1525 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 1150 1600 50  0001 L CNN
 	2    1250 1600
 	1    0    0    -1  

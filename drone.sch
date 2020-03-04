@@ -179,7 +179,7 @@ AR Path="/5E2EDC4D/5E376DF0" Ref="Q?"  Part="1"
 AR Path="/5E376DF0" Ref="Q1"  Part="2" 
 F 0 "Q1" V 8800 1100 50  0000 L CNN
 F 1 "BSS138DW" V 8700 1100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8650 1125 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 8650 1125 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 8450 1200 50  0001 L CNN
 	2    8550 1200
 	0    1    1    0   
@@ -318,7 +318,7 @@ AR Path="/5E2EDC4D/5E3B25C5" Ref="Q?"  Part="2"
 AR Path="/5E3B25C5" Ref="Q2"  Part="1" 
 F 0 "Q2" V 10600 2200 50  0000 L CNN
 F 1 "BSS138DW" V 10500 2200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 10450 2225 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 10450 2225 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 10250 2300 50  0001 L CNN
 	1    10350 2300
 	0    1    1    0   
@@ -331,7 +331,7 @@ AR Path="/5E2EDC4D/5E3B25CB" Ref="Q?"  Part="1"
 AR Path="/5E3B25CB" Ref="Q1"  Part="1" 
 F 0 "Q1" V 10600 1100 50  0000 L CNN
 F 1 "BSS138DW" V 10500 1100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 10450 1125 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 10450 1125 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 10250 1200 50  0001 L CNN
 	1    10350 1200
 	0    1    1    0   
@@ -696,7 +696,7 @@ AR Path="/5E2EDC4D/5E50834A" Ref="Q?"  Part="1"
 AR Path="/5E50834A" Ref="Q3"  Part="1" 
 F 0 "Q3" V 6050 7150 50  0000 L CNN
 F 1 "BSS138DW" V 5950 7150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5900 7175 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 5900 7175 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 5700 7250 50  0001 L CNN
 	1    5800 7250
 	0    1    1    0   
@@ -1160,7 +1160,7 @@ AR Path="/5E2EDC4D/5E376DCF" Ref="Q?"  Part="2"
 AR Path="/5E376DCF" Ref="Q2"  Part="2" 
 F 0 "Q2" V 8800 2200 50  0000 L CNN
 F 1 "BSS138DW" V 8700 2200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8650 2225 50  0001 L CIN
+F 2 "Drone:BSS138DW" H 8650 2225 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 8450 2300 50  0001 L CNN
 	2    8550 2300
 	0    1    1    0   
