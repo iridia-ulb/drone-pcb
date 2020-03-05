@@ -1,6 +1,4 @@
-(module UP-CORE (layer F.Cu) (tedit 5E4E907F)
-  (descr "UP Core")
-  (tags Connector)
+(module UP-CORE (layer F.Cu) (tedit 5E60E36E)
   (attr smd)
   (fp_text reference REF** (at 11.5746 -28.972) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))

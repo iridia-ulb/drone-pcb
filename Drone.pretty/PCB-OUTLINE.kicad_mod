@@ -1,4 +1,4 @@
-(module PCB-OUTLINE (layer F.Cu) (tedit 5E569685)
+(module PCB-OUTLINE (layer F.Cu) (tedit 5E60FD6F)
   (fp_text reference REF** (at -25.4 -55.88) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
@@ -417,6 +417,86 @@
   (pad "" np_thru_hole circle (at -32.031937 -46.527625) (size 3.3 3.3) (drill 3.3) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/models/arms.step
     (offset (xyz 0 0 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 32.031937 -46.527625 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 46.527626 -32.031936 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 31.540291 -20.226583 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 20.226582 -31.540291 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 31.540291 20.226583 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 46.527626 32.031937 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 20.226582 31.540292 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz 32.049302 46.510261 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -32.049302 46.510261 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -20.226582 31.540292 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -46.527626 32.031937 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -31.540291 20.226583 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -31.540291 -20.226583 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -20.226582 -31.540291 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -46.527626 -32.031936 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/models/bolt-assembly.step
+    (offset (xyz -32.031937 -46.527625 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

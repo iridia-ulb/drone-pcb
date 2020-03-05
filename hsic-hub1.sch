@@ -224,11 +224,11 @@ Wire Wire Line
 Wire Wire Line
 	9050 3550 9400 3550
 Text Label 9400 3450 2    50   ~ 0
-USB1_5V
+USB3_5V
 Text Label 9400 3550 2    50   ~ 0
-USB2_5V
+USB4_5V
 Text Label 7700 1150 0    50   ~ 0
-USB1_5V
+USB3_5V
 Text Label 7700 1550 0    50   ~ 0
 GND
 Wire Wire Line
@@ -271,7 +271,7 @@ F 3 "~" H 9400 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7700 2150 0    50   ~ 0
-USB2_5V
+USB4_5V
 Text Label 7700 2550 0    50   ~ 0
 GND
 Wire Wire Line
