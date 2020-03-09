@@ -1,4 +1,4 @@
-update=Wed 04 Mar 2020 15:26:55 CET
+update=Mon 09 Mar 2020 16:32:08 CET
 version=1
 last_client=kicad
 [general]
@@ -239,6 +239,39 @@ Enabled=0
 Name=Default
 Clearance=0.15
 TrackWidth=0.15
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.15
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=2V8
+Clearance=0.15
+TrackWidth=0.3
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.15
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=5V
+Clearance=0.15
+TrackWidth=1
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.15
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=LEDs
+Clearance=0.15
+TrackWidth=0.3
 ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.3
