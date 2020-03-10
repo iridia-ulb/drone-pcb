@@ -1,4 +1,4 @@
-update=Mon 09 Mar 2020 16:32:08 CET
+update=Tue Mar 10 17:15:56 2020
 version=1
 last_client=kicad
 [general]
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -39,6 +39,11 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.3
 TrackWidth1=0.15
+TrackWidth2=0.15
+TrackWidth3=0.3
+TrackWidth4=1.5
+TrackWidth5=3
+TrackWidth6=5
 ViaDiameter1=0.5
 ViaDrill1=0.2
 dPairWidth1=0.15
@@ -75,11 +80,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -269,7 +274,29 @@ dPairWidth=0.15
 dPairGap=0.15
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
+Name=HP
+Clearance=0.15
+TrackWidth=3
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.15
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
 Name=LEDs
+Clearance=0.15
+TrackWidth=0.3
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.15
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/5]
+Name=USB5V
 Clearance=0.15
 TrackWidth=0.3
 ViaDiameter=0.5
