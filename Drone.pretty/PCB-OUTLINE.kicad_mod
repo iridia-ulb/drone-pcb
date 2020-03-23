@@ -1,8 +1,8 @@
-(module PCB-OUTLINE (layer F.Cu) (tedit 5E60FD6F)
+(module PCB-OUTLINE (layer F.Cu) (tedit 5E78A6B8)
   (fp_text reference REF** (at -25.4 -55.88) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (fp_text value PCB-OUTLINE (at -25.4 -58.42) (layer F.Fab)
+  (fp_text value PCB-OUTLINE (at -25.4 -58.42) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (fp_line (start -64.801507 -41.897515) (end -51.032384 -28.156869) (layer Dwgs.User) (width 0.05))

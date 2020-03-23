@@ -128,8 +128,4 @@ $CMP XBEE
 F https://www.sparkfun.com/pages/xbee_guide
 $ENDCMP
 #
-$CMP XT60PW-M
-F https://www.snapeda.com/parts/XT60PW-M%20/AMASS/datasheet/
-$ENDCMP
-#
 #End Doc Library

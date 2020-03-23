@@ -1337,6 +1337,10 @@ F 0 "U3" H 5950 3300 50  0000 L BNN
 F 1 "24LC32AF" H 5950 3225 50  0000 L BNN
 F 2 "Drone:24LC32AF" H 5950 3200 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf" H 5950 3375 50  0001 L BNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "24LC32AF-I/SN-ND" H 0   0   50  0001 C CNN "Distributor Number"
+F 6 "Microchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "24LC32AF-I/SN" H 0   0   50  0001 C CNN "Manufacturer Number"
 	1    5950 3200
 	1    0    0    -1  
 $EndComp

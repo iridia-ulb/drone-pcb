@@ -1,8 +1,8 @@
-(module NC7SZ157 (layer F.Cu) (tedit 5E5E8250)
-  (fp_text reference REF** (at 0 -3) (layer F.SilkS)
+(module NC7SZ157 (layer F.Cu) (tedit 5E78A693)
+  (fp_text reference REF** (at 0 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value NC7SZ157 (at 0 3) (layer F.Fab)
+  (fp_text value NC7SZ157 (at 0 3) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.675 -0.6) (end -0.675 1.1) (layer F.Fab) (width 0.1))
