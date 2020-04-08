@@ -9987,16 +9987,6 @@
     )
   )
 
-  (module "" (layer F.Cu) (tedit 0) (tstamp 0)
-    (at 105.36396 55.999999)
-    (fp_text reference "" (at 105.36396 55.999999) (layer F.SilkS)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-    (fp_text value "" (at 105.36396 55.999999) (layer F.SilkS) hide
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
-    )
-  )
-
   (gr_text POWER (at 158.585786 124.142136 -45) (layer F.SilkS) (tstamp 5E632458)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
