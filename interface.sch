@@ -859,43 +859,31 @@ Wire Wire Line
 	6500 3700 6500 3550
 Text Notes 6900 3700 0    50   ~ 0
 RX/TX and RTS/CTS swap occurs here.
-Text Label 1900 4850 2    50   ~ 0
+Text Label 1900 4550 2    50   ~ 0
 DRONE_ID0
 Wire Wire Line
-	1250 4850 1900 4850
-Text Label 1900 4950 2    50   ~ 0
+	1250 4550 1900 4550
+Text Label 1900 4650 2    50   ~ 0
 DRONE_ID1
 Wire Wire Line
-	1250 4950 1900 4950
-Text Label 1900 5050 2    50   ~ 0
+	1250 4650 1900 4650
+Text Label 1900 4750 2    50   ~ 0
 DRONE_ID2
 Wire Wire Line
-	1250 5050 1900 5050
-Text Label 1900 5150 2    50   ~ 0
+	1250 4750 1900 4750
+Text Label 1900 4850 2    50   ~ 0
 DRONE_ID3
 Wire Wire Line
-	1250 5150 1900 5150
-Text Label 1900 4550 2    50   ~ 0
-UPCORE_EN
-Wire Wire Line
-	1900 4550 1250 4550
-Text HLabel 1250 4550 0    50   Output ~ 0
-UPCORE_EN
-Text Label 1900 4650 2    50   ~ 0
-PIXHAWK_EN
-Wire Wire Line
-	1900 4650 1250 4650
-Text HLabel 1250 4650 0    50   Output ~ 0
-PIXHAWK_EN
+	1250 4850 1900 4850
 Wire Wire Line
 	9950 4450 10100 4450
-Text HLabel 1250 4850 0    50   Output ~ 0
+Text HLabel 1250 4550 0    50   Output ~ 0
 DRONE_ID0
-Text HLabel 1250 4950 0    50   Output ~ 0
+Text HLabel 1250 4650 0    50   Output ~ 0
 DRONE_ID1
-Text HLabel 1250 5050 0    50   Output ~ 0
+Text HLabel 1250 4750 0    50   Output ~ 0
 DRONE_ID2
-Text HLabel 1250 5150 0    50   Output ~ 0
+Text HLabel 1250 4850 0    50   Output ~ 0
 DRONE_ID3
 Text Label 650  6350 3    50   ~ 0
 COM_MUX_CTRL
