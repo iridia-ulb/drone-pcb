@@ -98,23 +98,17 @@ Entry Wire Line
 Entry Wire Line
 	10400 2000 10500 2100
 Wire Wire Line
-	1200 1250 1550 1250
-Text Label 1550 1250 2    50   ~ 0
+	1200 1150 1900 1150
+Text Label 1900 1150 2    50   ~ 0
 5V
-Text HLabel 1200 1250 0    50   Input ~ 0
+Text HLabel 1200 1150 0    50   Input ~ 0
 5V
 Wire Wire Line
-	1550 1150 1200 1150
-Wire Wire Line
-	1200 1050 1550 1050
-Text Label 1550 1150 2    50   ~ 0
-3V3
-Text Label 1550 1050 2    50   ~ 0
+	1200 1050 1900 1050
+Text Label 1900 1050 2    50   ~ 0
 GND
 Text HLabel 1200 1050 0    50   Input ~ 0
 GND
-Text HLabel 1200 1150 0    50   Input ~ 0
-3V3
 Wire Wire Line
 	8600 1800 8600 2000
 Wire Wire Line
@@ -134,25 +128,14 @@ Wire Wire Line
 Connection ~ 8800 2900
 Wire Wire Line
 	8800 2900 8800 2800
+Text HLabel 1200 1400 0    50   Input ~ 0
+I2C1_SDA_18
 Wire Wire Line
-	9000 3100 8800 3100
-Connection ~ 8800 3100
+	1200 1400 1900 1400
+Text HLabel 1200 1300 0    50   Input ~ 0
+I2C1_SCL_18
 Wire Wire Line
-	8800 3100 8800 2900
-Wire Wire Line
-	9000 3200 8800 3200
-Wire Wire Line
-	8800 3200 8800 3100
-Wire Wire Line
-	8600 3000 9000 3000
-Text HLabel 8300 2300 0    50   Input ~ 0
-I2C_SDA_33
-Wire Wire Line
-	8300 2300 9000 2300
-Text HLabel 8300 2200 0    50   Input ~ 0
-I2C_SCL_33
-Wire Wire Line
-	9000 2200 8300 2200
+	1900 1300 1200 1300
 Wire Wire Line
 	9000 2400 8800 2400
 Wire Wire Line
@@ -177,10 +160,7 @@ Wire Wire Line
 	8800 2400 8800 2600
 Connection ~ 8800 2600
 Wire Wire Line
-	8800 3200 8800 3500
-Wire Wire Line
 	8800 3500 9000 3500
-Connection ~ 8800 3200
 Wire Wire Line
 	8800 3500 8800 3700
 Connection ~ 8800 3500
@@ -189,17 +169,10 @@ GND
 Wire Wire Line
 	9000 2000 8600 2000
 Connection ~ 8600 2000
-Wire Wire Line
-	8600 2000 8600 3000
 Text Label 8600 1800 3    50   ~ 0
-3V3
+5V
 Wire Wire Line
 	8600 3500 8800 3500
-Wire Wire Line
-	8600 3500 8600 3400
-Wire Wire Line
-	8600 3100 8600 3000
-Connection ~ 8600 3000
 Text Label 1850 4500 3    50   ~ 0
 5V
 Text Label 1050 6000 1    50   ~ 0
@@ -242,7 +215,7 @@ Connection ~ 1050 5500
 Wire Wire Line
 	1050 5500 1050 5400
 Text Notes 9200 3700 0    50   ~ 0
-7-bit Address: 0x10
+7-bit Address: 0x60
 $Comp
 L Drone:LED-RED D3
 U 1 1 5E539CCB
@@ -857,21 +830,137 @@ LED resistors must be at least 1/16W
 $Comp
 L Drone:CAP C?
 U 1 1 5E322DC6
-P 8600 3250
+P 8600 3350
 AR Path="/5E2EDC4D/5E322DC6" Ref="C?"  Part="1" 
 AR Path="/5E3090FF/5E322DC6" Ref="C?"  Part="1" 
 AR Path="/5E30BD8E/5E322DC6" Ref="C15"  Part="1" 
-F 0 "C15" H 8715 3296 50  0000 L CNN
-F 1 "100n" H 8715 3205 50  0000 L CNN
-F 2 "Drone:C0805" H 8638 3100 50  0001 C CNN
-F 3 "~" H 8600 3250 50  0001 C CNN
-	1    8600 3250
+F 0 "C15" H 8715 3396 50  0000 L CNN
+F 1 "100n" H 8715 3305 50  0000 L CNN
+F 2 "Drone:C0805" H 8638 3200 50  0001 C CNN
+F 3 "~" H 8600 3350 50  0001 C CNN
+	1    8600 3350
 	-1   0    0    1   
 $EndComp
 NoConn ~ 10100 2300
 NoConn ~ 10100 2700
 NoConn ~ 10100 3100
 NoConn ~ 10100 3500
+Text Label 5150 2200 3    50   ~ 0
+5V
+Wire Wire Line
+	5150 2200 5150 2450
+Wire Wire Line
+	5150 2750 5150 2850
+Wire Wire Line
+	5150 2850 5100 2850
+Text Label 4900 2200 3    50   ~ 0
+1V8
+Wire Wire Line
+	5150 2850 5700 2850
+Connection ~ 5150 2850
+Text Label 4100 2850 0    50   ~ 0
+I2C1_SCL_18
+Text Label 5700 2850 2    50   ~ 0
+I2C1_SCL_50
+Text Label 6950 2200 3    50   ~ 0
+5V
+Wire Wire Line
+	6950 2200 6950 2450
+Wire Wire Line
+	6950 2750 6950 2850
+Wire Wire Line
+	6950 2850 6900 2850
+Text Label 6700 2200 3    50   ~ 0
+1V8
+Wire Wire Line
+	6950 2850 7500 2850
+Connection ~ 6950 2850
+Text Label 5900 2850 0    50   ~ 0
+I2C1_SDA_18
+Text Label 7500 2850 2    50   ~ 0
+I2C1_SDA_50
+$Comp
+L Drone:BSS138DW Q?
+U 1 1 5F011E26
+P 4900 2850
+AR Path="/5E2EDC4D/5F011E26" Ref="Q?"  Part="2" 
+AR Path="/5F011E26" Ref="Q?"  Part="2" 
+AR Path="/5E30BD8E/5F011E26" Ref="Q10"  Part="1" 
+F 0 "Q10" V 5150 2750 50  0000 L CNN
+F 1 "BSS138DW" V 5050 2750 50  0000 L CNN
+F 2 "Drone:BSS138DW" H 5000 2775 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 4800 2850 50  0001 L CNN
+	1    4900 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5F011E32
+P 6950 2600
+AR Path="/5E2EDC4D/5F011E32" Ref="R?"  Part="1" 
+AR Path="/5F011E32" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5F011E32" Ref="R76"  Part="1" 
+F 0 "R76" H 7020 2646 50  0000 L CNN
+F 1 "10k" H 7020 2555 50  0000 L CNN
+F 2 "Drone:R0805" V 6880 2600 50  0001 C CNN
+F 3 "~" H 6950 2600 50  0001 C CNN
+	1    6950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 5F011E3E
+P 5150 2600
+AR Path="/5E2EDC4D/5F011E3E" Ref="R?"  Part="1" 
+AR Path="/5F011E3E" Ref="R?"  Part="1" 
+AR Path="/5E30BD8E/5F011E3E" Ref="R75"  Part="1" 
+F 0 "R75" H 5220 2646 50  0000 L CNN
+F 1 "10k" H 5220 2555 50  0000 L CNN
+F 2 "Drone:R0805" V 5080 2600 50  0001 C CNN
+F 3 "~" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:BSS138DW Q?
+U 2 1 5F011E44
+P 6700 2850
+AR Path="/5E2EDC4D/5F011E44" Ref="Q?"  Part="2" 
+AR Path="/5F011E44" Ref="Q?"  Part="1" 
+AR Path="/5E30BD8E/5F011E44" Ref="Q10"  Part="2" 
+F 0 "Q10" V 6950 2750 50  0000 L CNN
+F 1 "BSS138DW" V 6850 2750 50  0000 L CNN
+F 2 "Drone:BSS138DW" H 6800 2775 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 6600 2850 50  0001 L CNN
+	2    6700 2850
+	0    1    1    0   
+$EndComp
+Text Label 8050 2300 0    50   ~ 0
+I2C1_SDA_50
+Wire Wire Line
+	8050 2300 9000 2300
+Text Label 8050 2200 0    50   ~ 0
+I2C1_SCL_50
+Wire Wire Line
+	8050 2200 9000 2200
+Text Label 1900 1300 2    50   ~ 0
+I2C1_SCL_18
+Text Label 1900 1400 2    50   ~ 0
+I2C1_SDA_18
+Text Notes 4100 3350 0    50   ~ 0
+Pull-up resistors for the 1.8V side are located near the 3.3V shifting circuitry
+Wire Wire Line
+	6700 2200 6700 2550
+Wire Wire Line
+	5900 2850 6500 2850
+Wire Wire Line
+	4100 2850 4700 2850
+Wire Wire Line
+	4900 2200 4900 2550
+Wire Wire Line
+	8600 2000 8600 3100
+Wire Wire Line
+	8800 2900 8800 3000
 $Comp
 L Drone:PCA9635PW U5
 U 1 1 5E9D9194
@@ -883,6 +972,16 @@ F 3 "" H 9550 1000 50  0001 C CNN
 	1    9550 1900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9000 3200 8600 3200
+Connection ~ 8600 3200
+Wire Wire Line
+	9000 3100 8600 3100
+Connection ~ 8600 3100
+Wire Wire Line
+	8600 3100 8600 3200
+Wire Wire Line
+	9000 3000 8800 3000
 Wire Bus Line
 	3000 4250 3000 5900
 Wire Bus Line
@@ -893,4 +992,7 @@ Wire Bus Line
 	9750 4250 9750 5900
 Wire Bus Line
 	10500 2100 10500 4250
+Connection ~ 8800 3000
+Wire Wire Line
+	8800 3000 8800 3500
 $EndSCHEMATC

@@ -155,18 +155,14 @@ Wire Wire Line
 	750  6250 1550 6250
 Wire Wire Line
 	750  6350 1550 6350
-Text Label 7800 4500 0    50   ~ 0
-3V3
 Wire Wire Line
-	7800 4500 8400 4500
+	7800 4550 8400 4550
 Wire Wire Line
 	7800 4650 8400 4650
-Wire Wire Line
-	7800 4750 8400 4750
-Text Label 7800 4900 0    50   ~ 0
+Text Label 7800 4800 0    50   ~ 0
 GND
 Wire Wire Line
-	7800 4900 8400 4900
+	7800 4800 8400 4800
 Text Label 7800 4400 0    50   ~ 0
 5V
 Wire Wire Line
@@ -410,15 +406,14 @@ Wire Wire Line
 Wire Wire Line
 	4050 5550 4850 5550
 $Sheet
-S 8400 4300 650  700 
+S 8400 4300 650  600 
 U 5E30BD8E
 F0 "LEDs" 50
 F1 "leds.sch" 50
 F2 "5V" I L 8400 4400 50 
-F3 "GND" I L 8400 4900 50 
-F4 "3V3" I L 8400 4500 50 
-F5 "I2C_SDA_33" I L 8400 4650 50 
-F6 "I2C_SCL_33" I L 8400 4750 50 
+F3 "GND" I L 8400 4800 50 
+F4 "I2C1_SDA_18" I L 8400 4550 50 
+F5 "I2C1_SCL_18" I L 8400 4650 50 
 $EndSheet
 $Sheet
 S 8400 2950 650  1100
@@ -486,10 +481,6 @@ F9 "~HUB_RST_33" I L 10200 4000 50
 F10 "HUB_CONNECT_33" I L 10200 4100 50 
 F11 "~HUB_INT_33" I L 10200 3900 50 
 $EndSheet
-Text Label 7800 4650 0    50   ~ 0
-I2C1_SDA_33
-Text Label 7800 4750 0    50   ~ 0
-I2C1_SCL_33
 Text Label 9400 3900 0    50   ~ 0
 ~HUB0_INT_33
 Text Label 9400 4000 0    50   ~ 0
@@ -528,9 +519,9 @@ Wire Wire Line
 	4850 1450 5500 1450
 NoConn ~ 4850 1150
 NoConn ~ 4850 1550
-Text Label 3400 1000 0    50   ~ 0
-I2C1_SDA_33
 Text Label 3400 1100 0    50   ~ 0
+I2C1_SDA_33
+Text Label 3400 1000 0    50   ~ 0
 I2C1_SCL_33
 Text Label 6050 6600 3    50   ~ 0
 3V3
@@ -985,9 +976,9 @@ Connection ~ 1500 1550
 Wire Wire Line
 	1500 1550 1500 1450
 NoConn ~ 2400 1550
-Text Label 950  1000 0    50   ~ 0
-I2C1_SDA_33
 Text Label 950  1100 0    50   ~ 0
+I2C1_SDA_33
+Text Label 950  1000 0    50   ~ 0
 I2C1_SCL_33
 Wire Wire Line
 	950  1000 1550 1000
@@ -1685,4 +1676,8 @@ Wire Wire Line
 	6950 3400 7500 3400
 Text Label 9050 5500 2    50   ~ 0
 1V8
+Text Label 7800 4650 0    50   ~ 0
+I2C1_SCL_18
+Text Label 7800 4550 0    50   ~ 0
+I2C1_SDA_18
 $EndSCHEMATC
