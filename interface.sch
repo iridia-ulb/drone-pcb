@@ -256,9 +256,7 @@ Wire Wire Line
 	4450 3150 5150 3150
 Wire Wire Line
 	4450 3250 5150 3250
-Wire Wire Line
-	4450 3600 5150 3600
-Text Label 5150 3600 2    50   ~ 0
+Text Label 5150 2950 2    50   ~ 0
 COM_MUX_CTRL
 Text Label 2250 2950 0    50   ~ 0
 XBEE_TX
@@ -899,7 +897,6 @@ Text HLabel 1250 5050 0    50   Output ~ 0
 DRONE_ID2
 Text HLabel 1250 5150 0    50   Output ~ 0
 DRONE_ID3
-NoConn ~ 4450 2950
 Text Label 650  6350 3    50   ~ 0
 COM_MUX_CTRL
 $Comp
@@ -1334,4 +1331,7 @@ Text Label 7650 600  3    50   ~ 0
 UPCORE_EN
 Text Label 9650 600  3    50   ~ 0
 UPCORE_EN
+Wire Wire Line
+	4450 2950 5150 2950
+NoConn ~ 4450 3600
 $EndSCHEMATC
