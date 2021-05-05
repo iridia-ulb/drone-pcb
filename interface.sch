@@ -76,46 +76,46 @@ Text Label 6100 1400 2    50   ~ 0
 DRONE_ID3
 Wire Wire Line
 	5400 1400 6100 1400
-Text HLabel 1600 2600 0    50   Input ~ 0
+Text HLabel 1400 6450 0    50   Input ~ 0
 3V3_ROOT
-Text HLabel 1600 2700 0    50   Input ~ 0
+Text HLabel 1400 6550 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1600 2600 2350 2600
+	1400 6450 2150 6450
 Wire Wire Line
-	1600 2700 2350 2700
-Text Label 2350 2700 2    50   ~ 0
+	1400 6550 2150 6550
+Text Label 2150 6550 2    50   ~ 0
 GND
-Text Label 2350 2600 2    50   ~ 0
+Text Label 2150 6450 2    50   ~ 0
 3V3_ROOT
 $Comp
 L Drone:SM06B-GHS-TB J17
 U 1 1 5E897974
-P 10150 4200
-F 0 "J17" H 10350 4250 50  0000 C CNN
-F 1 "SM06B-GHS-TB" V 10100 3900 50  0000 C CNN
-F 2 "Drone:JST_GH_SM06B-GHS-TB" H 10150 3525 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf?5e4554877fdb1" H 10550 4250 50  0001 C CNN
-	1    10150 4200
+P 10300 3300
+F 0 "J17" H 10500 3350 50  0000 C CNN
+F 1 "SM06B-GHS-TB" V 10250 3000 50  0000 C CNN
+F 2 "Drone:JST_GH_SM06B-GHS-TB" H 10300 2625 50  0001 L BNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf?5e4554877fdb1" H 10700 3350 50  0001 C CNN
+	1    10300 3300
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 9800 4250
-Text Label 2350 3200 2    50   ~ 0
+NoConn ~ 9950 3350
+Text Label 2150 7050 2    50   ~ 0
 UPCORE_CTS_18
 Wire Wire Line
-	1600 3200 2350 3200
-Text Label 2350 3100 2    50   ~ 0
+	1400 7050 2150 7050
+Text Label 2150 6950 2    50   ~ 0
 UPCORE_RTS_18
 Wire Wire Line
-	1600 3100 2350 3100
-Text Label 2350 3000 2    50   ~ 0
+	1400 6950 2150 6950
+Text Label 2150 6850 2    50   ~ 0
 UPCORE_TX_18
 Wire Wire Line
-	1600 3000 2350 3000
-Text Label 2350 2900 2    50   ~ 0
+	1400 6850 2150 6850
+Text Label 2150 6750 2    50   ~ 0
 UPCORE_RX_18
 Wire Wire Line
-	1600 2900 2350 2900
+	1400 6750 2150 6750
 Text Label 3200 1100 0    50   ~ 0
 3V3_ROOT
 $Comp
@@ -208,256 +208,225 @@ Wire Wire Line
 $Comp
 L Drone:NC7SZ157 U19
 U 1 1 5E61D3D5
-P 7550 4300
-F 0 "U19" H 7600 4425 50  0000 C CNN
-F 1 "NC7SZ157" H 7750 4350 50  0000 C CNN
-F 2 "Drone:NC7SZ157" H 7875 3850 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF" H 7550 4300 50  0001 C CNN
-	1    7550 4300
+P 7700 3400
+F 0 "U19" H 7700 3550 50  0000 L CNN
+F 1 "NC7SZ157" H 7700 3450 50  0000 L CNN
+F 2 "Drone:NC7SZ157" H 8025 2950 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF" H 7700 3400 50  0001 C CNN
+	1    7700 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Drone:NC7SZ157 U20
 U 1 1 5E62166F
-P 7550 5000
-F 0 "U20" H 7600 5125 50  0000 C CNN
-F 1 "NC7SZ157" H 7750 5050 50  0000 C CNN
-F 2 "Drone:NC7SZ157" H 7875 4550 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF" H 7550 5000 50  0001 C CNN
-	1    7550 5000
+P 7700 4450
+F 0 "U20" H 7700 4600 50  0000 L CNN
+F 1 "NC7SZ157" H 7700 4500 50  0000 L CNN
+F 2 "Drone:NC7SZ157" H 8025 4000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF" H 7700 4450 50  0001 C CNN
+	1    7700 4450
 	1    0    0    -1  
 $EndComp
-Text Label 8750 4350 2    50   ~ 0
+Text Label 8900 3450 2    50   ~ 0
 COM_MUX_CTRL
 Wire Wire Line
-	8150 4350 8750 4350
-Text Label 8750 5050 2    50   ~ 0
+	8300 3450 8900 3450
+Text Label 8900 4500 2    50   ~ 0
 COM_MUX_CTRL
 Wire Wire Line
-	8150 5050 8750 5050
-Text Label 6850 4350 0    50   ~ 0
+	8300 4500 8900 4500
+Text Label 7000 3450 0    50   ~ 0
 3V3_ROOT
-Text Label 6850 5050 0    50   ~ 0
+Text Label 7000 4500 0    50   ~ 0
 3V3_ROOT
-Text HLabel 1600 2900 0    50   Output ~ 0
+Text HLabel 1400 6750 0    50   Output ~ 0
 UPCORE_RX_18
-Text HLabel 1600 3000 0    50   Input ~ 0
+Text HLabel 1400 6850 0    50   Input ~ 0
 UPCORE_TX_18
-Text HLabel 1600 3100 0    50   Input ~ 0
+Text HLabel 1400 6950 0    50   Input ~ 0
 UPCORE_RTS_18
-Text HLabel 1600 3200 0    50   Output ~ 0
+Text HLabel 1400 7050 0    50   Output ~ 0
 UPCORE_CTS_18
-Text Label 9200 4350 0    50   ~ 0
+Text Label 9350 3450 0    50   ~ 0
 PIXHAWK_TX
-Text Label 9200 4550 0    50   ~ 0
+Text Label 9350 3650 0    50   ~ 0
 PIXHAWK_CTS
-Text Label 9200 4650 0    50   ~ 0
+Text Label 9350 3750 0    50   ~ 0
 PIXHAWK_RTS
-Text Label 9200 4450 0    50   ~ 0
+Text Label 9350 3550 0    50   ~ 0
 PIXHAWK_RX
 Wire Wire Line
-	9200 4350 9800 4350
+	9350 3450 9950 3450
 Wire Wire Line
-	9200 4450 9800 4450
+	9350 3550 9950 3550
 Wire Wire Line
-	9200 4550 9800 4550
+	9350 3650 9950 3650
 Wire Wire Line
-	9200 4650 9800 4650
-Text Label 9200 4750 0    50   ~ 0
+	9350 3750 9950 3750
+Text Label 9350 3850 0    50   ~ 0
 GND
 Wire Wire Line
-	9200 4750 9800 4750
-Text Label 6850 4650 0    50   ~ 0
+	9350 3850 9950 3850
+Text Label 7000 3750 0    50   ~ 0
 UPCORE_TX
-Text Label 6850 5350 0    50   ~ 0
+Text Label 7000 4800 0    50   ~ 0
 UPCORE_RTS
-Text Label 6850 5250 0    50   ~ 0
+Text Label 7000 4700 0    50   ~ 0
 XBEE_RTS
-Text Label 6850 4550 0    50   ~ 0
+Text Label 7000 3650 0    50   ~ 0
 XBEE_TX
 Wire Wire Line
-	6850 4550 7350 4550
-Wire Wire Line
-	6850 4650 7350 4650
-Wire Wire Line
-	6850 5250 7350 5250
-Wire Wire Line
-	6850 5350 7350 5350
-Text Label 8750 4450 2    50   ~ 0
+	7000 3650 7500 3650
+Text Label 8900 3550 2    50   ~ 0
 PIXHAWK_RX
-Text Label 8750 5150 2    50   ~ 0
+Text Label 8900 4600 2    50   ~ 0
 PIXHAWK_CTS
 Wire Wire Line
-	8150 5150 8750 5150
+	8300 4600 8900 4600
 Wire Wire Line
-	8150 4450 8750 4450
-Text Label 8750 5350 2    50   ~ 0
+	8300 3550 8900 3550
+Text Label 8900 4800 2    50   ~ 0
 GND
 Wire Wire Line
-	8750 5350 8150 5350
-Text Label 8750 4650 2    50   ~ 0
+	8900 4800 8300 4800
+Text Label 8900 3750 2    50   ~ 0
 GND
 Wire Wire Line
-	8750 4650 8150 4650
+	8900 3750 8300 3750
 $Comp
 L Drone:RES R?
 U 1 1 5E8CDE6A
-P 9850 5050
+P 10000 4150
 AR Path="/5E2EDC4D/5E8CDE6A" Ref="R?"  Part="1" 
 AR Path="/5E8CDE6A" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E8CDE6A" Ref="R69"  Part="1" 
-F 0 "R69" V 9750 5050 50  0000 L CNN
-F 1 "0R" V 9750 4900 50  0000 L CNN
-F 2 "Drone:R0805" V 9780 5050 50  0001 C CNN
-F 3 "~" H 9850 5050 50  0001 C CNN
-	1    9850 5050
+F 0 "R69" V 9900 4150 50  0000 L CNN
+F 1 "0R" V 9900 4000 50  0000 L CNN
+F 2 "Drone:R0805" V 9930 4150 50  0001 C CNN
+F 3 "~" H 10000 4150 50  0001 C CNN
+	1    10000 4150
 	0    1    1    0   
 $EndComp
-Text Label 10600 5050 2    50   ~ 0
+Text Label 10750 4150 2    50   ~ 0
 PIXHAWK_TX
-Text Label 10600 5550 2    50   ~ 0
+Text Label 10750 4650 2    50   ~ 0
 PIXHAWK_RTS
 $Comp
 L Drone:RES R?
 U 1 1 5E8D3B66
-P 9850 5300
+P 10000 4400
 AR Path="/5E2EDC4D/5E8D3B66" Ref="R?"  Part="1" 
 AR Path="/5E8D3B66" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E8D3B66" Ref="R70"  Part="1" 
-F 0 "R70" V 9750 5300 50  0000 L CNN
-F 1 "0R" V 9750 5150 50  0000 L CNN
-F 2 "Drone:R0805" V 9780 5300 50  0001 C CNN
-F 3 "~" H 9850 5300 50  0001 C CNN
-	1    9850 5300
+F 0 "R70" V 9900 4400 50  0000 L CNN
+F 1 "0R" V 9900 4250 50  0000 L CNN
+F 2 "Drone:R0805" V 9930 4400 50  0001 C CNN
+F 3 "~" H 10000 4400 50  0001 C CNN
+	1    10000 4400
 	0    1    1    0   
 $EndComp
-Text Label 9200 5050 0    50   ~ 0
+Text Label 9350 4150 0    50   ~ 0
 UPCORE_RX
-Text Label 9200 5300 0    50   ~ 0
+Text Label 9350 4400 0    50   ~ 0
 XBEE_RX
-Text Label 9200 5550 0    50   ~ 0
+Text Label 9350 4650 0    50   ~ 0
 UPCORE_CTS
-Text Label 9200 5800 0    50   ~ 0
+Text Label 9350 4900 0    50   ~ 0
 XBEE_CTS
 $Comp
 L Drone:RES R?
 U 1 1 5E8EB86C
-P 9850 5550
+P 10000 4650
 AR Path="/5E2EDC4D/5E8EB86C" Ref="R?"  Part="1" 
 AR Path="/5E8EB86C" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E8EB86C" Ref="R71"  Part="1" 
-F 0 "R71" V 9750 5550 50  0000 L CNN
-F 1 "0R" V 9750 5400 50  0000 L CNN
-F 2 "Drone:R0805" V 9780 5550 50  0001 C CNN
-F 3 "~" H 9850 5550 50  0001 C CNN
-	1    9850 5550
+F 0 "R71" V 9900 4650 50  0000 L CNN
+F 1 "0R" V 9900 4500 50  0000 L CNN
+F 2 "Drone:R0805" V 9930 4650 50  0001 C CNN
+F 3 "~" H 10000 4650 50  0001 C CNN
+	1    10000 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E8ED3C5
-P 9850 5800
+P 10000 4900
 AR Path="/5E2EDC4D/5E8ED3C5" Ref="R?"  Part="1" 
 AR Path="/5E8ED3C5" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E8ED3C5" Ref="R72"  Part="1" 
-F 0 "R72" V 9750 5800 50  0000 L CNN
-F 1 "0R" V 9750 5650 50  0000 L CNN
-F 2 "Drone:R0805" V 9780 5800 50  0001 C CNN
-F 3 "~" H 9850 5800 50  0001 C CNN
-	1    9850 5800
+F 0 "R72" V 9900 4900 50  0000 L CNN
+F 1 "0R" V 9900 4750 50  0000 L CNN
+F 2 "Drone:R0805" V 9930 4900 50  0001 C CNN
+F 3 "~" H 10000 4900 50  0001 C CNN
+	1    10000 4900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10600 5050 10050 5050
+	10750 4150 10200 4150
 Wire Wire Line
-	10000 5300 10050 5300
+	10150 4400 10200 4400
 Wire Wire Line
-	10050 5300 10050 5050
-Connection ~ 10050 5050
+	10200 4400 10200 4150
+Connection ~ 10200 4150
 Wire Wire Line
-	10050 5050 10000 5050
+	10200 4150 10150 4150
 Wire Wire Line
-	10000 5550 10050 5550
+	10150 4650 10200 4650
 Wire Wire Line
-	10000 5800 10050 5800
+	10150 4900 10200 4900
 Wire Wire Line
-	10050 5800 10050 5550
-Connection ~ 10050 5550
+	10200 4900 10200 4650
+Connection ~ 10200 4650
 Wire Wire Line
-	10050 5550 10600 5550
+	10200 4650 10750 4650
 Wire Wire Line
-	9200 5550 9700 5550
+	9350 4650 9850 4650
 Wire Wire Line
-	9200 5800 9700 5800
+	9350 4900 9850 4900
 Wire Wire Line
-	9200 5050 9700 5050
+	9350 4150 9850 4150
 Wire Wire Line
-	9200 5300 9700 5300
+	9350 4400 9850 4400
 NoConn ~ 5400 2000
 NoConn ~ 5400 2100
 $Comp
 L Drone:CAP C?
 U 1 1 5E9ED750
-P 6450 4550
+P 6500 3950
 AR Path="/5E349830/5E9ED750" Ref="C?"  Part="1" 
 AR Path="/5E3E92F4/5E9ED750" Ref="C68"  Part="1" 
-F 0 "C68" H 6565 4596 50  0000 L CNN
-F 1 "100n" H 6565 4505 50  0000 L CNN
-F 2 "Drone:C0805" H 6488 4400 50  0001 C CNN
-F 3 "~" H 6450 4550 50  0001 C CNN
-	1    6450 4550
+F 0 "C68" H 6615 3996 50  0000 L CNN
+F 1 "100n" H 6615 3905 50  0000 L CNN
+F 2 "Drone:C0805" H 6538 3800 50  0001 C CNN
+F 3 "~" H 6500 3950 50  0001 C CNN
+	1    6500 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 4350 6450 4400
-Wire Wire Line
-	6450 4350 7350 4350
-$Comp
-L Drone:CAP C?
-U 1 1 5E9FFE63
-P 6450 5250
-AR Path="/5E349830/5E9FFE63" Ref="C?"  Part="1" 
-AR Path="/5E3E92F4/5E9FFE63" Ref="C69"  Part="1" 
-F 0 "C69" H 6565 5296 50  0000 L CNN
-F 1 "100n" H 6565 5205 50  0000 L CNN
-F 2 "Drone:C0805" H 6488 5100 50  0001 C CNN
-F 3 "~" H 6450 5250 50  0001 C CNN
-	1    6450 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 5050 6450 5100
-Wire Wire Line
-	6450 5050 7350 5050
-Text Label 6450 5550 1    50   ~ 0
-GND
-Wire Wire Line
-	6450 5550 6450 5400
-Text Notes 6850 5550 0    50   ~ 0
-RX/TX and RTS/CTS swap occurs here.
-Text Label 2350 2100 2    50   ~ 0
+Text Notes 9350 5200 0    50   ~ 0
+RX/TX and RTS/CTS swap occurs here\nand at the muxes
+Text Label 2150 5950 2    50   ~ 0
 DRONE_ID0
 Wire Wire Line
-	1600 2100 2350 2100
-Text Label 2350 2200 2    50   ~ 0
+	1400 5950 2150 5950
+Text Label 2150 6050 2    50   ~ 0
 DRONE_ID1
 Wire Wire Line
-	1600 2200 2350 2200
-Text Label 2350 2300 2    50   ~ 0
+	1400 6050 2150 6050
+Text Label 2150 6150 2    50   ~ 0
 DRONE_ID2
 Wire Wire Line
-	1600 2300 2350 2300
-Text Label 2350 2400 2    50   ~ 0
+	1400 6150 2150 6150
+Text Label 2150 6250 2    50   ~ 0
 DRONE_ID3
 Wire Wire Line
-	1600 2400 2350 2400
-Text HLabel 1600 2100 0    50   Output ~ 0
+	1400 6250 2150 6250
+Text HLabel 1400 5950 0    50   Output ~ 0
 DRONE_ID0
-Text HLabel 1600 2200 0    50   Output ~ 0
+Text HLabel 1400 6050 0    50   Output ~ 0
 DRONE_ID1
-Text HLabel 1600 2300 0    50   Output ~ 0
+Text HLabel 1400 6150 0    50   Output ~ 0
 DRONE_ID2
-Text HLabel 1600 2400 0    50   Output ~ 0
+Text HLabel 1400 6250 0    50   Output ~ 0
 DRONE_ID3
 Text Label 9350 2400 0    50   ~ 0
 COM_MUX_CTRL
@@ -616,22 +585,344 @@ $EndComp
 Text Label 7150 2400 0    50   ~ 0
 XBEE_ASSOC
 Wire Wire Line
-	6450 4850 6450 4700
-Text Label 6450 4850 1    50   ~ 0
+	6500 4250 6500 4100
+Text Label 6500 4250 1    50   ~ 0
 GND
 Wire Wire Line
 	5400 1550 6100 1550
 NoConn ~ 5400 2200
-Text Label 2350 3450 2    50   ~ 0
+Text Label 2150 7300 2    50   ~ 0
 UPCORE_EN
 Wire Wire Line
-	1600 3450 2350 3450
-Text Label 2350 3550 2    50   ~ 0
+	1400 7300 2150 7300
+Text Label 2150 7400 2    50   ~ 0
 PIXHAWK_EN
 Wire Wire Line
-	1600 3550 2350 3550
-Text HLabel 1600 3450 0    50   Output ~ 0
+	1400 7400 2150 7400
+Text HLabel 1400 7300 0    50   Output ~ 0
 UPCORE_EN
-Text HLabel 1600 3550 0    50   Output ~ 0
+Text HLabel 1400 7400 0    50   Output ~ 0
 PIXHAWK_EN
+$Comp
+L Drone:SN74LV4T125 U13
+U 1 1 609530D7
+P 3400 3300
+F 0 "U13" H 3400 3450 50  0000 L CNN
+F 1 "SN74LV4T125" H 3400 3350 50  0000 L CNN
+F 2 "Drone:SN74LV4T125" H 3400 2100 50  0001 L CNN
+F 3 "https://www.ti.com/product/SN74LV4T125" H 3700 3300 50  0001 L CNN
+	1    3400 3300
+	1    0    0    -1  
+$EndComp
+Text Label 2400 3750 0    50   ~ 0
+UPCORE_RTS_18
+Wire Wire Line
+	2400 3750 3200 3750
+Text Label 2400 3500 0    50   ~ 0
+UPCORE_TX_18
+Wire Wire Line
+	2400 3500 3200 3500
+Text Label 4750 3400 2    50   ~ 0
+3V3_ROOT
+$Comp
+L Drone:CAP C?
+U 1 1 6096F5B0
+P 5200 3650
+AR Path="/5E349830/6096F5B0" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/6096F5B0" Ref="C61"  Part="1" 
+F 0 "C61" H 5300 3700 50  0000 L CNN
+F 1 "100n" H 5300 3600 50  0000 L CNN
+F 2 "Drone:C0805" H 5238 3500 50  0001 C CNN
+F 3 "~" H 5200 3650 50  0001 C CNN
+	1    5200 3650
+	1    0    0    -1  
+$EndComp
+Text Label 4750 3500 2    50   ~ 0
+UPCORE_TX
+Wire Wire Line
+	4150 3500 4750 3500
+Text Label 4750 3750 2    50   ~ 0
+UPCORE_RTS
+Wire Wire Line
+	4150 3750 4750 3750
+$Comp
+L Drone:CAP C?
+U 1 1 5E9FFE63
+P 6500 5000
+AR Path="/5E349830/5E9FFE63" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/5E9FFE63" Ref="C69"  Part="1" 
+F 0 "C69" H 6615 5046 50  0000 L CNN
+F 1 "100n" H 6615 4955 50  0000 L CNN
+F 2 "Drone:C0805" H 6538 4850 50  0001 C CNN
+F 3 "~" H 6500 5000 50  0001 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3750 7500 3750
+$Comp
+L Drone:CAP C?
+U 1 1 60A1B056
+P 5650 3650
+AR Path="/5E349830/60A1B056" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/60A1B056" Ref="C62"  Part="1" 
+F 0 "C62" H 5750 3700 50  0000 L CNN
+F 1 "1u" H 5750 3600 50  0000 L CNN
+F 2 "Drone:C0805" H 5688 3500 50  0001 C CNN
+F 3 "~" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3400 5650 3500
+Wire Wire Line
+	4150 3400 5200 3400
+Wire Wire Line
+	5200 3500 5200 3400
+Connection ~ 5200 3400
+Wire Wire Line
+	5200 3400 5650 3400
+Text Label 5200 3950 1    50   ~ 0
+GND
+Wire Wire Line
+	5200 3950 5200 3800
+Text Label 5650 3950 1    50   ~ 0
+GND
+Wire Wire Line
+	5650 3950 5650 3800
+Text Label 2400 4000 0    50   ~ 0
+UPCORE_CTS
+Text Label 2400 4250 0    50   ~ 0
+UPCORE_RX
+Wire Wire Line
+	2400 4000 3200 4000
+Wire Wire Line
+	2400 4250 3200 4250
+Text Notes 4050 6150 0    50   ~ 0
+- For UPCORE_X_18 signals, this buffer translates up to VCC\n- For the UPCORE_X signals, this buffer translates to the same\n   level, requiring a voltage divider to be used
+$Comp
+L Drone:RES R?
+U 1 1 60A43257
+P 6750 3750
+AR Path="/5E2EDC4D/60A43257" Ref="R?"  Part="1" 
+AR Path="/60A43257" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60A43257" Ref="R80"  Part="1" 
+F 0 "R80" V 6650 3600 50  0000 L CNN
+F 1 "10k" V 6650 3750 50  0000 L CNN
+F 2 "Drone:R0805" V 6680 3750 50  0001 C CNN
+F 3 "~" H 6750 3750 50  0001 C CNN
+	1    6750 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 3450 6500 3450
+Wire Wire Line
+	6500 3450 6500 3750
+Wire Wire Line
+	6600 3750 6500 3750
+Connection ~ 6500 3750
+Wire Wire Line
+	6500 3750 6500 3800
+Wire Wire Line
+	7000 4700 7500 4700
+Wire Wire Line
+	6500 5300 6500 5150
+Text Label 6500 5300 1    50   ~ 0
+GND
+Wire Wire Line
+	6900 4800 7500 4800
+$Comp
+L Drone:RES R?
+U 1 1 60A7795E
+P 6750 4800
+AR Path="/5E2EDC4D/60A7795E" Ref="R?"  Part="1" 
+AR Path="/60A7795E" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60A7795E" Ref="R81"  Part="1" 
+F 0 "R81" V 6650 4650 50  0000 L CNN
+F 1 "10k" V 6650 4800 50  0000 L CNN
+F 2 "Drone:R0805" V 6680 4800 50  0001 C CNN
+F 3 "~" H 6750 4800 50  0001 C CNN
+	1    6750 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 4500 6500 4500
+Wire Wire Line
+	6500 4500 6500 4800
+Wire Wire Line
+	6600 4800 6500 4800
+Connection ~ 6500 4800
+Wire Wire Line
+	6500 4800 6500 4850
+Text Notes 7050 5200 0    50   ~ 0
+TX/RTS are pulled up to keep them at a defined\nlogic level when the buffer is disabled
+Text Label 4750 4000 2    50   ~ 0
+UPCORE_CTS_33
+Text Label 4750 4250 2    50   ~ 0
+UPCORE_RX_33
+Wire Wire Line
+	4150 4250 4750 4250
+Wire Wire Line
+	4150 4000 4750 4000
+Text Label 4750 4350 2    50   ~ 0
+GND
+Wire Wire Line
+	4150 4350 4750 4350
+Wire Wire Line
+	3200 3400 3100 3400
+Wire Wire Line
+	3100 3400 3100 3650
+Wire Wire Line
+	3200 3650 3100 3650
+Connection ~ 3100 3650
+Wire Wire Line
+	3100 3650 3100 3900
+Wire Wire Line
+	3200 3900 3100 3900
+Connection ~ 3100 3900
+Wire Wire Line
+	3100 3900 3100 4150
+Wire Wire Line
+	3200 4150 3100 4150
+Connection ~ 3100 4150
+$Comp
+L Drone:BSS138DW Q?
+U 1 1 60B25E17
+P 3100 4650
+AR Path="/5E2EDC4D/60B25E17" Ref="Q?"  Part="2" 
+AR Path="/60B25E17" Ref="Q?"  Part="2" 
+AR Path="/5E3E92F4/60B25E17" Ref="Q11"  Part="1" 
+AR Path="/60B99818/60B25E17" Ref="Q?"  Part="1" 
+F 0 "Q11" H 3200 4700 50  0000 L CNN
+F 1 "BSS138DW" H 3200 4600 50  0000 L CNN
+F 2 "Drone:BSS138DW" H 3200 4575 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 3000 4650 50  0001 L CNN
+	1    3100 4650
+	1    0    0    -1  
+$EndComp
+Text Label 3100 5000 1    50   ~ 0
+GND
+Wire Wire Line
+	3100 5000 3100 4850
+Wire Wire Line
+	2400 4650 2800 4650
+Text Label 2400 4650 0    50   ~ 0
+UPCORE_EN
+Wire Wire Line
+	3100 4150 3100 4450
+Text Label 3100 2650 3    50   ~ 0
+3V3_ROOT
+$Comp
+L Drone:RES R?
+U 1 1 60B3AC8B
+P 3100 3200
+AR Path="/5E2EDC4D/60B3AC8B" Ref="R?"  Part="1" 
+AR Path="/60B3AC8B" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60B3AC8B" Ref="R4"  Part="1" 
+F 0 "R4" H 3200 3150 50  0000 L CNN
+F 1 "10k" H 3200 3250 50  0000 L CNN
+F 2 "Drone:R0805" V 3030 3200 50  0001 C CNN
+F 3 "~" H 3100 3200 50  0001 C CNN
+	1    3100 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 3400 3100 3350
+Connection ~ 3100 3400
+Wire Wire Line
+	3100 3050 3100 2650
+Text Label 4100 4650 0    50   ~ 0
+UPCORE_RX_33
+$Comp
+L Drone:RES R?
+U 1 1 60B84D9E
+P 4750 4850
+AR Path="/5E2EDC4D/60B84D9E" Ref="R?"  Part="1" 
+AR Path="/60B84D9E" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60B84D9E" Ref="R45"  Part="1" 
+F 0 "R45" H 4550 4800 50  0000 L CNN
+F 1 "5k6" H 4550 4900 50  0000 L CNN
+F 2 "Drone:R0805" V 4680 4850 50  0001 C CNN
+F 3 "~" H 4750 4850 50  0001 C CNN
+	1    4750 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 60B88058
+P 4750 5250
+AR Path="/5E2EDC4D/60B88058" Ref="R?"  Part="1" 
+AR Path="/60B88058" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60B88058" Ref="R77"  Part="1" 
+F 0 "R77" H 4550 5200 50  0000 L CNN
+F 1 "6k8" H 4550 5300 50  0000 L CNN
+F 2 "Drone:R0805" V 4680 5250 50  0001 C CNN
+F 3 "~" H 4750 5250 50  0001 C CNN
+	1    4750 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 4650 4750 4650
+Wire Wire Line
+	4750 4650 4750 4700
+Wire Wire Line
+	4750 5000 4750 5050
+Text Label 4750 5550 1    50   ~ 0
+GND
+Wire Wire Line
+	4750 5550 4750 5400
+Text Label 4100 5050 0    50   ~ 0
+UPCORE_RX_18
+Wire Wire Line
+	4100 5050 4750 5050
+Connection ~ 4750 5050
+Wire Wire Line
+	4750 5050 4750 5100
+$Comp
+L Drone:RES R?
+U 1 1 60BBCAF4
+P 5650 4850
+AR Path="/5E2EDC4D/60BBCAF4" Ref="R?"  Part="1" 
+AR Path="/60BBCAF4" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60BBCAF4" Ref="R78"  Part="1" 
+F 0 "R78" H 5450 4800 50  0000 L CNN
+F 1 "5k6" H 5450 4900 50  0000 L CNN
+F 2 "Drone:R0805" V 5580 4850 50  0001 C CNN
+F 3 "~" H 5650 4850 50  0001 C CNN
+	1    5650 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drone:RES R?
+U 1 1 60BBCAFA
+P 5650 5250
+AR Path="/5E2EDC4D/60BBCAFA" Ref="R?"  Part="1" 
+AR Path="/60BBCAFA" Ref="R?"  Part="1" 
+AR Path="/5E3E92F4/60BBCAFA" Ref="R79"  Part="1" 
+F 0 "R79" H 5450 5200 50  0000 L CNN
+F 1 "6k8" H 5450 5300 50  0000 L CNN
+F 2 "Drone:R0805" V 5580 5250 50  0001 C CNN
+F 3 "~" H 5650 5250 50  0001 C CNN
+	1    5650 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4650 5650 4650
+Wire Wire Line
+	5650 4650 5650 4700
+Wire Wire Line
+	5650 5000 5650 5050
+Text Label 5650 5550 1    50   ~ 0
+GND
+Wire Wire Line
+	5650 5550 5650 5400
+Text Label 5000 5050 0    50   ~ 0
+UPCORE_CTS_18
+Wire Wire Line
+	5000 5050 5650 5050
+Connection ~ 5650 5050
+Wire Wire Line
+	5650 5050 5650 5100
+Text Label 5000 4650 0    50   ~ 0
+UPCORE_CTS_33
 $EndSCHEMATC
