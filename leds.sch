@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -128,14 +128,14 @@ Wire Wire Line
 Connection ~ 8800 2900
 Wire Wire Line
 	8800 2900 8800 2800
-Text HLabel 1200 1400 0    50   Input ~ 0
+Text HLabel 1200 1450 0    50   Input ~ 0
 I2C1_SDA_18
 Wire Wire Line
-	1200 1400 1900 1400
-Text HLabel 1200 1300 0    50   Input ~ 0
+	1200 1450 1900 1450
+Text HLabel 1200 1350 0    50   Input ~ 0
 I2C1_SCL_18
 Wire Wire Line
-	1900 1300 1200 1300
+	1900 1350 1200 1350
 Wire Wire Line
 	9000 2400 8800 2400
 Wire Wire Line
@@ -943,9 +943,9 @@ Text Label 8050 2200 0    50   ~ 0
 I2C1_SCL_50
 Wire Wire Line
 	8050 2200 9000 2200
-Text Label 1900 1300 2    50   ~ 0
+Text Label 1900 1350 2    50   ~ 0
 I2C1_SCL_18
-Text Label 1900 1400 2    50   ~ 0
+Text Label 1900 1450 2    50   ~ 0
 I2C1_SDA_18
 Text Notes 4100 3350 0    50   ~ 0
 Pull-up resistors for the 1.8V side are located near the 3.3V shifting circuitry
@@ -982,6 +982,15 @@ Wire Wire Line
 	8600 3100 8600 3200
 Wire Wire Line
 	9000 3000 8800 3000
+Connection ~ 8800 3000
+Wire Wire Line
+	8800 3000 8800 3500
+Wire Wire Line
+	1200 1250 1900 1250
+Text Label 1900 1250 2    50   ~ 0
+1V8
+Text HLabel 1200 1250 0    50   Input ~ 0
+1V8
 Wire Bus Line
 	3000 4250 3000 5900
 Wire Bus Line
@@ -992,7 +1001,4 @@ Wire Bus Line
 	9750 4250 9750 5900
 Wire Bus Line
 	10500 2100 10500 4250
-Connection ~ 8800 3000
-Wire Wire Line
-	8800 3000 8800 3500
 $EndSCHEMATC

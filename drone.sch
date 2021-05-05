@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -156,13 +156,13 @@ Wire Wire Line
 Wire Wire Line
 	750  6350 1550 6350
 Wire Wire Line
-	7800 4550 8400 4550
-Wire Wire Line
 	7800 4650 8400 4650
-Text Label 7800 4800 0    50   ~ 0
+Wire Wire Line
+	7800 4750 8400 4750
+Text Label 7800 4900 0    50   ~ 0
 GND
 Wire Wire Line
-	7800 4800 8400 4800
+	7800 4900 8400 4900
 Text Label 7800 4400 0    50   ~ 0
 5V
 Wire Wire Line
@@ -406,14 +406,15 @@ Wire Wire Line
 Wire Wire Line
 	4050 5550 4850 5550
 $Sheet
-S 8400 4300 650  600 
+S 8400 4300 650  700 
 U 5E30BD8E
 F0 "LEDs" 50
 F1 "leds.sch" 50
 F2 "5V" I L 8400 4400 50 
-F3 "GND" I L 8400 4800 50 
-F4 "I2C1_SDA_18" I L 8400 4550 50 
-F5 "I2C1_SCL_18" I L 8400 4650 50 
+F3 "GND" I L 8400 4900 50 
+F4 "I2C1_SDA_18" I L 8400 4650 50 
+F5 "I2C1_SCL_18" I L 8400 4750 50 
+F6 "1V8" I L 8400 4500 50 
 $EndSheet
 $Sheet
 S 8400 2950 650  1100
@@ -615,22 +616,6 @@ Wire Wire Line
 	1550 3850 750  3850
 Wire Wire Line
 	1550 3750 750  3750
-Text Label 5450 5650 0    50   ~ 0
-3V3
-Wire Wire Line
-	5450 5650 6050 5650
-Text Label 5450 5550 0    50   ~ 0
-5V
-Wire Wire Line
-	5450 5550 6050 5550
-Text Label 5450 5850 0    50   ~ 0
-1V8
-Wire Wire Line
-	5450 5850 6050 5850
-Text Label 5450 5750 0    50   ~ 0
-2V8
-Wire Wire Line
-	5450 5750 6050 5750
 Wire Wire Line
 	750  3150 1550 3150
 Text Label 750  3150 0    50   ~ 0
@@ -711,60 +696,60 @@ Wire Wire Line
 Connection ~ 6400 2300
 Wire Wire Line
 	7050 2300 7550 2300
-Text Notes 5950 4000 0    50   ~ 0
+Text Notes 6050 4050 0    50   ~ 0
 7-bit Address: 0x50
-Text Label 5100 4000 1    50   ~ 0
+Text Label 5200 4050 1    50   ~ 0
 GND
 Wire Wire Line
-	5750 3450 5650 3450
+	5850 3500 5750 3500
 Wire Wire Line
-	5650 3450 5650 3550
-Connection ~ 5650 3800
+	5750 3500 5750 3600
+Connection ~ 5750 3850
 Wire Wire Line
-	5650 3800 5750 3800
-Connection ~ 5650 3550
+	5750 3850 5850 3850
+Connection ~ 5750 3600
 Wire Wire Line
-	5650 3550 5650 3650
+	5750 3600 5750 3700
 Wire Wire Line
-	5650 3550 5750 3550
+	5750 3600 5850 3600
 Wire Wire Line
-	5750 3650 5650 3650
-Connection ~ 5650 3650
+	5850 3700 5750 3700
+Connection ~ 5750 3700
 Wire Wire Line
-	5650 3650 5650 3800
+	5750 3700 5750 3850
 Wire Wire Line
-	5450 3650 5450 3800
-Connection ~ 5450 3800
+	5550 3700 5550 3850
+Connection ~ 5550 3850
 Wire Wire Line
-	5450 3800 5650 3800
+	5550 3850 5750 3850
 Wire Wire Line
-	5450 3350 5450 3300
+	5550 3400 5550 3350
 Wire Wire Line
-	5450 3300 5750 3300
-Connection ~ 5450 3300
-Text Label 5450 3100 3    50   ~ 0
+	5550 3350 5850 3350
+Connection ~ 5550 3350
+Text Label 5550 3150 3    50   ~ 0
 3V3
 Wire Wire Line
-	5450 3100 5450 3300
-Text Label 7500 3600 2    50   ~ 0
+	5550 3150 5550 3350
+Text Label 7600 3650 2    50   ~ 0
 I2C0_SDA_33
-Text Label 7500 3400 2    50   ~ 0
+Text Label 7600 3450 2    50   ~ 0
 I2C0_SCL_33
 Wire Wire Line
-	6650 3300 6750 3300
+	6750 3350 6850 3350
 Wire Wire Line
-	6750 3300 6750 2950
+	6850 3350 6850 3000
 Wire Wire Line
-	5100 2950 5100 3050
+	5200 3000 5200 3100
 Wire Wire Line
-	5100 2950 6750 2950
+	5200 3000 6850 3000
 Wire Wire Line
-	5100 3350 5100 3800
+	5200 3400 5200 3850
 Wire Wire Line
-	5100 3800 5450 3800
+	5200 3850 5550 3850
 Wire Wire Line
-	5100 3800 5100 4000
-Connection ~ 5100 3800
+	5200 3850 5200 4050
+Connection ~ 5200 3850
 Wire Wire Line
 	4050 3150 4850 3150
 Text Label 4850 3150 2    50   ~ 0
@@ -784,136 +769,44 @@ UART1_RX_18
 NoConn ~ 1550 4050
 Text Label 9400 3400 0    50   ~ 0
 HUB0_HSIC_STRB_12
-Text Label 5650 4050 3    50   ~ 0
-1V8
-Wire Wire Line
-	5650 4050 5650 4350
-Wire Wire Line
-	5650 4350 5850 4350
-Text Label 7050 4050 3    50   ~ 0
-3V3
-Wire Wire Line
-	7050 4050 7050 4350
-Wire Wire Line
-	7050 4350 6850 4350
-Text Label 5250 5050 0    50   ~ 0
-UART1_EN_18
-Wire Wire Line
-	5850 5150 5700 5150
-Wire Wire Line
-	5700 5150 5700 5300
-Text Label 5700 5300 1    50   ~ 0
-GND
-Wire Wire Line
-	5850 4550 5250 4550
-Text Label 5250 4550 0    50   ~ 0
+NoConn ~ 4050 4850
+Text Label 5100 6050 0    50   ~ 0
 UART1_RTS_18
-Wire Wire Line
-	5850 4650 5250 4650
-Text Label 5250 4650 0    50   ~ 0
+Text Label 5100 6150 0    50   ~ 0
 UART1_CTS_18
-Wire Wire Line
-	5850 4750 5250 4750
-Text Label 5250 4750 0    50   ~ 0
+Text Label 5100 5950 0    50   ~ 0
 UART1_TX_18
-Wire Wire Line
-	5850 4850 5250 4850
-Text Label 5250 4850 0    50   ~ 0
+Text Label 5100 5850 0    50   ~ 0
 UART1_RX_18
 Wire Wire Line
-	6850 4550 7450 4550
-Text Label 7450 4550 2    50   ~ 0
-UART1_RTS_33
+	5700 5850 5100 5850
 Wire Wire Line
-	6850 4650 7450 4650
-Text Label 7450 4650 2    50   ~ 0
-UART1_CTS_33
+	5100 5950 5700 5950
 Wire Wire Line
-	6850 4750 7450 4750
-Text Label 7450 4750 2    50   ~ 0
-UART1_TX_33
+	5100 6050 5700 6050
 Wire Wire Line
-	6850 4850 7450 4850
-Text Label 7450 4850 2    50   ~ 0
-UART1_RX_33
-Wire Wire Line
-	5250 5050 5850 5050
-Wire Wire Line
-	5600 4350 5650 4350
-Connection ~ 5650 4350
-Wire Wire Line
-	7050 4350 7100 4350
-Connection ~ 7050 4350
-Text Label 5100 5300 1    50   ~ 0
+	5100 6150 5700 6150
+Text Label 7500 6150 2    50   ~ 0
 GND
 Wire Wire Line
-	5100 5300 5100 4350
-Wire Wire Line
-	5100 4350 5300 4350
-Text Label 7550 5300 1    50   ~ 0
-GND
-Wire Wire Line
-	7550 5300 7550 4350
-Wire Wire Line
-	7550 4350 7400 4350
-NoConn ~ 4050 4850
-Text Label 9050 5900 2    50   ~ 0
-UART1_EN_18
-Text Label 5450 6200 0    50   ~ 0
-UART1_RTS_33
-Text Label 5450 6300 0    50   ~ 0
-UART1_CTS_33
-Text Label 5450 6100 0    50   ~ 0
-UART1_TX_33
-Text Label 5450 6000 0    50   ~ 0
-UART1_RX_33
-Wire Wire Line
-	6050 6000 5450 6000
-Wire Wire Line
-	5450 6100 6050 6100
-Wire Wire Line
-	5450 6200 6050 6200
-Wire Wire Line
-	5450 6300 6050 6300
-Text Label 8150 6300 2    50   ~ 0
-GND
-Wire Wire Line
-	8150 6300 7550 6300
-Text Label 9050 6300 2    50   ~ 0
-GND
-Wire Wire Line
-	9050 5500 8450 5500
-Wire Wire Line
-	8450 5500 8450 5550
-Wire Wire Line
-	9050 5900 8450 5900
-Wire Wire Line
-	8450 5900 8450 5850
-Wire Wire Line
-	8450 5950 8450 5900
-Connection ~ 8450 5900
-Wire Wire Line
-	9050 6300 8450 6300
-Wire Wire Line
-	8450 6300 8450 6250
+	7500 6150 7200 6150
 $Sheet
-S 6050 5450 1500 950 
+S 5700 5300 1500 950 
 U 5E3E92F4
-F0 "Interface" 50
+F0 "Interfaces" 50
 F1 "interface.sch" 50
-F2 "5V" O L 6050 5550 50 
-F3 "3V3" O L 6050 5650 50 
-F4 "GND" O R 7550 6300 50 
-F5 "2V8" O L 6050 5750 50 
-F6 "1V8" O L 6050 5850 50 
-F7 "UPCORE_RX" O L 6050 6000 50 
-F8 "UPCORE_TX" I L 6050 6100 50 
-F9 "UPCORE_RTS" I L 6050 6200 50 
-F10 "UPCORE_CTS" O L 6050 6300 50 
-F11 "DRONE_ID0" O R 7550 5550 50 
-F12 "DRONE_ID1" O R 7550 5650 50 
-F13 "DRONE_ID2" O R 7550 5750 50 
-F14 "DRONE_ID3" O R 7550 5850 50 
+F2 "GND" O R 7200 6150 50 
+F3 "DRONE_ID0" O L 5700 5400 50 
+F4 "DRONE_ID1" O L 5700 5500 50 
+F5 "DRONE_ID2" O L 5700 5600 50 
+F6 "DRONE_ID3" O L 5700 5700 50 
+F7 "3V3_ROOT" I R 7200 5400 50 
+F8 "UPCORE_RX_18" O L 5700 5850 50 
+F9 "UPCORE_TX_18" I L 5700 5950 50 
+F10 "UPCORE_RTS_18" I L 5700 6050 50 
+F11 "UPCORE_CTS_18" O L 5700 6150 50 
+F12 "UPCORE_EN" O R 7200 5950 50 
+F13 "PIXHAWK_EN" O R 7200 5850 50 
 $EndSheet
 Text Label 2850 2450 2    50   ~ 0
 GND
@@ -998,21 +891,13 @@ Wire Wire Line
 	1500 1900 1500 1700
 Connection ~ 1500 1700
 NoConn ~ 1550 1200
-Wire Wire Line
-	7550 5650 8150 5650
-Wire Wire Line
-	7550 5550 8150 5550
-Wire Wire Line
-	7550 5750 8150 5750
-Wire Wire Line
-	7550 5850 8150 5850
-Text Label 8150 5550 2    50   ~ 0
+Text Label 5100 5400 0    50   ~ 0
 DRONE_ID0
-Text Label 8150 5650 2    50   ~ 0
+Text Label 5100 5500 0    50   ~ 0
 DRONE_ID1
-Text Label 8150 5750 2    50   ~ 0
+Text Label 5100 5600 0    50   ~ 0
 DRONE_ID2
-Text Label 8150 5850 2    50   ~ 0
+Text Label 5100 5700 0    50   ~ 0
 DRONE_ID3
 Wire Wire Line
 	2400 950  2850 950 
@@ -1191,71 +1076,6 @@ F 3 "~" H 2200 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Drone:RES R?
-U 1 1 5EDB9C0F
-P 8450 6100
-AR Path="/5E2EDC4D/5EDB9C0F" Ref="R?"  Part="1" 
-AR Path="/5EDB9C0F" Ref="R45"  Part="1" 
-F 0 "R45" H 8520 6146 50  0000 L CNN
-F 1 "6.8k" H 8520 6055 50  0000 L CNN
-F 2 "Drone:R0805" V 8380 6100 50  0001 C CNN
-F 3 "~" H 8450 6100 50  0001 C CNN
-	1    8450 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:RES R?
-U 1 1 5EDB78E2
-P 8450 5700
-AR Path="/5E2EDC4D/5EDB78E2" Ref="R?"  Part="1" 
-AR Path="/5EDB78E2" Ref="R4"  Part="1" 
-F 0 "R4" H 8520 5746 50  0000 L CNN
-F 1 "3k" H 8520 5655 50  0000 L CNN
-F 2 "Drone:R0805" V 8380 5700 50  0001 C CNN
-F 3 "~" H 8450 5700 50  0001 C CNN
-	1    8450 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E86C49F
-P 7250 4350
-AR Path="/5E2EDC4D/5E86C49F" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E86C49F" Ref="C?"  Part="1" 
-AR Path="/5E86C49F" Ref="C62"  Part="1" 
-F 0 "C62" H 7365 4396 50  0000 L CNN
-F 1 "100n" H 7365 4305 50  0000 L CNN
-F 2 "Drone:C0805" H 7288 4200 50  0001 C CNN
-F 3 "~" H 7250 4350 50  0001 C CNN
-	1    7250 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:CAP C?
-U 1 1 5E86C499
-P 5450 4350
-AR Path="/5E2EDC4D/5E86C499" Ref="C?"  Part="1" 
-AR Path="/5E349830/5E86C499" Ref="C?"  Part="1" 
-AR Path="/5E86C499" Ref="C61"  Part="1" 
-F 0 "C61" H 5565 4396 50  0000 L CNN
-F 1 "100n" H 5565 4305 50  0000 L CNN
-F 2 "Drone:C0805" H 5488 4200 50  0001 C CNN
-F 3 "~" H 5450 4350 50  0001 C CNN
-	1    5450 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Drone:TXB0104DR U13
-U 1 1 5E86C46F
-P 6050 4250
-F 0 "U13" H 6050 4350 50  0000 L BNN
-F 1 "TXB0104DR" H 6050 4275 50  0000 L BNN
-F 2 "Drone:TXB0104DR" H 6875 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5850 4200 50  0001 C CNN
-	1    6050 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Drone:UP-CORE P1
 U 1 1 5E4D68F1
 P 1750 2550
@@ -1282,43 +1102,43 @@ $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E5A5861
-P 5100 3200
+P 5200 3250
 AR Path="/5E2EDC4D/5E5A5861" Ref="R?"  Part="1" 
 AR Path="/5E5A5861" Ref="R3"  Part="1" 
-F 0 "R3" H 5170 3246 50  0000 L CNN
-F 1 "10k" H 5170 3155 50  0000 L CNN
-F 2 "Drone:R0805" V 5030 3200 50  0001 C CNN
-F 3 "~" H 5100 3200 50  0001 C CNN
-	1    5100 3200
+F 0 "R3" H 5270 3296 50  0000 L CNN
+F 1 "10k" H 5270 3205 50  0000 L CNN
+F 2 "Drone:R0805" V 5130 3250 50  0001 C CNN
+F 3 "~" H 5200 3250 50  0001 C CNN
+	1    5200 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Drone:CAP C?
 U 1 1 5E4973DC
-P 5450 3500
+P 5550 3550
 AR Path="/5E2EDC4D/5E4973DC" Ref="C?"  Part="1" 
 AR Path="/5E349830/5E4973DC" Ref="C?"  Part="1" 
 AR Path="/5E4973DC" Ref="C3"  Part="1" 
-F 0 "C3" H 5565 3546 50  0000 L CNN
-F 1 "100n" H 5565 3455 50  0000 L CNN
-F 2 "Drone:C0805" H 5488 3350 50  0001 C CNN
-F 3 "~" H 5450 3500 50  0001 C CNN
-	1    5450 3500
+F 0 "C3" H 5665 3596 50  0000 L CNN
+F 1 "100n" H 5665 3505 50  0000 L CNN
+F 2 "Drone:C0805" H 5588 3400 50  0001 C CNN
+F 3 "~" H 5550 3550 50  0001 C CNN
+	1    5550 3550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Drone:24LC32AF U3
 U 1 1 5E427D77
-P 5950 3200
-F 0 "U3" H 5950 3300 50  0000 L BNN
-F 1 "24LC32AF" H 5950 3225 50  0000 L BNN
-F 2 "Drone:24LC32AF" H 5950 3200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf" H 5950 3375 50  0001 L BNN
-F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
-F 5 "24LC32AF-I/SN-ND" H 0   0   50  0001 C CNN "Distributor Number"
-F 6 "Microchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "24LC32AF-I/SN" H 0   0   50  0001 C CNN "Manufacturer Number"
-	1    5950 3200
+P 6050 3250
+F 0 "U3" H 6050 3350 50  0000 L BNN
+F 1 "24LC32AF" H 6050 3275 50  0000 L BNN
+F 2 "Drone:24LC32AF" H 6050 3250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf" H 6050 3425 50  0001 L BNN
+F 4 "Digikey" H 100 50  50  0001 C CNN "Distributor"
+F 5 "24LC32AF-I/SN-ND" H 100 50  50  0001 C CNN "Distributor Number"
+F 6 "Microchip Technology" H 100 50  50  0001 C CNN "Manufacturer"
+F 7 "24LC32AF-I/SN" H 100 50  50  0001 C CNN "Manufacturer Number"
+	1    6050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1641,43 +1461,107 @@ $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E8080FC
-P 6800 3400
+P 6900 3450
 AR Path="/5E2EDC4D/5E8080FC" Ref="R?"  Part="1" 
 AR Path="/5E8080FC" Ref="R73"  Part="1" 
 AR Path="/5E3E92F4/5E8080FC" Ref="R?"  Part="1" 
-F 0 "R73" V 6900 3400 50  0000 L CNN
-F 1 "0R" V 6900 3300 50  0000 L CNN
-F 2 "Drone:R0805" V 6730 3400 50  0001 C CNN
-F 3 "~" H 6800 3400 50  0001 C CNN
-	1    6800 3400
+F 0 "R73" V 7000 3450 50  0000 L CNN
+F 1 "0R" V 7000 3350 50  0000 L CNN
+F 2 "Drone:R0805" V 6830 3450 50  0001 C CNN
+F 3 "~" H 6900 3450 50  0001 C CNN
+	1    6900 3450
 	0    1    1    0   
 $EndComp
 $Comp
 L Drone:RES R?
 U 1 1 5E82203D
-P 6800 3600
+P 6900 3650
 AR Path="/5E2EDC4D/5E82203D" Ref="R?"  Part="1" 
 AR Path="/5E82203D" Ref="R74"  Part="1" 
 AR Path="/5E3E92F4/5E82203D" Ref="R?"  Part="1" 
-F 0 "R74" V 6900 3600 50  0000 L CNN
-F 1 "0R" V 6900 3500 50  0000 L CNN
-F 2 "Drone:R0805" V 6730 3600 50  0001 C CNN
-F 3 "~" H 6800 3600 50  0001 C CNN
-	1    6800 3600
+F 0 "R74" V 7000 3650 50  0000 L CNN
+F 1 "0R" V 7000 3550 50  0000 L CNN
+F 2 "Drone:R0805" V 6830 3650 50  0001 C CNN
+F 3 "~" H 6900 3650 50  0001 C CNN
+	1    6900 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6650 3550 6650 3600
+	6750 3600 6750 3650
 Wire Wire Line
-	6650 3450 6650 3400
+	6750 3500 6750 3450
 Wire Wire Line
-	6950 3600 7500 3600
+	7050 3650 7600 3650
 Wire Wire Line
-	6950 3400 7500 3400
-Text Label 9050 5500 2    50   ~ 0
-1V8
-Text Label 7800 4650 0    50   ~ 0
+	7050 3450 7600 3450
+Text Label 7800 4750 0    50   ~ 0
 I2C1_SCL_18
-Text Label 7800 4550 0    50   ~ 0
+Text Label 7800 4650 0    50   ~ 0
 I2C1_SDA_18
+Text Label 7800 4500 0    50   ~ 0
+1V8
+Wire Wire Line
+	7800 4500 8400 4500
+$Sheet
+S 5700 4300 1500 700 
+U 60B99818
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "5V" O L 5700 4400 50 
+F3 "3V3" O L 5700 4500 50 
+F4 "GND" O L 5700 4850 50 
+F5 "2V8" O L 5700 4600 50 
+F6 "1V8" O L 5700 4700 50 
+F7 "UPCORE_EN" I R 7200 4400 50 
+F8 "PIXHAWK_EN" I R 7200 4500 50 
+F9 "3V3_ROOT" O R 7200 4850 50 
+$EndSheet
+Wire Wire Line
+	5100 5400 5700 5400
+Wire Wire Line
+	5100 5500 5700 5500
+Wire Wire Line
+	5100 5600 5700 5600
+Wire Wire Line
+	5100 5700 5700 5700
+Wire Wire Line
+	7300 4850 7300 5400
+Wire Wire Line
+	7300 5400 7200 5400
+Wire Wire Line
+	7200 4850 7300 4850
+Wire Wire Line
+	7400 5850 7400 4500
+Wire Wire Line
+	7400 4500 7200 4500
+Wire Wire Line
+	7200 5850 7400 5850
+Wire Wire Line
+	7200 4400 7500 4400
+Wire Wire Line
+	7500 4400 7500 5950
+Wire Wire Line
+	7500 5950 7200 5950
+Text Label 5100 4400 0    50   ~ 0
+5V
+Text Label 5100 4500 0    50   ~ 0
+3V3
+Text Label 5100 4600 0    50   ~ 0
+2V8
+Text Label 5100 4700 0    50   ~ 0
+1V8
+Wire Wire Line
+	5100 4400 5700 4400
+Wire Wire Line
+	5100 4500 5700 4500
+Wire Wire Line
+	5100 4600 5700 4600
+Wire Wire Line
+	5100 4700 5700 4700
+Text Label 5100 4850 0    50   ~ 0
+GND
+Wire Wire Line
+	5100 4850 5700 4850
+Text Notes 4150 6350 0    50   ~ 0
+Check reference schematics regarding\nusing USB2 and this OTG ID pin
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-15851544466296200
+15854792405197200
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44100,6 +44100,13 @@ SM07B-SRSS-TB
 9
 8
 Drone
+SN74LV4T125
+TSSOP-14 4.4x5mm P0.65mm
+SSOP 0.65
+0
+14
+14
+Drone
 SN74LVC2G14
 SOT-23-6
 
@@ -44141,6 +44148,13 @@ USB3503ML
 0
 33
 33
+Drone
+USB4715
+QFN-48-1EP 7x7mm P0.5mm
+QFN DFN_QFN
+0
+65
+49
 Drone
 XBEE
 
