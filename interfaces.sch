@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -76,17 +76,17 @@ Text Label 6100 1400 2    50   ~ 0
 DRONE_ID3
 Wire Wire Line
 	5400 1400 6100 1400
-Text HLabel 1400 6450 0    50   Input ~ 0
+Text HLabel 1400 6100 0    50   Input ~ 0
 3V3_ROOT
-Text HLabel 1400 6550 0    50   Input ~ 0
+Text HLabel 1400 6300 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1400 6450 2150 6450
+	1400 6100 2150 6100
 Wire Wire Line
-	1400 6550 2150 6550
-Text Label 2150 6550 2    50   ~ 0
+	1400 6300 2150 6300
+Text Label 2150 6300 2    50   ~ 0
 GND
-Text Label 2150 6450 2    50   ~ 0
+Text Label 2150 6100 2    50   ~ 0
 3V3_ROOT
 $Comp
 L Drone:SM06B-GHS-TB J17
@@ -404,185 +404,161 @@ F 3 "~" H 6500 3950 50  0001 C CNN
 $EndComp
 Text Notes 9350 5200 0    50   ~ 0
 RX/TX and RTS/CTS swap occurs here\nand at the muxes
-Text Label 2150 5950 2    50   ~ 0
-DRONE_ID0
-Wire Wire Line
-	1400 5950 2150 5950
-Text Label 2150 6050 2    50   ~ 0
-DRONE_ID1
-Wire Wire Line
-	1400 6050 2150 6050
-Text Label 2150 6150 2    50   ~ 0
-DRONE_ID2
-Wire Wire Line
-	1400 6150 2150 6150
-Text Label 2150 6250 2    50   ~ 0
-DRONE_ID3
-Wire Wire Line
-	1400 6250 2150 6250
-Text HLabel 1400 5950 0    50   Output ~ 0
-DRONE_ID0
-Text HLabel 1400 6050 0    50   Output ~ 0
-DRONE_ID1
-Text HLabel 1400 6150 0    50   Output ~ 0
-DRONE_ID2
-Text HLabel 1400 6250 0    50   Output ~ 0
-DRONE_ID3
-Text Label 9350 2400 0    50   ~ 0
+Text Label 5350 7450 0    50   ~ 0
 COM_MUX_CTRL
 $Comp
 L Drone:RES R?
 U 1 1 5E660D71
-P 10250 2400
+P 6250 7450
 AR Path="/5E2EDC4D/5E660D71" Ref="R?"  Part="1" 
 AR Path="/5E660D71" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E660D71" Ref="R46"  Part="1" 
-F 0 "R46" H 10320 2446 50  0000 L CNN
-F 1 "10k" H 10320 2355 50  0000 L CNN
-F 2 "Drone:R0805" V 10180 2400 50  0001 C CNN
-F 3 "~" H 10250 2400 50  0001 C CNN
-	1    10250 2400
+F 0 "R46" H 6320 7496 50  0000 L CNN
+F 1 "10k" H 6320 7405 50  0000 L CNN
+F 2 "Drone:R0805" V 6180 7450 50  0001 C CNN
+F 3 "~" H 6250 7450 50  0001 C CNN
+	1    6250 7450
 	0    -1   -1   0   
 $EndComp
-Text Label 10600 2400 2    50   ~ 0
+Text Label 6600 7450 2    50   ~ 0
 GND
 Wire Wire Line
-	10600 2400 10400 2400
+	6600 7450 6400 7450
 $Comp
 L Drone:BSS138DW Q?
 U 1 1 5E6D212F
-P 10050 1850
+P 6050 6900
 AR Path="/5E2EDC4D/5E6D212F" Ref="Q?"  Part="2" 
 AR Path="/5E6D212F" Ref="Q?"  Part="2" 
 AR Path="/5E3E92F4/5E6D212F" Ref="Q6"  Part="1" 
-F 0 "Q6" V 10300 1750 50  0000 L CNN
-F 1 "BSS138DW" V 10200 1750 50  0000 L CNN
-F 2 "Drone:BSS138DW" H 10150 1775 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 9950 1850 50  0001 L CNN
-	1    10050 1850
+F 0 "Q6" V 6300 6800 50  0000 L CNN
+F 1 "BSS138DW" V 6200 6800 50  0000 L CNN
+F 2 "Drone:BSS138DW" H 6150 6825 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 5950 6900 50  0001 L CNN
+	1    6050 6900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10100 2400 10050 2400
+	6100 7450 6050 7450
 Wire Wire Line
-	10050 2400 10050 2150
-Connection ~ 10050 2400
-Text Label 10600 1850 2    50   ~ 0
+	6050 7450 6050 7200
+Connection ~ 6050 7450
+Text Label 6600 6900 2    50   ~ 0
 GND
 Wire Wire Line
-	10600 1850 10250 1850
+	6600 6900 6250 6900
 $Comp
 L Drone:LED-SMD-RED D13
 U 1 1 5E77FC6D
-P 9600 1850
-F 0 "D13" V 9561 1772 50  0000 R CNN
-F 1 "LED-SMD-RED" V 9652 1772 50  0000 R CNN
-F 2 "Drone:APT3216" H 9550 1600 50  0001 L BNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK-J3-PRV.pdf" H 9600 1850 50  0001 L BNN
-F 4 "Kingbright" H 9550 1500 50  0001 L BNN "Manufacturer"
-F 5 "APT3216SECK/J3-PRV" H 9550 1400 50  0001 L BNN "Manufacturer Number"
-	1    9600 1850
+P 5600 6900
+F 0 "D13" V 5561 6822 50  0000 R CNN
+F 1 "LED-SMD-RED" V 5652 6822 50  0000 R CNN
+F 2 "Drone:APT3216" H 5550 6650 50  0001 L BNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SECK-J3-PRV.pdf" H 5600 6900 50  0001 L BNN
+F 4 "Kingbright" H 5550 6550 50  0001 L BNN "Manufacturer"
+F 5 "APT3216SECK/J3-PRV" H 5550 6450 50  0001 L BNN "Manufacturer Number"
+	1    5600 6900
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9750 1850 9850 1850
+	5750 6900 5850 6900
 $Comp
 L Drone:RES R?
 U 1 1 5E92CBC3
-P 9300 1850
+P 5300 6900
 AR Path="/5E2EDC4D/5E92CBC3" Ref="R?"  Part="1" 
 AR Path="/5E92CBC3" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E92CBC3" Ref="R48"  Part="1" 
-F 0 "R48" H 9370 1896 50  0000 L CNN
-F 1 "120R" H 9370 1805 50  0000 L CNN
-F 2 "Drone:R0805" V 9230 1850 50  0001 C CNN
-F 3 "~" H 9300 1850 50  0001 C CNN
-	1    9300 1850
+F 0 "R48" H 5370 6946 50  0000 L CNN
+F 1 "120R" H 5370 6855 50  0000 L CNN
+F 2 "Drone:R0805" V 5230 6900 50  0001 C CNN
+F 3 "~" H 5300 6900 50  0001 C CNN
+	1    5300 6900
 	0    -1   -1   0   
 $EndComp
-Text Label 8750 1850 0    50   ~ 0
+Text Label 4750 6900 0    50   ~ 0
 3V3_ROOT
 Wire Wire Line
-	8750 1850 9150 1850
+	4750 6900 5150 6900
 Wire Wire Line
-	9350 2400 10050 2400
+	5350 7450 6050 7450
 Wire Wire Line
-	6550 1850 6950 1850
-Text Label 6550 1850 0    50   ~ 0
+	2550 6900 2950 6900
+Text Label 2550 6900 0    50   ~ 0
 3V3_ROOT
 Wire Wire Line
-	7150 2400 7850 2400
+	3150 7450 3850 7450
 $Comp
 L Drone:RES R?
 U 1 1 5E93312B
-P 7100 1850
+P 3100 6900
 AR Path="/5E2EDC4D/5E93312B" Ref="R?"  Part="1" 
 AR Path="/5E93312B" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E93312B" Ref="R62"  Part="1" 
-F 0 "R62" H 7170 1896 50  0000 L CNN
-F 1 "30R" H 7170 1805 50  0000 L CNN
-F 2 "Drone:R0805" V 7030 1850 50  0001 C CNN
-F 3 "~" H 7100 1850 50  0001 C CNN
-	1    7100 1850
+F 0 "R62" H 3170 6946 50  0000 L CNN
+F 1 "30R" H 3170 6855 50  0000 L CNN
+F 2 "Drone:R0805" V 3030 6900 50  0001 C CNN
+F 3 "~" H 3100 6900 50  0001 C CNN
+	1    3100 6900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 1850 7650 1850
+	3550 6900 3650 6900
 $Comp
 L Drone:LED-SMD-BLUE D14
 U 1 1 5E77E1E0
-P 7400 1850
-F 0 "D14" V 7361 1772 50  0000 R CNN
-F 1 "LED-SMD-BLUE" V 7452 1772 50  0000 R CNN
-F 2 "Drone:APT3216" H 7350 1600 50  0001 L BNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216VBC-D.pdf" H 7400 1850 50  0001 L BNN
-F 4 "Kingbright" H 7350 1500 50  0001 L BNN "Manufacturer"
-F 5 "APT3216VBC/D" H 7350 1400 50  0001 L BNN "Manufacturer Number"
-	1    7400 1850
+P 3400 6900
+F 0 "D14" V 3361 6822 50  0000 R CNN
+F 1 "LED-SMD-BLUE" V 3452 6822 50  0000 R CNN
+F 2 "Drone:APT3216" H 3350 6650 50  0001 L BNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216VBC-D.pdf" H 3400 6900 50  0001 L BNN
+F 4 "Kingbright" H 3350 6550 50  0001 L BNN "Manufacturer"
+F 5 "APT3216VBC/D" H 3350 6450 50  0001 L BNN "Manufacturer Number"
+	1    3400 6900
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8400 1850 8050 1850
-Text Label 8400 1850 2    50   ~ 0
+	4400 6900 4050 6900
+Text Label 4400 6900 2    50   ~ 0
 GND
-Connection ~ 7850 2400
+Connection ~ 3850 7450
 Wire Wire Line
-	7850 2400 7850 2150
+	3850 7450 3850 7200
 Wire Wire Line
-	7900 2400 7850 2400
+	3900 7450 3850 7450
 $Comp
 L Drone:BSS138DW Q?
 U 2 1 5E729310
-P 7850 1850
+P 3850 6900
 AR Path="/5E2EDC4D/5E729310" Ref="Q?"  Part="2" 
 AR Path="/5E729310" Ref="Q?"  Part="2" 
 AR Path="/5E3E92F4/5E729310" Ref="Q6"  Part="2" 
-F 0 "Q6" V 8100 1750 50  0000 L CNN
-F 1 "BSS138DW" V 8000 1750 50  0000 L CNN
-F 2 "Drone:BSS138DW" H 7950 1775 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 7750 1850 50  0001 L CNN
-	2    7850 1850
+F 0 "Q6" V 4100 6800 50  0000 L CNN
+F 1 "BSS138DW" V 4000 6800 50  0000 L CNN
+F 2 "Drone:BSS138DW" H 3950 6825 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30203.pdf" H 3750 6900 50  0001 L CNN
+	2    3850 6900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8400 2400 8200 2400
-Text Label 8400 2400 2    50   ~ 0
+	4400 7450 4200 7450
+Text Label 4400 7450 2    50   ~ 0
 GND
 $Comp
 L Drone:RES R?
 U 1 1 5E729308
-P 8050 2400
+P 4050 7450
 AR Path="/5E2EDC4D/5E729308" Ref="R?"  Part="1" 
 AR Path="/5E729308" Ref="R?"  Part="1" 
 AR Path="/5E3E92F4/5E729308" Ref="R61"  Part="1" 
-F 0 "R61" H 8120 2446 50  0000 L CNN
-F 1 "10k" H 8120 2355 50  0000 L CNN
-F 2 "Drone:R0805" V 7980 2400 50  0001 C CNN
-F 3 "~" H 8050 2400 50  0001 C CNN
-	1    8050 2400
+F 0 "R61" H 4120 7496 50  0000 L CNN
+F 1 "10k" H 4120 7405 50  0000 L CNN
+F 2 "Drone:R0805" V 3980 7450 50  0001 C CNN
+F 3 "~" H 4050 7450 50  0001 C CNN
+	1    4050 7450
 	0    -1   -1   0   
 $EndComp
-Text Label 7150 2400 0    50   ~ 0
+Text Label 3150 7450 0    50   ~ 0
 XBEE_ASSOC
 Wire Wire Line
 	6500 4250 6500 4100
@@ -925,4 +901,114 @@ Wire Wire Line
 	5650 5050 5650 5100
 Text Label 5000 4650 0    50   ~ 0
 UPCORE_CTS_33
+Text Label 7250 1050 0    50   ~ 0
+3V3
+Text Label 7050 1550 1    50   ~ 0
+GND
+Wire Wire Line
+	7750 1900 7750 1750
+Wire Wire Line
+	7750 1900 7800 1900
+Wire Wire Line
+	7800 1650 7750 1650
+Wire Wire Line
+	7800 1750 7750 1750
+Connection ~ 7750 1750
+Wire Wire Line
+	7750 1750 7750 1650
+NoConn ~ 8650 1750
+Text Label 7200 1300 0    50   ~ 0
+I2C1_SDA_33
+Text Label 7200 1200 0    50   ~ 0
+I2C1_SCL_33
+Wire Wire Line
+	7200 1200 7800 1200
+Wire Wire Line
+	7200 1300 7800 1300
+Text Notes 8000 2100 0    50   ~ 0
+7-bit Address: 0x21
+Wire Wire Line
+	7050 1100 7050 1050
+Wire Wire Line
+	7800 1050 7750 1050
+Wire Wire Line
+	7050 1400 7050 1550
+Text Label 7750 2100 1    50   ~ 0
+GND
+Wire Wire Line
+	7750 2100 7750 1900
+Connection ~ 7750 1900
+NoConn ~ 7800 1400
+Wire Wire Line
+	8650 1150 9100 1150
+Wire Wire Line
+	8650 1050 9100 1050
+Wire Wire Line
+	8650 1250 9100 1250
+Wire Wire Line
+	8650 1350 9100 1350
+Text Label 9100 1050 2    50   ~ 0
+DRONE_ID0
+Text Label 9100 1150 2    50   ~ 0
+DRONE_ID1
+Text Label 9100 1250 2    50   ~ 0
+DRONE_ID2
+Text Label 9100 1350 2    50   ~ 0
+DRONE_ID3
+NoConn ~ 8650 1650
+NoConn ~ 8650 1550
+NoConn ~ 8650 1450
+Wire Wire Line
+	7800 1550 7750 1550
+Wire Wire Line
+	7750 1550 7750 1050
+Connection ~ 7750 1050
+Wire Wire Line
+	7750 1050 7050 1050
+$Comp
+L Drone:PCA9554DWR U?
+U 1 1 60AE2675
+P 8000 950
+AR Path="/60AE2675" Ref="U?"  Part="1" 
+AR Path="/5E3E92F4/60AE2675" Ref="U2"  Part="1" 
+F 0 "U2" H 8050 1075 50  0000 C CNN
+F 1 "PCA9554DWR" H 8000 975 50  0000 L BNN
+F 2 "Drone:PCA9554DWR" H 8900 -200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pca9554.pdf" H 8950 -200 50  0001 C CNN
+	1    8000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:CAP C?
+U 1 1 60AE267B
+P 7050 1250
+AR Path="/5E2EDC4D/60AE267B" Ref="C?"  Part="1" 
+AR Path="/5E349830/60AE267B" Ref="C?"  Part="1" 
+AR Path="/60AE267B" Ref="C?"  Part="1" 
+AR Path="/5E3E92F4/60AE267B" Ref="C2"  Part="1" 
+F 0 "C2" H 7165 1296 50  0000 L CNN
+F 1 "100n" H 7165 1205 50  0000 L CNN
+F 2 "Drone:C0805" H 7088 1100 50  0001 C CNN
+F 3 "~" H 7050 1250 50  0001 C CNN
+	1    7050 1250
+	-1   0    0    1   
+$EndComp
+Text Label 2150 6200 2    50   ~ 0
+3V3
+Text Label 2150 6600 2    50   ~ 0
+I2C1_SDA_33
+Text Label 2150 6500 2    50   ~ 0
+I2C1_SCL_33
+Text HLabel 1400 6600 0    50   BiDi ~ 0
+I2C1_SDA_33
+Text HLabel 1400 6500 0    50   Input ~ 0
+I2C1_SCL_33
+Wire Wire Line
+	1400 6600 2150 6600
+Wire Wire Line
+	2150 6500 1400 6500
+Text HLabel 1400 6200 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1400 6200 2150 6200
 $EndSCHEMATC

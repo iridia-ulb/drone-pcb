@@ -8,8 +8,8 @@ $CMP AP2281
 F https://www.diodes.com/assets/Datasheets/AP2281.pdf
 $ENDCMP
 #
-$CMP ASTXR-12
-F https://abracon.com/Oscillators/ASTXR-12-38.400MHz-514054-T.pdf
+$CMP ASCO
+F https://abracon.com/Oscillators/ASCO.pdf
 $ENDCMP
 #
 $CMP BSS138DW

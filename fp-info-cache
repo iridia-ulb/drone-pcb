@@ -1,4 +1,4 @@
-15854792405197200
+15856412697093200
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -43973,6 +43973,13 @@ APT3216
 0
 2
 2
+Drone
+ASCO
+1.6x1.2mm
+SMD SMT crystal oscillator
+0
+4
+4
 Drone
 ASTXR-12
 

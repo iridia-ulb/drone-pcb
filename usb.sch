@@ -1,0 +1,601 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1450 2000 0    50   Input ~ 0
+3V3
+Text HLabel 1450 2100 0    50   Input ~ 0
+GND
+Text Label 2000 2100 2    50   ~ 0
+GND
+Text Label 2000 2000 2    50   ~ 0
+3V3
+Text HLabel 1450 1900 0    50   Input ~ 0
+5V
+Text Label 2000 1900 2    50   ~ 0
+5V
+Text Label 11050 5750 2    50   ~ 0
+5V
+$Comp
+L Drone:CAP C50
+U 1 1 5E332CF8
+P 10200 6000
+AR Path="/5E2EDC4D/5E332CF8" Ref="C50"  Part="1" 
+AR Path="/5E349830/5E332CF8" Ref="C?"  Part="1" 
+F 0 "C50" H 10315 6046 50  0000 L CNN
+F 1 "100n" H 10315 5955 50  0000 L CNN
+F 2 "Drone:C0805" H 10238 5850 50  0001 C CNN
+F 3 "~" H 10200 6000 50  0001 C CNN
+	1    10200 6000
+	1    0    0    -1  
+$EndComp
+Text Label 11050 6250 2    50   ~ 0
+GND
+$Comp
+L Drone:CAP C48
+U 1 1 5E888D1D
+P 10000 1050
+AR Path="/5E2EDC4D/5E888D1D" Ref="C48"  Part="1" 
+AR Path="/5E349830/5E888D1D" Ref="C?"  Part="1" 
+F 0 "C48" H 10115 1096 50  0000 L CNN
+F 1 "100n" H 10115 1005 50  0000 L CNN
+F 2 "Drone:C0805" H 10038 900 50  0001 C CNN
+F 3 "~" H 10000 1050 50  0001 C CNN
+	1    10000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5950 10000 5950
+Wire Wire Line
+	9650 6050 10000 6050
+Text Label 8300 950  0    50   ~ 0
+USB1_DN
+Text Label 8300 1050 0    50   ~ 0
+USB1_DP
+Text Label 10000 5950 2    50   ~ 0
+USB1_5V
+Text Label 10000 6050 2    50   ~ 0
+USB2_5V
+Text Label 8300 850  0    50   ~ 0
+USB1_5V
+Text Label 8300 1250 0    50   ~ 0
+GND
+Wire Wire Line
+	8300 1250 8700 1250
+Wire Wire Line
+	8300 1050 8750 1050
+Wire Wire Line
+	8300 950  8750 950 
+Wire Wire Line
+	8300 850  8700 850 
+Wire Wire Line
+	8700 850  8700 700 
+Wire Wire Line
+	8700 700  10000 700 
+Wire Wire Line
+	10000 700  10000 900 
+Connection ~ 8700 850 
+Wire Wire Line
+	8700 850  8750 850 
+Wire Wire Line
+	10000 1200 10000 1400
+Wire Wire Line
+	10000 1400 8700 1400
+Wire Wire Line
+	8700 1400 8700 1250
+Connection ~ 8700 1250
+Wire Wire Line
+	8700 1250 8750 1250
+$Comp
+L Drone:CAP C49
+U 1 1 5E3AC9C8
+P 10000 2050
+AR Path="/5E2EDC4D/5E3AC9C8" Ref="C49"  Part="1" 
+AR Path="/5E349830/5E3AC9C8" Ref="C?"  Part="1" 
+F 0 "C49" H 10115 2096 50  0000 L CNN
+F 1 "100n" H 10115 2005 50  0000 L CNN
+F 2 "Drone:C0805" H 10038 1900 50  0001 C CNN
+F 3 "~" H 10000 2050 50  0001 C CNN
+	1    10000 2050
+	1    0    0    -1  
+$EndComp
+Text Label 8300 1950 0    50   ~ 0
+USB2_DN
+Text Label 8300 2050 0    50   ~ 0
+USB2_DP
+Text Label 8300 1850 0    50   ~ 0
+USB2_5V
+Text Label 8300 2250 0    50   ~ 0
+GND
+Wire Wire Line
+	8300 2050 8750 2050
+Wire Wire Line
+	8300 1950 8750 1950
+Wire Wire Line
+	8300 1850 8700 1850
+Wire Wire Line
+	8700 1850 8700 1700
+Wire Wire Line
+	8700 1700 10000 1700
+Wire Wire Line
+	10000 1700 10000 1900
+Connection ~ 8700 1850
+Wire Wire Line
+	8700 1850 8750 1850
+Wire Wire Line
+	10000 2200 10000 2400
+Wire Wire Line
+	10000 2400 8700 2400
+Wire Wire Line
+	8700 2400 8700 2250
+$Comp
+L Drone:TPS2054BDR U10
+U 2 1 5E4E09E8
+P 9150 5650
+AR Path="/5E2EDC4D/5E4E09E8" Ref="U10"  Part="2" 
+AR Path="/5E349830/5E4E09E8" Ref="U?"  Part="1" 
+AR Path="/5E4E09E8" Ref="U?"  Part="2" 
+F 0 "U10" H 8850 5800 50  0000 L BNN
+F 1 "TPS2054BDR" H 8850 5700 50  0000 L BNN
+F 2 "Drone:TPS2054BDR" H 8850 5900 50  0001 L BNN
+F 3 "" H 9100 5650 50  0001 C CNN
+	2    9150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5750 10200 5750
+Wire Wire Line
+	9650 6250 10200 6250
+Wire Wire Line
+	10200 5850 10200 5750
+Connection ~ 10200 5750
+Wire Wire Line
+	10200 5750 10650 5750
+Wire Wire Line
+	10200 6150 10200 6250
+Connection ~ 10200 6250
+Wire Wire Line
+	10200 6250 10650 6250
+$Comp
+L Drone:SM05B-SRSS-TB J4
+U 1 1 5E385FFC
+P 9100 800
+AR Path="/5E2EDC4D/5E385FFC" Ref="J4"  Part="1" 
+AR Path="/5E349830/5E385FFC" Ref="J?"  Part="1" 
+F 0 "J4" H 9075 700 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 9075 775 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 8950 1050 50  0001 L CNN
+F 3 "" H 9100 800 50  0001 C CNN
+	1    9100 800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drone:SM05B-SRSS-TB J8
+U 1 1 5E3AC9C2
+P 9100 1800
+AR Path="/5E2EDC4D/5E3AC9C2" Ref="J8"  Part="1" 
+AR Path="/5E349830/5E3AC9C2" Ref="J?"  Part="1" 
+F 0 "J8" H 9075 1700 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 9075 1775 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 8950 2050 50  0001 L CNN
+F 3 "" H 9100 1800 50  0001 C CNN
+	1    9100 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drone:CAP C51
+U 1 1 5E888D24
+P 10650 6000
+AR Path="/5E2EDC4D/5E888D24" Ref="C51"  Part="1" 
+AR Path="/5E349830/5E888D24" Ref="C?"  Part="1" 
+F 0 "C51" H 10765 6046 50  0000 L CNN
+F 1 "10u" H 10765 5955 50  0000 L CNN
+F 2 "Drone:C0805" H 10688 5850 50  0001 C CNN
+F 3 "~" H 10650 6000 50  0001 C CNN
+	1    10650 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 5850 10650 5750
+Connection ~ 10650 5750
+Wire Wire Line
+	10650 5750 11050 5750
+Wire Wire Line
+	10650 6150 10650 6250
+Connection ~ 10650 6250
+Wire Wire Line
+	10650 6250 11050 6250
+Wire Wire Line
+	8300 2250 8700 2250
+Connection ~ 8700 2250
+Wire Wire Line
+	8700 2250 8750 2250
+Text HLabel 1450 2700 0    50   Input ~ 0
+HUB_I2C_SCL_33
+Text HLabel 1450 2800 0    50   BiDi ~ 0
+HUB_I2C_SDA_33
+Text HLabel 1450 2550 0    50   Input ~ 0
+~HUB_RST_33
+Text Label 8300 3950 0    50   ~ 0
+USB4_DN
+Text Label 8300 4050 0    50   ~ 0
+USB4_DP
+Text Label 8300 2950 0    50   ~ 0
+USB3_DN
+Text Label 8300 3050 0    50   ~ 0
+USB3_DP
+Wire Wire Line
+	10650 5300 11050 5300
+Wire Wire Line
+	10650 5200 10650 5300
+Wire Wire Line
+	10650 4800 11050 4800
+Wire Wire Line
+	10650 4900 10650 4800
+$Comp
+L Drone:CAP C42
+U 1 1 60A10348
+P 10650 5050
+AR Path="/5E2EDC4D/60A10348" Ref="C42"  Part="1" 
+AR Path="/5E349830/60A10348" Ref="C?"  Part="1" 
+F 0 "C42" H 10765 5096 50  0000 L CNN
+F 1 "10u" H 10765 5005 50  0000 L CNN
+F 2 "Drone:C0805" H 10688 4900 50  0001 C CNN
+F 3 "~" H 10650 5050 50  0001 C CNN
+	1    10650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drone:SM05B-SRSS-TB J16
+U 1 1 60A1034E
+P 9100 3800
+AR Path="/5E2EDC4D/60A1034E" Ref="J16"  Part="1" 
+AR Path="/5E349830/60A1034E" Ref="J?"  Part="1" 
+F 0 "J16" H 9075 3700 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 9075 3775 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 8950 4050 50  0001 L CNN
+F 3 "" H 9100 3800 50  0001 C CNN
+	1    9100 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drone:SM05B-SRSS-TB J12
+U 1 1 60A10354
+P 9100 2800
+AR Path="/5E2EDC4D/60A10354" Ref="J12"  Part="1" 
+AR Path="/5E349830/60A10354" Ref="J?"  Part="1" 
+F 0 "J12" H 9075 2700 50  0000 R CNN
+F 1 "SM05B-SRSS-TB" H 9075 2775 50  0000 R CNN
+F 2 "Drone:SM05B-SRSS-TB" H 8950 3050 50  0001 L CNN
+F 3 "" H 9100 2800 50  0001 C CNN
+	1    9100 2800
+	-1   0    0    -1  
+$EndComp
+Connection ~ 10650 5300
+Wire Wire Line
+	10200 5300 10650 5300
+Wire Wire Line
+	10200 5200 10200 5300
+Connection ~ 10650 4800
+Wire Wire Line
+	10200 4800 10650 4800
+Wire Wire Line
+	10200 4900 10200 4800
+Connection ~ 10200 5300
+Wire Wire Line
+	9650 5300 10200 5300
+Connection ~ 10200 4800
+Wire Wire Line
+	9650 4800 10200 4800
+$Comp
+L Drone:TPS2054BDR U10
+U 1 1 60A1036C
+P 9150 4700
+AR Path="/5E2EDC4D/60A1036C" Ref="U10"  Part="1" 
+AR Path="/5E349830/60A1036C" Ref="U?"  Part="1" 
+AR Path="/60A1036C" Ref="U?"  Part="1" 
+F 0 "U10" H 8850 4850 50  0000 L BNN
+F 1 "TPS2054BDR" H 8850 4750 50  0000 L BNN
+F 2 "Drone:TPS2054BDR" H 8850 4950 50  0001 L BNN
+F 3 "" H 9100 4700 50  0001 C CNN
+	1    9150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4250 8750 4250
+Wire Wire Line
+	8300 4250 8700 4250
+Connection ~ 8700 4250
+Wire Wire Line
+	8700 4400 8700 4250
+Wire Wire Line
+	10000 4400 8700 4400
+Wire Wire Line
+	10000 4200 10000 4400
+Wire Wire Line
+	8700 3850 8750 3850
+Wire Wire Line
+	10000 3700 10000 3900
+Wire Wire Line
+	8700 3700 10000 3700
+Wire Wire Line
+	8700 3850 8700 3700
+Connection ~ 8700 3850
+Wire Wire Line
+	8300 3850 8700 3850
+Wire Wire Line
+	8300 3950 8750 3950
+Wire Wire Line
+	8300 4050 8750 4050
+Text Label 8300 4250 0    50   ~ 0
+GND
+Text Label 8300 3850 0    50   ~ 0
+USB4_5V
+$Comp
+L Drone:CAP C40
+U 1 1 60A10382
+P 10000 4050
+AR Path="/5E2EDC4D/60A10382" Ref="C40"  Part="1" 
+AR Path="/5E349830/60A10382" Ref="C?"  Part="1" 
+F 0 "C40" H 10115 4096 50  0000 L CNN
+F 1 "100n" H 10115 4005 50  0000 L CNN
+F 2 "Drone:C0805" H 10038 3900 50  0001 C CNN
+F 3 "~" H 10000 4050 50  0001 C CNN
+	1    10000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3250 8750 3250
+Wire Wire Line
+	8700 3400 8700 3250
+Wire Wire Line
+	10000 3400 8700 3400
+Wire Wire Line
+	10000 3200 10000 3400
+Wire Wire Line
+	8700 2850 8750 2850
+Wire Wire Line
+	10000 2700 10000 2900
+Wire Wire Line
+	8700 2700 10000 2700
+Wire Wire Line
+	8700 2850 8700 2700
+Connection ~ 8700 2850
+Wire Wire Line
+	8300 2850 8700 2850
+Wire Wire Line
+	8300 2950 8750 2950
+Wire Wire Line
+	8300 3050 8750 3050
+Connection ~ 8700 3250
+Wire Wire Line
+	8300 3250 8700 3250
+Text Label 8300 3250 0    50   ~ 0
+GND
+Text Label 8300 2850 0    50   ~ 0
+USB3_5V
+Text Label 10000 5100 2    50   ~ 0
+USB4_5V
+Text Label 10000 5000 2    50   ~ 0
+USB3_5V
+Wire Wire Line
+	9650 5100 10000 5100
+Wire Wire Line
+	9650 5000 10000 5000
+$Comp
+L Drone:CAP C39
+U 1 1 60A1039C
+P 10000 3050
+AR Path="/5E2EDC4D/60A1039C" Ref="C39"  Part="1" 
+AR Path="/5E349830/60A1039C" Ref="C?"  Part="1" 
+F 0 "C39" H 10115 3096 50  0000 L CNN
+F 1 "100n" H 10115 3005 50  0000 L CNN
+F 2 "Drone:C0805" H 10038 2900 50  0001 C CNN
+F 3 "~" H 10000 3050 50  0001 C CNN
+	1    10000 3050
+	1    0    0    -1  
+$EndComp
+Text Label 11050 5300 2    50   ~ 0
+GND
+$Comp
+L Drone:CAP C41
+U 1 1 60A103A3
+P 10200 5050
+AR Path="/5E2EDC4D/60A103A3" Ref="C41"  Part="1" 
+AR Path="/5E349830/60A103A3" Ref="C?"  Part="1" 
+F 0 "C41" H 10315 5096 50  0000 L CNN
+F 1 "100n" H 10315 5005 50  0000 L CNN
+F 2 "Drone:C0805" H 10238 4900 50  0001 C CNN
+F 3 "~" H 10200 5050 50  0001 C CNN
+	1    10200 5050
+	1    0    0    -1  
+$EndComp
+Text Label 11050 4800 2    50   ~ 0
+5V
+$Comp
+L Drone:USB4715 U1
+U 1 1 60A21BFD
+P 2950 2350
+F 0 "U1" H 2950 2500 50  0000 L CNN
+F 1 "USB4715" H 2950 2400 50  0000 L CNN
+F 2 "Drone:USB4715" H 2950 -650 50  0001 L CNN
+F 3 "https://www.microchip.com/wwwproducts/en/USB4715" H 2950 2400 50  0001 C CNN
+	1    2950 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 1450 2300 0    50   BiDi ~ 0
+USBH_DP
+Text HLabel 1450 2400 0    50   BiDi ~ 0
+USBH_DN
+$Comp
+L Drone:ASCO X?
+U 1 1 60A75D06
+P 700 4800
+F 0 "X?" H 987 4965 50  0000 C CNN
+F 1 "ASCO" H 987 4874 50  0000 C CNN
+F 2 "Drone:ASCO" H 700 4250 50  0001 L CNN
+F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 700 4800 50  0001 C CNN
+	1    700  4800
+	1    0    0    -1  
+$EndComp
+Text Label 5500 3500 2    50   ~ 0
+USB4_DP
+Text Label 5500 3600 2    50   ~ 0
+USB4_DN
+Text Label 5500 3150 2    50   ~ 0
+USB3_DP
+Text Label 5500 3250 2    50   ~ 0
+USB3_DN
+Text Label 5500 2800 2    50   ~ 0
+USB2_DP
+Text Label 5500 2900 2    50   ~ 0
+USB2_DN
+Text Label 5500 2450 2    50   ~ 0
+USB1_DP
+Text Label 5500 2550 2    50   ~ 0
+USB1_DN
+Text Label 5500 5200 2    50   ~ 0
+GND
+Text Label 1650 5200 2    50   ~ 0
+GND
+Text Label 1650 4900 2    50   ~ 0
+3V3
+Wire Wire Line
+	8600 5100 8600 4800
+Wire Wire Line
+	8600 5100 8650 5100
+Connection ~ 8600 4800
+Wire Wire Line
+	8600 4800 8650 4800
+Wire Wire Line
+	8500 5200 8500 4900
+Wire Wire Line
+	8500 5200 8650 5200
+Connection ~ 8500 4900
+Wire Wire Line
+	8500 4900 8650 4900
+Text Label 7950 4800 0    50   ~ 0
+USB1_EN_OCS
+Text Label 7950 4900 0    50   ~ 0
+USB2_EN_OCS
+Wire Wire Line
+	7950 4800 8600 4800
+Wire Wire Line
+	7950 4900 8500 4900
+Wire Wire Line
+	8600 6050 8600 5750
+Wire Wire Line
+	8600 6050 8650 6050
+Connection ~ 8600 5750
+Wire Wire Line
+	8600 5750 8650 5750
+Wire Wire Line
+	8500 6150 8500 5850
+Wire Wire Line
+	8500 6150 8650 6150
+Connection ~ 8500 5850
+Wire Wire Line
+	8500 5850 8650 5850
+Text Label 7950 5750 0    50   ~ 0
+USB3_EN_OCS
+Text Label 7950 5850 0    50   ~ 0
+USB4_EN_OCS
+Wire Wire Line
+	7950 5750 8600 5750
+Wire Wire Line
+	7950 5850 8500 5850
+Text Label 5500 2650 2    50   ~ 0
+USB1_EN_OCS
+Text Label 5500 3000 2    50   ~ 0
+USB2_EN_OCS
+Text Label 5500 3350 2    50   ~ 0
+USB3_EN_OCS
+Text Label 5500 3700 2    50   ~ 0
+USB4_EN_OCS
+Wire Wire Line
+	4900 2650 5500 2650
+Wire Wire Line
+	4900 3000 5500 3000
+Wire Wire Line
+	4900 3350 5500 3350
+Wire Wire Line
+	4900 3700 5500 3700
+Wire Wire Line
+	4900 2450 5500 2450
+Wire Wire Line
+	5500 2550 4900 2550
+Wire Wire Line
+	4900 2800 5500 2800
+Wire Wire Line
+	5500 2900 4900 2900
+Wire Wire Line
+	4900 3150 5500 3150
+Wire Wire Line
+	5500 3250 4900 3250
+Wire Wire Line
+	4900 3500 5500 3500
+Wire Wire Line
+	4900 3600 5500 3600
+Wire Wire Line
+	4900 5200 5500 5200
+Wire Wire Line
+	1450 1900 2000 1900
+Wire Wire Line
+	1450 2000 2000 2000
+Wire Wire Line
+	1450 2100 2000 2100
+Text Label 2000 2300 2    50   ~ 0
+USBH_DP
+Wire Wire Line
+	1450 2300 2000 2300
+Text Label 2000 2400 2    50   ~ 0
+USBH_DN
+Wire Wire Line
+	1450 2400 2000 2400
+Text Label 2000 2550 2    50   ~ 0
+~HUB_RESET
+Wire Wire Line
+	1450 2550 2000 2550
+Text Label 2250 3800 0    50   ~ 0
+USBH_DP
+Text Label 2250 3900 0    50   ~ 0
+USBH_DN
+Text Label 2250 2550 0    50   ~ 0
+~HUB_RESET
+Wire Wire Line
+	2250 2550 2750 2550
+Wire Wire Line
+	2250 3800 2750 3800
+Wire Wire Line
+	2250 3900 2750 3900
+Wire Wire Line
+	1300 4900 1400 4900
+Wire Wire Line
+	1300 5000 1400 5000
+Wire Wire Line
+	1400 5000 1400 4900
+Connection ~ 1400 4900
+Wire Wire Line
+	1400 4900 1650 4900
+Wire Wire Line
+	1300 5200 1650 5200
+Text Label 1650 5100 2    50   ~ 0
+HUB_CLK
+Wire Wire Line
+	1300 5100 1650 5100
+Text Label 2250 5200 0    50   ~ 0
+HUB_CLK
+Wire Wire Line
+	2250 5200 2750 5200
+$EndSCHEMATC
