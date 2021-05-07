@@ -32,6 +32,12 @@ $CMP ES02MSABE
 F https://dznh3ojzb2azq.cloudfront.net/products/Slide/ES/documents/datasheet.pdf
 $ENDCMP
 #
+$CMP FB
+D Ferrite bead
+K L ferrite bead inductor filter
+F https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz2012_en.pdf
+$ENDCMP
+#
 $CMP LED-BLUE
 K LED diode
 F https://www.cree.com/led-components/media/documents/1300-C503B-BAS-BAN-GAS-GAN.pdf
@@ -70,6 +76,11 @@ $ENDCMP
 $CMP LED-SMD-YELLOW
 K LED diode
 F http://www.kingbrightusa.com/images/catalog/SPEC/APT3216SYCK.pdf
+$ENDCMP
+#
+$CMP MIC803-30D4VM3-TR
+D 3-Pin Microprocessor Supervisor Circuit with Open-Drain Reset Output
+F https://www.microchip.com/wwwproducts/en/MIC803
 $ENDCMP
 #
 $CMP MSL0402RGBU1
