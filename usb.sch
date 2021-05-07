@@ -435,10 +435,10 @@ USBH_DP
 Text HLabel 1200 2100 0    50   BiDi ~ 0
 USBH_DN
 $Comp
-L Drone:ASCO X?
+L Drone:ASCO X1
 U 1 1 60A75D06
 P 2150 4350
-F 0 "X?" H 2150 4500 50  0000 L CNN
+F 0 "X1" H 2150 4500 50  0000 L CNN
 F 1 "ASCO" H 2150 4400 50  0000 L CNN
 F 2 "Drone:ASCO" H 2150 3800 50  0001 L CNN
 F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 2150 4350 50  0001 C CNN
@@ -601,12 +601,12 @@ Configuration Straps
 Text Notes 700  6350 0    50   ~ 10
 Programmable functions for configuration #3
 $Comp
-L Drone:RES R?
+L Drone:RES R37
 U 1 1 609A8356
 P 3550 3200
-AR Path="/5E2EDC4D/609A8356" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/609A8356" Ref="R37"  Part="1" 
 AR Path="/609A8356" Ref="R?"  Part="1" 
-F 0 "R?" V 3450 3350 50  0000 R CNN
+F 0 "R37" V 3450 3350 50  0000 R CNN
 F 1 "200k" V 3450 3200 50  0000 R CNN
 F 2 "Drone:R0805" V 3480 3200 50  0001 C CNN
 F 3 "~" H 3550 3200 50  0001 C CNN
@@ -618,12 +618,12 @@ SMBus Configuration
 Text Notes 700  7600 0    50   ~ 0
 SMB1_DAT/CLK is for the master SMB device (e.g., a USB to I2C bridge),\nit is unused, but add 10k pull up resistors to keep the pins in a known state.\nSMB2_DAT/CLK is for the slave SMB device for configuration by SoC,\nthis functionality is disabled by selecting configuration #3.
 $Comp
-L Drone:RES R?
+L Drone:RES R44
 U 1 1 609FB2E7
 P 6650 3500
-AR Path="/5E2EDC4D/609FB2E7" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/609FB2E7" Ref="R44"  Part="1" 
 AR Path="/609FB2E7" Ref="R?"  Part="1" 
-F 0 "R?" H 6800 3550 50  0000 R CNN
+F 0 "R44" H 6800 3550 50  0000 R CNN
 F 1 "10k" H 6850 3450 50  0000 R CNN
 F 2 "Drone:R0805" V 6580 3500 50  0001 C CNN
 F 3 "~" H 6650 3500 50  0001 C CNN
@@ -631,12 +631,12 @@ F 3 "~" H 6650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:RES R?
+L Drone:RES R43
 U 1 1 609FC448
 P 6450 3000
-AR Path="/5E2EDC4D/609FC448" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/609FC448" Ref="R43"  Part="1" 
 AR Path="/609FC448" Ref="R?"  Part="1" 
-F 0 "R?" V 6350 2950 50  0000 R CNN
+F 0 "R43" V 6350 2950 50  0000 R CNN
 F 1 "10k" V 6350 3150 50  0000 R CNN
 F 2 "Drone:R0805" V 6380 3000 50  0001 C CNN
 F 3 "~" H 6450 3000 50  0001 C CNN
@@ -658,12 +658,12 @@ NoConn ~ 6250 3600
 Wire Wire Line
 	6250 4350 6400 4350
 $Comp
-L Drone:RES R?
+L Drone:RES R83
 U 1 1 60A6AD36
 P 6950 3500
-AR Path="/5E2EDC4D/60A6AD36" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60A6AD36" Ref="R83"  Part="1" 
 AR Path="/60A6AD36" Ref="R?"  Part="1" 
-F 0 "R?" H 6900 3450 50  0000 R CNN
+F 0 "R83" H 6900 3450 50  0000 R CNN
 F 1 "4k7" H 6900 3550 50  0000 R CNN
 F 2 "Drone:R0805" V 6880 3500 50  0001 C CNN
 F 3 "~" H 6950 3500 50  0001 C CNN
@@ -671,12 +671,12 @@ F 3 "~" H 6950 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Drone:RES R?
+L Drone:RES R82
 U 1 1 60A6B095
 P 6650 4300
-AR Path="/5E2EDC4D/60A6B095" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60A6B095" Ref="R82"  Part="1" 
 AR Path="/60A6B095" Ref="R?"  Part="1" 
-F 0 "R?" H 6800 4350 50  0000 R CNN
+F 0 "R82" H 6800 4350 50  0000 R CNN
 F 1 "4k7" H 6850 4250 50  0000 R CNN
 F 2 "Drone:R0805" V 6580 4300 50  0001 C CNN
 F 3 "~" H 6650 4300 50  0001 C CNN
@@ -706,12 +706,12 @@ Connection ~ 6950 3000
 Wire Wire Line
 	6950 3000 7150 3000
 $Comp
-L Drone:RES R?
+L Drone:RES R84
 U 1 1 60B5867F
 P 6950 4300
-AR Path="/5E2EDC4D/60B5867F" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60B5867F" Ref="R84"  Part="1" 
 AR Path="/60B5867F" Ref="R?"  Part="1" 
-F 0 "R?" H 7100 4350 50  0000 R CNN
+F 0 "R84" H 7100 4350 50  0000 R CNN
 F 1 "4k7" H 7150 4250 50  0000 R CNN
 F 2 "Drone:R0805" V 6880 4300 50  0001 C CNN
 F 3 "~" H 6950 4300 50  0001 C CNN
@@ -747,12 +747,12 @@ NoConn ~ 4100 3700
 NoConn ~ 4100 3900
 NoConn ~ 4100 4000
 $Comp
-L Drone:RES R?
+L Drone:RES R41
 U 1 1 60C216A6
 P 3850 3800
-AR Path="/5E2EDC4D/60C216A6" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60C216A6" Ref="R41"  Part="1" 
 AR Path="/60C216A6" Ref="R?"  Part="1" 
-F 0 "R?" V 3950 3950 50  0000 R CNN
+F 0 "R41" V 3950 3950 50  0000 R CNN
 F 1 "200k" V 3950 3800 50  0000 R CNN
 F 2 "Drone:R0805" V 3780 3800 50  0001 C CNN
 F 3 "~" H 3850 3800 50  0001 C CNN
@@ -764,12 +764,12 @@ Wire Wire Line
 Wire Wire Line
 	3700 3800 3350 3800
 $Comp
-L Drone:RES R?
+L Drone:RES R42
 U 1 1 60C3D45B
 P 3850 4100
-AR Path="/5E2EDC4D/60C3D45B" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60C3D45B" Ref="R42"  Part="1" 
 AR Path="/60C3D45B" Ref="R?"  Part="1" 
-F 0 "R?" V 3950 4250 50  0000 R CNN
+F 0 "R42" V 3950 4250 50  0000 R CNN
 F 1 "200k" V 3950 4100 50  0000 R CNN
 F 2 "Drone:R0805" V 3780 4100 50  0001 C CNN
 F 3 "~" H 3850 4100 50  0001 C CNN
@@ -781,12 +781,12 @@ Wire Wire Line
 Wire Wire Line
 	3700 4100 3350 4100
 $Comp
-L Drone:RES R?
+L Drone:RES R40
 U 1 1 60C4FD75
 P 3850 3300
-AR Path="/5E2EDC4D/60C4FD75" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60C4FD75" Ref="R40"  Part="1" 
 AR Path="/60C4FD75" Ref="R?"  Part="1" 
-F 0 "R?" V 3950 3450 50  0000 R CNN
+F 0 "R40" V 3950 3450 50  0000 R CNN
 F 1 "10k" V 3950 3300 50  0000 R CNN
 F 2 "Drone:R0805" V 3780 3300 50  0001 C CNN
 F 3 "~" H 3850 3300 50  0001 C CNN
@@ -819,12 +819,12 @@ Connection ~ 3350 4100
 Wire Wire Line
 	3350 4100 3350 4750
 $Comp
-L Drone:RES R?
+L Drone:RES R39
 U 1 1 60CF3062
 P 3850 2800
-AR Path="/5E2EDC4D/60CF3062" Ref="R?"  Part="1" 
+AR Path="/5E2EDC4D/60CF3062" Ref="R39"  Part="1" 
 AR Path="/60CF3062" Ref="R?"  Part="1" 
-F 0 "R?" V 3750 2950 50  0000 R CNN
+F 0 "R39" V 3750 2950 50  0000 R CNN
 F 1 "12k,1%" V 3750 2800 50  0000 R CNN
 F 2 "Drone:R0805" V 3780 2800 50  0001 C CNN
 F 3 "~" H 3850 2800 50  0001 C CNN
@@ -843,12 +843,12 @@ NoConn ~ 4100 3450
 Text Notes 4500 7200 0    50   ~ 0
 Ferrite bead: MMZ2012R121AT000
 $Comp
-L Drone:CAP C?
+L Drone:CAP C37
 U 1 1 60D2CB83
 P 4250 5200
-AR Path="/5E2EDC4D/60D2CB83" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D2CB83" Ref="C37"  Part="1" 
 AR Path="/5E349830/60D2CB83" Ref="C?"  Part="1" 
-F 0 "C?" H 4365 5246 50  0000 L CNN
+F 0 "C37" H 4365 5246 50  0000 L CNN
 F 1 "100n" H 4365 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 4288 5050 50  0001 C CNN
 F 3 "~" H 4250 5200 50  0001 C CNN
@@ -856,12 +856,12 @@ F 3 "~" H 4250 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C38
 U 1 1 60D30725
 P 4700 5200
-AR Path="/5E2EDC4D/60D30725" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D30725" Ref="C38"  Part="1" 
 AR Path="/5E349830/60D30725" Ref="C?"  Part="1" 
-F 0 "C?" H 4815 5246 50  0000 L CNN
+F 0 "C38" H 4815 5246 50  0000 L CNN
 F 1 "100n" H 4815 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 4738 5050 50  0001 C CNN
 F 3 "~" H 4700 5200 50  0001 C CNN
@@ -869,12 +869,12 @@ F 3 "~" H 4700 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C43
 U 1 1 60D32218
 P 5150 5200
-AR Path="/5E2EDC4D/60D32218" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D32218" Ref="C43"  Part="1" 
 AR Path="/5E349830/60D32218" Ref="C?"  Part="1" 
-F 0 "C?" H 5265 5246 50  0000 L CNN
+F 0 "C43" H 5265 5246 50  0000 L CNN
 F 1 "100n" H 5265 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 5188 5050 50  0001 C CNN
 F 3 "~" H 5150 5200 50  0001 C CNN
@@ -882,12 +882,12 @@ F 3 "~" H 5150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C44
 U 1 1 60D3266E
 P 5600 5200
-AR Path="/5E2EDC4D/60D3266E" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D3266E" Ref="C44"  Part="1" 
 AR Path="/5E349830/60D3266E" Ref="C?"  Part="1" 
-F 0 "C?" H 5715 5246 50  0000 L CNN
+F 0 "C44" H 5715 5246 50  0000 L CNN
 F 1 "100n" H 5715 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 5638 5050 50  0001 C CNN
 F 3 "~" H 5600 5200 50  0001 C CNN
@@ -895,12 +895,12 @@ F 3 "~" H 5600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C45
 U 1 1 60D32C93
 P 6050 5200
-AR Path="/5E2EDC4D/60D32C93" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D32C93" Ref="C45"  Part="1" 
 AR Path="/5E349830/60D32C93" Ref="C?"  Part="1" 
-F 0 "C?" H 6165 5246 50  0000 L CNN
+F 0 "C45" H 6165 5246 50  0000 L CNN
 F 1 "100n" H 6165 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 6088 5050 50  0001 C CNN
 F 3 "~" H 6050 5200 50  0001 C CNN
@@ -908,12 +908,12 @@ F 3 "~" H 6050 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C46
 U 1 1 60D32FEE
 P 6500 5200
-AR Path="/5E2EDC4D/60D32FEE" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D32FEE" Ref="C46"  Part="1" 
 AR Path="/5E349830/60D32FEE" Ref="C?"  Part="1" 
-F 0 "C?" H 6615 5246 50  0000 L CNN
+F 0 "C46" H 6615 5246 50  0000 L CNN
 F 1 "100n" H 6615 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 6538 5050 50  0001 C CNN
 F 3 "~" H 6500 5200 50  0001 C CNN
@@ -929,12 +929,12 @@ Wire Wire Line
 Wire Wire Line
 	4250 5400 4700 5400
 $Comp
-L Drone:CAP C?
+L Drone:CAP C36
 U 1 1 60D50E4B
 P 3850 5200
-AR Path="/5E2EDC4D/60D50E4B" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60D50E4B" Ref="C36"  Part="1" 
 AR Path="/5E349830/60D50E4B" Ref="C?"  Part="1" 
-F 0 "C?" H 3965 5246 50  0000 L CNN
+F 0 "C36" H 3965 5246 50  0000 L CNN
 F 1 "1u" H 3965 5155 50  0000 L CNN
 F 2 "Drone:C0805" H 3888 5050 50  0001 C CNN
 F 3 "~" H 3850 5200 50  0001 C CNN
@@ -1008,10 +1008,10 @@ Wire Wire Line
 	3600 5400 3850 5400
 Connection ~ 3850 5400
 $Comp
-L Drone:FB FB?
+L Drone:FB FB1
 U 1 1 60A016FF
 P 2200 2150
-F 0 "FB?" H 2337 2196 50  0000 L CNN
+F 0 "FB1" H 2337 2196 50  0000 L CNN
 F 1 "120R" H 2337 2105 50  0000 L CNN
 F 2 "Drone:FB0805" V 1950 2150 50  0001 C CNN
 F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz2012_en.pdf" H 2200 2150 50  0001 C CNN
@@ -1019,12 +1019,12 @@ F 3 "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C35
 U 1 1 60A29381
 P 3000 2800
-AR Path="/5E2EDC4D/60A29381" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60A29381" Ref="C35"  Part="1" 
 AR Path="/5E349830/60A29381" Ref="C?"  Part="1" 
-F 0 "C?" H 3115 2846 50  0000 L CNN
+F 0 "C35" H 3115 2846 50  0000 L CNN
 F 1 "100n" H 3115 2755 50  0000 L CNN
 F 2 "Drone:C0805" H 3038 2650 50  0001 C CNN
 F 3 "~" H 3000 2800 50  0001 C CNN
@@ -1032,12 +1032,12 @@ F 3 "~" H 3000 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Drone:CAP C?
+L Drone:CAP C34
 U 1 1 60A64B99
 P 2600 2800
-AR Path="/5E2EDC4D/60A64B99" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60A64B99" Ref="C34"  Part="1" 
 AR Path="/5E349830/60A64B99" Ref="C?"  Part="1" 
-F 0 "C?" H 2715 2846 50  0000 L CNN
+F 0 "C34" H 2715 2846 50  0000 L CNN
 F 1 "1u" H 2715 2755 50  0000 L CNN
 F 2 "Drone:C0805" H 2638 2650 50  0001 C CNN
 F 3 "~" H 2600 2800 50  0001 C CNN
@@ -1050,12 +1050,12 @@ Connection ~ 3000 2650
 Wire Wire Line
 	3000 2650 4100 2650
 $Comp
-L Drone:CAP C?
+L Drone:CAP C1
 U 1 1 60A7F86A
 P 2200 2800
-AR Path="/5E2EDC4D/60A7F86A" Ref="C?"  Part="1" 
+AR Path="/5E2EDC4D/60A7F86A" Ref="C1"  Part="1" 
 AR Path="/5E349830/60A7F86A" Ref="C?"  Part="1" 
-F 0 "C?" H 2315 2846 50  0000 L CNN
+F 0 "C1" H 2315 2846 50  0000 L CNN
 F 1 "100n" H 2315 2755 50  0000 L CNN
 F 2 "Drone:C0805" H 2238 2650 50  0001 C CNN
 F 3 "~" H 2200 2800 50  0001 C CNN
@@ -1123,10 +1123,10 @@ Connection ~ 2200 1850
 Text Label 2200 1600 0    50   ~ 0
 3V3
 $Comp
-L Drone:MIC803-30D4VM3-TR U?
+L Drone:MIC803-30D4VM3-TR U9
 U 1 1 60BCAC18
 P 2150 3750
-F 0 "U?" H 2200 3900 50  0000 C CNN
+F 0 "U9" H 2200 3900 50  0000 C CNN
 F 1 "MIC803-30D4VM3-TR" H 2550 3800 50  0000 C CNN
 F 2 "Drone:MIC803-30D4VM3-TR" H 2150 3300 50  0001 L CNN
 F 3 "https://www.microchip.com/wwwproducts/en/MIC803" H 2150 3750 50  0001 C CNN
