@@ -991,6 +991,50 @@ Text Label 1900 1250 2    50   ~ 0
 1V8
 Text HLabel 1200 1250 0    50   Input ~ 0
 1V8
+Wire Wire Line
+	5700 2550 5700 2700
+Text Label 5700 2700 1    50   ~ 0
+GND
+$Comp
+L Drone:CAP C?
+U 1 1 60C0209F
+P 5700 2400
+AR Path="/5E2EDC4D/60C0209F" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/60C0209F" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/60C0209F" Ref="C47"  Part="1" 
+F 0 "C47" H 5815 2446 50  0000 L CNN
+F 1 "100n" H 5815 2355 50  0000 L CNN
+F 2 "Drone:C0805" H 5738 2250 50  0001 C CNN
+F 3 "~" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2200 5700 2200
+Wire Wire Line
+	5700 2200 5700 2250
+Wire Wire Line
+	7500 2550 7500 2700
+Text Label 7500 2700 1    50   ~ 0
+GND
+$Comp
+L Drone:CAP C?
+U 1 1 60C4C34E
+P 7500 2400
+AR Path="/5E2EDC4D/60C4C34E" Ref="C?"  Part="1" 
+AR Path="/5E3090FF/60C4C34E" Ref="C?"  Part="1" 
+AR Path="/5E30BD8E/60C4C34E" Ref="C70"  Part="1" 
+F 0 "C70" H 7615 2446 50  0000 L CNN
+F 1 "100n" H 7615 2355 50  0000 L CNN
+F 2 "Drone:C0805" H 7538 2250 50  0001 C CNN
+F 3 "~" H 7500 2400 50  0001 C CNN
+	1    7500 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2200 7500 2200
+Wire Wire Line
+	7500 2200 7500 2250
 Wire Bus Line
 	3000 4250 3000 5900
 Wire Bus Line
