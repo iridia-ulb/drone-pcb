@@ -1,11 +1,11 @@
-(module USB4715 (layer F.Cu) (tedit 60913830)
+(module USB4715 (layer F.Cu) (tedit 609E3DE0)
   (descr "QFN-48-1EP 7x7mm P0.5mm")
   (tags "QFN DFN_QFN")
   (attr smd)
   (fp_text reference REF** (at 0 -4.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "QFN-48-1EP 7x7mm P0.5mm" (at 0 4.8) (layer F.Fab)
+  (fp_text value USB4715 (at 0 4.8) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 4 -4) (end -4 -4) (layer F.CrtYd) (width 0.05))
